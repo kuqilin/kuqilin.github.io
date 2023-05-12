@@ -10,16 +10,16 @@
 -  _size()_ 返回栈中元素的数目。不需要参数，且返回一个整数。  
 - 栈的方法：   
 
-| 栈操作 | 栈内容 | 返回值 |
-| :----------- | :----------- | :----------- |
-| s.isEmpty() | [] | True |
-| s.push(4) | [4] | None |
-| s.push('dog') | [4, 'dog'] | None |
-| s.peek() | [4, 'dog'] | 'dog' |
-| s.push(True) | [4, 'dog', True] | None |
-| s.size() | [4, 'dog', True] | 3 |
-| s.isEmpty() | [4, 'dog', True] | False |
-| s.pop() | [4, 'dog'] | True |
+| 栈操作 | 栈内容 | 返回值 |   
+| :----------- | :----------- | :----------- |   
+| s.isEmpty() | [] | True |   
+| s.push(4) | [4] | None |   
+| s.push('dog') | [4, 'dog'] | None |   
+| s.peek() | [4, 'dog'] | 'dog' |   
+| s.push(True) | [4, 'dog', True] | None |   
+| s.size() | [4, 'dog', True] | 3 |   
+| s.isEmpty() | [4, 'dog', True] | False |   
+| s.pop() | [4, 'dog'] | True |   
 | s.size() | [4, 'dog'] | 2 |
 #### 代码如下：   
 ```python
