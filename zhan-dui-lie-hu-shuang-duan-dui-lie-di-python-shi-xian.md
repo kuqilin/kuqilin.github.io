@@ -97,7 +97,7 @@ class Queue:
         self.items.pop(0)
     def size(self):
         return len(self.items)
-    def __str__(self):
+    def __repr__(self):
         return str(self.items)
 ```
 #### 以上代码的队列操作及其返回值：   
