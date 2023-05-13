@@ -13,3 +13,5 @@
 自豪地使用[Github](https://github.com/)博客
 
 Made By [Kuqilin](https://github.com/kuqilin)
+
+看看我在[洛谷Luogu](https://www.luogu.com.cn)的账号？戳这里==>[Kuqilin](https://luogu.com.cn/blog/kuqilin/)
