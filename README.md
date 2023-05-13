@@ -8,7 +8,7 @@
 
 [Python基本语法](python-ji-ben-yu-fa.md)
 
-![麒麟图片](https://cdn.luogu.com.cn/upload/image_hosting/8xuafeg2.png)
+
 
 自豪地使用[Github](https://github.com/)博客
 
