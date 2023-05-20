@@ -26,8 +26,8 @@
  分割线↑
  
  Emoji：
- - :earth
- - :joy
+ - :earth:
+ - :joy:
  
  
  - 无序列表1
