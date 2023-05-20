@@ -25,7 +25,7 @@
  - 无序列表2
 1. 有序列表1
 2. 有序列表2    
-[这是一个超链接](https://www.luogu.com.cn/blog/kuqilin/post-test)
+[这是一个超链接](https://kuqilin.github.io/docs/post-test)
 
 ```
 这是一个代码框
