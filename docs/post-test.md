@@ -26,7 +26,7 @@
  分割线↑
  
  Emoji：
- - :earth:
+ - :earth_asia:
  - :joy:
  
  
