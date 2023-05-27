@@ -85,6 +85,7 @@ True
 | `q.isEmpty()` | `[True, 'dog', 4]` | `False` |
 | `q.dequeue()` | `[True, 'dog']` | `4` |
 | `q.size()` | `[True, 'dog']` | `2` |
+
 #### 用Python实现队列:   
 ```python
 class Queue:
