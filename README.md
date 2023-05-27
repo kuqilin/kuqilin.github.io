@@ -2,13 +2,13 @@
 
 ### 我的文章
 
-[Markdown测试](post-test.md)   
+[Markdown测试](/docs/post-test.md)   
 
-[栈、队列和双端队列的Python实现](zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian.md)   
+[栈、队列和双端队列的Python实现](/docs/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian.md)   
 
-[Python基本语法](python-ji-ben-yu-fa.md)
+[Python基本语法](docs/python-ji-ben-yu-fa.md)
 
-[Markdown语法](Markdown-grammar.md)
+[Markdown语法](docs/Markdown-grammar.md)
 
 
 自豪地使用[Github](https://github.com/)博客
