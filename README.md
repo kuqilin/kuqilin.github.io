@@ -8,7 +8,7 @@
 
 [Python基本语法](python-ji-ben-yu-fa.md)
 
-[Markdown语法](/docs/Markdown-grammar.md)
+[Markdown语法](Markdown-grammar.md)
 
 
 自豪地使用[Github](https://github.com/)博客
