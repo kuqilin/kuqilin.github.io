@@ -45,7 +45,7 @@ class Stack:
         return str(self.items)
 ```   
 #### 以上代码的栈操作及其返回值：
-```
+```python
 >>> s = Stack()
 >>> s.isEmpty()
 True
