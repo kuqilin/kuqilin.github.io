@@ -22,6 +22,7 @@
 |`s.isEmpty()`|`[4, 'dog', True]`|`False`|
 |`s.pop()`|`[4, 'dog']`|`True`|
 |`s.size()`|`[4, 'dog']`|`2`|
+
 #### 代码如下：   
 ```python
 class Stack:
