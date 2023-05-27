@@ -103,7 +103,7 @@ class Queue:
         return str(self.items)
 ```
 #### 以上代码的队列操作及其返回值：   
-```
+```python
 >>> q = Queue()
 >>> q.isEmpty()
 True
