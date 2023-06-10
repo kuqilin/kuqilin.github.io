@@ -59,3 +59,126 @@
     </style>
 
 </head>
+<body>
+
+    <h1>打地鼠游戏</h1>
+
+    <p id="score">得分：0</p>
+
+    <div id="game_board">
+
+        <div class="hole" onclick="whack(this)">
+
+            <div class="mole"></div>
+
+        </div>
+
+        <div class="hole" onclick="whack(this)">
+
+            <div class="mole"></div>
+
+        </div>
+
+        <div class="hole" onclick="whack(this)">
+
+            <div class="mole"></div>
+
+        </div>
+
+        <div class="hole" onclick="whack(this)">
+
+            <div class="mole"></div>
+
+        </div>
+
+        <div class="hole" onclick="whack(this)">
+
+            <div class="mole"></div>
+
+        </div>
+
+        <div class="hole" onclick="whack(this)">
+
+            <div class="mole"></div>
+
+        </div>
+
+    </div>
+
+<script>
+
+        var score = 0;
+
+        function whack(hole) {
+
+            var mole = hole.querySelector(".mole");
+
+            if (mole.style.display == "none") {
+
+                return;
+
+            }
+
+            score++;
+
+            document.getElementById("score").innerHTML = "得分：" + score;
+
+            mole.style.display = "none";
+
+            setTimeout(function(){
+
+                var rand = Math.floor(Math.random() * 6);
+
+                var nextHole = document.querySelectorAll(".hole")[rand];
+
+                var nextMole = nextHole.querySelector(".mole");
+
+                nextMole.style.display = "block";
+
+            }, 1000);
+
+        }
+
+        window.onload = function() {
+
+            var holes = document.querySelectorAll(".hole");
+
+            for (var i = 0; i < holes.length; i++) {
+
+                holes[i].querySelector(".mole").style.display = "none";
+
+            }
+
+            setInterval(function() {
+
+                var rand = Math.floor(Math.random() * 6);
+
+                var currentHole = document.querySelectorAll(".hole")[rand];
+
+                var currentMole = currentHole.querySelector(".mole");
+
+                currentMole.style.display = "block";
+
+                setTimeout(function() {
+
+                    currentMole.style.display = "none";
+
+                    var rand = Math.floor(Math.random() * 6);
+
+                    var nextHole = document.querySelectorAll(".hole")[rand];
+
+                    var nextMole = nextHole.querySelector(".mole");
+
+                    nextMole.style.display = "block";
+
+                }, 1000);
+
+            }, 2000);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
