@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>中文加密程序</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+		function encrypt() {
+			var input = document.getElementById("input").value;
+			var key = document.getElementById("key").value;
+			var output = "";
+			for (var i = 0; i < input.length; i++) {
+				var charCode = input.charCodeAt(i) + key.charCodeAt(i % key.length);
+				output += String.fromCharCode(charCode);
+			}
+			document.getElementById("output").value = output;
+		}
+	</script>
+</head>
+<body>
+	<h1>中文加密程序</h1>
+	<p>输入要加密的中文：</p>
+	<textarea id="input" rows="5" cols="50"></textarea>
+	<p>输入密钥：</p>
+	<input type="text" id="key">
+	<br><br>
+	<button onclick="encrypt()">加密</button>
+	<br><br>
+	<p>加密后的结果：</p>
+	<textarea id="output" rows="5" cols="50" readonly></textarea>
+</body>
+</html>
