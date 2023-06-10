@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>中文加密解密</title>
+
+    <meta charset="UTF-8">
+
+</head>
+
+<body>
+
+    <h1>中文加密解密</h1>
+
+    <form>
+
+        <label for="input_text">请输入需要加密或解密的文本：</label><br>
+
+        <textarea id="input_text" name="input_text" rows="5" cols="50"></textarea><br><br>
+
+        <label for="key">请输入秘钥（数字）：</label>
+
+        <input type="number" id="key" name="key"><br><br>
+
+        <button type="button" onclick="encrypt()">加密</button>
+
+        <button type="button" onclick="decrypt()">解密</button><br><br>
+
+        <label for="output_text">加密/解密后的结果：</label><br>
+
+        <textarea id="output_text" name="output_text" rows="5" cols="50" readonly></textarea>
+
+    </form>
+    <script>
+
+        function encrypt() {
+
+            var inputText = document.getElementById("input_text");
+
+            var outputText = document.getElementById("output_text");
+
+            var key = parseInt(document.getElementById("key").value);
+
+            var plainText = inputText.value;
+
+            var cipherText = "";
+
+            for (var i = 0; i < plainText.length; i++) {
+
+                var charCode = plainText.charCodeAt(i);
+
+                if (charCode >= 0x4e00 && charCode <= 0x9fa5) {
+
+                    charCode += key;
+
+                }
+
+                cipherText += String.fromCharCode(charCode);
+
+            }
+
+            outputText.value = cipherText;
+
+        }
+
+        function decrypt() {
+
+            var inputText = document.getElementById("input_text");
+
+            var outputText = document.getElementById("output_text");
+
+            var key = parseInt(document.getElementById("key").value);
+
+            var cipherText = inputText.value;
+
+            var plainText = "";
+
+            for (var i = 0; i < cipherText.length; i++) {
+
+                var charCode = cipherText.charCodeAt(i);
+
+                if (charCode >= 0x4e00 && charCode <= 0x9fa5) {
+
+                    charCode -= key;
+
+                }
+
+                plainText += String.fromCharCode(charCode);
+
+            }
+
+            outputText.value = plainText;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
