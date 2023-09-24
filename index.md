@@ -16,4 +16,7 @@ Made By [Kuqilin](https://github.com/kuqilin/)
 
 看看我在[洛谷Luogu](https://www.luogu.com.cn)的账号？戳这里==>[Kuqilin](https://luogu.com.cn/blog/kuqilin/)
 
-&copy; 苦麒麟
+Copyright &copy; 2023 Kuqilin
+
+All Rights Reserved
+
