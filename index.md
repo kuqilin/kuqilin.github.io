@@ -14,7 +14,7 @@
 
 Made By [Kuqilin](https://github.com/kuqilin/)
 
-看看我在[洛谷Luogu](https://www.luogu.com.cn)的账号？戳这里==>[Kuqilin](https://luogu.com.cn/blog/kuqilin/)
+看看我在[洛谷Luogu](https://www.luogu.com.cn)的账号？戳这里==>[Kuqilin](https://www.luogu.com.cn/user/980618)
 
 <html>
     <p>
@@ -22,7 +22,7 @@ Made By [Kuqilin](https://github.com/kuqilin/)
     </p>
 </html>
 
-Copyright &copy; 2023 Kuqilin
+Copyright &copy; 2023-2024 Kuqilin
 
 All Rights Reserved
 
