@@ -1,4 +1,6 @@
+<head>
 <title>小学同学</title>
+</head>
 
 # 我的小学同学
 
