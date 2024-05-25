@@ -22,7 +22,7 @@ Made By [Kuqilin](https://github.com/kuqilin/)
     </p>
 </html>
 
-Copyright &copy; 2023-2024 Kuqilin
+Copyright &copy; 2023 - 2024 Kuqilin
 
 All Rights Reserved
 
