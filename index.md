@@ -1,5 +1,11 @@
 # Kuqilin的Blog
+
+[我的同学录](./classmates)
+
+[我的诗](./poems)
+
 ### 我的文章
+
 [Markdown测试](/docs/post-test)
 
 [栈、队列和双端队列的Python实现](docs/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian)
