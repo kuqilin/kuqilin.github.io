@@ -6,6 +6,8 @@
 
 ### 我的文章
 
+[我的GPG公钥](/docs/My-GPG)
+
 [Markdown测试](/docs/post-test)
 
 [栈、队列和双端队列的Python实现](docs/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian)
