@@ -32,7 +32,7 @@ Made By [Kuqilin](https://github.com/kuqilin/)
 
 <a href="https://icp.gov.moe/?keyword=20256767" target="_blank">萌ICP备20256767号</a>
 
-Copyright &copy; 2023 - 2024 Kuqilin  
+Copyright &copy; 2023 - 2025 Kuqilin  
 
 All Rights Reserved
 
