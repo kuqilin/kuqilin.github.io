@@ -30,7 +30,7 @@ Made By [Kuqilin](https://github.com/kuqilin/)
     </p>
 </html>
 
-<img src="https://icp.gov.moe/images/ico64.png" style="width:24px;height:24px"> <a href="https://icp.gov.moe/?keyword=20256767" target="_blank">萌ICP备20256767号</a>
+<img src="https://icp.gov.moe/images/ico64.png" style="width:22px;height:22px"> <a href="https://icp.gov.moe/?keyword=20256767" target="_blank">萌ICP备20256767号</a>
 
 <a style="text-decoration:none;color:#e77c8e;" href="https://travel.moe/go.html" title="异次元之旅-跃迁-我们一起去萌站成员的星球旅行吧！" target="_blank">
 <img src="https://travel.moe/images/icon/icon64pink.png" style="width:24px;height:24px">异次元之旅</a>
