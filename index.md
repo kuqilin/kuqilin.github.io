@@ -16,6 +16,8 @@
 
 [Markdown语法](docs/Markdown-grammar)
 
+[我去过的学校](docs/wo-qu-guo-de-xue-xiao.md)
+
 ![一个图片](https://cdn.luogu.com.cn/upload/image_hosting/8xuafeg2.png)
 
 自豪地使用[Github](https://github.com)博客
