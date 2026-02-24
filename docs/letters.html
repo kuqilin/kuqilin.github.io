@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给你的一封信</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/lxgw-wenkai-screen-webfont/1.6.0/style.css">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --bg-color: #ecf0f1;
+            --paper-color: #fdfbf7;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Microsoft YaHei', sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .envelope-container {
+            width: 100%;
+            max-width: 600px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: all 0.5s ease;
+        }
+
+        /* 锁定界面样式 - 蓝白色调 */
+        .lock-screen {
+            padding: 40px 30px;
+            text-align: center;
+            background: linear-gradient(135deg, #f0f8ff 0%, #e6f3ff 100%);
+            color: #2c5aa0;
+            border-bottom: 1px solid #cce5ff;
+        }
+
+        .lock-icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #2c5aa0;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.1); opacity: 0.8; }
+        }
+
+        .lock-screen h2 {
+            color: #1a3a6e;
+            margin: 0 0 8px 0;
+            font-size: 24px;
+            font-weight: 600;
+        }
+
+        .lock-screen > p {
+            color: #4a6fa5;
+            margin: 0 0 25px 0;
+            font-size: 14px;
+        }
+
+        .input-group {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        /* 缩短输入框，恢复圆角 */
+        #passwordInput {
+            padding: 12px 20px;
+            border: 2px solid #b3d9ff;
+            background: white;
+            color: #2c5aa0;
+            border-radius: 25px;  /* 恢复圆角 */
+            font-size: 15px;
+            outline: none;
+            width: 180px;  /* 缩短宽度 */
+            transition: all 0.3s;
+            box-shadow: 0 2px 8px rgba(44, 90, 160, 0.08);
+        }
+
+        #passwordInput::placeholder {
+            color: #8ab4e6;
+            font-size: 14px;
+        }
+
+        #passwordInput:focus {
+            border-color: #2c5aa0;
+            box-shadow: 0 4px 12px rgba(44, 90, 160, 0.15);
+        }
+
+        /* 确认按钮 - 圆角胶囊形状 */
+        #confirmBtn {
+            padding: 12px 28px;
+            background: linear-gradient(135deg, #2c5aa0 0%, #1e4080 100%);
+            color: white;
+            border: none;
+            border-radius: 25px;  /* 圆角与输入框匹配 */
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(44, 90, 160, 0.25);
+            white-space: nowrap;
+        }
+
+        #confirmBtn:hover {
+            background: linear-gradient(135deg, #1e4080 0%, #152f5e 100%);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(44, 90, 160, 0.35);
+        }
+
+        #confirmBtn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 8px rgba(44, 90, 160, 0.25);
+        }
+
+        .hint {
+            margin-top: 18px;
+            font-size: 12px;
+            color: #6b8cae;
+            font-style: italic;
+        }
+
+        /* 核心密码验证逻辑 */
+        .letter-content {
+            display: none;
+            opacity: 0;
+            padding: 40px;
+            background-color: var(--paper-color);
+            background-image: 
+                linear-gradient(90deg, transparent 0%, transparent 98%, #e0e0e0 98%, #e0e0e0 100%),
+                linear-gradient(#e0e0e0 1px, transparent 1px);
+            background-size: 100% 100%, 100% 2rem;
+            line-height: 2rem;
+            color: #333;
+            font-family: 'LXGW Wenkai Screen', 'Georgia', serif;
+            font-size: 18px;
+            position: relative;
+        }
+
+        .letter-content::before {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #c0392b;
+            border-radius: 50%;
+            opacity: 0.1;
+            box-shadow: 0 0 0 4px rgba(192, 57, 43, 0.1), 0 0 0 8px rgba(192, 57, 43, 0.05);
+        }
+
+        .envelope-container:has(#passwordInput[value="20081110"]) .letter-content {
+            display: block;
+            animation: fadeIn 1s ease forwards;
+        }
+
+        .envelope-container:has(#passwordInput[value="20081110"]) .lock-screen {
+            display: none;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .letter-header {
+            border-bottom: 2px solid #c0392b;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            font-family: 'LXGW Wenkai Screen', 'Georgia', serif;
+        }
+
+        .letter-date {
+            color: #7f8c8d;
+            font-size: 14px;
+        }
+
+        .letter-body p {
+            margin-bottom: 1.5rem;
+            text-indent: 2em;
+            text-align: justify;
+        }
+
+        .letter-signature {
+            margin-top: 40px;
+            text-align: right;
+            color: #555;
+        }
+
+        .letter-signature .name {
+            font-size: 1.2em;
+            color: #000000;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+
+        @media (max-width: 480px) {
+            .letter-content {
+                padding: 25px;
+            }
+            .lock-screen {
+                padding: 35px 20px;
+            }
+            .input-group {
+                flex-direction: column;
+                gap: 12px;
+            }
+            #passwordInput {
+                width: 200px;
+            }
+            #confirmBtn {
+                width: 200px;
+            }
+        }
+
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-8px); }
+            75% { transform: translateX(8px); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="envelope-container">
+        <div class="lock-screen">
+            <div class="lock-icon">🔐</div>
+            <h2>私人信件</h2>
+            <p>请输入密码以查看内容</p>
+            
+            <div class="input-group">
+                <input 
+                    type="text" 
+                    id="passwordInput" 
+                    placeholder="输入密码..." 
+                    autocomplete="off"
+                >
+                <button id="confirmBtn" onclick="checkPassword()">确认</button>
+            </div>
+            
+            <div class="hint">提示：密码是 "YYYYMMDD" <br /> 其中YYYY是出生年份，MM是出生月份，DD是出生日期</div>
+        </div>
+
+        <div class="letter-content">
+            <div class="letter-header">
+                <div>
+                    <h1 style="margin: 0; color: #2c3e50; font-family: 'LXGW Wenkai Screen', 'Georgia', serif;">给你的一封信</h1>
+                    <div class="letter-date">2026年2月24日</div>
+                </div>
+            </div>
+
+            <div class="letter-body">
+
+                <p>欧佩琪同学：</p>
+
+                <p>&emsp;&emsp;见字如面。</p>
+
+                <p>&emsp;&emsp;信暂时没写好，不知道怎么写。</p>
+
+                <p>祝好。</p>
+            </div>
+
+            <div class="letter-signature">
+                2026年2月24日<br>
+                <span class="name">陈麒州</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function checkPassword() {
+            const input = document.getElementById('passwordInput');
+            const btn = document.getElementById('confirmBtn');
+            
+            input.setAttribute('value', input.value);
+            
+            if (input.value !== '20081110') {
+                input.style.borderColor = '#ff6b6b';
+                input.style.animation = 'shake 0.5s';
+                
+                setTimeout(() => {
+                    input.style.borderColor = '#b3d9ff';
+                    input.style.animation = '';
+                }, 800);
+            } else {
+                input.style.borderColor = '#51cf66';
+                btn.textContent = '已解锁';
+                btn.style.background = '#51cf66';
+            }
+        }
+
+        document.getElementById('passwordInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                checkPassword();
+            }
+        });
+
+        document.getElementById('passwordInput').addEventListener('input', function() {
+            this.style.borderColor = '#b3d9ff';
+        });
+    </script>
+
+</body>
+</html>
+
+
