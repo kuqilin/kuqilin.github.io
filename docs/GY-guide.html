@@ -10,12 +10,15 @@
 </head>
 <body>
     <script>
-        // 👇 替换成你自己的 PDF 直链
+        // PDF 文件的直链（GitHub Release 永久链接）
         const pdfUrl = 'https://github.com/kuqilin/GY-guide/releases/download/latest/main.pdf';
-        
-        // 对 URL 进行编码，避免特殊字符导致 PDF.js 识别失败
-        const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=' + encodeURIComponent(pdfUrl);
-        
+
+        // 本地 PDF.js 查看器的路径（相对于当前 HTML 文件）
+        const viewerPath = './pdfjs/web/viewer.html';
+
+        // 拼接完整 URL，并对 PDF 链接进行编码
+        const viewerUrl = viewerPath + '?file=' + encodeURIComponent(pdfUrl);
+
         // 动态生成 iframe
         document.write('<iframe src="' + viewerUrl + '"></iframe>');
     </script>
