@@ -2,22 +2,22 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>广雅生存手册</title>
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
+        body, html { margin:0; padding:0; height:100%; }
+        iframe { width:100%; height:100%; border:none; }
     </style>
 </head>
 <body>
-    <iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file='https://github.com/kuqilin/GY-Guide/releases/download/latest/main.pdf'"></iframe>
+    <script>
+        // 👇 替换成你自己的 PDF 直链
+        const pdfUrl = 'https://github.com/kuqilin/GY-guide/releases/latest/download/main.pdf';
+        
+        // 对 URL 进行编码，避免特殊字符导致 PDF.js 识别失败
+        const viewerUrl = 'https://mozilla.github.io/pdf.js/web/viewer.html?file=' + encodeURIComponent(pdfUrl);
+        
+        // 动态生成 iframe
+        document.write('<iframe src="' + viewerUrl + '"></iframe>');
+    </script>
 </body>
 </html>
