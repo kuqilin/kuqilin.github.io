@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>广雅生存手册</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background: #525659;  /* 深灰背景，模拟阅读器 */
+        }
+        embed {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        /* 移动端备用提示（极少数不支持 embed 的浏览器） */
+        .fallback {
+            display: none;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <!-- 原生 PDF 嵌入，字体渲染与本地 Acrobat 完全一致 -->
+    <embed src="https://github.com/kuqilin/GY-guide/releases/download/latest/main.pdf" 
+           type="application/pdf">
+    
+    <!-- 极少数情况下 embed 不支持时的提示 -->
+    <div class="fallback">
+        <p>您的浏览器不支持内嵌 PDF 预览。</p>
+        <a href="https://github.com/kuqilin/GY-guide/releases/download/latest/main.pdf" 
+           style="color: #8cb4ff;" download>点击直接下载 PDF</a>
+    </div>
+</body>
+</html>
