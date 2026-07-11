@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kuqilin&#39;s Blog</title>
-    <link>http://localhost:1313/archives/</link>
+    <link>https://kuqilin.github.io/archives/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate></lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://kuqilin.github.io/archives/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

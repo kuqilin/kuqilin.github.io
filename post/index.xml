@@ -46,17 +46,68 @@
     
 
     <item>
-      <title>Hello World</title>
-      <link>http://localhost:1313/post/hello/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <title>我去过的学校</title>
+      <link>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/hello/</guid>
+      <guid>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</guid>
       <description>
-        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>我去过的学校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>💘 博麗 霊夢 💘</p>
+          <h1 id="我去过的学校">
+<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e8%bf%87%e7%9a%84%e5%ad%a6%e6%a0%a1"></a>
+我去过的学校
+</h1><p>忽然觉得自己去过广州的很多学校，便想着列个表格出来看看都去过哪些、去干嘛的：</p>
+<p>（排名不分前后，按记忆顺序）</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: center">去过的学校</th>
+					<th style="text-align: center">原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center">广东广雅中学（花都校区）</td>
+					<td style="text-align: center">上高中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市第八十九中学</td>
+					<td style="text-align: center">英才计划住宿</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市第二中学</td>
+					<td style="text-align: center">打比赛</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州大学附属中学（大学城校区）</td>
+					<td style="text-align: center">CSP-J/S比赛&amp;&amp;广大附教育集团环大学城拉练活动</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">北京师范大学附属中学广州实验学校（好像是这个名字）</td>
+					<td style="text-align: center">广州市青少年科技教育夏令营</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市增城区应元学校</td>
+					<td style="text-align: center">同上</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区花广金狮学校（原广州大学附属中学花都狮岭实验学校）</td>
+					<td style="text-align: center">上初中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区花广学校（原广州大学附属中学花都实验学校）</td>
+					<td style="text-align: center">参观&amp;&amp;密考（？）</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区广州大学附属中学紫兰学校</td>
+					<td style="text-align: center">打比赛</td>
+			</tr>
+	</tbody>
+</table>
+<!-- raw HTML omitted -->
         
-        <hr><p>本文2023-03-15首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-03-15</p>]]>
+        <hr><p>本文2025-02-22首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2025-02-22</p>]]>
       </description>
       
     </item>
@@ -66,7 +117,7 @@
     <item>
       <title>我的GPG公钥</title>
       <link>http://localhost:1313/post/my-gpg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>http://localhost:1313/post/my-gpg/</guid>
       <description>
@@ -118,7 +169,32 @@ FtCN+Qdk
 -----END PGP PUBLIC KEY BLOCK-----
 </code></pre><p>欢迎大家给我发消息，kuqilin@88.com</p>
         
-        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+        <hr><p>本文2024-01-15首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2024-01-15</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>栈、队列和双端队列的Python实现</title>
+      <link>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
+      <description>
+        <![CDATA[<h1>栈、队列和双端队列的Python实现</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="栈队列和双端队列的python实现">
+<a class="header-anchor" href="#%e6%a0%88%e9%98%9f%e5%88%97%e5%92%8c%e5%8f%8c%e7%ab%af%e9%98%9f%e5%88%97%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
+栈、队列和双端队列的Python实现
+</h1><h2 id="栈的python实现">
+<a class="header-anchor" href="#%e6%a0%88%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
+栈的Python实现
+</h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>（ <em>Last In First Out</em> )。~~这种东西小学生都会。~~如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
+栈支持以下操作：</p>
+        
+        <hr><p>本文2023-05-13首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
       </description>
       
     </item>
@@ -128,7 +204,7 @@ FtCN+Qdk
     <item>
       <title>Python基本语法</title>
       <link>http://localhost:1313/post/python-ji-ben-yu-fa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>http://localhost:1313/post/python-ji-ben-yu-fa/</guid>
       <description>
@@ -156,7 +232,25 @@ input（）函数
 </span></span></code></pre></div><p>$\color{Red}\mathrm{input()的扩号内可以放提示语，但是字符串必须在引号内。}$<br>
 $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</p>
         
-        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+        <hr><p>本文2023-05-13首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/hello/</guid>
+      <description>
+        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>💘 博麗 霊夢 💘</p>
+        
+        <hr><p>本文2023-03-15首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-03-15</p>]]>
       </description>
       
     </item>
@@ -166,7 +260,7 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</
     <item>
       <title>Markdown语法</title>
       <link>http://localhost:1313/post/markdown-grammar/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>http://localhost:1313/post/markdown-grammar/</guid>
       <description>
@@ -244,101 +338,7 @@ Markdown语法
 </h6></blockquote>
 <p><strong>级数越大，标题越小</strong>，与<em>HTML</em>中的<code>&lt;h1&gt;一级&lt;/h1&gt;</code> <code>&lt;h4&gt;四级&lt;/h4&gt;</code>等标题一致。</p>
         
-        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
-      <description>
-        <![CDATA[<h1></h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <h1 id="栈队列和双端队列的python实现">
-<a class="header-anchor" href="#%e6%a0%88%e9%98%9f%e5%88%97%e5%92%8c%e5%8f%8c%e7%ab%af%e9%98%9f%e5%88%97%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
-栈、队列和双端队列的Python实现
-</h1><h2 id="栈的python实现">
-<a class="header-anchor" href="#%e6%a0%88%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
-栈的Python实现
-</h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>（ <em>Last In First Out</em> )。~~这种东西小学生都会。~~如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
-栈支持以下操作：</p>
-        
-        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title></title>
-      <link>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</guid>
-      <description>
-        <![CDATA[<h1></h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <h1 id="我去过的学校">
-<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e8%bf%87%e7%9a%84%e5%ad%a6%e6%a0%a1"></a>
-我去过的学校
-</h1><p>忽然觉得自己去过广州的很多学校，便想着列个表格出来看看都去过哪些、去干嘛的：</p>
-<p>（排名不分前后，按记忆顺序）</p>
-<table>
-	<thead>
-			<tr>
-					<th style="text-align: center">去过的学校</th>
-					<th style="text-align: center">原因</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td style="text-align: center">广东广雅中学（花都校区）</td>
-					<td style="text-align: center">上高中</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市第八十九中学</td>
-					<td style="text-align: center">英才计划住宿</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市第二中学</td>
-					<td style="text-align: center">打比赛</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州大学附属中学（大学城校区）</td>
-					<td style="text-align: center">CSP-J/S比赛&amp;&amp;广大附教育集团环大学城拉练活动</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">北京师范大学附属中学广州实验学校（好像是这个名字）</td>
-					<td style="text-align: center">广州市青少年科技教育夏令营</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市增城区应元学校</td>
-					<td style="text-align: center">同上</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市花都区花广金狮学校（原广州大学附属中学花都狮岭实验学校）</td>
-					<td style="text-align: center">上初中</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市花都区花广学校（原广州大学附属中学花都实验学校）</td>
-					<td style="text-align: center">参观&amp;&amp;密考（？）</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市花都区广州大学附属中学紫兰学校</td>
-					<td style="text-align: center">打比赛</td>
-			</tr>
-	</tbody>
-</table>
-<!-- raw HTML omitted -->
-        
-        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+        <hr><p>本文2023-01-10首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-01-10</p>]]>
       </description>
       
     </item>
