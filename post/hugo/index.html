@@ -261,30 +261,30 @@
 <a class="header-anchor" href="#%e5%ae%89%e8%a3%85-hugo"></a>
 安装 Hugo
 </h2><p>先安装 Hugo 的二进制文件，可以在官网上下载，也可以直接使用软件包管理器，考虑到<code>apt</code>更新极为缓慢，建议 Debian 系去官网下载<code>deb</code>包进行安装。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install hugo    <span style="color:#75715e"># Debian 系</span>
-</span></span><span style="display:flex;"><span>yay -S hugo              <span style="color:#75715e"># Arch 系</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install hugo    <span class="c1"># Debian 系</span>
+</span></span><span class="line"><span class="cl">yay -S hugo              <span class="c1"># Arch 系</span>
 </span></span></code></pre></div><p>安装完成后，执行<code>hugo version</code>会看到类似如下的提示：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ hugo version  
-</span></span><span style="display:flex;"><span>hugo v0.164.0-ce2470e7012b5ab5fc4e10ebe4027e9f8d9e00dc+extended linux/amd64 BuildDate<span style="color:#f92672">=</span>2026-07-06T16:39:30Z VendorInfo<span style="color:#f92672">=</span>gohugoio
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">❯ hugo version  
+</span></span><span class="line"><span class="cl">hugo v0.164.0-ce2470e7012b5ab5fc4e10ebe4027e9f8d9e00dc+extended linux/amd64 <span class="nv">BuildDate</span><span class="o">=</span>2026-07-06T16:39:30Z <span class="nv">VendorInfo</span><span class="o">=</span>gohugoio
 </span></span></code></pre></div><p>即安装完成。</p>
 <h2 id="创建项目">
 <a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e9%a1%b9%e7%9b%ae"></a>
 创建项目
 </h2><p>我们使用<code>hugo new site &lt;项目名称&gt;</code>来创建项目，比如：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>❯ hugo new site myBlog  
-</span></span><span style="display:flex;"><span>Congratulations! Your new Hugo site was created in /home/kuqilin/myBlog.  
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>Just a few more steps...  
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>1. Change the current directory to /home/kuqilin/myBlog.  
-</span></span><span style="display:flex;"><span>2. Create or install a theme:  
-</span></span><span style="display:flex;"><span>  - Create a new theme with the command <span style="color:#e6db74">&#34;hugo new theme &lt;THEMENAME&gt;&#34;</span>  
-</span></span><span style="display:flex;"><span>  - Install a theme from https://themes.gohugo.io/  
-</span></span><span style="display:flex;"><span>3. Edit hugo.toml, setting the <span style="color:#e6db74">&#34;theme&#34;</span> property to the theme name.  
-</span></span><span style="display:flex;"><span>4. Create new content with the command <span style="color:#e6db74">&#34;hugo new content &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;</span>.  
-</span></span><span style="display:flex;"><span>5. Start the embedded web server with the command <span style="color:#e6db74">&#34;hugo server --buildDrafts&#34;</span>.  
-</span></span><span style="display:flex;"><span>  
-</span></span><span style="display:flex;"><span>See documentation at https://gohugo.io/.
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">❯ hugo new site myBlog  
+</span></span><span class="line"><span class="cl">Congratulations! Your new Hugo site was created in /home/kuqilin/myBlog.  
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">Just a few more steps...  
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">1. Change the current directory to /home/kuqilin/myBlog.  
+</span></span><span class="line"><span class="cl">2. Create or install a theme:  
+</span></span><span class="line"><span class="cl">  - Create a new theme with the <span class="nb">command</span> <span class="s2">&#34;hugo new theme &lt;THEMENAME&gt;&#34;</span>  
+</span></span><span class="line"><span class="cl">  - Install a theme from https://themes.gohugo.io/  
+</span></span><span class="line"><span class="cl">3. Edit hugo.toml, setting the <span class="s2">&#34;theme&#34;</span> property to the theme name.  
+</span></span><span class="line"><span class="cl">4. Create new content with the <span class="nb">command</span> <span class="s2">&#34;hugo new content &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;</span>.  
+</span></span><span class="line"><span class="cl">5. Start the embedded web server with the <span class="nb">command</span> <span class="s2">&#34;hugo server --buildDrafts&#34;</span>.  
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">See documentation at https://gohugo.io/.
 </span></span></code></pre></div><p>可以看到成功的提示，接下来<code>cd</code>到项目文件夹<code>myBlog</code>，按照提示进行配置。</p>
 <h3 id="创建或安装主题">
 <a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e6%88%96%e5%ae%89%e8%a3%85%e4%b8%bb%e9%a2%98"></a>
@@ -303,7 +303,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/pc"
+              data-src="https://imgapi.jinghuashang.cn/random"
               data-sizes="auto"
               alt="20260517"
               class="lazyload"

@@ -34,8 +34,8 @@
 <a class="header-anchor" href="#%e5%ae%89%e8%a3%85-hugo"></a>
 安装 Hugo
 </h2><p>先安装 Hugo 的二进制文件，可以在官网上下载，也可以直接使用软件包管理器，考虑到<code>apt</code>更新极为缓慢，建议 Debian 系去官网下载<code>deb</code>包进行安装。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install hugo    <span style="color:#75715e"># Debian 系</span>
-</span></span><span style="display:flex;"><span>yay -S hugo              <span style="color:#75715e"># Arch 系</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install hugo    <span class="c1"># Debian 系</span>
+</span></span><span class="line"><span class="cl">yay -S hugo              <span class="c1"># Arch 系</span>
 </span></span></code></pre></div><p>安装完成后，执行<code>hugo version</code>会看到类似如下的提示：</p>
         
         <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
@@ -168,48 +168,48 @@ Markdown &amp; LaTeX 全语法测试文档
           <h1 id="我的-gpg-公钥">
 <a class="header-anchor" href="#%e6%88%91%e7%9a%84-gpg-%e5%85%ac%e9%92%a5"></a>
 我的 GPG 公钥
-</h1><pre tabindex="0"><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
-
-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
-FtCN+Qdk
-=ujsc
------END PGP PUBLIC KEY BLOCK-----
-</code></pre><p>欢迎大家给我发消息，kuqilin@88.com</p>
+</h1><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">-----BEGIN PGP PUBLIC KEY BLOCK-----
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mQGNBGZtioMBDADgagzpdPuxpWsj6Dcz+kncL3tEotSktXP++IpT2iZwNKPgjs9i
+</span></span><span class="line"><span class="cl">RZAh7YhLlusjcnXk8aXjVoPkIETpbxyZ6HLoDxGcjj215ZqAfhtIVpYBxHsoB6Ih
+</span></span><span class="line"><span class="cl">JcEN/5aN1dmraQTOF8FEjUsgA7str+Qm8AYyfL2Nt9IfuVI2ytuNdP/kNmim3Gqb
+</span></span><span class="line"><span class="cl">gt5u2xrqU4kFhCc3BG2POzW3+BMXJQvf4b2IVZ83LpV4cUDljdI4Uu43L9pvsiV1
+</span></span><span class="line"><span class="cl">OVwWvKcWclPY/o79ldGi0aCUhuxkb7w+iwqn0jFJcFbAPe+oqaBMagI8mx1qn5y0
+</span></span><span class="line"><span class="cl">6TsK4buMVhVJ+W8VQNHl81SoReMAu2lYPMhewbY3nrQGV2pEE63fEUqx/+hUKT4E
+</span></span><span class="line"><span class="cl">tiimGfJLnDk1KdcIPZ7IL+Zv5ZYEW6iHAL6hhvRAYgYjGMmWskrCl6XBfFAiV4NT
+</span></span><span class="line"><span class="cl">bpfV7zeDro0FdUBa4r2g/nla/3AoqMvirjVUZTu6D85KtLuGtNNDs/GcvzGonq+J
+</span></span><span class="line"><span class="cl">k1xRBggtzBvVtbEAEQEAAbQXU25vb215IDxrdXFpbGluQDg4LmNvbT6JAdEEEwEI
+</span></span><span class="line"><span class="cl">ADsWIQQ5QGl3s2ulNqS/pHM6zrswf7K1FgUCZm2KgwIbAwULCQgHAgIiAgYVCgkI
+</span></span><span class="line"><span class="cl">CwIEFgIDAQIeBwIXgAAKCRA6zrswf7K1FsPjDADFyS7gagKDYcWwYCDyF3/Scayo
+</span></span><span class="line"><span class="cl">x9N2IGchI6u6QMD1Hb7EsXHps5UknP9oqs5ZSE7QWa9d0LHjjgMQtnLb1Ii7LG1X
+</span></span><span class="line"><span class="cl">mHobFlaA6otb3CaDB0tpzAf+gyPQB8T/SwVxe+oNhzedOmK4sJoEAxFsMCywrcrb
+</span></span><span class="line"><span class="cl">EMvoFvR3YMxiEv46bO+de9Crw9/hpWKLaF5cK1EmsYBHONl0sDPUeoZ1fAH4SUpY
+</span></span><span class="line"><span class="cl">PdR1v9LXkC8Ie7mTYHM3ELbUFvmAJBSYx55iAZnW3y4c8+xTDfYBe6R6N0pwXz7L
+</span></span><span class="line"><span class="cl">CjOB6VUQie7hx4/Mf5yQMQkIN+lC4eTcqesCcpfN8QmRsbSE42UFlIr/UXNe/BE5
+</span></span><span class="line"><span class="cl">7DIPYvQs7NwMR2Yqd/aTGZffCaeeOuu692+gb5Ir9jntBKMFuWbKSN07l/kajd88
+</span></span><span class="line"><span class="cl">WvQUNzp3oxDVDC2UemRZqscE3iZeiEtwMx2tBfUkgl6sVEdo8cOxVRmvja2KCeZ5
+</span></span><span class="line"><span class="cl">hP/uwzZA15anXN17oG8Kv8YjV920OJtaroNIo+e5AY0EZm2KgwEMAMLyaqYHW5xV
+</span></span><span class="line"><span class="cl">q9KXsU56V2I2Pq4qZ0bFhZNs3PuWkGwn7k3lCZ4mfGOUjChe5coUIbZ8JG9nyC5c
+</span></span><span class="line"><span class="cl">8Nrwzv5enmOwKYhfMG/PdogHsPPjqQoNJYM0HjyeRSgHXh3u8HrZuVGtdjdAZeyr
+</span></span><span class="line"><span class="cl">nqaYJhc7sI7zpFInL0c2gVxktPoIqCGcunzzDrhVYeUcon4/I0WzjIYI4ujvPjPo
+</span></span><span class="line"><span class="cl">K787DWWMKY3EYyIi4N0DP2fwAjU+3S4w+W2HzqSv2E2FI4ylQ5F1K8uI88INelyz
+</span></span><span class="line"><span class="cl">kr3nMonQAkDRd+d2Ep8sRgShbAP5B2gViHwRa8yvXAe+zA8+uG1q0g/6dhQtzbs6
+</span></span><span class="line"><span class="cl">XVy5kNxx+ihP+ETEckaFBlochXHTkWuwkYARvgDuwlapSYHqG8GcpHOWvknWFKty
+</span></span><span class="line"><span class="cl">Jafc8iM9LEBhgdzdASAwW/eHn4hu3U2Xg8B2AFPzfJkYqNa7YeUvIBc6kV08MDgy
+</span></span><span class="line"><span class="cl">HfAN8nGI/uX5EVUuH8HI7G2YhF9bREg/uYFPks94j0WpQ8vXYTH2+QARAQABiQG2
+</span></span><span class="line"><span class="cl">BBgBCAAgFiEEOUBpd7NrpTakv6RzOs67MH+ytRYFAmZtioMCGwwACgkQOs67MH+y
+</span></span><span class="line"><span class="cl">tRbPewwAhQUU+1zQ9x8VhYkhFyYpNAB/CTH4ZtNlItG98fNM/1XOG4hmyCYflJU9
+</span></span><span class="line"><span class="cl">ZNu785ZTuX8jKhByoo1poG9lq65fiHFJvvBtWIgkZW6qlPdgxI7k8KCrRyIril70
+</span></span><span class="line"><span class="cl">TBwicz3yw9tXD/jJpXK6LXguYdRwl6/gRCoLSlO9b6+yHZGoMNevKAHKda4wNkBE
+</span></span><span class="line"><span class="cl">pSiMzgKXx4E1m3d8e2B1GGnUL4VCmHMXMA7DYSPyuZ0nV0nd+zFb9lgj8qLBFR5n
+</span></span><span class="line"><span class="cl">ucv0k2LzEeVsbmLMmTFVCblQpPUzP2isyEcjG1iVirS3dDD1L9vFF0F58xzo2k7u
+</span></span><span class="line"><span class="cl">ZKrMOA/5On+4r8IKhe1mH/dtLPVQaJfHTZ2eo3nhWw4pVb0vvsqhBz+WZAl2K/xj
+</span></span><span class="line"><span class="cl">oiFSoNBX2syn8TLZlry7nAB77SkqGurq/wPrlDn4drUQlr2T883XYDFDMSKQlPMF
+</span></span><span class="line"><span class="cl">xmIl873hSbwZbAp2HzVyqEtH5TdNPXbIIXpI6OaYham3x9VPJkBXFkgNDxixtCcO
+</span></span><span class="line"><span class="cl">FtCN+Qdk
+</span></span><span class="line"><span class="cl">=ujsc
+</span></span><span class="line"><span class="cl">-----END PGP PUBLIC KEY BLOCK-----
+</span></span></code></pre></div><p>欢迎大家给我发消息，kuqilin@88.com</p>
         
         <hr><p>本文2024-01-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2024-01-15</p>]]>
       </description>
@@ -258,19 +258,19 @@ Python基本函数
 </h1><h2 id="print函数">
 <a class="header-anchor" href="#print%e5%87%bd%e6%95%b0"></a>
 print（）函数：
-</h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print()<span style="color:#75715e">#括号内可以是变量，字符串，列表，元组等。</span>
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">()</span><span class="c1">#括号内可以是变量，字符串，列表，元组等。</span>
 </span></span></code></pre></div><h4 id="例">
 <a class="header-anchor" href="#%e4%be%8b"></a>
 例：
-</h4><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Hello World!&#39;</span>)
+</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
 </span></span></code></pre></div><h4 id="输出效果">
 <a class="header-anchor" href="#%e8%be%93%e5%87%ba%e6%95%88%e6%9e%9c"></a>
 输出效果：
-</h4><pre tabindex="0"><code>Hello World!
-</code></pre><h2 id="input函数">
+</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Hello World!
+</span></span></code></pre></div><h2 id="input函数">
 <a class="header-anchor" href="#input%e5%87%bd%e6%95%b0"></a>
 input（）函数
-</h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>a <span style="color:#f92672">=</span> input()<span style="color:#75715e">#input()函数必须与变量一起使用</span>
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="c1">#input()函数必须与变量一起使用</span>
 </span></span></code></pre></div><p>$\color{Red}\mathrm{input()的扩号内可以放提示语，但是字符串必须在引号内。}$<br>
 $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</p>
         

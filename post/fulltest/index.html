@@ -427,24 +427,24 @@ Markdown &amp; LaTeX 全语法测试文档
 <h4 id="块级代码带语法高亮">
 <a class="header-anchor" href="#%e5%9d%97%e7%ba%a7%e4%bb%a3%e7%a0%81%e5%b8%a6%e8%af%ad%e6%b3%95%e9%ab%98%e4%ba%ae"></a>
 块级代码（带语法高亮）
-</h4><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Python 代码测试</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">add</span>(a: int, b: int) <span style="color:#f92672">-&gt;</span> int:
-</span></span><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;&#34;&#34;两数相加&#34;&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> a <span style="color:#f92672">+</span> b
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">if</span> __name__ <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;__main__&#34;</span>:
-</span></span><span style="display:flex;"><span>    result <span style="color:#f92672">=</span> add(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">2</span>)
-</span></span><span style="display:flex;"><span>    print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;结果：</span><span style="color:#e6db74">{</span>result<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Bash 代码测试</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash</span>
-</span></span><span style="display:flex;"><span>echo <span style="color:#e6db74">&#34;测试Markdown代码块&#34;</span>
-</span></span><span style="display:flex;"><span>ls -l | grep <span style="color:#e6db74">&#34;.md&#34;</span>
-</span></span><span style="display:flex;"><span>mkdir test <span style="color:#f92672">&amp;&amp;</span> cd test
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!-- HTML 代码测试 --&gt;</span>
-</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">div</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;container&#34;</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">h1</span>&gt;Markdown测试&lt;/<span style="color:#f92672">h1</span>&gt;
-</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">p</span>&gt;这是HTML代码片段&lt;/<span style="color:#f92672">p</span>&gt;
-</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">div</span>&gt;
+</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Python 代码测试</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;两数相加&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">result</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;结果：</span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Bash 代码测试</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#!/bin/bash</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;测试Markdown代码块&#34;</span>
+</span></span><span class="line"><span class="cl">ls -l <span class="p">|</span> grep <span class="s2">&#34;.md&#34;</span>
+</span></span><span class="line"><span class="cl">mkdir <span class="nb">test</span> <span class="o">&amp;&amp;</span> <span class="nb">cd</span> <span class="nb">test</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!-- HTML 代码测试 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;container&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Markdown测试<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>这是HTML代码片段<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
 </span></span></code></pre></div><h3 id="16-分割线">
 <a class="header-anchor" href="#16-%e5%88%86%e5%89%b2%e7%ba%bf"></a>
 1.6 分割线
@@ -799,10 +799,10 @@ $$</p>
 <h3 id="44-代码块旁注latex公式">
 <a class="header-anchor" href="#44-%e4%bb%a3%e7%a0%81%e5%9d%97%e6%97%81%e6%b3%a8latex%e5%85%ac%e5%bc%8f"></a>
 4.4 代码块旁注LaTeX公式
-</h3><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># 计算圆的面积 $S = \pi r^2$</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">import</span> math
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">circle_area</span>(r):
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> math<span style="color:#f92672">.</span>pi <span style="color:#f92672">*</span> r <span style="color:#f92672">**</span> <span style="color:#ae81ff">2</span>
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 计算圆的面积 $S = \pi r^2$</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">math</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">circle_area</span><span class="p">(</span><span class="n">r</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span> <span class="o">**</span> <span class="mi">2</span>
 </span></span></code></pre></div><h2 id="五特殊场景测试">
 <a class="header-anchor" href="#%e4%ba%94%e7%89%b9%e6%ae%8a%e5%9c%ba%e6%99%af%e6%b5%8b%e8%af%95"></a>
 五、特殊场景测试
@@ -818,8 +818,8 @@ LaTeX转义：$ % &amp; # _ { }</p>
 <p><strong>嵌套1</strong>：$f(x) = \int_{0}^{x} \sin t dt = 1 - \cos x$</p>
 <ul>
 <li>嵌套2：公式$\prod_{k=1}^n k = n!$ 为阶乘的乘积形式
-<pre tabindex="0"><code>嵌套3：行内代码与公式$x^3 - 3x + 1 = 0$
-</code></pre></li>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">嵌套3：行内代码与公式$x^3 - 3x + 1 = 0$
+</span></span></code></pre></div></li>
 </ul>
 </blockquote>
 <h3 id="53-大篇幅公式矩阵求和">
@@ -862,7 +862,7 @@ $$</p>
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/ycy"
+              data-src="https://imgapi.jinghuashang.cn/random"
               data-sizes="auto"
               alt="我去过的学校"
               class="lazyload"
@@ -874,7 +874,7 @@ $$</p>
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">我去过的学校</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://imgapi.jinghuashang.cn/random"
+              data-src="https://t.alcy.cc/pc"
               data-sizes="auto"
               alt="20260517"
               class="lazyload"
