@@ -23,7 +23,19 @@
     <loc>https://kuqilin.github.io/about/</loc>
     <lastmod>2026-07-11T08:00:00+08:00</lastmod>
   </url><url>
+    <loc>https://kuqilin.github.io/tags/python/</loc>
+    <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</loc>
+    <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/queue/</loc>
+    <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/stack/</loc>
+    <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</loc>
@@ -45,7 +57,5 @@
     <lastmod>2026-07-11T08:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/categories/</loc>
-  </url><url>
-    <loc>https://kuqilin.github.io/tags/</loc>
   </url>
 </urlset>
