@@ -214,7 +214,7 @@ FtCN+Qdk
 </h1><h2 id="栈的python实现">
 <a class="header-anchor" href="#%e6%a0%88%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
 栈的Python实现
-</h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>（ <em>Last In First Out</em> )。~~这种东西小学生都会。~~如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
+</h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>(<em>Last In First Out</em>)。~~这种东西小学生都会。~~如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
 栈支持以下操作：</p>
         
         <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
