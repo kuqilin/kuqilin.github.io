@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kuqilin&#39;s Blog</title>
-    <link>http://localhost:1313/post/</link>
+    <link>https://kuqilin.github.io/post/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0000</lastBuildDate>
     
     
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://kuqilin.github.io/post/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,10 +23,10 @@
 
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/post/hugo/</link>
+      <link>https://kuqilin.github.io/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/hugo/</guid>
+      <guid>https://kuqilin.github.io/post/hugo/</guid>
       <description>
         <![CDATA[<h1>Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -38,7 +38,30 @@
 </span></span><span style="display:flex;"><span>yay -S hugo              <span style="color:#75715e"># Arch 系</span>
 </span></span></code></pre></div><p>安装完成后，执行<code>hugo version</code>会看到类似如下的提示：</p>
         
-        <hr><p>本文2026-07-11首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
+        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Markdown &amp; LaTeX 全量测试文档</title>
+      <link>https://kuqilin.github.io/post/fulltest/</link>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/fulltest/</guid>
+      <description>
+        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="markdown--latex-全语法测试文档">
+<a class="header-anchor" href="#markdown--latex-%e5%85%a8%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3"></a>
+Markdown &amp; LaTeX 全语法测试文档
+</h1><p><strong>创建时间</strong>：2026年1月25日<br>
+<strong>说明</strong>：本文件包含Markdown基础/进阶语法、$\LaTeX$行内/块级公式、特殊符号、表格公式融合等全场景测试，可直接在支持$\LaTeX$的Markdown编辑器（Typora、VS Code+Markdown All in One、Notion等）中预览。
+::</p>
+        
+        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-01-25</p>]]>
       </description>
       
     </item>
@@ -47,10 +70,10 @@
 
     <item>
       <title>我去过的学校</title>
-      <link>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</link>
+      <link>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</guid>
+      <guid>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</guid>
       <description>
         <![CDATA[<h1>我去过的学校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -107,7 +130,7 @@
 </table>
 <!-- raw HTML omitted -->
         
-        <hr><p>本文2025-02-22首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2025-02-22</p>]]>
+        <hr><p>本文2025-02-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2025-02-22</p>]]>
       </description>
       
     </item>
@@ -116,10 +139,10 @@
 
     <item>
       <title>我的GPG公钥</title>
-      <link>http://localhost:1313/post/my-gpg/</link>
+      <link>https://kuqilin.github.io/post/my-gpg/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/my-gpg/</guid>
+      <guid>https://kuqilin.github.io/post/my-gpg/</guid>
       <description>
         <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -169,7 +192,7 @@ FtCN+Qdk
 -----END PGP PUBLIC KEY BLOCK-----
 </code></pre><p>欢迎大家给我发消息，kuqilin@88.com</p>
         
-        <hr><p>本文2024-01-15首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2024-01-15</p>]]>
+        <hr><p>本文2024-01-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2024-01-15</p>]]>
       </description>
       
     </item>
@@ -178,10 +201,10 @@ FtCN+Qdk
 
     <item>
       <title>栈、队列和双端队列的Python实现</title>
-      <link>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
+      <link>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
+      <guid>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
       <description>
         <![CDATA[<h1>栈、队列和双端队列的Python实现</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -194,7 +217,7 @@ FtCN+Qdk
 </h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>（ <em>Last In First Out</em> )。~~这种东西小学生都会。~~如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
 栈支持以下操作：</p>
         
-        <hr><p>本文2023-05-13首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
+        <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
       </description>
       
     </item>
@@ -203,10 +226,10 @@ FtCN+Qdk
 
     <item>
       <title>Python基本语法</title>
-      <link>http://localhost:1313/post/python-ji-ben-yu-fa/</link>
+      <link>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/python-ji-ben-yu-fa/</guid>
+      <guid>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</guid>
       <description>
         <![CDATA[<h1>Python基本语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -232,7 +255,7 @@ input（）函数
 </span></span></code></pre></div><p>$\color{Red}\mathrm{input()的扩号内可以放提示语，但是字符串必须在引号内。}$<br>
 $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</p>
         
-        <hr><p>本文2023-05-13首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
+        <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
       </description>
       
     </item>
@@ -241,16 +264,16 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</
 
     <item>
       <title>Hello World</title>
-      <link>http://localhost:1313/post/hello/</link>
+      <link>https://kuqilin.github.io/post/hello/</link>
       <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/hello/</guid>
+      <guid>https://kuqilin.github.io/post/hello/</guid>
       <description>
         <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>💘 博麗 霊夢 💘</p>
         
-        <hr><p>本文2023-03-15首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-03-15</p>]]>
+        <hr><p>本文2023-03-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-03-15</p>]]>
       </description>
       
     </item>
@@ -259,10 +282,10 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</
 
     <item>
       <title>Markdown语法</title>
-      <link>http://localhost:1313/post/markdown-grammar/</link>
+      <link>https://kuqilin.github.io/post/markdown-grammar/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>http://localhost:1313/post/markdown-grammar/</guid>
+      <guid>https://kuqilin.github.io/post/markdown-grammar/</guid>
       <description>
         <![CDATA[<h1>Markdown语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -338,7 +361,7 @@ Markdown语法
 </h6></blockquote>
 <p><strong>级数越大，标题越小</strong>，与<em>HTML</em>中的<code>&lt;h1&gt;一级&lt;/h1&gt;</code> <code>&lt;h4&gt;四级&lt;/h4&gt;</code>等标题一致。</p>
         
-        <hr><p>本文2023-01-10首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-01-10</p>]]>
+        <hr><p>本文2023-01-10首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-01-10</p>]]>
       </description>
       
     </item>

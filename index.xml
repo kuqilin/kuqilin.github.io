@@ -46,6 +46,29 @@
     
 
     <item>
+      <title>Markdown &amp; LaTeX 全量测试文档</title>
+      <link>https://kuqilin.github.io/post/fulltest/</link>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/fulltest/</guid>
+      <description>
+        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="markdown--latex-全语法测试文档">
+<a class="header-anchor" href="#markdown--latex-%e5%85%a8%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3"></a>
+Markdown &amp; LaTeX 全语法测试文档
+</h1><p><strong>创建时间</strong>：2026年1月25日<br>
+<strong>说明</strong>：本文件包含Markdown基础/进阶语法、$\LaTeX$行内/块级公式、特殊符号、表格公式融合等全场景测试，可直接在支持$\LaTeX$的Markdown编辑器（Typora、VS Code+Markdown All in One、Notion等）中预览。
+::</p>
+        
+        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-01-25</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
       <title>我去过的学校</title>
       <link>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
