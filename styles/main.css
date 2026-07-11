@@ -1,9 +1,0 @@
-@font-face {
-  font-family: 'LXGWWenKaiGBScreen';
-  src: url('fonts/LXGWWenKaiGBScreen.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-} 
-body {
-  font-family: 'LXGWWenKaiGBScreen', sans-serif;
-}

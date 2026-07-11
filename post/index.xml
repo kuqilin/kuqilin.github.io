@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kuqilin&#39;s Blog</title>
+    <link>http://localhost:1313/post/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Sat, 11 Jul 2026 00:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/hugo/</guid>
+      <description>
+        <![CDATA[<h1>Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h2 id="安装-hugo">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85-hugo"></a>
+安装 Hugo
+</h2><p>先安装 Hugo 的二进制文件，可以在官网上下载，也可以直接使用软件包管理器，考虑到<code>apt</code>更新极为缓慢，建议 Debian 系去官网下载<code>deb</code>包进行安装。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt install hugo    <span style="color:#75715e"># Debian 系</span>
+</span></span><span style="display:flex;"><span>yay -S hugo              <span style="color:#75715e"># Arch 系</span>
+</span></span></code></pre></div><p>安装完成后，执行<code>hugo version</code>会看到类似如下的提示：</p>
+        
+        <hr><p>本文2026-07-11首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hello World</title>
+      <link>http://localhost:1313/post/hello/</link>
+      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/hello/</guid>
+      <description>
+        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>💘 博麗 霊夢 💘</p>
+        
+        <hr><p>本文2023-03-15首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于2023-03-15</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>我的GPG公钥</title>
+      <link>http://localhost:1313/post/my-gpg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/my-gpg/</guid>
+      <description>
+        <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="我的-gpg-公钥">
+<a class="header-anchor" href="#%e6%88%91%e7%9a%84-gpg-%e5%85%ac%e9%92%a5"></a>
+我的 GPG 公钥
+</h1><pre tabindex="0"><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+mQGNBGZtioMBDADgagzpdPuxpWsj6Dcz+kncL3tEotSktXP++IpT2iZwNKPgjs9i
+RZAh7YhLlusjcnXk8aXjVoPkIETpbxyZ6HLoDxGcjj215ZqAfhtIVpYBxHsoB6Ih
+JcEN/5aN1dmraQTOF8FEjUsgA7str+Qm8AYyfL2Nt9IfuVI2ytuNdP/kNmim3Gqb
+gt5u2xrqU4kFhCc3BG2POzW3+BMXJQvf4b2IVZ83LpV4cUDljdI4Uu43L9pvsiV1
+OVwWvKcWclPY/o79ldGi0aCUhuxkb7w+iwqn0jFJcFbAPe+oqaBMagI8mx1qn5y0
+6TsK4buMVhVJ+W8VQNHl81SoReMAu2lYPMhewbY3nrQGV2pEE63fEUqx/+hUKT4E
+tiimGfJLnDk1KdcIPZ7IL+Zv5ZYEW6iHAL6hhvRAYgYjGMmWskrCl6XBfFAiV4NT
+bpfV7zeDro0FdUBa4r2g/nla/3AoqMvirjVUZTu6D85KtLuGtNNDs/GcvzGonq+J
+k1xRBggtzBvVtbEAEQEAAbQXU25vb215IDxrdXFpbGluQDg4LmNvbT6JAdEEEwEI
+ADsWIQQ5QGl3s2ulNqS/pHM6zrswf7K1FgUCZm2KgwIbAwULCQgHAgIiAgYVCgkI
+CwIEFgIDAQIeBwIXgAAKCRA6zrswf7K1FsPjDADFyS7gagKDYcWwYCDyF3/Scayo
+x9N2IGchI6u6QMD1Hb7EsXHps5UknP9oqs5ZSE7QWa9d0LHjjgMQtnLb1Ii7LG1X
+mHobFlaA6otb3CaDB0tpzAf+gyPQB8T/SwVxe+oNhzedOmK4sJoEAxFsMCywrcrb
+EMvoFvR3YMxiEv46bO+de9Crw9/hpWKLaF5cK1EmsYBHONl0sDPUeoZ1fAH4SUpY
+PdR1v9LXkC8Ie7mTYHM3ELbUFvmAJBSYx55iAZnW3y4c8+xTDfYBe6R6N0pwXz7L
+CjOB6VUQie7hx4/Mf5yQMQkIN+lC4eTcqesCcpfN8QmRsbSE42UFlIr/UXNe/BE5
+7DIPYvQs7NwMR2Yqd/aTGZffCaeeOuu692+gb5Ir9jntBKMFuWbKSN07l/kajd88
+WvQUNzp3oxDVDC2UemRZqscE3iZeiEtwMx2tBfUkgl6sVEdo8cOxVRmvja2KCeZ5
+hP/uwzZA15anXN17oG8Kv8YjV920OJtaroNIo+e5AY0EZm2KgwEMAMLyaqYHW5xV
+q9KXsU56V2I2Pq4qZ0bFhZNs3PuWkGwn7k3lCZ4mfGOUjChe5coUIbZ8JG9nyC5c
+8Nrwzv5enmOwKYhfMG/PdogHsPPjqQoNJYM0HjyeRSgHXh3u8HrZuVGtdjdAZeyr
+nqaYJhc7sI7zpFInL0c2gVxktPoIqCGcunzzDrhVYeUcon4/I0WzjIYI4ujvPjPo
+K787DWWMKY3EYyIi4N0DP2fwAjU+3S4w+W2HzqSv2E2FI4ylQ5F1K8uI88INelyz
+kr3nMonQAkDRd+d2Ep8sRgShbAP5B2gViHwRa8yvXAe+zA8+uG1q0g/6dhQtzbs6
+XVy5kNxx+ihP+ETEckaFBlochXHTkWuwkYARvgDuwlapSYHqG8GcpHOWvknWFKty
+Jafc8iM9LEBhgdzdASAwW/eHn4hu3U2Xg8B2AFPzfJkYqNa7YeUvIBc6kV08MDgy
+HfAN8nGI/uX5EVUuH8HI7G2YhF9bREg/uYFPks94j0WpQ8vXYTH2+QARAQABiQG2
+BBgBCAAgFiEEOUBpd7NrpTakv6RzOs67MH+ytRYFAmZtioMCGwwACgkQOs67MH+y
+tRbPewwAhQUU+1zQ9x8VhYkhFyYpNAB/CTH4ZtNlItG98fNM/1XOG4hmyCYflJU9
+ZNu785ZTuX8jKhByoo1poG9lq65fiHFJvvBtWIgkZW6qlPdgxI7k8KCrRyIril70
+TBwicz3yw9tXD/jJpXK6LXguYdRwl6/gRCoLSlO9b6+yHZGoMNevKAHKda4wNkBE
+pSiMzgKXx4E1m3d8e2B1GGnUL4VCmHMXMA7DYSPyuZ0nV0nd+zFb9lgj8qLBFR5n
+ucv0k2LzEeVsbmLMmTFVCblQpPUzP2isyEcjG1iVirS3dDD1L9vFF0F58xzo2k7u
+ZKrMOA/5On+4r8IKhe1mH/dtLPVQaJfHTZ2eo3nhWw4pVb0vvsqhBz+WZAl2K/xj
+oiFSoNBX2syn8TLZlry7nAB77SkqGurq/wPrlDn4drUQlr2T883XYDFDMSKQlPMF
+xmIl873hSbwZbAp2HzVyqEtH5TdNPXbIIXpI6OaYham3x9VPJkBXFkgNDxixtCcO
+FtCN+Qdk
+=ujsc
+-----END PGP PUBLIC KEY BLOCK-----
+</code></pre><p>欢迎大家给我发消息，kuqilin@88.com</p>
+        
+        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Python基本语法</title>
+      <link>http://localhost:1313/post/python-ji-ben-yu-fa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/python-ji-ben-yu-fa/</guid>
+      <description>
+        <![CDATA[<h1>Python基本语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="python基本函数">
+<a class="header-anchor" href="#python%e5%9f%ba%e6%9c%ac%e5%87%bd%e6%95%b0"></a>
+Python基本函数
+</h1><h2 id="print函数">
+<a class="header-anchor" href="#print%e5%87%bd%e6%95%b0"></a>
+print（）函数：
+</h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print()<span style="color:#75715e">#括号内可以是变量，字符串，列表，元组等。</span>
+</span></span></code></pre></div><h4 id="例">
+<a class="header-anchor" href="#%e4%be%8b"></a>
+例：
+</h4><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>print(<span style="color:#e6db74">&#39;Hello World!&#39;</span>)
+</span></span></code></pre></div><h4 id="输出效果">
+<a class="header-anchor" href="#%e8%be%93%e5%87%ba%e6%95%88%e6%9e%9c"></a>
+输出效果：
+</h4><pre tabindex="0"><code>Hello World!
+</code></pre><h2 id="input函数">
+<a class="header-anchor" href="#input%e5%87%bd%e6%95%b0"></a>
+input（）函数
+</h2><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>a <span style="color:#f92672">=</span> input()<span style="color:#75715e">#input()函数必须与变量一起使用</span>
+</span></span></code></pre></div><p>$\color{Red}\mathrm{input()的扩号内可以放提示语，但是字符串必须在引号内。}$<br>
+$\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</p>
+        
+        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Markdown语法</title>
+      <link>http://localhost:1313/post/markdown-grammar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/markdown-grammar/</guid>
+      <description>
+        <![CDATA[<h1>Markdown语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="markdown语法">
+<a class="header-anchor" href="#markdown%e8%af%ad%e6%b3%95"></a>
+Markdown语法
+</h1><p><del>要脸，别看（自己复习用）</del></p>
+<blockquote>
+<p>目录：</p>
+<ul>
+<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
+<li><a href="#%E6%A0%B7%E5%BC%8F">样式</a></li>
+<li><a href="#%E5%88%97%E8%A1%A8">列表</a></li>
+<li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li>
+<li><a href="#%E4%BB%A3%E7%A0%81">代码</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
+<li><a href="#%E6%B3%A8%E8%84%9A">注脚</a></li>
+<li><a href="#%E7%BC%A9%E5%86%99">缩写</a></li>
+<li><a href="#%E5%85%AC%E5%BC%8F">公式</a></li>
+</ul>
+</blockquote>
+<h2 id="标题">
+<a class="header-anchor" href="#%e6%a0%87%e9%a2%98"></a>
+标题
+</h2><p>标题分为六种标题：</p>
+<ul>
+<li>一级标题<code># 一级</code>：</li>
+</ul>
+<blockquote>
+<h1 id="一级">
+<a class="header-anchor" href="#%e4%b8%80%e7%ba%a7"></a>
+一级
+</h1></blockquote>
+<ul>
+<li>二级标题<code># 二级</code>：</li>
+</ul>
+<blockquote>
+<h2 id="二级">
+<a class="header-anchor" href="#%e4%ba%8c%e7%ba%a7"></a>
+二级
+</h2></blockquote>
+<ul>
+<li>三级标题<code># 三级</code>：</li>
+</ul>
+<blockquote>
+<h3 id="三级">
+<a class="header-anchor" href="#%e4%b8%89%e7%ba%a7"></a>
+三级
+</h3></blockquote>
+<ul>
+<li>四级标题<code># 四级</code>：</li>
+</ul>
+<blockquote>
+<h4 id="四级">
+<a class="header-anchor" href="#%e5%9b%9b%e7%ba%a7"></a>
+四级
+</h4></blockquote>
+<ul>
+<li>五级标题<code># 五级</code>：</li>
+</ul>
+<blockquote>
+<h5 id="五级">
+<a class="header-anchor" href="#%e4%ba%94%e7%ba%a7"></a>
+五级
+</h5></blockquote>
+<ul>
+<li>六级标题<code># 六级</code>：</li>
+</ul>
+<blockquote>
+<h6 id="六级">
+<a class="header-anchor" href="#%e5%85%ad%e7%ba%a7"></a>
+六级
+</h6></blockquote>
+<p><strong>级数越大，标题越小</strong>，与<em>HTML</em>中的<code>&lt;h1&gt;一级&lt;/h1&gt;</code> <code>&lt;h4&gt;四级&lt;/h4&gt;</code>等标题一致。</p>
+        
+        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
+      <description>
+        <![CDATA[<h1></h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="栈队列和双端队列的python实现">
+<a class="header-anchor" href="#%e6%a0%88%e9%98%9f%e5%88%97%e5%92%8c%e5%8f%8c%e7%ab%af%e9%98%9f%e5%88%97%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
+栈、队列和双端队列的Python实现
+</h1><h2 id="栈的python实现">
+<a class="header-anchor" href="#%e6%a0%88%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
+栈的Python实现
+</h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>（ <em>Last In First Out</em> )。~~这种东西小学生都会。~~如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
+栈支持以下操作：</p>
+        
+        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title></title>
+      <link>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>http://localhost:1313/post/wo-qu-guo-de-xue-xiao/</guid>
+      <description>
+        <![CDATA[<h1></h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="我去过的学校">
+<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e8%bf%87%e7%9a%84%e5%ad%a6%e6%a0%a1"></a>
+我去过的学校
+</h1><p>忽然觉得自己去过广州的很多学校，便想着列个表格出来看看都去过哪些、去干嘛的：</p>
+<p>（排名不分前后，按记忆顺序）</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: center">去过的学校</th>
+					<th style="text-align: center">原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center">广东广雅中学（花都校区）</td>
+					<td style="text-align: center">上高中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市第八十九中学</td>
+					<td style="text-align: center">英才计划住宿</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市第二中学</td>
+					<td style="text-align: center">打比赛</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州大学附属中学（大学城校区）</td>
+					<td style="text-align: center">CSP-J/S比赛&amp;&amp;广大附教育集团环大学城拉练活动</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">北京师范大学附属中学广州实验学校（好像是这个名字）</td>
+					<td style="text-align: center">广州市青少年科技教育夏令营</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市增城区应元学校</td>
+					<td style="text-align: center">同上</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区花广金狮学校（原广州大学附属中学花都狮岭实验学校）</td>
+					<td style="text-align: center">上初中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区花广学校（原广州大学附属中学花都实验学校）</td>
+					<td style="text-align: center">参观&amp;&amp;密考（？）</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区广州大学附属中学紫兰学校</td>
+					<td style="text-align: center">打比赛</td>
+			</tr>
+	</tbody>
+</table>
+<!-- raw HTML omitted -->
+        
+        <hr><p>本文0001-01-01首发于<a href='http://localhost:1313/'>Kuqilin's Blog</a>，最后修改于0001-01-01</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>
