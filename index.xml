@@ -119,15 +119,15 @@
     
 
     <item>
-      <title>Hello World</title>
-      <link>https://kuqilin.github.io/post/hello/</link>
-      <pubDate>Sat, 11 Jul 2026 10:00:00 &#43;0800</pubDate>
+      <title>Hugo</title>
+      <link>https://kuqilin.github.io/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/hello/</guid>
+      <guid>https://kuqilin.github.io/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          💘 $	ext{37 Thirtyseven}$ 💘
+          记录了我在 GitHub Pages 搭建 Hugo 的经历
         
         <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
       </description>
@@ -137,15 +137,15 @@
     
 
     <item>
-      <title>Hugo</title>
-      <link>https://kuqilin.github.io/post/hugo/</link>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 &#43;0000</pubDate>
+      <title>Hello World</title>
+      <link>https://kuqilin.github.io/post/hello/</link>
+      <pubDate>Sat, 11 Jul 2026 10:00:00 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/hugo/</guid>
+      <guid>https://kuqilin.github.io/post/hello/</guid>
       <description>
-        <![CDATA[<h1>Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          记录了我在 GitHub Pages 搭建 Hugo 的经历
+          💘 $	ext{37 Thirtyseven}$ 💘
         
         <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
       </description>
