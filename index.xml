@@ -30,7 +30,7 @@
       <description>
         <![CDATA[<h1>2026年记</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          2026年的年记（总结/摘要）
+          2026年的年记
         
         <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-09-14</p>]]>
       </description>
@@ -50,13 +50,7 @@
       <description>
         <![CDATA[<h1>Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <h2 id="安装-hugo">
-<a class="header-anchor" href="#%e5%ae%89%e8%a3%85-hugo"></a>
-安装 Hugo
-</h2><p>先安装 Hugo 的二进制文件，可以在官网上下载，也可以直接使用软件包管理器，考虑到<code>apt</code>更新极为缓慢，建议 Debian 系去官网下载<code>deb</code>包进行安装。</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install hugo    <span class="c1"># Debian 系</span>
-</span></span><span class="line"><span class="cl">yay -S hugo              <span class="c1"># Arch 系</span>
-</span></span></code></pre></div><p>安装完成后，执行<code>hugo version</code>会看到类似如下的提示：</p>
+          记录了我在 GitHub Pages 搭建 Hugo 的经历
         
         <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
       </description>
