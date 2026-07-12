@@ -35,7 +35,25 @@
         <hr><p>本文2026-07-12首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-09-14</p>]]>
       </description>
       
-        <category>年记</category>
+        <category>年记</category><category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Markdown &amp; LaTeX 全量测试文档</title>
+      <link>https://kuqilin.github.io/post/fulltest/</link>
+      <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/fulltest/</guid>
+      <description>
+        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
+        
+        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-12</p>]]>
+      </description>
       
     </item>
     
@@ -114,6 +132,8 @@
         <hr><p>本文2025-02-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-12</p>]]>
       </description>
       
+        <category>记录</category>
+      
     </item>
     
     
@@ -131,6 +151,8 @@
         
         <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
       </description>
+      
+        <category>记录</category>
       
     </item>
     
@@ -169,23 +191,7 @@
         <hr><p>本文2026-05-17首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-05-17</p>]]>
       </description>
       
-    </item>
-    
-    
-
-    <item>
-      <title>Markdown &amp; LaTeX 全量测试文档</title>
-      <link>https://kuqilin.github.io/post/fulltest/</link>
-      <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/fulltest/</guid>
-      <description>
-        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
-        
-        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-01-25</p>]]>
-      </description>
+        <category>记录</category>
       
     </item>
     
@@ -274,6 +280,8 @@
         <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
       </description>
       
+        <category>Python</category>
+      
     </item>
     
     
@@ -311,6 +319,8 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</
         
         <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
       </description>
+      
+        <category>Python</category>
       
     </item>
     

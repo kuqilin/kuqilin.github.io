@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>记录 on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/tags/%E8%AE%B0%E5%BD%95/</link>
+    <link>https://kuqilin.github.io/categories/%E8%AE%B0%E5%BD%95/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Mon, 14 Sep 2026 00:00:00 +0000</lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://kuqilin.github.io/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
