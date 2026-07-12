@@ -44,5 +44,43 @@
       
     </item>
     
+    
+
+    <item>
+      <title>Python基本语法</title>
+      <link>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</guid>
+      <description>
+        <![CDATA[<h1>Python基本语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="python基本函数">
+<a class="header-anchor" href="#python%e5%9f%ba%e6%9c%ac%e5%87%bd%e6%95%b0"></a>
+Python基本函数
+</h1><h2 id="print函数">
+<a class="header-anchor" href="#print%e5%87%bd%e6%95%b0"></a>
+print（）函数：
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">()</span><span class="c1">#括号内可以是变量，字符串，列表，元组等。</span>
+</span></span></code></pre></div><h4 id="例">
+<a class="header-anchor" href="#%e4%be%8b"></a>
+例：
+</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
+</span></span></code></pre></div><h4 id="输出效果">
+<a class="header-anchor" href="#%e8%be%93%e5%87%ba%e6%95%88%e6%9e%9c"></a>
+输出效果：
+</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Hello World!
+</span></span></code></pre></div><h2 id="input函数">
+<a class="header-anchor" href="#input%e5%87%bd%e6%95%b0"></a>
+input（）函数
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="c1">#input()函数必须与变量一起使用</span>
+</span></span></code></pre></div><p>$\color{Red}\mathrm{input()的扩号内可以放提示语，但是字符串必须在引号内。}$<br>
+$\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</p>
+        
+        <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
+      </description>
+      
+    </item>
+    
   </channel>
 </rss>

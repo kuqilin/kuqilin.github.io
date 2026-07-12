@@ -24,7 +24,7 @@
     <item>
       <title>2026年记</title>
       <link>https://kuqilin.github.io/post/2026%E5%B9%B4%E8%AE%B0/</link>
-      <pubDate>Sat, 11 Jul 2026 00:00:00 &#43;0000</pubDate>
+      <pubDate>Sat, 11 Jul 2026 09:33:28 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/2026%E5%B9%B4%E8%AE%B0/</guid>
       <description>
@@ -36,6 +36,83 @@
       </description>
       
         <category>年记</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>我去过的学校</title>
+      <link>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</guid>
+      <description>
+        <![CDATA[<h1>我去过的学校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="我去过的学校">
+<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e8%bf%87%e7%9a%84%e5%ad%a6%e6%a0%a1"></a>
+我去过的学校
+</h1><p>忽然觉得自己去过很多学校，便想着列个表格出来看看都去过哪些、去干嘛的：</p>
+<p>（排名不分前后，按记忆顺序）</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: center">去过的学校</th>
+					<th style="text-align: center">原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center">广州市第六中学</td>
+					<td style="text-align: center">CSP-J 复赛</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市铁一中学（越秀校区）</td>
+					<td style="text-align: center">CSP-J/S 初赛</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广东广雅中学（花都校区）</td>
+					<td style="text-align: center">上高中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市第八十九中学</td>
+					<td style="text-align: center">英才计划住宿</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市第二中学</td>
+					<td style="text-align: center">打比赛</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州大学附属中学（大学城校区）</td>
+					<td style="text-align: center">CSP-J/S比赛&amp;&amp;广大附教育集团环大学城拉练活动</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">北京师范大学附属中学广州实验学校（好像是这个名字）</td>
+					<td style="text-align: center">广州市青少年科技教育夏令营</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市增城区应元学校</td>
+					<td style="text-align: center">同上</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区花广金狮学校（原广州大学附属中学花都狮岭实验学校）</td>
+					<td style="text-align: center">上初中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区花广学校（原广州大学附属中学花都实验学校）</td>
+					<td style="text-align: center">参观&amp;&amp;密考（？）</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">广州市花都区广州大学附属中学紫兰学校</td>
+					<td style="text-align: center">打比赛</td>
+			</tr>
+	</tbody>
+</table>
+<!-- raw HTML omitted -->
+        
+        <hr><p>本文2025-02-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-12</p>]]>
+      </description>
       
     </item>
     
@@ -79,22 +156,19 @@
     
 
     <item>
-      <title>Markdown &amp; LaTeX 全量测试文档</title>
-      <link>https://kuqilin.github.io/post/fulltest/</link>
-      <pubDate>Sun, 25 Jan 2026 00:00:00 &#43;0000</pubDate>
+      <title>Hello World</title>
+      <link>https://kuqilin.github.io/post/hello/</link>
+      <pubDate>Sat, 11 Jul 2026 10:00:00 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/fulltest/</guid>
+      <guid>https://kuqilin.github.io/post/hello/</guid>
       <description>
-        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <h1 id="markdown--latex-全语法测试文档">
-<a class="header-anchor" href="#markdown--latex-%e5%85%a8%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3"></a>
-Markdown &amp; LaTeX 全语法测试文档
-</h1><p><strong>创建时间</strong>：2026年1月25日<br>
-<strong>说明</strong>：本文件包含Markdown基础/进阶语法、$\LaTeX$行内/块级公式、特殊符号、表格公式融合等全场景测试，可直接在支持$\LaTeX$的Markdown编辑器（Typora、VS Code+Markdown All in One、Notion等）中预览。
-::</p>
+          <p>💘 $\textrm{37 Thirtyseven}$ 💘</p>
+<p>泥嚎！这个博客终于搭好了！</p>
+<p>在此之前的文章都是以前写的！</p>
         
-        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-01-25</p>]]>
+        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-03-15</p>]]>
       </description>
       
     </item>
@@ -102,68 +176,17 @@ Markdown &amp; LaTeX 全语法测试文档
     
 
     <item>
-      <title>我去过的学校</title>
-      <link>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
+      <title>Markdown &amp; LaTeX 全量测试文档</title>
+      <link>https://kuqilin.github.io/post/fulltest/</link>
+      <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</guid>
+      <guid>https://kuqilin.github.io/post/fulltest/</guid>
       <description>
-        <![CDATA[<h1>我去过的学校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <h1 id="我去过的学校">
-<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e8%bf%87%e7%9a%84%e5%ad%a6%e6%a0%a1"></a>
-我去过的学校
-</h1><p>忽然觉得自己去过广州的很多学校，便想着列个表格出来看看都去过哪些、去干嘛的：</p>
-<p>（排名不分前后，按记忆顺序）</p>
-<table>
-	<thead>
-			<tr>
-					<th style="text-align: center">去过的学校</th>
-					<th style="text-align: center">原因</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td style="text-align: center">广东广雅中学（花都校区）</td>
-					<td style="text-align: center">上高中</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市第八十九中学</td>
-					<td style="text-align: center">英才计划住宿</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市第二中学</td>
-					<td style="text-align: center">打比赛</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州大学附属中学（大学城校区）</td>
-					<td style="text-align: center">CSP-J/S比赛&amp;&amp;广大附教育集团环大学城拉练活动</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">北京师范大学附属中学广州实验学校（好像是这个名字）</td>
-					<td style="text-align: center">广州市青少年科技教育夏令营</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市增城区应元学校</td>
-					<td style="text-align: center">同上</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市花都区花广金狮学校（原广州大学附属中学花都狮岭实验学校）</td>
-					<td style="text-align: center">上初中</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市花都区花广学校（原广州大学附属中学花都实验学校）</td>
-					<td style="text-align: center">参观&amp;&amp;密考（？）</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">广州市花都区广州大学附属中学紫兰学校</td>
-					<td style="text-align: center">打比赛</td>
-			</tr>
-	</tbody>
-</table>
-<!-- raw HTML omitted -->
+          Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
         
-        <hr><p>本文2025-02-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2025-02-22</p>]]>
+        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-01-25</p>]]>
       </description>
       
     </item>
@@ -296,24 +319,6 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</
     
 
     <item>
-      <title>Hello World</title>
-      <link>https://kuqilin.github.io/post/hello/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/hello/</guid>
-      <description>
-        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <p>💘 博麗 霊夢 💘</p>
-        
-        <hr><p>本文2023-03-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-03-15</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
       <title>Markdown语法</title>
       <link>https://kuqilin.github.io/post/markdown-grammar/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 &#43;0000</pubDate>
@@ -322,77 +327,7 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</
       <description>
         <![CDATA[<h1>Markdown语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <h1 id="markdown语法">
-<a class="header-anchor" href="#markdown%e8%af%ad%e6%b3%95"></a>
-Markdown语法
-</h1><p><del>要脸，别看（自己复习用）</del></p>
-<blockquote>
-<p>目录：</p>
-<ul>
-<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
-<li><a href="#%E6%A0%B7%E5%BC%8F">样式</a></li>
-<li><a href="#%E5%88%97%E8%A1%A8">列表</a></li>
-<li><a href="#%E9%93%BE%E6%8E%A5">链接</a></li>
-<li><a href="#%E4%BB%A3%E7%A0%81">代码</a></li>
-<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
-<li><a href="#%E6%B3%A8%E8%84%9A">注脚</a></li>
-<li><a href="#%E7%BC%A9%E5%86%99">缩写</a></li>
-<li><a href="#%E5%85%AC%E5%BC%8F">公式</a></li>
-</ul>
-</blockquote>
-<h2 id="标题">
-<a class="header-anchor" href="#%e6%a0%87%e9%a2%98"></a>
-标题
-</h2><p>标题分为六种标题：</p>
-<ul>
-<li>一级标题<code># 一级</code>：</li>
-</ul>
-<blockquote>
-<h1 id="一级">
-<a class="header-anchor" href="#%e4%b8%80%e7%ba%a7"></a>
-一级
-</h1></blockquote>
-<ul>
-<li>二级标题<code># 二级</code>：</li>
-</ul>
-<blockquote>
-<h2 id="二级">
-<a class="header-anchor" href="#%e4%ba%8c%e7%ba%a7"></a>
-二级
-</h2></blockquote>
-<ul>
-<li>三级标题<code># 三级</code>：</li>
-</ul>
-<blockquote>
-<h3 id="三级">
-<a class="header-anchor" href="#%e4%b8%89%e7%ba%a7"></a>
-三级
-</h3></blockquote>
-<ul>
-<li>四级标题<code># 四级</code>：</li>
-</ul>
-<blockquote>
-<h4 id="四级">
-<a class="header-anchor" href="#%e5%9b%9b%e7%ba%a7"></a>
-四级
-</h4></blockquote>
-<ul>
-<li>五级标题<code># 五级</code>：</li>
-</ul>
-<blockquote>
-<h5 id="五级">
-<a class="header-anchor" href="#%e4%ba%94%e7%ba%a7"></a>
-五级
-</h5></blockquote>
-<ul>
-<li>六级标题<code># 六级</code>：</li>
-</ul>
-<blockquote>
-<h6 id="六级">
-<a class="header-anchor" href="#%e5%85%ad%e7%ba%a7"></a>
-六级
-</h6></blockquote>
-<p><strong>级数越大，标题越小</strong>，与<em>HTML</em>中的<code>&lt;h1&gt;一级&lt;/h1&gt;</code> <code>&lt;h4&gt;四级&lt;/h4&gt;</code>等标题一致。</p>
+          一些 Markdown 语法
         
         <hr><p>本文2023-01-10首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-01-10</p>]]>
       </description>

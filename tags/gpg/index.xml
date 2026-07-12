@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPG on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/tags/gpg/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Mon, 15 Jan 2024 00:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/tags/gpg/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>我的GPG公钥</title>
+      <link>https://kuqilin.github.io/post/my-gpg/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/my-gpg/</guid>
+      <description>
+        <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="我的-gpg-公钥">
+<a class="header-anchor" href="#%e6%88%91%e7%9a%84-gpg-%e5%85%ac%e9%92%a5"></a>
+我的 GPG 公钥
+</h1><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">-----BEGIN PGP PUBLIC KEY BLOCK-----
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mQGNBGZtioMBDADgagzpdPuxpWsj6Dcz+kncL3tEotSktXP++IpT2iZwNKPgjs9i
+</span></span><span class="line"><span class="cl">RZAh7YhLlusjcnXk8aXjVoPkIETpbxyZ6HLoDxGcjj215ZqAfhtIVpYBxHsoB6Ih
+</span></span><span class="line"><span class="cl">JcEN/5aN1dmraQTOF8FEjUsgA7str+Qm8AYyfL2Nt9IfuVI2ytuNdP/kNmim3Gqb
+</span></span><span class="line"><span class="cl">gt5u2xrqU4kFhCc3BG2POzW3+BMXJQvf4b2IVZ83LpV4cUDljdI4Uu43L9pvsiV1
+</span></span><span class="line"><span class="cl">OVwWvKcWclPY/o79ldGi0aCUhuxkb7w+iwqn0jFJcFbAPe+oqaBMagI8mx1qn5y0
+</span></span><span class="line"><span class="cl">6TsK4buMVhVJ+W8VQNHl81SoReMAu2lYPMhewbY3nrQGV2pEE63fEUqx/+hUKT4E
+</span></span><span class="line"><span class="cl">tiimGfJLnDk1KdcIPZ7IL+Zv5ZYEW6iHAL6hhvRAYgYjGMmWskrCl6XBfFAiV4NT
+</span></span><span class="line"><span class="cl">bpfV7zeDro0FdUBa4r2g/nla/3AoqMvirjVUZTu6D85KtLuGtNNDs/GcvzGonq+J
+</span></span><span class="line"><span class="cl">k1xRBggtzBvVtbEAEQEAAbQXU25vb215IDxrdXFpbGluQDg4LmNvbT6JAdEEEwEI
+</span></span><span class="line"><span class="cl">ADsWIQQ5QGl3s2ulNqS/pHM6zrswf7K1FgUCZm2KgwIbAwULCQgHAgIiAgYVCgkI
+</span></span><span class="line"><span class="cl">CwIEFgIDAQIeBwIXgAAKCRA6zrswf7K1FsPjDADFyS7gagKDYcWwYCDyF3/Scayo
+</span></span><span class="line"><span class="cl">x9N2IGchI6u6QMD1Hb7EsXHps5UknP9oqs5ZSE7QWa9d0LHjjgMQtnLb1Ii7LG1X
+</span></span><span class="line"><span class="cl">mHobFlaA6otb3CaDB0tpzAf+gyPQB8T/SwVxe+oNhzedOmK4sJoEAxFsMCywrcrb
+</span></span><span class="line"><span class="cl">EMvoFvR3YMxiEv46bO+de9Crw9/hpWKLaF5cK1EmsYBHONl0sDPUeoZ1fAH4SUpY
+</span></span><span class="line"><span class="cl">PdR1v9LXkC8Ie7mTYHM3ELbUFvmAJBSYx55iAZnW3y4c8+xTDfYBe6R6N0pwXz7L
+</span></span><span class="line"><span class="cl">CjOB6VUQie7hx4/Mf5yQMQkIN+lC4eTcqesCcpfN8QmRsbSE42UFlIr/UXNe/BE5
+</span></span><span class="line"><span class="cl">7DIPYvQs7NwMR2Yqd/aTGZffCaeeOuu692+gb5Ir9jntBKMFuWbKSN07l/kajd88
+</span></span><span class="line"><span class="cl">WvQUNzp3oxDVDC2UemRZqscE3iZeiEtwMx2tBfUkgl6sVEdo8cOxVRmvja2KCeZ5
+</span></span><span class="line"><span class="cl">hP/uwzZA15anXN17oG8Kv8YjV920OJtaroNIo+e5AY0EZm2KgwEMAMLyaqYHW5xV
+</span></span><span class="line"><span class="cl">q9KXsU56V2I2Pq4qZ0bFhZNs3PuWkGwn7k3lCZ4mfGOUjChe5coUIbZ8JG9nyC5c
+</span></span><span class="line"><span class="cl">8Nrwzv5enmOwKYhfMG/PdogHsPPjqQoNJYM0HjyeRSgHXh3u8HrZuVGtdjdAZeyr
+</span></span><span class="line"><span class="cl">nqaYJhc7sI7zpFInL0c2gVxktPoIqCGcunzzDrhVYeUcon4/I0WzjIYI4ujvPjPo
+</span></span><span class="line"><span class="cl">K787DWWMKY3EYyIi4N0DP2fwAjU+3S4w+W2HzqSv2E2FI4ylQ5F1K8uI88INelyz
+</span></span><span class="line"><span class="cl">kr3nMonQAkDRd+d2Ep8sRgShbAP5B2gViHwRa8yvXAe+zA8+uG1q0g/6dhQtzbs6
+</span></span><span class="line"><span class="cl">XVy5kNxx+ihP+ETEckaFBlochXHTkWuwkYARvgDuwlapSYHqG8GcpHOWvknWFKty
+</span></span><span class="line"><span class="cl">Jafc8iM9LEBhgdzdASAwW/eHn4hu3U2Xg8B2AFPzfJkYqNa7YeUvIBc6kV08MDgy
+</span></span><span class="line"><span class="cl">HfAN8nGI/uX5EVUuH8HI7G2YhF9bREg/uYFPks94j0WpQ8vXYTH2+QARAQABiQG2
+</span></span><span class="line"><span class="cl">BBgBCAAgFiEEOUBpd7NrpTakv6RzOs67MH+ytRYFAmZtioMCGwwACgkQOs67MH+y
+</span></span><span class="line"><span class="cl">tRbPewwAhQUU+1zQ9x8VhYkhFyYpNAB/CTH4ZtNlItG98fNM/1XOG4hmyCYflJU9
+</span></span><span class="line"><span class="cl">ZNu785ZTuX8jKhByoo1poG9lq65fiHFJvvBtWIgkZW6qlPdgxI7k8KCrRyIril70
+</span></span><span class="line"><span class="cl">TBwicz3yw9tXD/jJpXK6LXguYdRwl6/gRCoLSlO9b6+yHZGoMNevKAHKda4wNkBE
+</span></span><span class="line"><span class="cl">pSiMzgKXx4E1m3d8e2B1GGnUL4VCmHMXMA7DYSPyuZ0nV0nd+zFb9lgj8qLBFR5n
+</span></span><span class="line"><span class="cl">ucv0k2LzEeVsbmLMmTFVCblQpPUzP2isyEcjG1iVirS3dDD1L9vFF0F58xzo2k7u
+</span></span><span class="line"><span class="cl">ZKrMOA/5On+4r8IKhe1mH/dtLPVQaJfHTZ2eo3nhWw4pVb0vvsqhBz+WZAl2K/xj
+</span></span><span class="line"><span class="cl">oiFSoNBX2syn8TLZlry7nAB77SkqGurq/wPrlDn4drUQlr2T883XYDFDMSKQlPMF
+</span></span><span class="line"><span class="cl">xmIl873hSbwZbAp2HzVyqEtH5TdNPXbIIXpI6OaYham3x9VPJkBXFkgNDxixtCcO
+</span></span><span class="line"><span class="cl">FtCN+Qdk
+</span></span><span class="line"><span class="cl">=ujsc
+</span></span><span class="line"><span class="cl">-----END PGP PUBLIC KEY BLOCK-----
+</span></span></code></pre></div><p>欢迎大家给我发消息，kuqilin@88.com</p>
+        
+        <hr><p>本文2024-01-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2024-01-15</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>
