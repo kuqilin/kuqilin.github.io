@@ -59,7 +59,7 @@
   <meta property="article:author" content="Kuqilin" />
   <meta property="article:published_time" content="2023-01-10T00:00:00&#43;00:00" />
   <meta property="article:modified_time" content="2023-01-10T00:00:00&#43;00:00" /><meta property="article:tag" content="Markdown" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://kuqilin.github.io/images/37-1-1.png" />
-<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.50a0096506020d06d5c4e17bc2fb0af6834006783fd36e86123184f16a51d16a.css" /><link
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.42a322c93ef16e321eb5cfbed4e4317446a2f9ab20cfea91e691bcfcb63603c6.css" /><link
     rel="preload"
     as="style"
     href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
@@ -616,7 +616,7 @@ Markdown语法
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap right"><img
-              data-src="https://t.alcy.cc/pc"
+              data-src="https://t.alcy.cc/bd"
               data-sizes="auto"
               alt="栈、队列和双端队列的Python实现"
               class="lazyload"
@@ -905,5 +905,35 @@ Markdown语法
     "color: white; background: #ff5252; padding:5px 0;",
     "padding:4px;border:1px solid #ff5252;",
   );
-</script></body>
+</script><script>
+(function () {
+  function markTall(img) {
+    if (!img.naturalWidth || !img.naturalHeight) return;
+    if (img.naturalHeight > img.naturalWidth) {
+      img.classList.add("tall");
+    } else {
+      img.classList.remove("tall");
+    }
+  }
+  function scan() {
+    document.querySelectorAll(".article-entry img").forEach(function (img) {
+      if (img.complete && img.naturalWidth) {
+        markTall(img);
+      } else {
+        img.addEventListener("load", function () { markTall(img); }, { once: true });
+      }
+    });
+  }
+  // 主题使用 lazysizes 懒加载，加载完成时派发 lazyloaded 事件
+  document.addEventListener("lazyloaded", function (e) {
+    if (e.target && e.target.matches(".article-entry img")) markTall(e.target);
+  });
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", scan);
+  } else {
+    scan();
+  }
+})();
+</script>
+</body>
 </html>
