@@ -12,12 +12,30 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Sun, 12 Jul 2026 17:29:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Jul 2026 23:39:27 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>20260712</title>
+      <link>https://kuqilin.github.io/post/20260712/</link>
+      <pubDate>Sun, 12 Jul 2026 23:39:27 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/20260712/</guid>
+      <description>
+        <![CDATA[<h1>20260712</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          Vibe Coding给博客的长图在宽屏下渲染为1/2，其他情况不变。本文是全对话，使用 Kimi Code 搭配 Deepseek-v4-pro 进行。
+        
+        <hr><p>本文2026-07-12首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-12</p>]]>
+      </description>
+      
+    </item>
     
     
 
@@ -321,24 +339,6 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</
       </description>
       
         <category>Python</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Markdown语法</title>
-      <link>https://kuqilin.github.io/post/markdown-grammar/</link>
-      <pubDate>Tue, 10 Jan 2023 00:00:00 &#43;0000</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/markdown-grammar/</guid>
-      <description>
-        <![CDATA[<h1>Markdown语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          一些 Markdown 语法
-        
-        <hr><p>本文2023-01-10首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-01-10</p>]]>
-      </description>
       
     </item>
     
