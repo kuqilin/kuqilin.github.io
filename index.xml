@@ -119,6 +119,26 @@
     
 
     <item>
+      <title>Hello World</title>
+      <link>https://kuqilin.github.io/post/hello/</link>
+      <pubDate>Sat, 11 Jul 2026 10:00:00 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/hello/</guid>
+      <description>
+        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>💘 $\textrm{37 Thirtyseven}$ 💘</p>
+<p>泥嚎！这个博客终于搭好了！</p>
+<p>在此之前的文章都是以前写的！</p>
+        
+        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-11</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
       <title>Hugo</title>
       <link>https://kuqilin.github.io/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 00:00:00 &#43;0000</pubDate>
@@ -149,26 +169,6 @@
 自从把 B 站的个性化推荐关掉之后，推给我的都是高质量视频，刷视频功能也没掉了，比起以前来个</p>
         
         <hr><p>本文2026-05-17首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-05-17</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Hello World</title>
-      <link>https://kuqilin.github.io/post/hello/</link>
-      <pubDate>Sat, 11 Jul 2026 10:00:00 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/hello/</guid>
-      <description>
-        <![CDATA[<h1>Hello World</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <p>💘 $\textrm{37 Thirtyseven}$ 💘</p>
-<p>泥嚎！这个博客终于搭好了！</p>
-<p>在此之前的文章都是以前写的！</p>
-        
-        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-03-15</p>]]>
       </description>
       
     </item>
