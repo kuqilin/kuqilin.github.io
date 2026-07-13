@@ -42,19 +42,50 @@
     
 
     <item>
-      <title>spoilerTest</title>
-      <link>https://kuqilin.github.io/post/spoilertest/</link>
+      <title>剧透测试（短代码）</title>
+      <link>https://kuqilin.github.io/post/spoilertest_shortcode/</link>
       <pubDate>Mon, 13 Jul 2026 11:47:55 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/spoilertest/</guid>
+      <guid>https://kuqilin.github.io/post/spoilertest_shortcode/</guid>
       <description>
-        <![CDATA[<h1>spoilerTest</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>剧透测试（短代码）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>这是一个<style>
 .spoiler { background: #222; color: #222; cursor: pointer; padding: 2px 6px; border-radius: 4px; transition: 0.2s; }
 .spoiler:hover, .spoiler:active { color: #fff; }
 </style>
 <span class="spoiler">剧透测试</span></p>
+        
+        <hr><p>本文2026-07-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-13</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>剧透测试（内置 CSS）</title>
+      <link>https://kuqilin.github.io/post/spoilertest_intercss/</link>
+      <pubDate>Mon, 13 Jul 2026 11:47:54 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/spoilertest_intercss/</guid>
+      <description>
+        <![CDATA[<h1>剧透测试（内置 CSS）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <style>
+ .spoiler {
+   background: #222;
+   color: #222;
+   cursor: pointer;
+   padding: 2px 6px;
+   border-radius: 4px;
+   transition: 0.2s;
+ }
+ .spoiler:hover, .spoiler:active {
+   color: #fff;
+ }
+ </style>
+<p>这是一个<span class="spoiler">剧透测试</span></p>
         
         <hr><p>本文2026-07-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-13</p>]]>
       </description>
@@ -250,33 +281,6 @@
       </description>
       
         <category>记录</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>栈、队列和双端队列的Python实现</title>
-      <link>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
-      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
-      <description>
-        <![CDATA[<h1>栈、队列和双端队列的Python实现</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <h1 id="栈队列和双端队列的python实现">
-<a class="header-anchor" href="#%e6%a0%88%e9%98%9f%e5%88%97%e5%92%8c%e5%8f%8c%e7%ab%af%e9%98%9f%e5%88%97%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
-栈、队列和双端队列的Python实现
-</h1><h2 id="栈的python实现">
-<a class="header-anchor" href="#%e6%a0%88%e7%9a%84python%e5%ae%9e%e7%8e%b0"></a>
-栈的Python实现
-</h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>(<em>Last In First Out</em>)。 <del>这种东西小学生都会。</del> 如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
-栈支持以下操作：</p>
-        
-        <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
-      </description>
-      
-        <category>Python</category>
       
     </item>
     
