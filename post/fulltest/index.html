@@ -58,7 +58,7 @@
   <meta property="og:image" content="https://kuqilin.github.io/images/37-1-1.png" />
   <meta property="article:author" content="Kuqilin" />
   <meta property="article:published_time" content="2026-01-25T14:45:32&#43;08:00" />
-  <meta property="article:modified_time" content="2026-07-12T17:29:21&#43;08:00" /><meta property="article:tag" content="Markdown, LaTeX" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://kuqilin.github.io/images/37-1-1.png" />
+  <meta property="article:modified_time" content="2026-07-13T16:15:16&#43;08:00" /><meta property="article:tag" content="Markdown, LaTeX" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://kuqilin.github.io/images/37-1-1.png" />
 <link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.42a322c93ef16e321eb5cfbed4e4317446a2f9ab20cfea91e691bcfcb63603c6.css" /><link
     rel="preload"
     as="style"
@@ -222,7 +222,7 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">14</div>
+    <div>文章</div><div class="sidebar-state-number">13</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
@@ -306,7 +306,7 @@
       >2026-01-25</time
     >
     <time style="display: none;" id="post-update-time"
-      >2026-07-12</time
+      >2026-07-13</time
     >
   </span></div>
 </div><div class="article-entry">
@@ -320,7 +320,7 @@
 <a class="header-anchor" href="#markdown--latex-%e5%85%a8%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3"></a>
 Markdown &amp; LaTeX 全语法测试文档
 </h1><p><strong>创建时间</strong>：2026年1月25日<br>
-<strong>说明</strong>：本文件包含Markdown基础/进阶语法、$\LaTeX$行内/块级公式、特殊符号、表格公式融合等全场景测试，可直接在支持$\LaTeX$的Markdown编辑器（Typora、VS Code+Markdown All in One、Notion等）中预览。
+<strong>说明</strong>：本文件包含Markdown基础/进阶语法、$\LaTeX$行内/块级公式、特殊符号、表格公式融合等全场景测试，可直接在支持$\LaTeX$的Markdown编辑器（Typora、VS Code+Markdown All in One、Notion、Obsidian等）中预览。
 ::</p>
 <h2 id="一markdown-基础语法测试">
 <a class="header-anchor" href="#%e4%b8%80markdown-%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95"></a>
@@ -473,10 +473,10 @@ Markdown &amp; LaTeX 全语法测试文档
 1.8 定义列表
 </h3><dl>
 <dt>Markdown</dt>
-<dd>一种轻量级标记语言，易读易写
-$\LaTeX$</dd>
-<dd>一种专业的排版系统，适用于数学公式、论文排版
-Markdown+$\LaTeX$</dd>
+<dd>一种轻量级标记语言，易读易写</dd>
+<dt>$\LaTeX$</dt>
+<dd>一种专业的排版系统，适用于数学公式、论文排版</dd>
+<dt>Markdown+$\LaTeX$</dt>
 <dd>结合轻量编辑与专业公式排版的高效组合</dd>
 </dl>
 <h2 id="二markdown-进阶语法测试">
@@ -581,10 +581,10 @@ Markdown+$\LaTeX$</dd>
 2.4 数学公式标记（LaTeX入口）
 </h3><p>行内公式：$E=mc^2$
 块级公式：
+</p>
 $$
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
-$$</p>
-<h2 id="三latex-语法全测试">
+$$<h2 id="三latex-语法全测试">
 <a class="header-anchor" href="#%e4%b8%89latex-%e8%af%ad%e6%b3%95%e5%85%a8%e6%b5%8b%e8%af%95"></a>
 三、LaTeX 语法全测试
 </h2><h3 id="31-行内公式基础">
@@ -598,172 +598,188 @@ $\frac{1}{2} + \frac{1}{3} = \frac{5}{6}$</p>
 <h3 id="32-块级公式基础">
 <a class="header-anchor" href="#32-%e5%9d%97%e7%ba%a7%e5%85%ac%e5%bc%8f%e5%9f%ba%e7%a1%80"></a>
 3.2 块级公式（基础）
-</h3><p>$$
+</h3>$$
 a^2 + 2ab + b^2 = (a + b)^2
-$$
+$$<p>
+</p>
 $$
 \lim_{x \to \infty} \frac{1}{x} = 0
-$$
+$$<p>
+</p>
 $$
 \int_{0}^{1} x^2 dx = \frac{1}{3}
-$$</p>
-<h3 id="33-代数数论公式">
+$$<h3 id="33-代数数论公式">
 <a class="header-anchor" href="#33-%e4%bb%a3%e6%95%b0%e6%95%b0%e8%ae%ba%e5%85%ac%e5%bc%8f"></a>
 3.3 代数/数论公式
-</h3><p>$$
-\forall x \in \mathbb{R}, \exists y \in \mathbb{N}, \text{s.t. } y &gt; x
-$$
+</h3>$$
+\forall x \in \mathbb{R}, \exists y \in \mathbb{N}, \text{s.t. } y > x
+$$<p>
+</p>
 $$
 a_n = a_1 + (n-1)d \quad (\text{等差数列通项})
-$$
+$$<p>
+</p>
 $$
 S_n = \frac{a_1(1-q^n)}{1-q} \quad (q \neq 1, \text{等比数列求和})
-$$
+$$<p>
+</p>
 $$
 \gcd(a,b) \times \text{lcm}(a,b) = |a \times b|
-$$</p>
-<h3 id="34-微积分公式">
+$$<h3 id="34-微积分公式">
 <a class="header-anchor" href="#34-%e5%be%ae%e7%a7%af%e5%88%86%e5%85%ac%e5%bc%8f"></a>
 3.4 微积分公式
-</h3><p>$$
+</h3>$$
 \frac{dy}{dx} = \lim_{\Delta x \to 0} \frac{f(x+\Delta x) - f(x)}{\Delta x}
+$$<p>
+</p>
 $$
-$$
-\int_{a}^{b} f&rsquo;(x) dx = f(b) - f(a) \quad (\text{牛顿-莱布尼茨公式})
-$$
+\int_{a}^{b} f'(x) dx = f(b) - f(a) \quad (\text{牛顿-莱布尼茨公式})
+$$<p>
+</p>
 $$
 \iint_{D} f(x,y) dxdy \quad (\text{二重积分})
-$$
+$$<p>
+</p>
 $$
 \oint_{C} Pdx + Qdy = \iint_{D} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dxdy \quad (\text{格林公式})
-$$</p>
-<h3 id="35-线性代数公式">
+$$<h3 id="35-线性代数公式">
 <a class="header-anchor" href="#35-%e7%ba%bf%e6%80%a7%e4%bb%a3%e6%95%b0%e5%85%ac%e5%bc%8f"></a>
 3.5 线性代数公式
-</h3><p>$$
+</h3>$$
 \mathbf{A} = \begin{pmatrix}
-a_{11} &amp; a_{12} &amp; \dots &amp; a_{1n} \
-a_{21} &amp; a_{22} &amp; \dots &amp; a_{2n} \
-\vdots &amp; \vdots &amp; \ddots &amp; \vdots \
-a_{m1} &amp; a_{m2} &amp; \dots &amp; a_{mn}
+a_{11} & a_{12} & \dots & a_{1n} \\
+a_{21} & a_{22} & \dots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \dots & a_{mn}
 \end{pmatrix}
-$$
+$$<p>
+</p>
 $$
 \det(\mathbf{A}) = \begin{vmatrix}
-1 &amp; 2 \
-3 &amp; 4
+1 & 2 \\
+3 & 4
 \end{vmatrix} = 1 \times 4 - 2 \times 3 = -2
-$$
+$$<p>
+</p>
 $$
 \mathbf{A} \mathbf{x} = \lambda \mathbf{x} \quad (\text{特征值方程})
-$$
+$$<p>
+</p>
 $$
 \text{rank}(\mathbf{A}) = \text{rank}(\mathbf{A}^T)
-$$</p>
-<h3 id="36-集合论公式">
+$$<h3 id="36-集合论公式">
 <a class="header-anchor" href="#36-%e9%9b%86%e5%90%88%e8%ae%ba%e5%85%ac%e5%bc%8f"></a>
 3.6 集合论公式
-</h3><p>$$
-A \cup B = {x \mid x \in A \lor x \in B}
+</h3>$$
+A \cup B = \{x \mid x \in A \lor x \in B\}
+$$<p>
+</p>
 $$
+A \cap B = \{x \mid x \in A \land x \in B\}
+$$<p>
+</p>
 $$
-A \cap B = {x \mid x \in A \land x \in B}
-$$
-$$
-A \setminus B = {x \mid x \in A \land x \notin B}
-$$
+A \setminus B = \{x \mid x \in A \land x \notin B\}
+$$<p>
+</p>
 $$
 \emptyset \subseteq A \subseteq U \quad (U \text{为全集})
-$$
+$$<p>
+</p>
 $$
 \bigcup_{i=1}^{n} A_i, \bigcap_{i=1}^{n} A_i
-$$</p>
-<h3 id="37-逻辑命题公式">
+$$<h3 id="37-逻辑命题公式">
 <a class="header-anchor" href="#37-%e9%80%bb%e8%be%91%e5%91%bd%e9%a2%98%e5%85%ac%e5%bc%8f"></a>
 3.7 逻辑/命题公式
-</h3><p>$$
+</h3>$$
 P \implies Q \quad (\text{蕴含})
-$$
+$$<p>
+</p>
 $$
 P \iff Q \quad (\text{等价})
-$$
+$$<p>
+</p>
 $$
 \neg P \quad (\text{非})
-$$
+$$<p>
+</p>
 $$
 P \lor Q \quad (\text{或}), \quad P \land Q \quad (\text{与})
-$$
+$$<p>
+</p>
 $$
 \exists x \in A, P(x) \quad (\text{存在量词}), \quad \forall x \in A, P(x) \quad (\text{全称量词})
-$$</p>
-<h3 id="38-几何公式">
+$$<h3 id="38-几何公式">
 <a class="header-anchor" href="#38-%e5%87%a0%e4%bd%95%e5%85%ac%e5%bc%8f"></a>
 3.8 几何公式
-</h3><p>$$
+</h3>$$
 V_{\text{球}} = \frac{4}{3} \pi R^3 \quad (\text{球的体积})
-$$
+$$<p>
+</p>
 $$
 S_{\text{圆台}} = \pi (r_1 + r_2) l + \pi r_1^2 + \pi r_2^2 \quad (\text{圆台表面积})
-$$
+$$<p>
+</p>
 $$
 \cos C = \frac{a^2 + b^2 - c^2}{2ab} \quad (\text{余弦定理})
-$$
+$$<p>
+</p>
 $$
 \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R \quad (\text{正弦定理})
-$$</p>
-<h3 id="39-特殊函数符号">
+$$<h3 id="39-特殊函数符号">
 <a class="header-anchor" href="#39-%e7%89%b9%e6%ae%8a%e5%87%bd%e6%95%b0%e7%ac%a6%e5%8f%b7"></a>
 3.9 特殊函数/符号
-</h3><p>$$
+</h3>$$
 \ln x, \log_a x, e^x, \exp(x)
-$$
+$$<p>
+</p>
 $$
 \alpha, \beta, \gamma, \delta, \epsilon, \pi, \theta, \lambda, \mu, \sigma, \omega
-$$
+$$<p>
+</p>
 $$
 \geq, \leq, \neq, \approx, \equiv, \propto, \in, \notin, \subseteq, \supseteq
-$$
+$$<p>
+</p>
 $$
 \sum, \prod, \lim, \int, \oint, \nabla, \Delta, \partial
-$$
+$$<p>
+</p>
 $$
 \vec{a}, \overrightarrow{AB}, \bar{x}, \hat{\theta}
-$$</p>
-<h3 id="310-多行公式对齐分段">
+$$<h3 id="310-多行公式对齐分段">
 <a class="header-anchor" href="#310-%e5%a4%9a%e8%a1%8c%e5%85%ac%e5%bc%8f%e5%af%b9%e9%bd%90%e5%88%86%e6%ae%b5"></a>
 3.10 多行公式（对齐/分段）
 </h3><h4 id="公式对齐align">
 <a class="header-anchor" href="#%e5%85%ac%e5%bc%8f%e5%af%b9%e9%bd%90align"></a>
 公式对齐（align）
-</h4><p>$$
+</h4>$$
 \begin{align*}
-f(x) &amp;= x^2 + 2x + 1 \
-&amp;= (x+1)^2 \
-g(x) &amp;= \sin x + \cos x \
-&amp;= \sqrt{2} \sin\left(x + \frac{\pi}{4}\right)
+f(x) &= x^2 + 2x + 1 \\
+&= (x+1)^2 \\
+g(x) &= \sin x + \cos x \\
+&= \sqrt{2} \sin\left(x + \frac{\pi}{4}\right)
 \end{align*}
-$$</p>
-<h4 id="分段函数cases">
+$$<h4 id="分段函数cases">
 <a class="header-anchor" href="#%e5%88%86%e6%ae%b5%e5%87%bd%e6%95%b0cases"></a>
 分段函数（cases）
-</h4><p>$$
+</h4>$$
 f(x) =
 \begin{cases}
-x, &amp; x &gt; 0 \
-0, &amp; x = 0 \
--x, &amp; x &lt; 0
+x, & x > 0 \\
+0, & x = 0 \\
+-x, & x < 0
 \end{cases}
-$$</p>
-<h3 id="311-公式标注">
+$$<h3 id="311-公式标注">
 <a class="header-anchor" href="#311-%e5%85%ac%e5%bc%8f%e6%a0%87%e6%b3%a8"></a>
 3.11 公式标注
-</h3><p>$$
+</h3>$$
 \sum_{i=1}^n i = \frac{n(n+1)}{2} \tag{1}
-$$
+$$<p>
+</p>
 $$
 E=mc^2 \quad \text{（质能方程）}
-$$</p>
-<h2 id="四markdown--latex-融合测试">
+$$<h2 id="四markdown--latex-融合测试">
 <a class="header-anchor" href="#%e5%9b%9bmarkdown--latex-%e8%9e%8d%e5%90%88%e6%b5%8b%e8%af%95"></a>
 四、Markdown + LaTeX 融合测试
 </h2><h3 id="41-表格内嵌入latex公式">
@@ -800,7 +816,7 @@ $$</p>
 4.2 列表内嵌入LaTeX公式
 </h3><ol>
 <li>三角函数基本关系：$\sin^2 x + \cos^2 x = 1$</li>
-<li>导数运算法则：$(uv)&rsquo; = u&rsquo;v + uv'$</li>
+<li>导数运算法则：$(uv)' = u'v + uv'$</li>
 <li>矩阵运算：$\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}$（交换律）</li>
 </ol>
 <h3 id="43-引用内嵌入latex公式">
@@ -822,8 +838,8 @@ $$</p>
 </h2><h3 id="51-转义字符">
 <a class="header-anchor" href="#51-%e8%bd%ac%e4%b9%89%e5%ad%97%e7%ac%a6"></a>
 5.1 转义字符
-</h3><p>Markdown转义：# * _ [ ] ( ) ~ ` ! |
-LaTeX转义：$ % &amp; # _ { }</p>
+</h3><p>Markdown转义：# * _ ~ ` ! |<br>
+LaTeX转义：$ \S \% \& \# \_ \{ \}$</p>
 <h3 id="52-混合嵌套">
 <a class="header-anchor" href="#52-%e6%b7%b7%e5%90%88%e5%b5%8c%e5%a5%97"></a>
 5.2 混合嵌套
@@ -838,16 +854,15 @@ LaTeX转义：$ % &amp; # _ { }</p>
 <h3 id="53-大篇幅公式矩阵求和">
 <a class="header-anchor" href="#53-%e5%a4%a7%e7%af%87%e5%b9%85%e5%85%ac%e5%bc%8f%e7%9f%a9%e9%98%b5%e6%b1%82%e5%92%8c"></a>
 5.3 大篇幅公式（矩阵+求和）
-</h3><p>$$
+</h3>$$
 \mathbf{M} = \sum_{k=1}^{n} \begin{bmatrix}
-\cos k\theta &amp; -\sin k\theta \
-\sin k\theta &amp; \cos k\theta
+\cos k\theta & -\sin k\theta \\
+\sin k\theta & \cos k\theta
 \end{bmatrix} = \frac{1}{2\sin(\frac{\theta}{2})} \begin{bmatrix}
-\sin(\frac{n\theta}{2})\cos(\frac{(n+1)\theta}{2}) &amp; -\sin(\frac{n\theta}{2})\sin(\frac{(n+1)\theta}{2}) \
-\sin(\frac{n\theta}{2})\sin(\frac{(n+1)\theta}{2}) &amp; \sin(\frac{n\theta}{2})\cos(\frac{(n+1)\theta}{2})
+\sin(\frac{n\theta}{2})\cos(\frac{(n+1)\theta}{2}) & -\sin(\frac{n\theta}{2})\sin(\frac{(n+1)\theta}{2}) \\
+\sin(\frac{n\theta}{2})\sin(\frac{(n+1)\theta}{2}) & \sin(\frac{n\theta}{2})\cos(\frac{(n+1)\theta}{2})
 \end{bmatrix}
-$$</p>
-<hr>
+$$<hr>
 <p><strong>文档结束</strong>：本文件覆盖Markdown所有主流语法（基础+进阶）、LaTeX核心公式场景（代数、微积分、线代、集合等）及二者融合用法，可作为Markdown/LaTeX语法速查与编辑器兼容性测试模板。</p>
 <p>我可以帮你将这份文档<strong>导出为纯.md文件</strong>，直接保存就能在任意Markdown编辑器中使用，需要吗？</p>
 <p>内容由 AI 生成</p>
@@ -865,7 +880,7 @@ $$</p>
 </div>
     <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>豆包</p><p>
       <strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://kuqilin.github.io/post/fulltest/">https://kuqilin.github.io/post/fulltest/</a>
-    </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>Markdown &amp; LaTeX 全量测试文档</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-01-25 14:45:32</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-07-12 17:29:21</p></blockquote>
+    </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>Markdown &amp; LaTeX 全量测试文档</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-01-25 14:45:32</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-07-13 16:15:16</p></blockquote>
 <div class="share-wrapper"><a href="https://twitter.com/intent/tweet?url=https://kuqilin.github.io/post/fulltest/&amp;text=Markdown%20&amp;%20LaTeX%20%e5%85%a8%e9%87%8f%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3&amp;via=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Markdown &amp; LaTeX 全量测试文档">
       <div class="share-icon icon icon-twitter"></div>
     </a><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://kuqilin.github.io/post/fulltest/&amp;title=Markdown%20&amp;%20LaTeX%20%e5%85%a8%e9%87%8f%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3&amp;desc=%e6%b5%8b%e8%af%95%e4%bd%a0%e7%9a%84%e7%bc%96%e8%be%91%e5%99%a8%e8%83%bd%e5%90%a6%e6%94%af%e6%8c%81%e8%bf%99%e4%ba%9b%e8%af%ad%e6%b3%95&amp;source=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Markdown &amp; LaTeX 全量测试文档">
@@ -892,7 +907,7 @@ $$</p>
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/pc"
+              data-src="https://t.alcy.cc/moe"
               data-sizes="auto"
               alt="我去过的学校"
               class="lazyload"
@@ -904,7 +919,7 @@ $$</p>
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">我去过的学校</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://t.alcy.cc/moe"
+              data-src="https://t.alcy.cc/pc"
               data-sizes="auto"
               alt="20260517"
               class="lazyload"
@@ -936,10 +951,10 @@ $$</p>
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;22.4k</span
+          >&nbsp;22.3k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:54</span>
+        <span class="icon-coffee">&nbsp;00:53</span>
       </div><div class="footer-beian">
         <img
           style="object-fit: contain;margin-right: 2px;"
@@ -1038,7 +1053,7 @@ $$</p>
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">14</div>
+    <div>文章</div><div class="sidebar-state-number">13</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
