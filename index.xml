@@ -50,11 +50,7 @@
       <description>
         <![CDATA[<h1>剧透测试（短代码）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>这是一个<style>
-.spoiler { background: #222; color: #222; cursor: pointer; padding: 2px 6px; border-radius: 4px; transition: 0.2s; }
-.spoiler:hover, .spoiler:active { color: #fff; }
-</style>
-<span class="spoiler">剧透测试</span></p>
+          <p>这是一个<span class="spoiler">剧透测试</span><link rel="preload" as="style" href="/css/spoiler.min.e30e5974b174fab0fd4aafad9ac326a20eddea688671d819fed21a8207c6a3d6.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
         
         <hr><p>本文2026-07-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-13</p>]]>
       </description>

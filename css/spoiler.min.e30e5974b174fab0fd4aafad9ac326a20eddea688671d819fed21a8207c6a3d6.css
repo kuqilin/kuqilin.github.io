@@ -1,0 +1,1 @@
+.spoiler{background:#666;color:#666;cursor:pointer;padding:2px 6px;border-radius:4px;transition:.2s}.spoiler:hover,.spoiler:active{color:#fff}[data-theme=dark] .spoiler{background:#555;color:#555}[data-theme=dark] .spoiler:hover,[data-theme=dark] .spoiler:active{color:#fff}
