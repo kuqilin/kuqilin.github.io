@@ -2,11 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kuqilin.github.io/post/20260712/</loc>
-    <lastmod>2026-07-12T23:39:27+08:00</lastmod>
-  </url><url>
     <loc>https://kuqilin.github.io/</loc>
     <lastmod>2026-09-13T23:59:59+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/post/spoilertest/</loc>
+    <lastmod>2026-07-13T11:47:55+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/post/20260712/</loc>
+    <lastmod>2026-07-12T23:39:27+08:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/tags/2026%E5%B9%B4/</loc>
     <lastmod>2026-09-13T23:59:59+08:00</lastmod>
