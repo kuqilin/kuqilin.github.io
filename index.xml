@@ -50,18 +50,7 @@
       <description>
         <![CDATA[<h1>数学测试</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-latex" data-lang="latex"><span class="line"><span class="cl"><span class="sb">$$</span><span class="nv">\begin</span><span class="nb">{aligned}
-</span></span></span><span class="line"><span class="cl"><span class="nb">a </span><span class="o">+</span><span class="nb"> b &amp;</span><span class="o">=</span><span class="nb"> c </span><span class="nv">\\</span><span class="nb">
-</span></span></span><span class="line"><span class="cl"><span class="nb">a </span><span class="o">-</span><span class="nb"> b &amp;</span><span class="o">=</span><span class="nb"> d </span><span class="nv">\\</span><span class="nb">
-</span></span></span><span class="line"><span class="cl"><span class="nb">a </span><span class="nv">\times</span><span class="nb"> b &amp;</span><span class="o">=</span><span class="nb"> e </span><span class="nv">\\</span><span class="nb">
-</span></span></span><span class="line"><span class="cl"><span class="nb">a </span><span class="nv">\div</span><span class="nb"> b &amp;</span><span class="o">=</span><span class="nb"> k
-</span></span></span><span class="line"><span class="cl"><span class="nv">\end</span><span class="nb">{aligned}</span><span class="s">$$</span>
-</span></span></code></pre></div><p>$$\begin{aligned}
-a + b &amp;= c \
-a - b &amp;= d \
-a \times b &amp;= e \
-a \div b &amp;= k
-\end{aligned}$$</p>
+          
         
         <hr><p>本文2026-07-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-13</p>]]>
       </description>
