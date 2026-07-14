@@ -58,7 +58,7 @@
   <meta property="og:image" content="https://kuqilin.github.io/images/37-1-1.png" />
   <meta property="article:author" content="Kuqilin" />
   <meta property="article:published_time" content="2026-01-25T14:45:32&#43;08:00" />
-  <meta property="article:modified_time" content="2026-07-13T16:15:16&#43;08:00" /><meta property="article:tag" content="Markdown, LaTeX" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://kuqilin.github.io/images/37-1-1.png" />
+  <meta property="article:modified_time" content="2026-07-14T18:40:16&#43;08:00" /><meta property="article:tag" content="Markdown, LaTeX" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://kuqilin.github.io/images/37-1-1.png" />
 <link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.42a322c93ef16e321eb5cfbed4e4317446a2f9ab20cfea91e691bcfcb63603c6.css" /><link
     rel="preload"
     as="style"
@@ -167,14 +167,16 @@
         <li><a href="#16-分割线">1.6 分割线</a></li>
         <li><a href="#17-脚注">1.7 脚注</a></li>
         <li><a href="#18-定义列表">1.8 定义列表</a></li>
+        <li><a href="#19-缩写abbr">1.9 缩写（ABBR）</a></li>
       </ul>
     </li>
     <li><a href="#二markdown-进阶语法测试">二、Markdown 进阶语法测试</a>
       <ul>
         <li><a href="#21-表格基础带格式带对齐">2.1 表格（基础/带格式/带对齐）</a></li>
-        <li><a href="#22-表情符号通用">2.2 表情符号（通用）</a></li>
+        <li><a href="#22-表情符号与-emoji">2.2 表情符号与 Emoji</a></li>
         <li><a href="#23-目录部分编辑器支持">2.3 目录（部分编辑器支持）</a></li>
-        <li><a href="#24-数学公式标记latex入口">2.4 数学公式标记（LaTeX入口）</a></li>
+        <li><a href="#24-数学公式标记latex-入口">2.4 数学公式标记（LaTeX 入口）</a></li>
+        <li><a href="#25-html-标签测试">2.5 HTML 标签测试</a></li>
       </ul>
     </li>
     <li><a href="#三latex-语法全测试">三、LaTeX 语法全测试</a>
@@ -187,17 +189,21 @@
         <li><a href="#36-集合论公式">3.6 集合论公式</a></li>
         <li><a href="#37-逻辑命题公式">3.7 逻辑/命题公式</a></li>
         <li><a href="#38-几何公式">3.8 几何公式</a></li>
-        <li><a href="#39-特殊函数符号">3.9 特殊函数/符号</a></li>
-        <li><a href="#310-多行公式对齐分段">3.10 多行公式（对齐/分段）</a></li>
-        <li><a href="#311-公式标注">3.11 公式标注</a></li>
+        <li><a href="#39-概率与统计">3.9 概率与统计</a></li>
+        <li><a href="#310-特殊函数符号">3.10 特殊函数/符号</a></li>
+        <li><a href="#311-多行公式对齐分段">3.11 多行公式（对齐/分段）</a></li>
+        <li><a href="#312-公式标注与编号">3.12 公式标注与编号</a></li>
+        <li><a href="#313-array-环境">3.13 array 环境</a></li>
+        <li><a href="#314-化学公式mhchem">3.14 化学公式（mhchem）</a></li>
       </ul>
     </li>
     <li><a href="#四markdown--latex-融合测试">四、Markdown + LaTeX 融合测试</a>
       <ul>
-        <li><a href="#41-表格内嵌入latex公式">4.1 表格内嵌入LaTeX公式</a></li>
-        <li><a href="#42-列表内嵌入latex公式">4.2 列表内嵌入LaTeX公式</a></li>
-        <li><a href="#43-引用内嵌入latex公式">4.3 引用内嵌入LaTeX公式</a></li>
-        <li><a href="#44-代码块旁注latex公式">4.4 代码块旁注LaTeX公式</a></li>
+        <li><a href="#41-表格内嵌入-latex-公式">4.1 表格内嵌入 LaTeX 公式</a></li>
+        <li><a href="#42-列表内嵌入-latex-公式">4.2 列表内嵌入 LaTeX 公式</a></li>
+        <li><a href="#43-引用内嵌入-latex-公式">4.3 引用内嵌入 LaTeX 公式</a></li>
+        <li><a href="#44-代码块旁注-latex-公式">4.4 代码块旁注 LaTeX 公式</a></li>
+        <li><a href="#45-任务列表嵌入公式">4.5 任务列表嵌入公式</a></li>
       </ul>
     </li>
     <li><a href="#五特殊场景测试">五、特殊场景测试</a>
@@ -205,6 +211,19 @@
         <li><a href="#51-转义字符">5.1 转义字符</a></li>
         <li><a href="#52-混合嵌套">5.2 混合嵌套</a></li>
         <li><a href="#53-大篇幅公式矩阵求和">5.3 大篇幅公式（矩阵+求和）</a></li>
+        <li><a href="#54-连续公式块">5.4 连续公式块</a></li>
+        <li><a href="#55-超长行内公式测试">5.5 超长行内公式测试</a></li>
+        <li><a href="#56-特殊-unicode-符号">5.6 特殊 Unicode 符号</a></li>
+        <li><a href="#57-水平线内嵌内容部分编辑器支持">5.7 水平线内嵌内容（部分编辑器支持）</a></li>
+      </ul>
+    </li>
+    <li><a href="#居中断面标题"><strong>居中断面标题</strong></a></li>
+    <li><a href="#六mermaid-图表测试">六、Mermaid 图表测试</a>
+      <ul>
+        <li><a href="#61-流程图">6.1 流程图</a></li>
+        <li><a href="#62-时序图">6.2 时序图</a></li>
+        <li><a href="#63-甘特图">6.3 甘特图</a></li>
+        <li><a href="#64-类图">6.4 类图</a></li>
       </ul>
     </li>
   </ul>
@@ -306,7 +325,7 @@
       >2026-01-25</time
     >
     <time style="display: none;" id="post-update-time"
-      >2026-07-13</time
+      >2026-07-14</time
     >
   </span></div>
 </div><div class="article-entry">
@@ -319,9 +338,8 @@
     </div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="markdown--latex-全语法测试文档">
 <a class="header-anchor" href="#markdown--latex-%e5%85%a8%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3"></a>
 Markdown &amp; LaTeX 全语法测试文档
-</h1><p><strong>创建时间</strong>：2026年1月25日<br>
-<strong>说明</strong>：本文件包含Markdown基础/进阶语法、$\LaTeX$行内/块级公式、特殊符号、表格公式融合等全场景测试，可直接在支持$\LaTeX$的Markdown编辑器（Typora、VS Code+Markdown All in One、Notion、Obsidian等）中预览。
-::</p>
+</h1><p><strong>说明</strong>：本文件包含 Markdown 基础/进阶语法、$\LaTeX$ 行内/块级公式、特殊符号、表格公式融合、HTML 标签、图表等全场景测试，可直接在支持 $\LaTeX$ 的 Markdown 编辑器（Typora、VS Code + Markdown All in One、Notion、Obsidian 等）中预览。</p>
+<hr>
 <h2 id="一markdown-基础语法测试">
 <a class="header-anchor" href="#%e4%b8%80markdown-%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95"></a>
 一、Markdown 基础语法测试
@@ -349,17 +367,25 @@ Markdown &amp; LaTeX 全语法测试文档
 </h6><h3 id="12-文本格式">
 <a class="header-anchor" href="#12-%e6%96%87%e6%9c%ac%e6%a0%bc%e5%bc%8f"></a>
 1.2 文本格式
-</h3><p><strong>粗体文本</strong>
-<em>斜体文本</em>
-<em><strong>粗斜体文本</strong></em>
-<del>删除线文本</del>
-<u>下划线文本</u></p>
+</h3><p><strong>粗体文本</strong><br>
+<em>斜体文本</em><br>
+<em><strong>粗斜体文本</strong></em><br>
+<del>删除线文本</del><br>
+<u>下划线文本</u><br>
+==高亮/标记文本==<br>
+H<del>2</del>O（下标）<br>
+X^2^（上标）<br>
+<code>行内代码</code><br>
+:emojicode:（Emoji 短码）</p>
 <blockquote>
 <p>引用文本</p>
 <blockquote>
 <p>嵌套引用文本</p>
 <blockquote>
 <p>三级嵌套引用</p>
+<blockquote>
+<p>四级嵌套引用（极限测试）</p>
+</blockquote>
 </blockquote>
 </blockquote>
 </blockquote>
@@ -372,7 +398,11 @@ Markdown &amp; LaTeX 全语法测试文档
 </h4><ul>
 <li>无序列表项1
 <ul>
-<li>嵌套无序列表项1-1</li>
+<li>嵌套无序列表项1-1
+<ul>
+<li>三级嵌套列表项1-1-1</li>
+</ul>
+</li>
 <li>嵌套无序列表项1-2</li>
 </ul>
 </li>
@@ -397,6 +427,23 @@ Markdown &amp; LaTeX 全语法测试文档
 <li>有序列表项2</li>
 <li>有序列表项3</li>
 </ol>
+<h4 id="混合嵌套列表">
+<a class="header-anchor" href="#%e6%b7%b7%e5%90%88%e5%b5%8c%e5%a5%97%e5%88%97%e8%a1%a8"></a>
+混合嵌套列表
+</h4><ol>
+<li>第一步
+<ul>
+<li>子任务A</li>
+<li>子任务B
+<ol>
+<li>子任务B-1</li>
+<li>子任务B-2</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>第二步</li>
+</ol>
 <h4 id="任务列表">
 <a class="header-anchor" href="#%e4%bb%bb%e5%8a%a1%e5%88%97%e8%a1%a8"></a>
 任务列表
@@ -404,6 +451,7 @@ Markdown &amp; LaTeX 全语法测试文档
 <li><input checked="" disabled="" type="checkbox"> 已完成任务</li>
 <li><input disabled="" type="checkbox"> 未完成任务</li>
 <li><input disabled="" type="checkbox"> 待跟进任务</li>
+<li><input checked="" disabled="" type="checkbox"> <del>已废弃的任务</del></li>
 </ul>
 <h3 id="14-链接与图片">
 <a class="header-anchor" href="#14-%e9%93%be%e6%8e%a5%e4%b8%8e%e5%9b%be%e7%89%87"></a>
@@ -411,9 +459,10 @@ Markdown &amp; LaTeX 全语法测试文档
 </h3><h4 id="超链接">
 <a class="header-anchor" href="#%e8%b6%85%e9%93%be%e6%8e%a5"></a>
 超链接
-</h4><p><a href="https://www.baidu.com" title="百度官网">普通超链接</a>
-<a href="#%E4%B8%80%E3%80%81Markdown-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95">锚点链接</a>
-<a href="mailto:test@example.com">mailto:test@example.com</a>（邮箱链接）
+</h4><p><a href="https://www.baidu.com" title="百度官网">普通超链接</a><br>
+<a href="#%E4%B8%80%E3%80%81Markdown-%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95">锚点链接</a><br>
+<a href="https://www.example.com" title="引用式链接示例">引用式链接</a><br>
+<a href="mailto:test@example.com">mailto:test@example.com</a>（邮箱链接）<br>
 <a href="https://www.github.com">https://www.github.com</a>（直接链接）</p>
 <h4 id="图片">
 <a class="header-anchor" href="#%e5%9b%be%e7%89%87"></a>
@@ -430,13 +479,20 @@ Markdown &amp; LaTeX 全语法测试文档
      referrerpolicy="no-referrer" 
      loading="lazy" /></p>
 </blockquote>
+<h4 id="图片链接">
+<a class="header-anchor" href="#%e5%9b%be%e7%89%87%e9%93%be%e6%8e%a5"></a>
+图片链接
+</h4><p><a href="https://www.google.com"><img src="https://picsum.photos/100/100" 
+     alt="图片链接" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></a></p>
 <h3 id="15-代码块">
 <a class="header-anchor" href="#15-%e4%bb%a3%e7%a0%81%e5%9d%97"></a>
 1.5 代码块
 </h3><h4 id="行内代码">
 <a class="header-anchor" href="#%e8%a1%8c%e5%86%85%e4%bb%a3%e7%a0%81"></a>
 行内代码
-</h4><p>行内代码示例：<code>print(&quot;Hello Markdown &amp; LaTeX&quot;)</code>、<code>sudo apt update</code></p>
+</h4><p>行内代码示例：<code>print(&quot;Hello Markdown &amp; LaTeX&quot;)</code>、<code>sudo apt update</code>、<code>const x = 42</code></p>
 <h4 id="块级代码带语法高亮">
 <a class="header-anchor" href="#%e5%9d%97%e7%ba%a7%e4%bb%a3%e7%a0%81%e5%b8%a6%e8%af%ad%e6%b3%95%e9%ab%98%e4%ba%ae"></a>
 块级代码（带语法高亮）
@@ -458,16 +514,44 @@ Markdown &amp; LaTeX 全语法测试文档
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Markdown测试<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>这是HTML代码片段<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
-</span></span></code></pre></div><h3 id="16-分割线">
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// JavaScript 代码测试
+</span></span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">fibonacci</span> <span class="o">=</span> <span class="p">(</span><span class="nx">n</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">n</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="k">return</span> <span class="nx">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">fibonacci</span><span class="p">(</span><span class="mi">10</span><span class="p">));</span> <span class="c1">// 55
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Markdown Test&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="s2">&#34;2.0.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;全量语法测试文档&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;features&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Markdown&#34;</span><span class="p">,</span> <span class="s2">&#34;LaTeX&#34;</span><span class="p">,</span> <span class="s2">&#34;HTML&#34;</span><span class="p">,</span> <span class="s2">&#34;Mermaid&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># YAML 配置测试</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">server</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"> </span><span class="l">localhost</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="m">8080</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">database</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">driver</span><span class="p">:</span><span class="w"> </span><span class="l">postgresql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">connection</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;host=localhost dbname=test&#34;</span><span class="w">
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="c1">-- SQL 查询测试
+</span></span></span><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="n">o</span><span class="p">.</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">order_count</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">FROM</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="n">u</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"> </span><span class="n">orders</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">user_id</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">name</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">HAVING</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="n">o</span><span class="p">.</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">5</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">order_count</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><h3 id="16-分割线">
 <a class="header-anchor" href="#16-%e5%88%86%e5%89%b2%e7%ba%bf"></a>
 1.6 分割线
 </h3><hr>
 <hr>
 <hr>
+<hr>
 <h3 id="17-脚注">
 <a class="header-anchor" href="#17-%e8%84%9a%e6%b3%a8"></a>
 1.7 脚注
-</h3><p>这是带脚注的文本<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，这是第二个脚注<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。</p>
+</h3><p>这是带脚注的文本<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，这是第二个脚注<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，这是第三个脚注<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。</p>
 <h3 id="18-定义列表">
 <a class="header-anchor" href="#18-%e5%ae%9a%e4%b9%89%e5%88%97%e8%a1%a8"></a>
 1.8 定义列表
@@ -478,7 +562,18 @@ Markdown &amp; LaTeX 全语法测试文档
 <dd>一种专业的排版系统，适用于数学公式、论文排版</dd>
 <dt>Markdown+$\LaTeX$</dt>
 <dd>结合轻量编辑与专业公式排版的高效组合</dd>
+<dt>Git</dt>
+<dd>分布式版本控制系统</dd>
+<dd>由 Linus Torvalds 创建</dd>
 </dl>
+<h3 id="19-缩写abbr">
+<a class="header-anchor" href="#19-%e7%bc%a9%e5%86%99abbr"></a>
+1.9 缩写（ABBR）
+</h3><p>*[HTML]: Hyper Text Markup Language
+*[CSS]: Cascading Style Sheets
+*[API]: Application Programming Interface</p>
+<p>HTML 和 CSS 是现代 Web 开发的基础，而 API 是前后端交互的桥梁。</p>
+<hr>
 <h2 id="二markdown-进阶语法测试">
 <a class="header-anchor" href="#%e4%ba%8cmarkdown-%e8%bf%9b%e9%98%b6%e8%af%ad%e6%b3%95%e6%b5%8b%e8%af%95"></a>
 二、Markdown 进阶语法测试
@@ -524,17 +619,22 @@ Markdown &amp; LaTeX 全语法测试文档
 			<tr>
 					<td>粗体</td>
 					<td><strong>Markdown</strong></td>
-					<td>粗体文本</td>
+					<td><strong>粗体文本</strong></td>
 			</tr>
 			<tr>
 					<td>斜体</td>
 					<td><em>LaTeX</em></td>
-					<td>斜体文本</td>
+					<td><em>斜体文本</em></td>
 			</tr>
 			<tr>
 					<td>行内代码</td>
 					<td><code>print()</code></td>
-					<td>行内代码</td>
+					<td><code>行内代码</code></td>
+			</tr>
+			<tr>
+					<td>删除线</td>
+					<td><del>废弃</del></td>
+					<td><del>删除文本</del></td>
 			</tr>
 	</tbody>
 </table>
@@ -556,92 +656,156 @@ Markdown &amp; LaTeX 全语法测试文档
 					<td style="text-align: right">内容3</td>
 			</tr>
 			<tr>
-					<td style="text-align: left">长文本左对齐</td>
-					<td style="text-align: center">长文本居中对齐</td>
+					<td style="text-align: left">长文本左对齐测试</td>
+					<td style="text-align: center">长文本居中对齐测试</td>
 					<td style="text-align: right">100</td>
 			</tr>
 			<tr>
-					<td style="text-align: left">更长的文本左对齐</td>
-					<td style="text-align: center">更长的文本居中对齐</td>
+					<td style="text-align: left">更长的文本左对齐测试内容</td>
+					<td style="text-align: center">更长的文本居中对齐测试内容</td>
 					<td style="text-align: right">99.9</td>
 			</tr>
 	</tbody>
 </table>
-<h3 id="22-表情符号通用">
-<a class="header-anchor" href="#22-%e8%a1%a8%e6%83%85%e7%ac%a6%e5%8f%b7%e9%80%9a%e7%94%a8"></a>
-2.2 表情符号（通用）
-</h3><p>😀 😎 📝 ✅ ⚠️ 📚 🔧 🎯
-:smile: :book: :code: :check: :warning:</p>
+<h4 id="空单元格与特殊内容表格">
+<a class="header-anchor" href="#%e7%a9%ba%e5%8d%95%e5%85%83%e6%a0%bc%e4%b8%8e%e7%89%b9%e6%ae%8a%e5%86%85%e5%ae%b9%e8%a1%a8%e6%a0%bc"></a>
+空单元格与特殊内容表格
+</h4><table>
+	<thead>
+			<tr>
+					<th style="text-align: left">项目</th>
+					<th style="text-align: left">值</th>
+					<th style="text-align: left">备注</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left">空值</td>
+					<td style="text-align: left"></td>
+					<td style="text-align: left">左侧为空</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"></td>
+					<td style="text-align: left">空键</td>
+					<td style="text-align: left">左侧为空</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">竖线测试</td>
+					<td style="text-align: left">`a</td>
+					<td style="text-align: left">b</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">HTML</td>
+					<td style="text-align: left"><kbd>Ctrl</kbd>+<kbd>C</kbd></td>
+					<td style="text-align: left">HTML 标签</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="22-表情符号与-emoji">
+<a class="header-anchor" href="#22-%e8%a1%a8%e6%83%85%e7%ac%a6%e5%8f%b7%e4%b8%8e-emoji"></a>
+2.2 表情符号与 Emoji
+</h3><p>😀 😎 📝 ✅ ⚠️ 📚 🔧 🎯 🚀 💡 🔥 ⭐ ❤️ 💻 🎉<br>
+:smile: :book: :rocket: :check: :warning: :bulb: :fire: :star:</p>
 <h3 id="23-目录部分编辑器支持">
 <a class="header-anchor" href="#23-%e7%9b%ae%e5%bd%95%e9%83%a8%e5%88%86%e7%bc%96%e8%be%91%e5%99%a8%e6%94%af%e6%8c%81"></a>
 2.3 目录（部分编辑器支持）
 </h3><p>[TOC]</p>
-<h3 id="24-数学公式标记latex入口">
-<a class="header-anchor" href="#24-%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8f%e6%a0%87%e8%ae%b0latex%e5%85%a5%e5%8f%a3"></a>
-2.4 数学公式标记（LaTeX入口）
-</h3><p>行内公式：$E=mc^2$
-块级公式：
+<h3 id="24-数学公式标记latex-入口">
+<a class="header-anchor" href="#24-%e6%95%b0%e5%ad%a6%e5%85%ac%e5%bc%8f%e6%a0%87%e8%ae%b0latex-%e5%85%a5%e5%8f%a3"></a>
+2.4 数学公式标记（LaTeX 入口）
+</h3><p>行内公式：$E=mc^2$</p>
+<p>块级公式：
 </p>
 $$
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
-$$<h2 id="三latex-语法全测试">
+$$<h3 id="25-html-标签测试">
+<a class="header-anchor" href="#25-html-%e6%a0%87%e7%ad%be%e6%b5%8b%e8%af%95"></a>
+2.5 HTML 标签测试
+</h3><h4 id="文本标签">
+<a class="header-anchor" href="#%e6%96%87%e6%9c%ac%e6%a0%87%e7%ad%be"></a>
+文本标签
+</h4><p><mark>高亮文本</mark><br>
+<ins>插入文本</ins><br>
+<del>删除文本</del><br>
+<sup>上标</sup> 和 <sub>下标</sub><br>
+<kbd>Ctrl</kbd> + <kbd>S</kbd><br>
+<abbr title="HyperText Markup Language">HTML</abbr></p>
+<h4 id="折叠详情块">
+<a class="header-anchor" href="#%e6%8a%98%e5%8f%a0%e8%af%a6%e6%83%85%e5%9d%97"></a>
+折叠/详情块
+</h4><details>
+<summary>点击展开详情</summary>
+<p>这里是折叠的内容，可以包含<strong>Markdown</strong>、公式 $E=mc^2$，甚至代码块。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello from details!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div></details>
+<details open>
+<summary>默认展开的详情块</summary>
+<p>此详情块默认展开。</p>
+</details>
+<h4 id="内联样式">
+<a class="header-anchor" href="#%e5%86%85%e8%81%94%e6%a0%b7%e5%bc%8f"></a>
+内联样式
+</h4><p style="color: red;">红色文字</p>
+<p style="text-align: center;">居中对齐文字</p>
+<hr>
+<h2 id="三latex-语法全测试">
 <a class="header-anchor" href="#%e4%b8%89latex-%e8%af%ad%e6%b3%95%e5%85%a8%e6%b5%8b%e8%af%95"></a>
 三、LaTeX 语法全测试
 </h2><h3 id="31-行内公式基础">
 <a class="header-anchor" href="#31-%e8%a1%8c%e5%86%85%e5%85%ac%e5%bc%8f%e5%9f%ba%e7%a1%80"></a>
 3.1 行内公式（基础）
-</h3><p>$a + b = c$
-$\sqrt{2} \approx 1.414$
-$\sin(\pi/2) = 1$
-$x^2 + y^2 = r^2$
-$\frac{1}{2} + \frac{1}{3} = \frac{5}{6}$</p>
+</h3><p>$a + b = c$<br>
+$\sqrt{2} \approx 1.414$<br>
+$\sin(\pi/2) = 1$<br>
+$x^2 + y^2 = r^2$<br>
+$\frac{1}{2} + \frac{1}{3} = \frac{5}{6}$<br>
+$\vec{F} = m\vec{a}$<br>
+$\overline{x} = \frac{1}{n}\sum_{i=1}^n x_i$</p>
 <h3 id="32-块级公式基础">
 <a class="header-anchor" href="#32-%e5%9d%97%e7%ba%a7%e5%85%ac%e5%bc%8f%e5%9f%ba%e7%a1%80"></a>
 3.2 块级公式（基础）
 </h3>$$
 a^2 + 2ab + b^2 = (a + b)^2
-$$<p>
-</p>
-$$
+$$$$
 \lim_{x \to \infty} \frac{1}{x} = 0
-$$<p>
-</p>
-$$
-\int_{0}^{1} x^2 dx = \frac{1}{3}
+$$$$
+\int_{0}^{1} x^2 \, dx = \frac{1}{3}
 $$<h3 id="33-代数数论公式">
 <a class="header-anchor" href="#33-%e4%bb%a3%e6%95%b0%e6%95%b0%e8%ae%ba%e5%85%ac%e5%bc%8f"></a>
 3.3 代数/数论公式
 </h3>$$
-\forall x \in \mathbb{R}, \exists y \in \mathbb{N}, \text{s.t. } y > x
-$$<p>
-</p>
-$$
+\forall x \in \mathbb{R}, \exists y \in \mathbb{N}, \text{ s.t. } y > x
+$$$$
 a_n = a_1 + (n-1)d \quad (\text{等差数列通项})
-$$<p>
-</p>
-$$
-S_n = \frac{a_1(1-q^n)}{1-q} \quad (q \neq 1, \text{等比数列求和})
-$$<p>
-</p>
-$$
-\gcd(a,b) \times \text{lcm}(a,b) = |a \times b|
+$$$$
+S_n = \frac{a_1(1-q^n)}{1-q} \quad (q \neq 1,\ \text{等比数列求和})
+$$$$
+\gcd(a,b) \times \operatorname{lcm}(a,b) = |a \times b|
+$$$$
+n! = \prod_{k=1}^{n} k \quad (\text{阶乘})
+$$$$
+\binom{n}{k} = \frac{n!}{k!(n-k)!} \quad (\text{二项式系数})
 $$<h3 id="34-微积分公式">
 <a class="header-anchor" href="#34-%e5%be%ae%e7%a7%af%e5%88%86%e5%85%ac%e5%bc%8f"></a>
 3.4 微积分公式
 </h3>$$
 \frac{dy}{dx} = \lim_{\Delta x \to 0} \frac{f(x+\Delta x) - f(x)}{\Delta x}
-$$<p>
-</p>
-$$
-\int_{a}^{b} f'(x) dx = f(b) - f(a) \quad (\text{牛顿-莱布尼茨公式})
-$$<p>
-</p>
-$$
-\iint_{D} f(x,y) dxdy \quad (\text{二重积分})
-$$<p>
-</p>
-$$
-\oint_{C} Pdx + Qdy = \iint_{D} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dxdy \quad (\text{格林公式})
+$$$$
+\int_{a}^{b} f'(x) \, dx = f(b) - f(a) \quad (\text{牛顿-莱布尼茨公式})
+$$$$
+\iint_{D} f(x,y) \, dx\,dy \quad (\text{二重积分})
+$$$$
+\iiint_{\Omega} f(x,y,z) \, dx\,dy\,dz \quad (\text{三重积分})
+$$$$
+\oint_{C} P\,dx + Q\,dy = \iint_{D} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dx\,dy \quad (\text{格林公式})
+$$$$
+\nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z} \quad (\text{散度})
+$$$$
+\nabla \times \mathbf{F} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+F_x & F_y & F_z
+\end{vmatrix} \quad (\text{旋度})
 $$<h3 id="35-线性代数公式">
 <a class="header-anchor" href="#35-%e7%ba%bf%e6%80%a7%e4%bb%a3%e6%95%b0%e5%85%ac%e5%bc%8f"></a>
 3.5 线性代数公式
@@ -652,144 +816,182 @@ a_{21} & a_{22} & \dots & a_{2n} \\
 \vdots & \vdots & \ddots & \vdots \\
 a_{m1} & a_{m2} & \dots & a_{mn}
 \end{pmatrix}
-$$<p>
-</p>
-$$
+$$$$
 \det(\mathbf{A}) = \begin{vmatrix}
 1 & 2 \\
 3 & 4
 \end{vmatrix} = 1 \times 4 - 2 \times 3 = -2
-$$<p>
-</p>
-$$
+$$$$
 \mathbf{A} \mathbf{x} = \lambda \mathbf{x} \quad (\text{特征值方程})
-$$<p>
-</p>
-$$
-\text{rank}(\mathbf{A}) = \text{rank}(\mathbf{A}^T)
+$$$$
+\operatorname{rank}(\mathbf{A}) = \operatorname{rank}(\mathbf{A}^T)
+$$$$
+\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})} \operatorname{adj}(\mathbf{A}) \quad (\text{逆矩阵})
+$$$$
+\| \mathbf{x} \|_2 = \sqrt{\sum_{i=1}^n x_i^2} \quad (\text{L2 范数})
 $$<h3 id="36-集合论公式">
 <a class="header-anchor" href="#36-%e9%9b%86%e5%90%88%e8%ae%ba%e5%85%ac%e5%bc%8f"></a>
 3.6 集合论公式
 </h3>$$
 A \cup B = \{x \mid x \in A \lor x \in B\}
-$$<p>
-</p>
-$$
+$$$$
 A \cap B = \{x \mid x \in A \land x \in B\}
-$$<p>
-</p>
-$$
+$$$$
 A \setminus B = \{x \mid x \in A \land x \notin B\}
-$$<p>
-</p>
-$$
-\emptyset \subseteq A \subseteq U \quad (U \text{为全集})
-$$<p>
-</p>
-$$
-\bigcup_{i=1}^{n} A_i, \bigcap_{i=1}^{n} A_i
+$$$$
+\emptyset \subseteq A \subseteq U \quad (U \text{ 为全集})
+$$$$
+\bigcup_{i=1}^{n} A_i,\quad \bigcap_{i=1}^{n} A_i
+$$$$
+|A \cup B| = |A| + |B| - |A \cap B| \quad (\text{容斥原理})
+$$$$
+\mathcal{P}(A) = \{B \mid B \subseteq A\} \quad (\text{幂集})
 $$<h3 id="37-逻辑命题公式">
 <a class="header-anchor" href="#37-%e9%80%bb%e8%be%91%e5%91%bd%e9%a2%98%e5%85%ac%e5%bc%8f"></a>
 3.7 逻辑/命题公式
 </h3>$$
 P \implies Q \quad (\text{蕴含})
-$$<p>
-</p>
-$$
+$$$$
 P \iff Q \quad (\text{等价})
-$$<p>
-</p>
-$$
+$$$$
 \neg P \quad (\text{非})
-$$<p>
-</p>
-$$
-P \lor Q \quad (\text{或}), \quad P \land Q \quad (\text{与})
-$$<p>
-</p>
-$$
-\exists x \in A, P(x) \quad (\text{存在量词}), \quad \forall x \in A, P(x) \quad (\text{全称量词})
+$$$$
+P \lor Q \quad (\text{或}),\quad P \land Q \quad (\text{与})
+$$$$
+\exists x \in A, P(x) \quad (\text{存在量词}),\quad \forall x \in A, P(x) \quad (\text{全称量词})
+$$$$
+\top \quad (\text{永真}),\quad \bot \quad (\text{永假})
 $$<h3 id="38-几何公式">
 <a class="header-anchor" href="#38-%e5%87%a0%e4%bd%95%e5%85%ac%e5%bc%8f"></a>
 3.8 几何公式
 </h3>$$
 V_{\text{球}} = \frac{4}{3} \pi R^3 \quad (\text{球的体积})
-$$<p>
-</p>
-$$
+$$$$
 S_{\text{圆台}} = \pi (r_1 + r_2) l + \pi r_1^2 + \pi r_2^2 \quad (\text{圆台表面积})
-$$<p>
-</p>
-$$
+$$$$
 \cos C = \frac{a^2 + b^2 - c^2}{2ab} \quad (\text{余弦定理})
-$$<p>
-</p>
-$$
+$$$$
 \frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R \quad (\text{正弦定理})
-$$<h3 id="39-特殊函数符号">
-<a class="header-anchor" href="#39-%e7%89%b9%e6%ae%8a%e5%87%bd%e6%95%b0%e7%ac%a6%e5%8f%b7"></a>
-3.9 特殊函数/符号
+$$$$
+d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2} \quad (\text{两点间距离})
+$$<h3 id="39-概率与统计">
+<a class="header-anchor" href="#39-%e6%a6%82%e7%8e%87%e4%b8%8e%e7%bb%9f%e8%ae%a1"></a>
+3.9 概率与统计
 </h3>$$
-\ln x, \log_a x, e^x, \exp(x)
-$$<p>
-</p>
-$$
-\alpha, \beta, \gamma, \delta, \epsilon, \pi, \theta, \lambda, \mu, \sigma, \omega
-$$<p>
-</p>
-$$
-\geq, \leq, \neq, \approx, \equiv, \propto, \in, \notin, \subseteq, \supseteq
-$$<p>
-</p>
-$$
-\sum, \prod, \lim, \int, \oint, \nabla, \Delta, \partial
-$$<p>
-</p>
-$$
-\vec{a}, \overrightarrow{AB}, \bar{x}, \hat{\theta}
-$$<h3 id="310-多行公式对齐分段">
-<a class="header-anchor" href="#310-%e5%a4%9a%e8%a1%8c%e5%85%ac%e5%bc%8f%e5%af%b9%e9%bd%90%e5%88%86%e6%ae%b5"></a>
-3.10 多行公式（对齐/分段）
+P(A|B) = \frac{P(B|A)P(A)}{P(B)} \quad (\text{贝叶斯定理})
+$$$$
+\mathbb{E}[X] = \sum_{i=1}^n x_i P(X=x_i) \quad (\text{期望})
+$$$$
+\operatorname{Var}(X) = \mathbb{E}[(X-\mu)^2] = \mathbb{E}[X^2] - \mu^2 \quad (\text{方差})
+$$$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \quad (\text{正态分布})
+$$<h3 id="310-特殊函数符号">
+<a class="header-anchor" href="#310-%e7%89%b9%e6%ae%8a%e5%87%bd%e6%95%b0%e7%ac%a6%e5%8f%b7"></a>
+3.10 特殊函数/符号
+</h3>$$
+\ln x,\ \log_a x,\ e^x,\ \exp(x)
+$$$$
+\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} \, dt \quad (\text{伽马函数})
+$$$$
+\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} \quad (\text{黎曼 Zeta 函数})
+$$<p><strong>希腊字母</strong>：<br>
+$\alpha,\ \beta,\ \gamma,\ \delta,\ \epsilon,\ \zeta,\ \eta,\ \theta,\ \iota,\ \kappa,\ \lambda,\ \mu,\ \nu,\ \xi,\ \pi,\ \rho,\ \sigma,\ \tau,\ \upsilon,\ \phi,\ \chi,\ \psi,\ \omega$</p>
+<p><strong>大写希腊字母</strong>：<br>
+$\Gamma,\ \Delta,\ \Theta,\ \Lambda,\ \Xi,\ \Pi,\ \Sigma,\ \Upsilon,\ \Phi,\ \Psi,\ \Omega$</p>
+<p><strong>关系符号</strong>：<br>
+$\geq,\ \leq,\ \neq,\ \approx,\ \equiv,\ \propto,\ \sim,\ \simeq,\ \gg,\ \ll$</p>
+<p><strong>集合符号</strong>：<br>
+$\in,\ \notin,\ \subseteq,\ \supseteq,\ \subset,\ \supset,\ \cap,\ \cup,\ \varnothing,\ \emptyset$</p>
+<p><strong>运算符</strong>：<br>
+$\sum,\ \prod,\ \lim,\ \int,\ \oint,\ \nabla,\ \Delta,\ \partial,\ \infty$</p>
+<p><strong>箭头</strong>：<br>
+$\to,\ \implies,\ \iff,\ \mapsto,\ \leftarrow,\ \rightarrow,\ \leftrightarrow,\ \uparrow,\ \downarrow,\ \Rightarrow,\ \Leftarrow,\ \Leftrightarrow$</p>
+<p><strong>修饰符号</strong>：<br>
+$\vec{a},\ \overrightarrow{AB},\ \bar{x},\ \hat{\theta},\ \tilde{x},\ \dot{x},\ \ddot{x},\ \widehat{ABC},\ \widetilde{xyz}$</p>
+<h3 id="311-多行公式对齐分段">
+<a class="header-anchor" href="#311-%e5%a4%9a%e8%a1%8c%e5%85%ac%e5%bc%8f%e5%af%b9%e9%bd%90%e5%88%86%e6%ae%b5"></a>
+3.11 多行公式（对齐/分段）
 </h3><h4 id="公式对齐align">
 <a class="header-anchor" href="#%e5%85%ac%e5%bc%8f%e5%af%b9%e9%bd%90align"></a>
 公式对齐（align）
 </h4>$$
 \begin{align*}
 f(x) &= x^2 + 2x + 1 \\
-&= (x+1)^2 \\
+     &= (x+1)^2 \\[4pt]
 g(x) &= \sin x + \cos x \\
-&= \sqrt{2} \sin\left(x + \frac{\pi}{4}\right)
+     &= \sqrt{2} \sin\left(x + \frac{\pi}{4}\right)
 \end{align*}
+$$<h4 id="多行公式gather">
+<a class="header-anchor" href="#%e5%a4%9a%e8%a1%8c%e5%85%ac%e5%bc%8fgather"></a>
+多行公式（gather）
+</h4>$$
+\begin{gather*}
+E = mc^2 \\
+a^2 + b^2 = c^2 \\
+e^{i\pi} + 1 = 0
+\end{gather*}
 $$<h4 id="分段函数cases">
 <a class="header-anchor" href="#%e5%88%86%e6%ae%b5%e5%87%bd%e6%95%b0cases"></a>
 分段函数（cases）
 </h4>$$
 f(x) =
 \begin{cases}
-x, & x > 0 \\
-0, & x = 0 \\
--x, & x < 0
+x,    & x > 0 \\
+0,    & x = 0 \\
+-x,   & x < 0
 \end{cases}
-$$<h3 id="311-公式标注">
-<a class="header-anchor" href="#311-%e5%85%ac%e5%bc%8f%e6%a0%87%e6%b3%a8"></a>
-3.11 公式标注
+$$<h4 id="多条件分段函数">
+<a class="header-anchor" href="#%e5%a4%9a%e6%9d%a1%e4%bb%b6%e5%88%86%e6%ae%b5%e5%87%bd%e6%95%b0"></a>
+多条件分段函数
+</h4>$$
+F(x) =
+\begin{cases}
+0,                         & x < a \\
+\frac{x-a}{b-a},           & a \leq x < b \\
+1,                         & x \geq b
+\end{cases}
+$$<h3 id="312-公式标注与编号">
+<a class="header-anchor" href="#312-%e5%85%ac%e5%bc%8f%e6%a0%87%e6%b3%a8%e4%b8%8e%e7%bc%96%e5%8f%b7"></a>
+3.12 公式标注与编号
 </h3>$$
 \sum_{i=1}^n i = \frac{n(n+1)}{2} \tag{1}
-$$<p>
-</p>
-$$
-E=mc^2 \quad \text{（质能方程）}
-$$<h2 id="四markdown--latex-融合测试">
+$$$$
+E=mc^2 \quad \text{（质能方程）} \tag{2}
+$$$$
+\boxed{a^2 + b^2 = c^2} \quad (\text{勾股定理，带框})
+$$<h3 id="313-array-环境">
+<a class="header-anchor" href="#313-array-%e7%8e%af%e5%a2%83"></a>
+3.13 array 环境
+</h3>$$
+\begin{array}{c|c|c}
+\text{函数} & \text{导数} & \text{积分} \\
+\hline
+x^n & nx^{n-1} & \frac{x^{n+1}}{n+1} + C \\
+\sin x & \cos x & -\cos x + C \\
+e^x & e^x & e^x + C \\
+\ln x & \frac{1}{x} & x\ln x - x + C
+\end{array}
+$$<h3 id="314-化学公式mhchem">
+<a class="header-anchor" href="#314-%e5%8c%96%e5%ad%a6%e5%85%ac%e5%bc%8fmhchem"></a>
+3.14 化学公式（mhchem）
+</h3>$$
+\ce{H2O <=> H+ + OH-}
+$$$$
+\ce{2H2 + O2 ->[\Delta] 2H2O}
+$$$$
+\ce{CO2 + C <=>[\text{高温}] 2CO}
+$$<hr>
+<h2 id="四markdown--latex-融合测试">
 <a class="header-anchor" href="#%e5%9b%9bmarkdown--latex-%e8%9e%8d%e5%90%88%e6%b5%8b%e8%af%95"></a>
 四、Markdown + LaTeX 融合测试
-</h2><h3 id="41-表格内嵌入latex公式">
-<a class="header-anchor" href="#41-%e8%a1%a8%e6%a0%bc%e5%86%85%e5%b5%8c%e5%85%a5latex%e5%85%ac%e5%bc%8f"></a>
-4.1 表格内嵌入LaTeX公式
+</h2><h3 id="41-表格内嵌入-latex-公式">
+<a class="header-anchor" href="#41-%e8%a1%a8%e6%a0%bc%e5%86%85%e5%b5%8c%e5%85%a5-latex-%e5%85%ac%e5%bc%8f"></a>
+4.1 表格内嵌入 LaTeX 公式
 </h3><table>
 	<thead>
 			<tr>
 					<th style="text-align: left">公式名称</th>
-					<th style="text-align: center">LaTeX公式</th>
+					<th style="text-align: center">LaTeX 公式</th>
 					<th style="text-align: left">说明</th>
 			</tr>
 	</thead>
@@ -801,55 +1003,84 @@ $$<h2 id="四markdown--latex-融合测试">
 			</tr>
 			<tr>
 					<td style="text-align: left">自然常数</td>
-					<td style="text-align: center">$\lim_{n \to \infty} (1+\frac{1}{n})^n = e$</td>
+					<td style="text-align: center">$\displaystyle\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n = e$</td>
 					<td style="text-align: left">数列极限定义</td>
 			</tr>
 			<tr>
 					<td style="text-align: left">高斯积分</td>
-					<td style="text-align: center">$\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$</td>
+					<td style="text-align: center">$\displaystyle\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$</td>
 					<td style="text-align: left">特殊定积分</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">欧拉公式</td>
+					<td style="text-align: center">$e^{i\theta} = \cos\theta + i\sin\theta$</td>
+					<td style="text-align: left">复指数与三角函数</td>
 			</tr>
 	</tbody>
 </table>
-<h3 id="42-列表内嵌入latex公式">
-<a class="header-anchor" href="#42-%e5%88%97%e8%a1%a8%e5%86%85%e5%b5%8c%e5%85%a5latex%e5%85%ac%e5%bc%8f"></a>
-4.2 列表内嵌入LaTeX公式
+<h3 id="42-列表内嵌入-latex-公式">
+<a class="header-anchor" href="#42-%e5%88%97%e8%a1%a8%e5%86%85%e5%b5%8c%e5%85%a5-latex-%e5%85%ac%e5%bc%8f"></a>
+4.2 列表内嵌入 LaTeX 公式
 </h3><ol>
 <li>三角函数基本关系：$\sin^2 x + \cos^2 x = 1$</li>
 <li>导数运算法则：$(uv)' = u'v + uv'$</li>
 <li>矩阵运算：$\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}$（交换律）</li>
+<li>积分中值定理：$\exists\ \xi \in [a,b],\ \int_a^b f(x)\,dx = f(\xi)(b-a)$</li>
 </ol>
-<h3 id="43-引用内嵌入latex公式">
-<a class="header-anchor" href="#43-%e5%bc%95%e7%94%a8%e5%86%85%e5%b5%8c%e5%85%a5latex%e5%85%ac%e5%bc%8f"></a>
-4.3 引用内嵌入LaTeX公式
+<h3 id="43-引用内嵌入-latex-公式">
+<a class="header-anchor" href="#43-%e5%bc%95%e7%94%a8%e5%86%85%e5%b5%8c%e5%85%a5-latex-%e5%85%ac%e5%bc%8f"></a>
+4.3 引用内嵌入 LaTeX 公式
 </h3><blockquote>
-<p>正如欧拉公式所示：$e^{i\pi} + 1 = 0$，该公式被称为“数学最美公式”，融合了指数、虚数、圆周率、1和0五大核心常数。</p>
+<p>正如欧拉公式所示：$e^{i\pi} + 1 = 0$，该公式被称为&quot;数学最美公式&quot;，融合了指数、虚数、圆周率、1 和 0 五大核心常数。</p>
 </blockquote>
-<h3 id="44-代码块旁注latex公式">
-<a class="header-anchor" href="#44-%e4%bb%a3%e7%a0%81%e5%9d%97%e6%97%81%e6%b3%a8latex%e5%85%ac%e5%bc%8f"></a>
-4.4 代码块旁注LaTeX公式
-</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 计算圆的面积 $S = \pi r^2$</span>
+<blockquote>
+<p><strong>泰勒展开</strong>：$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$ 是微积分中最重要的工具之一，它将函数展开为幂级数形式。</p>
+</blockquote>
+<h3 id="44-代码块旁注-latex-公式">
+<a class="header-anchor" href="#44-%e4%bb%a3%e7%a0%81%e5%9d%97%e6%97%81%e6%b3%a8-latex-%e5%85%ac%e5%bc%8f"></a>
+4.4 代码块旁注 LaTeX 公式
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 计算圆的面积 S = πr² ，对应公式 $S = \pi r^2$</span>
 </span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">math</span>
-</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">circle_area</span><span class="p">(</span><span class="n">r</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">circle_area</span><span class="p">(</span><span class="n">r</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;返回半径为 r 的圆面积&#34;&#34;&#34;</span>
 </span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span> <span class="o">**</span> <span class="mi">2</span>
-</span></span></code></pre></div><h2 id="五特殊场景测试">
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 验证：r=1 时，面积应等于 π</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">circle_area</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>  <span class="c1"># 3.141592653589793</span>
+</span></span></code></pre></div><h3 id="45-任务列表嵌入公式">
+<a class="header-anchor" href="#45-%e4%bb%bb%e5%8a%a1%e5%88%97%e8%a1%a8%e5%b5%8c%e5%85%a5%e5%85%ac%e5%bc%8f"></a>
+4.5 任务列表嵌入公式
+</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 证明 $\sqrt{2}$ 是无理数</li>
+<li><input disabled="" type="checkbox"> 推导 $\displaystyle\int_0^\infty \frac{\sin x}{x}\,dx = \frac{\pi}{2}$</li>
+<li><input disabled="" type="checkbox"> 验证 $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$</li>
+</ul>
+<hr>
+<h2 id="五特殊场景测试">
 <a class="header-anchor" href="#%e4%ba%94%e7%89%b9%e6%ae%8a%e5%9c%ba%e6%99%af%e6%b5%8b%e8%af%95"></a>
 五、特殊场景测试
 </h2><h3 id="51-转义字符">
 <a class="header-anchor" href="#51-%e8%bd%ac%e4%b9%89%e5%ad%97%e7%ac%a6"></a>
 5.1 转义字符
-</h3><p>Markdown转义：# * _ ~ ` ! |<br>
-LaTeX转义：$ \S \% \& \# \_ \{ \}$</p>
+</h3><p><strong>Markdown 转义</strong>：<br>
+<code>\#</code> <code>\*</code> <code>\_</code> <code>\~</code> <code>\</code> <code>\!</code> <code>\|</code> <code>\{</code> <code>\}</code> <code>\[</code> <code>\]</code> <code>\(</code> <code>\)</code></p>
+<p><strong>LaTeX 转义</strong>：<br>
+$\S\ \%\ \&\ \#\ \_\ \{\ \}\ \textbackslash$</p>
 <h3 id="52-混合嵌套">
 <a class="header-anchor" href="#52-%e6%b7%b7%e5%90%88%e5%b5%8c%e5%a5%97"></a>
 5.2 混合嵌套
 </h3><blockquote>
-<p><strong>嵌套1</strong>：$f(x) = \int_{0}^{x} \sin t dt = 1 - \cos x$</p>
+<p><strong>嵌套1</strong>：$f(x) = \displaystyle\int_{0}^{x} \sin t \, dt = 1 - \cos x$</p>
 <ul>
-<li>嵌套2：公式$\prod_{k=1}^n k = n!$ 为阶乘的乘积形式
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">嵌套3：行内代码与公式$x^3 - 3x + 1 = 0$
+<li>嵌套2：公式 $\displaystyle\prod_{k=1}^n k = n!$ 为阶乘的乘积形式
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">嵌套3：行内代码与公式 $x^3 - 3x + 1 = 0$
 </span></span></code></pre></div></li>
+<li>嵌套4：<code>行内代码</code></li>
 </ul>
+<blockquote>
+<p>嵌套5：双重引用内嵌公式 $\nabla^2 \phi = 0$</p>
+</blockquote>
 </blockquote>
 <h3 id="53-大篇幅公式矩阵求和">
 <a class="header-anchor" href="#53-%e5%a4%a7%e7%af%87%e5%b9%85%e5%85%ac%e5%bc%8f%e7%9f%a9%e9%98%b5%e6%b1%82%e5%92%8c"></a>
@@ -858,13 +1089,106 @@ LaTeX转义：$ \S \% \& \# \_ \{ \}$</p>
 \mathbf{M} = \sum_{k=1}^{n} \begin{bmatrix}
 \cos k\theta & -\sin k\theta \\
 \sin k\theta & \cos k\theta
-\end{bmatrix} = \frac{1}{2\sin(\frac{\theta}{2})} \begin{bmatrix}
-\sin(\frac{n\theta}{2})\cos(\frac{(n+1)\theta}{2}) & -\sin(\frac{n\theta}{2})\sin(\frac{(n+1)\theta}{2}) \\
-\sin(\frac{n\theta}{2})\sin(\frac{(n+1)\theta}{2}) & \sin(\frac{n\theta}{2})\cos(\frac{(n+1)\theta}{2})
 \end{bmatrix}
-$$<hr>
-<p><strong>文档结束</strong>：本文件覆盖Markdown所有主流语法（基础+进阶）、LaTeX核心公式场景（代数、微积分、线代、集合等）及二者融合用法，可作为Markdown/LaTeX语法速查与编辑器兼容性测试模板。</p>
-<p>我可以帮你将这份文档<strong>导出为纯.md文件</strong>，直接保存就能在任意Markdown编辑器中使用，需要吗？</p>
+= \frac{1}{2\sin\left(\frac{\theta}{2}\right)}
+\begin{bmatrix}
+\sin\left(\frac{n\theta}{2}\right)\cos\left(\frac{(n+1)\theta}{2}\right) &
+-\sin\left(\frac{n\theta}{2}\right)\sin\left(\frac{(n+1)\theta}{2}\right) \\[8pt]
+\sin\left(\frac{n\theta}{2}\right)\sin\left(\frac{(n+1)\theta}{2}\right) &
+\sin\left(\frac{n\theta}{2}\right)\cos\left(\frac{(n+1)\theta}{2}\right)
+\end{bmatrix}
+$$<h3 id="54-连续公式块">
+<a class="header-anchor" href="#54-%e8%bf%9e%e7%bb%ad%e5%85%ac%e5%bc%8f%e5%9d%97"></a>
+5.4 连续公式块
+</h3>$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$<p>
+</p>
+$$
+\Delta = b^2 - 4ac
+$$<p>
+</p>
+$$
+\text{若 }\Delta > 0,\text{ 则方程有两个不等实根}
+$$<h3 id="55-超长行内公式测试">
+<a class="header-anchor" href="#55-%e8%b6%85%e9%95%bf%e8%a1%8c%e5%86%85%e5%85%ac%e5%bc%8f%e6%b5%8b%e8%af%95"></a>
+5.5 超长行内公式测试
+</h3><p>这是一段包含超长行内公式的文本：$\displaystyle\oint_{\partial\Omega} \omega = \int_{\Omega} d\omega$，该公式被称为广义斯托克斯定理，是微分几何中的核心定理之一。它统一了格林公式、高斯公式和斯托克斯公式。</p>
+<h3 id="56-特殊-unicode-符号">
+<a class="header-anchor" href="#56-%e7%89%b9%e6%ae%8a-unicode-%e7%ac%a6%e5%8f%b7"></a>
+5.6 特殊 Unicode 符号
+</h3><p>数学符号：∀ ∃ ∄ ∅ ∞ ± ∓ × ÷ √ ∝ ∟ ∠ ∡ ∢ ∣ ∥<br>
+箭头：→ ← ↑ ↓ ↔ ↕ ⇒ ⇐ ⇔ ➔ ➤ ➜<br>
+分数：½ ⅓ ⅔ ¼ ¾ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞<br>
+其他：℃ ℉ № ℗ ™ © ® § ¶ † ‡ • … ‰ € £ ¥ ₹</p>
+<h3 id="57-水平线内嵌内容部分编辑器支持">
+<a class="header-anchor" href="#57-%e6%b0%b4%e5%b9%b3%e7%ba%bf%e5%86%85%e5%b5%8c%e5%86%85%e5%ae%b9%e9%83%a8%e5%88%86%e7%bc%96%e8%be%91%e5%99%a8%e6%94%af%e6%8c%81"></a>
+5.7 水平线内嵌内容（部分编辑器支持）
+</h3><p>以下是一个带标题的水平分割线：</p>
+<hr>
+<h2 id="居中断面标题">
+<a class="header-anchor" href="#%e5%b1%85%e4%b8%ad%e6%96%ad%e9%9d%a2%e6%a0%87%e9%a2%98"></a>
+<strong>居中断面标题</strong>
+</h2><h2 id="六mermaid-图表测试">
+<a class="header-anchor" href="#%e5%85%admermaid-%e5%9b%be%e8%a1%a8%e6%b5%8b%e8%af%95"></a>
+六、Mermaid 图表测试
+</h2><h3 id="61-流程图">
+<a class="header-anchor" href="#61-%e6%b5%81%e7%a8%8b%e5%9b%be"></a>
+6.1 流程图
+</h3><pre class="mermaid">
+  graph TD
+    A[开始] --> B{判断条件}
+    B -->|是| C[执行操作A]
+    B -->|否| D[执行操作B]
+    C --> E[结束]
+    D --> E
+</pre><h3 id="62-时序图">
+<a class="header-anchor" href="#62-%e6%97%b6%e5%ba%8f%e5%9b%be"></a>
+6.2 时序图
+</h3><pre class="mermaid">
+  sequenceDiagram
+    participant 客户端
+    participant 服务器
+    participant 数据库
+    客户端->>服务器: 发送请求
+    服务器->>数据库: 查询数据
+    数据库-->>服务器: 返回结果
+    服务器-->>客户端: 响应数据
+</pre><h3 id="63-甘特图">
+<a class="header-anchor" href="#63-%e7%94%98%e7%89%b9%e5%9b%be"></a>
+6.3 甘特图
+</h3><pre class="mermaid">
+  gantt
+    title 项目开发计划
+    dateFormat  YYYY-MM-DD
+    section 阶段一
+    需求分析    :a1, 2026-01-01, 7d
+    概要设计    :a2, after a1, 5d
+    section 阶段二
+    详细设计    :b1, after a2, 10d
+    编码实现    :b2, after b1, 20d
+    测试        :b3, after b2, 10d
+</pre><h3 id="64-类图">
+<a class="header-anchor" href="#64-%e7%b1%bb%e5%9b%be"></a>
+6.4 类图
+</h3><pre class="mermaid">
+  classDiagram
+    class Animal {
+        +String name
+        +int age
+        +eat() void
+        +sleep() void
+    }
+    class Dog {
+        +bark() void
+    }
+    class Cat {
+        +meow() void
+    }
+    Animal <|-- Dog
+    Animal <|-- Cat
+</pre><hr>
+<p><strong>文档结束</strong>：本文件覆盖 Markdown 所有主流语法（基础+进阶）、LaTeX 核心公式场景（代数、微积分、线代、概率、集合、几何、化学等）、HTML 标签、Mermaid 图表及二者/多者融合用法，可作为 Markdown/LaTeX 语法速查与编辑器兼容性测试模板。</p>
 <p>内容由 AI 生成</p>
 <div class="footnotes" role="doc-endnotes">
 <hr>
@@ -875,12 +1199,16 @@ $$<hr>
 <li id="fn:2">
 <p>第二个脚注的内容，可包含<strong>粗体</strong>、<em>斜体</em>甚至行内代码<code>code</code>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
+<li id="fn:3">
+<p>第三个脚注，支持多段落。</p>
+<p>这是脚注的第二段。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
 </ol>
 </div>
 </div>
-    <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>豆包</p><p>
+    <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Deepseek-V4-Pro</p><p>
       <strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://kuqilin.github.io/post/fulltest/">https://kuqilin.github.io/post/fulltest/</a>
-    </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>Markdown &amp; LaTeX 全量测试文档</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-01-25 14:45:32</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-07-13 16:15:16</p></blockquote>
+    </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>Markdown &amp; LaTeX 全量测试文档</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-01-25 14:45:32</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-07-14 18:40:16</p></blockquote>
 <div class="share-wrapper"><a href="https://twitter.com/intent/tweet?url=https://kuqilin.github.io/post/fulltest/&amp;text=Markdown%20&amp;%20LaTeX%20%e5%85%a8%e9%87%8f%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3&amp;via=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Markdown &amp; LaTeX 全量测试文档">
       <div class="share-icon icon icon-twitter"></div>
     </a><a href="https://connect.qq.com/widget/shareqq/index.html?url=https://kuqilin.github.io/post/fulltest/&amp;title=Markdown%20&amp;%20LaTeX%20%e5%85%a8%e9%87%8f%e6%b5%8b%e8%af%95%e6%96%87%e6%a1%a3&amp;desc=%e6%b5%8b%e8%af%95%e4%bd%a0%e7%9a%84%e7%bc%96%e8%be%91%e5%99%a8%e8%83%bd%e5%90%a6%e6%94%af%e6%8c%81%e8%bf%99%e4%ba%9b%e8%af%ad%e6%b3%95&amp;source=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Markdown &amp; LaTeX 全量测试文档">
@@ -919,7 +1247,7 @@ $$<hr>
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">我去过的学校</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
+              data-src="https://t.alcy.cc/pc"
               data-sizes="auto"
               alt="20260517"
               class="lazyload"
@@ -951,10 +1279,10 @@ $$<hr>
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;20.8k</span
+          >&nbsp;22.7k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;00:49</span>
+        <span class="icon-coffee">&nbsp;00:52</span>
       </div><div class="footer-beian">
         <img
           style="object-fit: contain;margin-right: 2px;"
@@ -1012,14 +1340,16 @@ $$<hr>
         <li><a href="#16-分割线">1.6 分割线</a></li>
         <li><a href="#17-脚注">1.7 脚注</a></li>
         <li><a href="#18-定义列表">1.8 定义列表</a></li>
+        <li><a href="#19-缩写abbr">1.9 缩写（ABBR）</a></li>
       </ul>
     </li>
     <li><a href="#二markdown-进阶语法测试">二、Markdown 进阶语法测试</a>
       <ul>
         <li><a href="#21-表格基础带格式带对齐">2.1 表格（基础/带格式/带对齐）</a></li>
-        <li><a href="#22-表情符号通用">2.2 表情符号（通用）</a></li>
+        <li><a href="#22-表情符号与-emoji">2.2 表情符号与 Emoji</a></li>
         <li><a href="#23-目录部分编辑器支持">2.3 目录（部分编辑器支持）</a></li>
-        <li><a href="#24-数学公式标记latex入口">2.4 数学公式标记（LaTeX入口）</a></li>
+        <li><a href="#24-数学公式标记latex-入口">2.4 数学公式标记（LaTeX 入口）</a></li>
+        <li><a href="#25-html-标签测试">2.5 HTML 标签测试</a></li>
       </ul>
     </li>
     <li><a href="#三latex-语法全测试">三、LaTeX 语法全测试</a>
@@ -1032,17 +1362,21 @@ $$<hr>
         <li><a href="#36-集合论公式">3.6 集合论公式</a></li>
         <li><a href="#37-逻辑命题公式">3.7 逻辑/命题公式</a></li>
         <li><a href="#38-几何公式">3.8 几何公式</a></li>
-        <li><a href="#39-特殊函数符号">3.9 特殊函数/符号</a></li>
-        <li><a href="#310-多行公式对齐分段">3.10 多行公式（对齐/分段）</a></li>
-        <li><a href="#311-公式标注">3.11 公式标注</a></li>
+        <li><a href="#39-概率与统计">3.9 概率与统计</a></li>
+        <li><a href="#310-特殊函数符号">3.10 特殊函数/符号</a></li>
+        <li><a href="#311-多行公式对齐分段">3.11 多行公式（对齐/分段）</a></li>
+        <li><a href="#312-公式标注与编号">3.12 公式标注与编号</a></li>
+        <li><a href="#313-array-环境">3.13 array 环境</a></li>
+        <li><a href="#314-化学公式mhchem">3.14 化学公式（mhchem）</a></li>
       </ul>
     </li>
     <li><a href="#四markdown--latex-融合测试">四、Markdown + LaTeX 融合测试</a>
       <ul>
-        <li><a href="#41-表格内嵌入latex公式">4.1 表格内嵌入LaTeX公式</a></li>
-        <li><a href="#42-列表内嵌入latex公式">4.2 列表内嵌入LaTeX公式</a></li>
-        <li><a href="#43-引用内嵌入latex公式">4.3 引用内嵌入LaTeX公式</a></li>
-        <li><a href="#44-代码块旁注latex公式">4.4 代码块旁注LaTeX公式</a></li>
+        <li><a href="#41-表格内嵌入-latex-公式">4.1 表格内嵌入 LaTeX 公式</a></li>
+        <li><a href="#42-列表内嵌入-latex-公式">4.2 列表内嵌入 LaTeX 公式</a></li>
+        <li><a href="#43-引用内嵌入-latex-公式">4.3 引用内嵌入 LaTeX 公式</a></li>
+        <li><a href="#44-代码块旁注-latex-公式">4.4 代码块旁注 LaTeX 公式</a></li>
+        <li><a href="#45-任务列表嵌入公式">4.5 任务列表嵌入公式</a></li>
       </ul>
     </li>
     <li><a href="#五特殊场景测试">五、特殊场景测试</a>
@@ -1050,6 +1384,19 @@ $$<hr>
         <li><a href="#51-转义字符">5.1 转义字符</a></li>
         <li><a href="#52-混合嵌套">5.2 混合嵌套</a></li>
         <li><a href="#53-大篇幅公式矩阵求和">5.3 大篇幅公式（矩阵+求和）</a></li>
+        <li><a href="#54-连续公式块">5.4 连续公式块</a></li>
+        <li><a href="#55-超长行内公式测试">5.5 超长行内公式测试</a></li>
+        <li><a href="#56-特殊-unicode-符号">5.6 特殊 Unicode 符号</a></li>
+        <li><a href="#57-水平线内嵌内容部分编辑器支持">5.7 水平线内嵌内容（部分编辑器支持）</a></li>
+      </ul>
+    </li>
+    <li><a href="#居中断面标题"><strong>居中断面标题</strong></a></li>
+    <li><a href="#六mermaid-图表测试">六、Mermaid 图表测试</a>
+      <ul>
+        <li><a href="#61-流程图">6.1 流程图</a></li>
+        <li><a href="#62-时序图">6.2 时序图</a></li>
+        <li><a href="#63-甘特图">6.3 甘特图</a></li>
+        <li><a href="#64-类图">6.4 类图</a></li>
       </ul>
     </li>
   </ul>
@@ -1186,12 +1533,111 @@ $$<hr>
 <div id="lazy-script">
   <div><script data-pjax>
         window.REIMU_POST = {
-          author: "豆包",
+          author: "Deepseek-V4-Pro",
           title: "Markdown \u0026 LaTeX 全量测试文档",
           url: "https:\/\/kuqilin.github.io\/post\/fulltest\/",
           description: "测试你的编辑器能否支持这些语法",
           cover: "https:\/\/kuqilin.github.io\/images\/37-1-1.png",
         };
+      </script><script
+    src="https://npm.webcache.cn/mermaid@11.12.0/dist/mermaid.min.js"
+    
+    
+    data-pjax
+    
+    integrity="sha384-o&#43;g/BxPwhi0C3RK7oQBxQuNimeafQ3GE/ST4iT2BxVI4Wzt60SH4pq9iXVYujjaS" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/dompurify@3.2.6/dist/purify.min.js"
+    
+    
+    data-pjax
+    
+    integrity="sha384-JEyTNhjM6R1ElGoJns4U2Ln4ofPcqzSsynQkmEc/KGy6336qAZl70tDLufbkla&#43;3" crossorigin="anonymous"></script><script data-pjax>
+        if (window.mermaid) {
+          
+          const elementCode = '.mermaid'
+          const processElements = (callback) => {
+            const els = _$$(elementCode);
+            if (!els.length) return Promise.resolve();
+            
+            return new Promise((resolve, reject) => {
+              try {
+                els.forEach(callback);
+                resolve();
+              } catch (error) {
+                reject(error);
+              }
+            });
+          };
+          const saveOriginalData = () => processElements(el => {
+            if (!el.getAttribute('data-original-code')) {
+              el.setAttribute('data-original-code', el.innerHTML);
+            }
+          });
+
+          const resetProcessed = () => processElements(el => {
+            const originalCode = el.getAttribute('data-original-code');
+            if (originalCode) {
+              el.removeAttribute('data-processed');
+              el.innerHTML = DOMPurify.sanitize(originalCode);
+            }
+          });
+          const loadMermaid = async (theme) => {
+            window.mermaid.initialize({theme, startOnLoad: false})
+            await window.mermaid.run({querySelector: elementCode, suppressErrors: true})
+            if (window.svgPanZoom) {
+              window.__panZoomList?.forEach(panZoom => {try {panZoom.destroy()} catch {}});
+              window.__panZoomList = [];
+              _$$('.mermaid > svg').forEach(el => {
+                const bbox = el.getBBox();
+                el.setAttribute('height', Math.max(bbox.height, 80));
+                window.__panZoomList.push(window.svgPanZoom(el, {
+                  zoomEnabled: true,
+                  controlIconsEnabled: true,
+                  fit: true,
+                  center: true
+                }));
+              });
+              if (window.__resizeMermaidSvg) {
+                window.removeEventListener('resize', window.__resizeMermaidSvg);
+              }
+              window.__resizeMermaidSvg = () => {
+                try {
+                  window.__panZoomList.forEach(panZoom => {
+                    panZoom.resize();
+                    panZoom.fit();
+                    panZoom.center();
+                  });
+                } catch {
+                  window.removeEventListener('resize', window.__resizeMermaidSvg);
+                  window.__panZoomList = [];
+                }
+              }
+              window.addEventListener('resize', window.__resizeMermaidSvg);
+            }
+          }
+          const initMermaid = async (theme) => {
+            try {
+              await saveOriginalData();
+              await resetProcessed();
+              await loadMermaid(theme);
+            } catch (error) {
+              console.error(error);
+            }
+          };
+          
+          document.body.addEventListener('reimu:theme-set', (e) => {
+            const isDark = e.detail.isDark;
+            initMermaid(isDark ? 'dark' : 'default');
+          });
+
+          const mode = localStorage.getItem('dark_mode');
+          if (mode === 'auto') {
+            const osMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            initMermaid(osMode ? 'dark' : 'default');
+          } else {
+            initMermaid(mode === 'true' ? 'dark' : 'default');
+          }
+        }
       </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax ></script><script src="/js/tabs.js" integrity="" crossorigin="anonymous" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
           if (_$$(`${gallery} ${children}`).length > 0) {
             new PhotoSwipeLightbox({
