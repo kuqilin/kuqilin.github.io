@@ -12,12 +12,32 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Tue, 14 Jul 2026 18:40:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 21:15:14 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>复刻 Telegram 的 AI 编辑器</title>
+      <link>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</link>
+      <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</guid>
+      <description>
+        <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          本文收集并整合了多个民间复刻版 Telegram Cocoon AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章分为两大部分：单一版本提供了 Formal（正式风）、Short（精简风）、Crop（企业风）、Zen（禅意风）、Biblical（仿古风）、Viking（维京风）、Tribal（部落风）以及 Emoji（表情化）共八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；整合版本则将所有风格合并为一个提示词，用户通过输入风格关键词即可在单一对话中切换不同文风进行改写。所有提示词中<code>{{input}}</code>为待处理文本的占位符，可直接替换使用。
+        
+        <hr><p>本文2026-07-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-15</p>]]>
+      </description>
+      
+        <category>AI</category>
+      
+    </item>
     
     
 
@@ -248,46 +268,6 @@
 栈的Python实现
 </h2><p>栈是元素的有序集合，添加操作与移除操作都发生在其顶端。栈的操作顺序是<strong>LIFO</strong>(<em>Last In First Out</em>)。 <del>这种东西小学生都会。</del> 如果不会请点击<a href="https://baike.baidu.com/item/%E6%A0%88/12808149">链接</a>查看。<br>
 栈支持以下操作：</p>
-        
-        <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
-      </description>
-      
-        <category>Python</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Python基本语法</title>
-      <link>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</link>
-      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</guid>
-      <description>
-        <![CDATA[<h1>Python基本语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <h1 id="python基本函数">
-<a class="header-anchor" href="#python%e5%9f%ba%e6%9c%ac%e5%87%bd%e6%95%b0"></a>
-Python基本函数
-</h1><h2 id="print函数">
-<a class="header-anchor" href="#print%e5%87%bd%e6%95%b0"></a>
-print（）函数：
-</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">()</span><span class="c1">#括号内可以是变量，字符串，列表，元组等。</span>
-</span></span></code></pre></div><h4 id="例">
-<a class="header-anchor" href="#%e4%be%8b"></a>
-例：
-</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Hello World!&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><h4 id="输出效果">
-<a class="header-anchor" href="#%e8%be%93%e5%87%ba%e6%95%88%e6%9e%9c"></a>
-输出效果：
-</h4><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Hello World!
-</span></span></code></pre></div><h2 id="input函数">
-<a class="header-anchor" href="#input%e5%87%bd%e6%95%b0"></a>
-input（）函数
-</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">a</span> <span class="o">=</span> <span class="nb">input</span><span class="p">()</span><span class="c1">#input()函数必须与变量一起使用</span>
-</span></span></code></pre></div><p>$\color{Red}\mathrm{input()的扩号内可以放提示语，但是字符串必须在引号内。}$<br>
-$\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$</p>
         
         <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
       </description>
