@@ -30,7 +30,7 @@
       <description>
         <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          本文收集并整合了多个民间复刻版 Telegram Cocoon AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章分为两大部分：单一版本提供了 Formal（正式风）、Short（精简风）、Crop（企业风）、Zen（禅意风）、Biblical（仿古风）、Viking（维京风）、Tribal（部落风）以及 Emoji（表情化）共八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；整合版本则将所有风格合并为一个提示词，用户通过输入风格关键词即可在单一对话中切换不同文风进行改写。所有提示词中<code>{{input}}</code>为待处理文本的占位符，可直接替换使用。
+          本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
         
         <hr><p>本文2026-07-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-15</p>]]>
       </description>
