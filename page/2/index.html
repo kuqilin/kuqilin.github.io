@@ -81,7 +81,7 @@
     integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
     rel="stylesheet"
     href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css"
-    integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous"/><meta name="referrer" content="no-referrer" /></head>
+    integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous"/></head>
   <body><div id='loader'>
     <div class="loading-left-bg loading-bg"></div>
     <div class="loading-right-bg loading-bg"></div>
@@ -477,7 +477,7 @@
         post-cover right
       "
     ><img
-            data-src="https://t.alcy.cc/moez"
+            data-src="https://t.alcy.cc/moe"
             data-sizes="auto"
             alt="20260517"
             class="lazyload"
@@ -523,7 +523,7 @@
         post-cover left
       "
     ><img
-            data-src="https://t.alcy.cc/moe"
+            data-src="https://imgapi.jinghuashang.cn/random"
             data-sizes="auto"
             alt="我去过的学校"
             class="lazyload"
@@ -569,7 +569,7 @@
         post-cover right
       "
     ><img
-            data-src="https://v2.xxapi.cn/api/randomAcgPic?type=pc&amp;return=302"
+            data-src="https://t.alcy.cc/moe"
             data-sizes="auto"
             alt="我的GPG公钥"
             class="lazyload"
@@ -613,7 +613,7 @@
         post-cover left
       "
     ><img
-            data-src="https://v2.xxapi.cn/api/randomAcgPic?type=pc&amp;return=302"
+            data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
             data-sizes="auto"
             alt="Python基本语法"
             class="lazyload"
@@ -924,6 +924,10 @@ $\color{Cyan}\mathrm{input()函数得到的变量类型是string（即str）}$
   }
   function scan() {
     document.querySelectorAll(".article-entry img").forEach(function (img) {
+      // 对B站图床的图片禁用Referer，绕过防盗链
+      if (/hdslb\.com/.test(img.src)) {
+        img.referrerPolicy = "no-referrer";
+      }
       if (img.complete && img.naturalWidth) {
         markTall(img);
       } else {

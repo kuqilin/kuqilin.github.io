@@ -80,7 +80,7 @@
     integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
     rel="stylesheet"
     href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css"
-    integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous"/><meta name="referrer" content="no-referrer" /></head>
+    integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous"/></head>
   <body><div id='loader'>
     <div class="loading-left-bg loading-bg"></div>
     <div class="loading-right-bg loading-bg"></div>
@@ -284,7 +284,7 @@
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">20260712</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://v2.xxapi.cn/api/randomAcgPic?type=pc&amp;return=302"
+              data-src="https://t.alcy.cc/ycy"
               data-sizes="auto"
               alt="复刻 Telegram 的 AI 编辑器"
               class="lazyload"
@@ -570,6 +570,10 @@
   }
   function scan() {
     document.querySelectorAll(".article-entry img").forEach(function (img) {
+      // 对B站图床的图片禁用Referer，绕过防盗链
+      if (/hdslb\.com/.test(img.src)) {
+        img.referrerPolicy = "no-referrer";
+      }
       if (img.complete && img.naturalWidth) {
         markTall(img);
       } else {
