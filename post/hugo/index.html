@@ -8,7 +8,7 @@
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 /><title>
-  Hugo | Kuqilin
+  Hugo 搭建个人博客 | Kuqilin
 </title>
 <meta name="description" content=""/><script>
   window.siteConfig = JSON.parse("{\"anchor\":{\"auto\":{\"enable\":false,\"length\":60},\"explicit\":{\"enable\":false,\"marker\":\"{#anchor-\",\"prefix\":\"anchor-\"}},\"anchor_icon\":null,\"base\":\"https://kuqilin.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":20},\"icon_font\":\"4552607_ex15nbittbh\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
@@ -45,7 +45,7 @@
     type="font/woff2"
     crossorigin="anonymous"
   /><link rel="stylesheet" href="/css/loader.min.14df05c02c63459533ffcbb5e07f8ba38b8a4eed13a1e5c3b19d3045491c4e2a.css" /><meta property="og:type" content="website" />
-  <meta property="og:title" content="Hugo | Kuqilin" />
+  <meta property="og:title" content="Hugo 搭建个人博客 | Kuqilin" />
   <meta
     property="og:description"
     content=""
@@ -58,7 +58,7 @@
   <meta property="og:image" content="https://kuqilin.github.io/images/banner.webp" />
   <meta property="article:author" content="Kuqilin" />
   <meta property="article:published_time" content="2026-07-11T23:17:12&#43;08:00" />
-  <meta property="article:modified_time" content="2026-07-11T23:17:12&#43;08:00" /><meta property="article:tag" content="记录, Hugo" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://kuqilin.github.io/images/banner.webp" />
+  <meta property="article:modified_time" content="2026-07-17T10:44:22&#43;08:00" /><meta property="article:tag" content="记录, Hugo" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://kuqilin.github.io/images/banner.webp" />
 <link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.c46cadac01ef7d59cc1bed701ea66f04e761b0db5769bec1989cac7fb4cbb753.css" /><link
     rel="preload"
     as="style"
@@ -134,9 +134,9 @@
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation"></nav></div>
 <header id="header" aria-label="Site header"><picture></picture>
-    <img crossorigin="anonymous" fetchpriority="high" src="/images/banner.webp" alt="Hugo"><div id="header-outer">
+    <img crossorigin="anonymous" fetchpriority="high" src="/images/banner.webp" alt="Hugo 搭建个人博客"><div id="header-outer">
     <div id="header-title"><span id="logo">
-            <h1 data-aos="slide-up">Hugo</h1>
+            <h1 data-aos="slide-up">Hugo 搭建个人博客</h1>
           </span><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
   </div>
 </header><div id="content"
@@ -150,9 +150,37 @@
 <div class="sidebar-toc-wrapper toc-div-class">
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#安装-hugo">安装 Hugo</a></li>
+    <li><a href="#安装-hugo">安装 Hugo</a>
+      <ul>
+        <li><a href="#windows">Windows</a></li>
+        <li><a href="#linux">Linux</a></li>
+      </ul>
+    </li>
     <li><a href="#创建项目">创建项目</a></li>
     <li><a href="#创建或安装主题">创建或安装主题</a></li>
+    <li><a href="#配置-hugo-theme-reimu">配置 hugo-theme-reimu</a>
+      <ul>
+        <li><a href="#基础站点配置hugotoml">基础站点配置（hugo.toml）</a></li>
+        <li><a href="#主题参数配置paramsyml">主题参数配置（params.yml）</a></li>
+        <li><a href="#其他内容">其他内容</a></li>
+      </ul>
+    </li>
+    <li><a href="#部署到-github-pages">部署到 GitHub Pages</a></li>
+    <li><a href="#方式一手动推送到-githubio">方式一：手动推送到 github.io</a>
+      <ul>
+        <li><a href="#1-克隆页面仓库">1. 克隆页面仓库</a></li>
+        <li><a href="#2-构建并推送">2. 构建并推送</a></li>
+        <li><a href="#3-写个脚本简化操作">3. 写个脚本简化操作</a></li>
+      </ul>
+    </li>
+    <li><a href="#方式二github-actions-自动部署">方式二：GitHub Actions 自动部署</a>
+      <ul>
+        <li><a href="#1-创建-personal-access-token">1. 创建 Personal Access Token</a></li>
+        <li><a href="#2-编写-workflow-文件">2. 编写 Workflow 文件</a></li>
+        <li><a href="#3-推送源码触发部署">3. 推送源码触发部署</a></li>
+        <li><a href="#两种方式对比">两种方式对比</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div></div>
@@ -228,14 +256,14 @@
       >2026-07-11</time
     >
     <time style="display: none;" id="post-update-time"
-      >2026-07-11</time
+      >2026-07-17</time
     >
   </span><span
       class="article-date-link icon-calendar-plus"
       data-aos="zoom-in"
     >
-      <time datetime="2026-07-11 23:17:12 &#43;0800 &#43;0800" itemprop="dateModified"
-        >2026-07-11</time
+      <time datetime="2026-07-17 10:44:22 &#43;0800 &#43;0800" itemprop="dateModified"
+        >2026-07-17</time
       >
     </span></div>
 </div><div class="article-entry">
@@ -245,10 +273,25 @@
       >
         <p>记录了我在 GitHub Pages 搭建 Hugo 的经历</p>
       </blockquote>
-    </div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h2 id="安装-hugo">
+    </div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody">
+  <blockquote class="alert-blockquote tip">
+    <p class="alert-heading">
+      Tip
+    </p>
+    <p><p>请务必先通读全文再进行操作，避免一些不必要的错误。</p></p>
+  </blockquote>
+
+<h2 id="安装-hugo">
 <a class="header-anchor" href="#%e5%ae%89%e8%a3%85-hugo"></a>
 安装 Hugo
-</h2><p>先安装 Hugo 的二进制文件，可以在官网上下载，也可以直接使用软件包管理器，考虑到<code>apt</code>更新极为缓慢，建议 Debian 系去官网下载<code>deb</code>包进行安装。</p>
+</h2><h3 id="windows">
+<a class="header-anchor" href="#windows"></a>
+Windows
+</h3><p>前往官网下载 Hugo 的<code>exe</code>文件，随便找个位置放，然后把他添加到环境变量中即可。</p>
+<h3 id="linux">
+<a class="header-anchor" href="#linux"></a>
+Linux
+</h3><p>先安装 Hugo 的二进制文件，可以在官网上下载，也可以直接使用软件包管理器，考虑到<code>apt</code>更新极为缓慢，建议 Debian 系去官网下载<code>deb</code>包进行安装。</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install hugo    <span class="c1"># Debian 系</span>
 </span></span><span class="line"><span class="cl">yay -S hugo              <span class="c1"># Arch 系</span>
 </span></span></code></pre></div><p>安装完成后，执行<code>hugo version</code>会看到类似如下的提示：</p>
@@ -277,14 +320,271 @@
 <h2 id="创建或安装主题">
 <a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e6%88%96%e5%ae%89%e8%a3%85%e4%b8%bb%e9%a2%98"></a>
 创建或安装主题
-</h2><p>显然，我们是可以自己创建主题的，但是为了<del>白嫖</del>方便，直接前往<a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a>下载一个称心的即可，这里选择了<a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">https://themes.gohugo.io/themes/hugo-theme-reimu/</a>这个主题，进入<code>Releases</code>进行下载，得到<code>zip</code>文件，解压到<code>myBlog/theme/</code>文件夹下，顺便把<code>hugo-theme-reimu-xxx</code>的版本号删除一下。对于<code>hugo-theme-reimu</code>主题的安装方法，请自行查看文档。</p>
+</h2><p>显然，我们是可以自己创建主题的，但是为了<del>白嫖</del>方便，直接前往 <a href="https://themes.gohugo.io/">Hugo Themes</a> 下载一个称心的即可，这里选择了 <a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">hugo-theme-reimu</a> 这个主题。</p>
+<p>主题安装有几种方式，推荐使用 Git Submodule：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> myBlog
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/D-Sketon/hugo-theme-reimu.git themes/hugo-theme-reimu
+</span></span></code></pre></div><p>也可以直接下载主题压缩包，解压到<code>themes</code>文件夹下。</p>
+<p>然后在 <code>hugo.toml</code> 中指定主题：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;hugo-theme-reimu&#34;</span>
+</span></span></code></pre></div><h2 id="配置-hugo-theme-reimu">
+<a class="header-anchor" href="#%e9%85%8d%e7%bd%ae-hugo-theme-reimu"></a>
+配置 hugo-theme-reimu
+</h2><p>主题的配置文件默认在 <code>themes/hugo-theme-reimu/config/_default/</code> 下。我们不应该直接修改主题文件，因为更新主题时会将其覆盖掉，所以应该在项目根目录的 <code>config/_default/</code> 下创建同名文件来覆盖。我们把<code>params.yml</code>（主题参数）复制即可。</p>
+<h3 id="基础站点配置hugotoml">
+<a class="header-anchor" href="#%e5%9f%ba%e7%a1%80%e7%ab%99%e7%82%b9%e9%85%8d%e7%bd%aehugotoml"></a>
+基础站点配置（hugo.toml）
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s1">&#39;https://&lt;你的用户名&gt;.github.io/&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;hugo-theme-reimu&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;xxx&#39;s Blog&#34;</span>       <span class="c"># 站点标题</span>
+</span></span><span class="line"><span class="cl"><span class="nx">locale</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>           <span class="c"># 语言</span>
+</span></span><span class="line"><span class="cl"><span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;简体中文&#34;</span>   <span class="c"># 语言名称</span>
+</span></span><span class="line"><span class="cl"><span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">true</span>      <span class="c"># 是否包含 CJK 字符</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">highlight</span><span class="p">]</span>         <span class="c"># 语法高亮（含代码块必须）</span>
+</span></span><span class="line"><span class="cl"><span class="nx">guessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">noClasses</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">extensions</span><span class="p">.</span><span class="nx">passthrough</span><span class="p">]</span> <span class="c"># 含数学公式必须</span>
+</span></span><span class="line"><span class="cl"><span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">delimiters</span><span class="p">.</span><span class="nx">block</span> <span class="p">=</span> <span class="p">[[</span><span class="s2">&#34;\\[&#34;</span><span class="p">,</span> <span class="s2">&#34;\\]&#34;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&#34;$$&#34;</span><span class="p">,</span> <span class="s2">&#34;$$&#34;</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">delimiters</span><span class="p">.</span><span class="nx">inline</span> <span class="p">=</span> <span class="p">[[</span><span class="s2">&#34;\\(&#34;</span><span class="p">,</span> <span class="s2">&#34;\\)&#34;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&#34;$&#34;</span><span class="p">,</span> <span class="s2">&#34;$&#34;</span><span class="p">]]</span>
+</span></span></code></pre></div><p><code>unsafe = true</code> 允许在 Markdown 中直接使用 HTML，<code>passthrough</code> 用于支持数学公式的 <code>$...$</code> 和 <code>$$...$$</code> 语法。</p>
+<h3 id="主题参数配置paramsyml">
+<a class="header-anchor" href="#%e4%b8%bb%e9%a2%98%e5%8f%82%e6%95%b0%e9%85%8d%e7%bd%aeparamsyml"></a>
+主题参数配置（params.yml）
+</h3><p>在 <code>config/_default/params.yml</code> 中配置主题的各项功能，这里介绍几个关键项：</p>
+<p><strong>导航菜单：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">home</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">archives</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;archives&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">about</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;about&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">friend</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;friend&#34;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>个人信息和头像：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">author</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;你的名字&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;你的邮箱&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;avatar.jpg&#34;</span><span class="w">           </span><span class="c"># 放在 static/avatar/ 下</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">banner</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;images/banner.webp&#34;</span><span class="w">   </span><span class="c"># 放在 static/images/ 下</span><span class="w">
+</span></span></span></code></pre></div><p><strong>社交链接：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">social</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="l">mailto:&lt;你的邮箱&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">github</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com/&lt;你的用户名&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">twitter</span><span class="p">:</span><span class="w"> </span><span class="l">https://twitter.com/&lt;你的用户名&gt;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>侧边栏和小组件：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">sidebar</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">position</span><span class="p">:</span><span class="w"> </span><span class="l">left </span><span class="w"> </span><span class="c"># 左右可选</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">widgets</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">category</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">tag</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">tagcloud</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">recent_posts</span><span class="w">
+</span></span></span></code></pre></div><p><strong>评论区（以 Waline 为例）：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">comment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l">waline</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">waline</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">serverURL</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&lt;你的 Waline 服务地址&gt;&#34;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>启用功能：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">toc</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">                </span><span class="c"># 目录</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">dark_mode</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="l">auto          </span><span class="w"> </span><span class="c"># 自动跟随系统</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">math</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">mathjax</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">         </span><span class="c"># 数学公式</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">show_update_time</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">   </span><span class="c"># 显示更新时间</span><span class="w">
+</span></span></span></code></pre></div><p>更多配置项（鼠标特效、Live2D、字体、加载动画等）请参考<a href="https://github.com/D-Sketon/hugo-theme-reimu">主题官方文档</a>。</p>
+<p>配置完成后，运行 <code>hugo server -D</code> 即可在本地预览 <code>http://localhost:1313</code>。</p>
+<h3 id="其他内容">
+<a class="header-anchor" href="#%e5%85%b6%e4%bb%96%e5%86%85%e5%ae%b9"></a>
+其他内容
+</h3><p>其他内容，比如更改鼠标指针、修改字体、文章头图、文章封面、网站主题色、短代码、友链等等，请查看<a href="https://github.com/D-Sketon/hugo-theme-reimu">官方文档</a>，这里不再赘述。<del>嘻嘻</del></p>
+<h2 id="部署到-github-pages">
+<a class="header-anchor" href="#%e9%83%a8%e7%bd%b2%e5%88%b0-github-pages"></a>
+部署到 GitHub Pages
+</h2><p>部署的核心思路是把 Hugo 构建生成的 <code>public/</code> 目录推送到 <code>&lt;用户名&gt;.github.io</code> 仓库。GitHub Pages 会自动将这个仓库的内容作为静态网站发布。</p>
+<p>也就是说，我们需要两个仓库：</p>
+<ul>
+<li><strong>源码仓库</strong>（如 <code>hugo-build</code>）：放 Hugo 项目源文件（Markdown、配置、主题等）</li>
+<li><strong>页面仓库</strong>（<code>&lt;用户名&gt;.github.io</code>）：只放 <code>public/</code> 里的静态文件</li>
+</ul>
+<p>下面分别介绍手动推送和 GitHub Actions 自动推送两种方式。</p>
+<h2 id="方式一手动推送到-githubio">
+<a class="header-anchor" href="#%e6%96%b9%e5%bc%8f%e4%b8%80%e6%89%8b%e5%8a%a8%e6%8e%a8%e9%80%81%e5%88%b0-githubio"></a>
+方式一：手动推送到 github.io
+</h2><p>最直接的方式——在本地执行 <code>hugo</code> 构建，然后把 <code>public/</code> 目录的内容推到页面仓库。</p>
+<h3 id="1-克隆页面仓库">
+<a class="header-anchor" href="#1-%e5%85%8b%e9%9a%86%e9%a1%b5%e9%9d%a2%e4%bb%93%e5%ba%93"></a>
+1. 克隆页面仓库
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/&lt;你的用户名&gt;/&lt;你的用户名&gt;.github.io.git public
+</span></span></code></pre></div><p>如果 <code>public/</code> 目录已存在（Hugo 构建会生成），先删掉再克隆。</p>
+<h3 id="2-构建并推送">
+<a class="header-anchor" href="#2-%e6%9e%84%e5%bb%ba%e5%b9%b6%e6%8e%a8%e9%80%81"></a>
+2. 构建并推送
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 回到源码仓库根目录，先构建</span>
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 进入 public 目录（此时它已经是页面仓库的克隆）</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 提交并推送</span>
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;update&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></div><p>每次更新博客时，重复上面几步即可。</p>
+<h3 id="3-写个脚本简化操作">
+<a class="header-anchor" href="#3-%e5%86%99%e4%b8%aa%e8%84%9a%e6%9c%ac%e7%ae%80%e5%8c%96%e6%93%8d%e4%bd%9c"></a>
+3. 写个脚本简化操作
+</h3><p>可以把以上步骤写成一个脚本 <code>deploy.sh</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Building...&#34;</span>
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Deploying...&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;update </span><span class="k">$(</span>date <span class="s1">&#39;+%Y-%m-%d %H:%M:%S&#39;</span><span class="k">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Done!&#34;</span>
+</span></span></code></pre></div><p>以后只需运行 <code>bash deploy.sh</code> 就完成构建和部署了。</p>
+<p>这种方式的优点是不依赖任何第三方 CI 服务，简单直接；缺点是需要手动执行，并且要保证本地 Hugo 环境正常。</p>
+<h2 id="方式二github-actions-自动部署">
+<a class="header-anchor" href="#%e6%96%b9%e5%bc%8f%e4%ba%8cgithub-actions-%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2"></a>
+方式二：GitHub Actions 自动部署
+</h2><p>懒人必备——每次把源码推到 GitHub，剩下的构建和部署全交给 Actions 自动完成。</p>
+<h3 id="1-创建-personal-access-token">
+<a class="header-anchor" href="#1-%e5%88%9b%e5%bb%ba-personal-access-token"></a>
+1. 创建 Personal Access Token
+</h3><p>为了让 Actions 能够向页面仓库推送代码，需要一个 Token：</p>
+<ol>
+<li>GitHub → Settings → Developer settings → Personal access tokens → Tokens(classic)</li>
+<li>生成新 Token，勾选 <code>repo</code> 和 <code>workflow</code> 权限</li>
+<li>复制生成的 Token（注意：此 Token <strong>只显示一次</strong>，务必保存好）</li>
+</ol>
+<p>然后在<strong>源码仓库</strong>的 Settings → Secrets and variables → Actions 中新建一个 Secret，名称为 <code>TOKEN</code>，填入刚才复制的 Token。</p>
+<h3 id="2-编写-workflow-文件">
+<a class="header-anchor" href="#2-%e7%bc%96%e5%86%99-workflow-%e6%96%87%e4%bb%b6"></a>
+2. 编写 Workflow 文件
+</h3><p>在源码仓库根目录创建 <code>.github/workflows/hugo.yaml</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">       </span><span class="c"># 如果主题用 git submodule 安装，需要这行</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">extended</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PERSONAL_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.TOKEN }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">EXTERNAL_REPOSITORY</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;你的用户名&gt;/&lt;你的用户名&gt;.github.io</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">auto deploy</span><span class="w">
+</span></span></span></code></pre></div><p>各步骤说明：</p>
+<table>
+	<thead>
+			<tr>
+					<th>步骤</th>
+					<th>作用</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>actions/checkout@v4</code></td>
+					<td>拉取源码，<code>submodules: true</code> 同时拉取主题子模块</td>
+			</tr>
+			<tr>
+					<td><code>peaceiris/actions-hugo@v3</code></td>
+					<td>安装 Hugo 环境（extended 版支持 SCSS）</td>
+			</tr>
+			<tr>
+					<td><code>hugo</code></td>
+					<td>构建站点，生成 <code>public/</code> 目录</td>
+			</tr>
+			<tr>
+					<td><code>peaceiris/actions-gh-pages@v4</code></td>
+					<td>将 <code>public/</code> 推送到页面仓库</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="3-推送源码触发部署">
+<a class="header-anchor" href="#3-%e6%8e%a8%e9%80%81%e6%ba%90%e7%a0%81%e8%a7%a6%e5%8f%91%e9%83%a8%e7%bd%b2"></a>
+3. 推送源码触发部署
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;new post&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></div><p>每次 <code>push</code> 到 <code>main</code> 分支后，GitHub Actions 就会自动运行。可以在源码仓库的 Actions 标签页查看构建进度，绿色 ✅ 即为部署成功，随后访问 <code>https://&lt;你的用户名&gt;.github.io/</code> 就能看到更新后的博客。</p>
+<h3 id="两种方式对比">
+<a class="header-anchor" href="#%e4%b8%a4%e7%a7%8d%e6%96%b9%e5%bc%8f%e5%af%b9%e6%af%94"></a>
+两种方式对比
+</h3><table>
+	<thead>
+			<tr>
+					<th></th>
+					<th>手动推送</th>
+					<th>GitHub Actions</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>操作</td>
+					<td>本地跑 <code>hugo</code> + 手动 push</td>
+					<td>只需 <code>git push</code> 源码</td>
+			</tr>
+			<tr>
+					<td>依赖</td>
+					<td>本地需安装 Hugo</td>
+					<td>无需本地环境</td>
+			</tr>
+			<tr>
+					<td>适用场景</td>
+					<td>临时更新、不方便配 Actions</td>
+					<td>日常写博客，自动化最省心</td>
+			</tr>
+			<tr>
+					<td>复杂度</td>
+					<td>⭐ 简单</td>
+					<td>⭐⭐ 需配一次 Token 和 yaml</td>
+			</tr>
+	</tbody>
+</table>
+<p>两种方式不冲突，可以同时使用——配好 Actions 后日常自动部署，偶尔需要手动推也完全可以。</p>
+<p>至此，Hugo 博客的搭建、配置和部署就全部完成了 🎉</p>
 </div>
     <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Kuqilin</p><p>
       <strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://kuqilin.github.io/post/hugo/">https://kuqilin.github.io/post/hugo/</a>
-    </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>Hugo</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-07-11 23:17:12</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-07-11 23:17:12</p></blockquote>
-<div class="share-wrapper"><a href="https://twitter.com/intent/tweet?url=https://kuqilin.github.io/post/hugo/&amp;text=Hugo&amp;via=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Hugo">
+    </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>Hugo 搭建个人博客</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-07-11 23:17:12</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-07-17 10:44:22</p></blockquote>
+<div class="share-wrapper"><a href="https://twitter.com/intent/tweet?url=https://kuqilin.github.io/post/hugo/&amp;text=Hugo%20%e6%90%ad%e5%bb%ba%e4%b8%aa%e4%ba%ba%e5%8d%9a%e5%ae%a2&amp;via=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Hugo 搭建个人博客">
       <div class="share-icon icon icon-twitter"></div>
-    </a><a href="javascript:;"  title="Hugo">
+    </a><a href="javascript:;"  title="Hugo 搭建个人博客">
       <div class="share-icon icon icon-weixin"><div id="share-weixin">
             <div class="share-weixin-dom">
               <div class="share-weixin-content">
@@ -343,7 +643,7 @@
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">Hello World</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://t.alcy.cc/moez"
+              data-src="https://t.alcy.cc/moe"
               data-sizes="auto"
               alt="20260712"
               class="lazyload"
@@ -375,10 +675,10 @@
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;28.2k</span
+          >&nbsp;30.2k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;01:04</span>
+        <span class="icon-coffee">&nbsp;01:07</span>
       </div><div class="footer-beian">
         <img
           style="object-fit: contain;margin-right: 2px;"
@@ -418,9 +718,37 @@
 <div class="sidebar-toc-wrapper toc-div-class">
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#安装-hugo">安装 Hugo</a></li>
+    <li><a href="#安装-hugo">安装 Hugo</a>
+      <ul>
+        <li><a href="#windows">Windows</a></li>
+        <li><a href="#linux">Linux</a></li>
+      </ul>
+    </li>
     <li><a href="#创建项目">创建项目</a></li>
     <li><a href="#创建或安装主题">创建或安装主题</a></li>
+    <li><a href="#配置-hugo-theme-reimu">配置 hugo-theme-reimu</a>
+      <ul>
+        <li><a href="#基础站点配置hugotoml">基础站点配置（hugo.toml）</a></li>
+        <li><a href="#主题参数配置paramsyml">主题参数配置（params.yml）</a></li>
+        <li><a href="#其他内容">其他内容</a></li>
+      </ul>
+    </li>
+    <li><a href="#部署到-github-pages">部署到 GitHub Pages</a></li>
+    <li><a href="#方式一手动推送到-githubio">方式一：手动推送到 github.io</a>
+      <ul>
+        <li><a href="#1-克隆页面仓库">1. 克隆页面仓库</a></li>
+        <li><a href="#2-构建并推送">2. 构建并推送</a></li>
+        <li><a href="#3-写个脚本简化操作">3. 写个脚本简化操作</a></li>
+      </ul>
+    </li>
+    <li><a href="#方式二github-actions-自动部署">方式二：GitHub Actions 自动部署</a>
+      <ul>
+        <li><a href="#1-创建-personal-access-token">1. 创建 Personal Access Token</a></li>
+        <li><a href="#2-编写-workflow-文件">2. 编写 Workflow 文件</a></li>
+        <li><a href="#3-推送源码触发部署">3. 推送源码触发部署</a></li>
+        <li><a href="#两种方式对比">两种方式对比</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
 </div></div>
@@ -556,7 +884,7 @@
   <div><script data-pjax>
         window.REIMU_POST = {
           author: "Kuqilin",
-          title: "Hugo",
+          title: "Hugo 搭建个人博客",
           url: "https:\/\/kuqilin.github.io\/post\/hugo\/",
           description: "记录了我在 GitHub Pages 搭建 Hugo 的经历",
           cover: "https:\/\/kuqilin.github.io\/images\/banner.webp",
