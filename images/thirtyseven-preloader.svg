@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+
+  <!-- 内层图形 -->
+  <polygon 
+    points="150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64" 
+    fill="none" 
+    stroke="#1a768c" 
+    stroke-width="3"
+  />
+
+  <!-- 外层图形 -->
+  <polygon 
+    points="150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35" 
+    fill="none" 
+    stroke="#1a768c" 
+    stroke-width="3"
+  />
+
+  <!-- 三条主轴 -->
+  <line x1="100" y1="150" x2="200" y2="150" stroke="#1a768c" stroke-width="3"/>
+  <line x1="125" y1="193.35" x2="175" y2="106.65" stroke="#1a768c" stroke-width="3"/>
+  <line x1="125" y1="106.65" x2="175" y2="193.35" stroke="#1a768c" stroke-width="3"/>
+
+  <!-- 中心点 -->
+  <circle cx="150" cy="150" r="4.5" fill="#1a768c"/>
+
+  <!-- 内层转折点 -->
+  <circle cx="150" cy="193.35" r="4.5" fill="#1a768c"/>
+  <circle cx="137.5" cy="171.64" r="4.5" fill="#1a768c"/>
+  <circle cx="112.5" cy="171.64" r="4.5" fill="#1a768c"/>
+  <circle cx="125" cy="150" r="4.5" fill="#1a768c"/>
+  <circle cx="112.5" cy="128.36" r="4.5" fill="#1a768c"/>
+  <circle cx="137.5" cy="128.36" r="4.5" fill="#1a768c"/>
+  <circle cx="150" cy="106.65" r="4.5" fill="#1a768c"/>
+  <circle cx="162.5" cy="128.36" r="4.5" fill="#1a768c"/>
+  <circle cx="187.5" cy="128.36" r="4.5" fill="#1a768c"/>
+  <circle cx="175" cy="150" r="4.5" fill="#1a768c"/>
+  <circle cx="187.5" cy="171.64" r="4.5" fill="#1a768c"/>
+  <circle cx="162.5" cy="171.64" r="4.5" fill="#1a768c"/>
+
+  <!-- 外层转折点 -->
+  <circle cx="150" cy="236.60" r="4.5" fill="#1a768c"/>
+  <circle cx="125" cy="193.35" r="4.5" fill="#1a768c"/>
+  <circle cx="75" cy="193.35" r="4.5" fill="#1a768c"/>
+  <circle cx="100" cy="150" r="4.5" fill="#1a768c"/>
+  <circle cx="75" cy="106.65" r="4.5" fill="#1a768c"/>
+  <circle cx="125" cy="106.65" r="4.5" fill="#1a768c"/>
+  <circle cx="150" cy="63.40" r="4.5" fill="#1a768c"/>
+  <circle cx="175" cy="106.65" r="4.5" fill="#1a768c"/>
+  <circle cx="225" cy="106.65" r="4.5" fill="#1a768c"/>
+  <circle cx="200" cy="150" r="4.5" fill="#1a768c"/>
+  <circle cx="225" cy="193.35" r="4.5" fill="#1a768c"/>
+  <circle cx="175" cy="193.35" r="4.5" fill="#1a768c"/>
+
+  <!-- 外层12条边中点 -->
+  <circle cx="137.5" cy="214.97" r="4.5" fill="#1a768c"/>
+  <circle cx="100" cy="193.35" r="4.5" fill="#1a768c"/>
+  <circle cx="87.5" cy="171.64" r="4.5" fill="#1a768c"/>
+  <circle cx="87.5" cy="128.36" r="4.5" fill="#1a768c"/>
+  <circle cx="100" cy="106.65" r="4.5" fill="#1a768c"/>
+  <circle cx="137.5" cy="85.03" r="4.5" fill="#1a768c"/>
+  <circle cx="162.5" cy="85.03" r="4.5" fill="#1a768c"/>
+  <circle cx="200" cy="106.65" r="4.5" fill="#1a768c"/>
+  <circle cx="212.5" cy="128.36" r="4.5" fill="#1a768c"/>
+  <circle cx="212.5" cy="171.64" r="4.5" fill="#1a768c"/>
+  <circle cx="200" cy="193.35" r="4.5" fill="#1a768c"/>
+  <circle cx="162.5" cy="214.97" r="4.5" fill="#1a768c"/>
+
+  <!-- 中点连线 -->
+  <line x1="100" y1="193.35" x2="87.5" y2="171.64" stroke="#1a768c" stroke-width="3"/>
+  <line x1="87.5" y1="128.36" x2="100" y2="106.65" stroke="#1a768c" stroke-width="3"/>
+  <line x1="137.5" y1="85.03" x2="162.5" y2="85.03" stroke="#1a768c" stroke-width="3"/>
+  <line x1="200" y1="106.65" x2="212.5" y2="128.36" stroke="#1a768c" stroke-width="3"/>
+  <line x1="212.5" y1="171.64" x2="200" y2="193.35" stroke="#1a768c" stroke-width="3"/>
+  <line x1="162.5" y1="214.97" x2="137.5" y2="214.97" stroke="#1a768c" stroke-width="3"/>
+</svg>
