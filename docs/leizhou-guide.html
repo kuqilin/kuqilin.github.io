@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>雷州一日游攻略 | 千年古城 · 三辈同游</title>
+    <style>
+        :root {
+            --primary: #c0392b;
+            --primary-light: #e74c3c;
+            --gold: #d4a017;
+            --bg: #fdf6ee;
+            --card: #fffef9;
+            --text: #2c2416;
+            --text-light: #6b5e4a;
+            --border: #e8dcc8;
+            --shadow: 0 2px 16px rgba(0,0,0,0.06);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.8;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a0f08 0%, #3d1c0a 40%, #6b2f0a 70%, #8b4513 100%);
+            color: #fff;
+            text-align: center;
+            padding: 80px 20px 60px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120'%3E%3Cpath d='M0 60 Q150 0 300 60 T600 60 T900 60 T1200 60 L1200 120 L0 120Z' fill='rgba(255,255,255,0.04)'/%3E%3C/svg%3E") bottom/cover no-repeat;
+            pointer-events: none;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            letter-spacing: 6px;
+            margin-bottom: 10px;
+        }
+        .hero .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            letter-spacing: 3px;
+        }
+        .hero .badge-row {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .hero .badge {
+            background: rgba(255,255,255,0.12);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 860px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Section */
+        .section {
+            margin: 50px 0;
+        }
+        .section-title {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: var(--primary);
+            border-left: 5px solid var(--primary);
+            padding-left: 14px;
+            margin-bottom: 24px;
+            letter-spacing: 2px;
+        }
+
+        /* Overview */
+        .overview-card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 28px 32px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+        .overview-card .drive-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 16px;
+            flex-wrap: wrap;
+        }
+        .drive-info .item {
+            text-align: center;
+        }
+        .drive-info .item .num {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--primary);
+        }
+        .drive-info .item .label {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+
+        /* Route Flow */
+        .route-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .route-node {
+            background: var(--card);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            padding: 12px 20px;
+            text-align: center;
+            min-width: 100px;
+            box-shadow: var(--shadow);
+        }
+        .route-node .num {
+            display: inline-block;
+            width: 26px; height: 26px;
+            line-height: 26px;
+            background: var(--primary);
+            color: #fff;
+            border-radius: 50%;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .route-node .name { font-weight: 700; font-size: 0.95rem; }
+        .route-node .tag { font-size: 0.75rem; color: var(--text-light); }
+        .route-arrow {
+            font-size: 1.5rem;
+            color: var(--primary-light);
+            margin: 0 8px;
+        }
+
+        /* Cards Grid */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 16px;
+        }
+        .spot-card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 22px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .spot-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 24px rgba(0,0,0,0.1);
+        }
+        .spot-card .icon {
+            font-size: 2rem;
+            margin-bottom: 8px;
+        }
+        .spot-card .name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .spot-card .desc {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+        .spot-card .badges {
+            margin-top: 10px;
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .spot-card .badges span {
+            font-size: 0.7rem;
+            background: #fef3e2;
+            color: #b8730a;
+            padding: 2px 10px;
+            border-radius: 10px;
+            border: 1px solid #f0d9a8;
+        }
+
+        /* Food */
+        .food-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card);
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .food-table th {
+            background: var(--primary);
+            color: #fff;
+            padding: 12px 16px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+        .food-table td {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.9rem;
+        }
+        .food-table tr:last-child td { border-bottom: none; }
+        .food-table .must { color: var(--primary); font-weight: 700; }
+        .food-table .highlight {
+            background: linear-gradient(to right, #fff8ec, transparent);
+        }
+
+        /* Timeline */
+        .timeline {
+            position: relative;
+            padding-left: 32px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: var(--border);
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 24px;
+            padding: 14px 20px;
+            background: var(--card);
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -26px;
+            top: 18px;
+            width: 10px; height: 10px;
+            background: var(--primary);
+            border-radius: 50%;
+            border: 2px solid var(--bg);
+        }
+        .timeline-item .time {
+            font-weight: 800;
+            color: var(--primary);
+            font-size: 0.9rem;
+        }
+        .timeline-item .event {
+            margin-top: 2px;
+            font-size: 0.9rem;
+        }
+        .timeline-item.food .time { color: var(--gold); }
+        .timeline-item.food::before { background: var(--gold); }
+        .timeline-item.return { border: 2px dashed var(--primary); }
+        .timeline-item.return::before { background: var(--primary); width: 12px; height: 12px; }
+
+        /* Tips */
+        .tips-list {
+            list-style: none;
+            display: grid;
+            gap: 10px;
+        }
+        .tips-list li {
+            background: var(--card);
+            padding: 14px 18px;
+            border-radius: 8px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+        }
+        .tips-list .tip-num {
+            flex-shrink: 0;
+            width: 24px; height: 24px;
+            line-height: 24px;
+            text-align: center;
+            background: var(--primary);
+            color: #fff;
+            border-radius: 50%;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        .tips-list .warn .tip-num { background: #e67e22; }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-light);
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+        }
+
+        /* Family Badge */
+        .family-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .family-tag {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 30px;
+            padding: 8px 20px;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: var(--shadow);
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 2rem; letter-spacing: 3px; }
+            .route-flow { flex-direction: column; gap: 8px; }
+            .route-arrow { transform: rotate(90deg); }
+            .drive-info { gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero -->
+<header class="hero">
+    <h1>雷 州 一 日 游</h1>
+    <p class="subtitle">千年古城 · 三辈同游</p>
+    <div class="badge-row">
+        <span class="badge">🏯 古迹密集</span>
+        <span class="badge">🍜 地道美食</span>
+        <span class="badge">👨‍👩‍👦 全家适用</span>
+        <span class="badge">🚗 调顺岛出发</span>
+    </div>
+</header>
+
+<div class="container">
+
+    <!-- 概览 -->
+    <div class="section">
+        <div class="overview-card">
+            <p style="font-size:1.05rem;">从湛江调顺岛出发，自驾约 <strong>1~1.5 小时</strong>，全程高速，抵达雷州古城。</p>
+            <p style="color:var(--text-light); font-size:0.9rem;">一座底蕴十足的千年人文古城，古迹密集、物价亲民，老少皆宜。</p>
+            <div class="drive-info">
+                <div class="item"><div class="num">~60</div><div class="label">公里</div></div>
+                <div class="item"><div class="num">1–1.5h</div><div class="label">单程</div></div>
+                <div class="item"><div class="num">5</div><div class="label">核心景点</div></div>
+                <div class="item"><div class="num">6+</div><div class="label">必吃美食</div></div>
+            </div>
+            <div class="family-row">
+                <span class="family-tag">🧓 中年人：看古迹 · 吃特色 · 拜雷祖</span>
+                <span class="family-tag">👩 年轻人：出片打卡 · 登塔全景 · 逛夜市</span>
+                <span class="family-tag">🧒 小孩：看石狗 · 吃虾饼 · 逛鼓城</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 路线速览 -->
+    <div class="section">
+        <h2 class="section-title">路线速览</h2>
+        <div class="route-flow">
+            <div class="route-node">
+                <div class="num">①</div>
+                <div class="name">雷州西湖</div>
+                <div class="tag">千年园林</div>
+            </div>
+            <span class="route-arrow">→</span>
+            <div class="route-node">
+                <div class="num">②</div>
+                <div class="name">博物馆</div>
+                <div class="tag">石狗文化</div>
+            </div>
+            <span class="route-arrow">→</span>
+            <div class="route-node">
+                <div class="num">③</div>
+                <div class="name">三元塔</div>
+                <div class="tag">登高全景</div>
+            </div>
+            <span class="route-arrow">→</span>
+            <div class="route-node">
+                <div class="num">④</div>
+                <div class="name">雷祖祠</div>
+                <div class="tag">千年古建</div>
+            </div>
+            <span class="route-arrow">→</span>
+            <div class="route-node" style="border-color: var(--gold); background: linear-gradient(135deg, #fffef9, #fff8ec);">
+                <div class="num" style="background:var(--gold);">⑤</div>
+                <div class="name">茂德公鼓城</div>
+                <div class="tag">夜游灯火</div>
+            </div>
+        </div>
+        <p style="text-align:center; color:var(--text-light); font-size:0.85rem; margin-top:12px;">景点之间车程 5~10 分钟，全程不赶</p>
+    </div>
+
+    <!-- 景点详情 -->
+    <div class="section">
+        <h2 class="section-title">各站详解</h2>
+        <div class="cards-grid">
+            <div class="spot-card">
+                <div class="icon">🏞️</div>
+                <div class="name">雷州西湖</div>
+                <div class="desc">千年经典园林，湖光山色、亭台错落。环境清幽静谧，适合散步放空、拍照打卡。</div>
+                <div class="badges"><span>免费</span><span>散步拍照</span><span>1h</span></div>
+            </div>
+            <div class="spot-card">
+                <div class="icon">🏛️</div>
+                <div class="name">雷州博物馆</div>
+                <div class="desc">城市人文缩影，馆藏丰富。特色<b>石狗非遗文化</b>——各种形态的石头狗，小孩看了特别有趣。</div>
+                <div class="badges"><span>免费</span><span>看石狗</span><span>1h</span><span>周一闭馆</span></div>
+            </div>
+            <div class="spot-card">
+                <div class="icon">🗼</div>
+                <div class="name">三元塔</div>
+                <div class="desc">明代九层古塔，<b>登顶可俯瞰整座雷州古城</b>。公园免费进，登塔收费。古风氛围感十足，出片率极高。</div>
+                <div class="badges"><span>公园免费</span><span>登塔收费</span><span>1h</span></div>
+            </div>
+            <div class="spot-card">
+                <div class="icon">🏯</div>
+                <div class="name">雷祖祠</div>
+                <div class="desc">雷州核心文化地标，千年古建林立。了解雷州历史的第一站，中年长辈必定喜欢。</div>
+                <div class="badges"><span>人文底蕴</span><span>祈福</span><span>1h</span></div>
+            </div>
+            <div class="spot-card" style="border-color: var(--gold);">
+                <div class="icon">🏮</div>
+                <div class="name">茂德公鼓城</div>
+                <div class="desc">古风网红商业街，白墙黛瓦。白天静谧拍照，<b>夜晚灯火璀璨</b>。吃喝玩乐一站式配齐，全家逛夜市。</div>
+                <div class="badges"><span>免费</span><span>夜市</span><span>美食集中</span></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 美食推荐 -->
+    <div class="section">
+        <h2 class="section-title">🍜 雷州美食 · 小红书实名认证</h2>
+        <p style="color:var(--text-light); margin-bottom:16px; font-style:italic;">"雷州没啥好玩的，但太太太好吃了！" — 小红书玩家</p>
+        <table class="food-table">
+            <thead>
+                <tr>
+                    <th>店铺</th>
+                    <th>必点</th>
+                    <th>人均</th>
+                    <th>备注</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="highlight">
+                    <td><strong>北门猪子斌肉档</strong></td>
+                    <td>白切猪肉 + <span class="must">姜酸汤</span>（雷州独有）、烧猪</td>
+                    <td>~¥30</td>
+                    <td>🔥 本地人排队神店，午饭首选</td>
+                </tr>
+                <tr>
+                    <td><strong>三元塔豆脑拉肠</strong></td>
+                    <td>肉蛋肠粉（带汤带菜）</td>
+                    <td>~¥10</td>
+                    <td>地道早餐，吃完逛三元塔</td>
+                </tr>
+                <tr>
+                    <td><strong>二嫂虾饼</strong></td>
+                    <td>番薯虾饼</td>
+                    <td>~¥10</td>
+                    <td>比湛江赤坎人少不排队</td>
+                </tr>
+                <tr class="highlight">
+                    <td><strong>符氏木瓜羊</strong></td>
+                    <td><span class="must">木瓜炖羊肉</span>（椰汁药材汤底）、蛤蒌饭</td>
+                    <td>~¥65</td>
+                    <td>🔥🔥 雷州独有招牌！一锅喝到见底</td>
+                </tr>
+                <tr>
+                    <td><strong>杨甜甜糖水铺</strong></td>
+                    <td>各式糖水</td>
+                    <td>~¥15</td>
+                    <td>下午歇脚好去处</td>
+                </tr>
+                <tr>
+                    <td><strong>路边必尝</strong></td>
+                    <td>雷州大粽、鸭乸粽、叶搭饼、田艾粑</td>
+                    <td>几块钱</td>
+                    <td>软糯香甜，风味独特</td>
+                </tr>
+                <tr class="highlight">
+                    <td><strong>英利烧猪肉</strong></td>
+                    <td>油润香浓烧猪肉</td>
+                    <td>论斤卖</td>
+                    <td>带路上当零食一绝</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 时间线 -->
+    <div class="section">
+        <h2 class="section-title">⏰ 一日时间线</h2>
+        <div class="timeline">
+            <div class="timeline-item return">
+                <div class="time">🚗 8:30</div>
+                <div class="event"><strong>调顺岛出发</strong>，全程高速约 1~1.5h</div>
+            </div>
+            <div class="timeline-item food">
+                <div class="time">🍜 9:30</div>
+                <div class="event">抵达雷州，<strong>三元塔豆脑拉肠</strong> 吃地道早餐</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">🏞️ 10:00</div>
+                <div class="event"><strong>雷州西湖</strong> 散步拍照，约 1 小时</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">🏛️ 11:00</div>
+                <div class="event"><strong>雷州博物馆</strong> 看石狗文化，约 1 小时</div>
+            </div>
+            <div class="timeline-item food">
+                <div class="time">🍖 12:00</div>
+                <div class="event"><strong>北门猪子斌肉档</strong> 午饭——白切猪 + 姜酸汤</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">🗼 13:30</div>
+                <div class="event"><strong>三元塔</strong> 登高俯瞰雷州全景，约 1 小时</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">🏯 15:00</div>
+                <div class="event"><strong>雷祖祠</strong> 感受千年古建，约 1 小时</div>
+            </div>
+            <div class="timeline-item food">
+                <div class="time">🍤 16:30</div>
+                <div class="event">下午茶：<strong>二嫂虾饼</strong> + <strong>杨甜甜糖水</strong></div>
+            </div>
+            <div class="timeline-item food">
+                <div class="time">🥘 17:30</div>
+                <div class="event"><strong>符氏木瓜羊</strong> 晚饭——雷州独有招牌，椰汁药材汤底</div>
+            </div>
+            <div class="timeline-item">
+                <div class="time">🏮 19:00</div>
+                <div class="event"><strong>茂德公鼓城</strong> 逛夜市，灯火璀璨，吃喝买一站式</div>
+            </div>
+            <div class="timeline-item return">
+                <div class="time">🚗 20:30</div>
+                <div class="event"><strong>回程调顺岛</strong>，1~1.5h 到家</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 贴士 -->
+    <div class="section">
+        <h2 class="section-title">💡 实用贴士</h2>
+        <ul class="tips-list">
+            <li><span class="tip-num">1</span>三元塔<strong>公园免费</strong>进园，登塔才收费</li>
+            <li><span class="tip-num">2</span>博物馆<strong>周一闭馆</strong>，规划时注意避开</li>
+            <li class="warn"><span class="tip-num">!</span>雷州满街白切狗，不习惯的注意避让</li>
+            <li><span class="tip-num">3</span><strong>木瓜羊</strong>是雷州独有，其他地方吃不到，强烈推荐</li>
+            <li><span class="tip-num">4</span>各景点周边都有车位，古城区域路窄注意会车</li>
+            <li><span class="tip-num">5</span>海边紫外线强，做好防晒；傍晚蚊虫多，带驱蚊液</li>
+        </ul>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>🏯 天之尽角，陆之尽头 · 雷州千年古城欢迎你 🏯</p>
+    <p style="margin-top:6px; opacity:0.6;">数据来源：小红书玩家真实游记 · 2025年7月</p>
+</footer>
+
+</body>
+</html>
