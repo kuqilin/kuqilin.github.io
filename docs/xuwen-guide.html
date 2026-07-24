@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>徐闻一日攻略 | 南极村出发 · 双方案</title>
+    <style>
+        :root {
+            --sunrise: #e07b3c;
+            --sunrise-bg: #fef5ee;
+            --sunrise-accent: #f2d3b6;
+            --lazy: #4a7c96;
+            --lazy-bg: #f2f7fa;
+            --lazy-accent: #c8dbe7;
+            --primary: #c0392b;
+            --gold: #d4a017;
+            --bg: #fdf6ee;
+            --card: #fffef9;
+            --text: #2c2416;
+            --text-light: #6b5e4a;
+            --border: #e8dcc8;
+            --shadow: 0 2px 16px rgba(0,0,0,0.06);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Noto Serif SC", "Source Han Serif SC", "SimSun", "STSong", serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.85;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #1a0f08 0%, #3d1c0a 40%, #5a2810 70%, #2c1810 100%);
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px 50px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0; right: 0;
+            height: 60px;
+            background: linear-gradient(to top, var(--bg), transparent);
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 900;
+            letter-spacing: 4px;
+            margin-bottom: 6px;
+        }
+        .hero .subtitle {
+            font-size: 1rem;
+            opacity: 0.75;
+            letter-spacing: 2px;
+        }
+        .hero .route-badge {
+            display: inline-block;
+            margin-top: 16px;
+            background: rgba(255,255,255,0.1);
+            border: 1px solid rgba(255,255,255,0.2);
+            padding: 6px 20px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        /* Container */
+        .container { max-width: 800px; margin: 0 auto; padding: 0 20px; }
+
+        /* Section */
+        .section { margin: 45px 0; }
+
+        /* Overview */
+        .overview-card {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 28px 30px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+            text-align: center;
+        }
+        .overview-card .drive-info {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 12px;
+            flex-wrap: wrap;
+        }
+        .drive-info .item { text-align: center; }
+        .drive-info .item .num { font-size: 2rem; font-weight: 900; color: var(--primary); }
+        .drive-info .item .label { font-size: 0.85rem; color: var(--text-light); }
+
+        /* Option Header */
+        .option-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .option-header .icon-box {
+            width: 50px; height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+        .sunrise-box .icon-box { background: var(--sunrise); color: #fff; }
+        .lazy-box .icon-box { background: var(--lazy); color: #fff; }
+        .option-header .title-group h2 {
+            font-size: 1.4rem;
+            font-weight: 800;
+            margin-bottom: 2px;
+        }
+        .option-header .title-group .tagline {
+            font-size: 0.85rem; opacity: 0.7;
+        }
+        .sunrise-box .title-group h2 { color: var(--sunrise); }
+        .lazy-box .title-group h2 { color: var(--lazy); }
+
+        /* Option Card */
+        .option-card {
+            border-radius: 14px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            margin-bottom: 40px;
+        }
+        .option-card.sunrise {
+            border: 2px solid var(--sunrise-accent);
+            background: var(--sunrise-bg);
+        }
+        .option-card.lazy {
+            border: 2px solid var(--lazy-accent);
+            background: var(--lazy-bg);
+        }
+        .option-card .card-inner { padding: 24px 28px; }
+
+        /* Timeline */
+        .mini-timeline { position: relative; padding-left: 28px; }
+        .mini-timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px; top: 4px; bottom: 4px;
+            width: 2px;
+        }
+        .sunrise .mini-timeline::before { background: var(--sunrise-accent); }
+        .lazy .mini-timeline::before { background: var(--lazy-accent); }
+        .tl-item {
+            position: relative;
+            margin-bottom: 16px;
+            font-size: 0.92rem;
+            background: rgba(255,255,255,0.6);
+            padding: 10px 16px;
+            border-radius: 8px;
+        }
+        .tl-item::before {
+            content: '';
+            position: absolute;
+            left: -22px; top: 13px;
+            width: 8px; height: 8px;
+            border-radius: 50%;
+        }
+        .sunrise .tl-item::before { background: var(--sunrise); }
+        .lazy .tl-item::before { background: var(--lazy); }
+        .tl-item .tl-time { font-weight: 800; margin-right: 6px; }
+        .tl-item .tl-label {
+            display: inline-block;
+            font-size: 0.7rem;
+            padding: 2px 8px;
+            border-radius: 8px;
+            margin-right: 4px;
+            vertical-align: middle;
+        }
+        .tl-label.photo { background: #fce4d6; color: #c0392b; }
+        .tl-label.eat { background: #fff3cd; color: #856404; }
+        .tl-label.exit { background: #d4edda; color: #155724; }
+
+        /* Comparison */
+        .comparison-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        .comparison-grid .col {
+            background: var(--card);
+            border-radius: 12px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .comparison-grid .col-title {
+            font-weight: 800;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .comparison-grid ul {
+            list-style: none;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+        .comparison-grid ul li { padding: 3px 0; }
+        .comparison-grid ul li::before { content: '· '; }
+
+        /* Return Section */
+        .return-card {
+            background: linear-gradient(135deg, #2c3e50, #1a252f);
+            color: #fff;
+            border-radius: 14px;
+            padding: 28px 30px;
+            margin-bottom: 40px;
+        }
+        .return-card h2 {
+            font-size: 1.3rem;
+            margin-bottom: 6px;
+            letter-spacing: 2px;
+        }
+        .return-card .sub { opacity: 0.7; font-size: 0.9rem; margin-bottom: 18px; }
+        .return-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+        }
+        .return-opt {
+            background: rgba(255,255,255,0.08);
+            border: 1px solid rgba(255,255,255,0.15);
+            border-radius: 10px;
+            padding: 16px;
+        }
+        .return-opt h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            letter-spacing: 1px;
+        }
+        .return-opt p { font-size: 0.85rem; opacity: 0.8; }
+
+        /* Food */
+        .food-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 12px;
+        }
+        .food-mini {
+            background: var(--card);
+            border-radius: 10px;
+            padding: 16px;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border);
+        }
+        .food-mini .name { font-weight: 700; margin-bottom: 2px; }
+        .food-mini .desc { font-size: 0.8rem; color: var(--text-light); }
+
+        /* Link note */
+        .link-note {
+            text-align: center;
+            padding: 10px;
+            color: var(--text-light);
+            font-size: 0.85rem;
+            background: #f0ebe0;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .link-note a { color: var(--primary); font-weight: 600; }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--text-light);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8rem; }
+            .comparison-grid, .return-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <h1>徐闻一日攻略</h1>
+    <p class="subtitle">从南极村出发 · 两种节奏 · 下午往北撤</p>
+    <div class="route-badge">📍 南极村 → 45km/1h → 徐闻</div>
+</header>
+
+<div class="container">
+
+    <!-- 出发概览 -->
+    <div class="section">
+        <div class="overview-card">
+            <p style="font-size:1.05rem;">南极村到徐闻县城仅 <strong>45 公里</strong>，<strong>1 小时车程</strong>。不管几点出发都够玩。</p>
+            <p style="color:var(--text-light);">但后天一大早要回广州，所以无论如何，<strong>明天下午都要开始往北走了</strong>。</p>
+            <div class="drive-info">
+                <div class="item"><div class="num">45km</div><div class="label">距离</div></div>
+                <div class="item"><div class="num">~1h</div><div class="label">车程</div></div>
+                <div class="item"><div class="num">2</div><div class="label">方案可选</div></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== 方案一：早起版 ===== -->
+    <div class="option-card sunrise">
+        <div class="card-inner">
+            <div class="option-header sunrise-box">
+                <div class="icon-box">🌅</div>
+                <div class="title-group">
+                    <h2>方案一：早起版</h2>
+                    <div class="tagline">7~8 点出发 · 清晨光最好 · 玩得尽兴</div>
+                </div>
+            </div>
+
+            <div class="mini-timeline">
+                <div class="tl-item">
+                    <span class="tl-time">7:00</span>
+                    <span class="tl-label exit">出发</span>
+                    南极村出发，沿 X698 县道往徐闻方向
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">7:40</span>
+                    <span class="tl-label photo">拍照</span>
+                    <strong>菠萝的海</strong>——清晨光线最佳，万亩菠萝田刚醒来，基本没人。路边现削菠萝，又香又甜水分足，和平时吃的完全不一样。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">9:00</span>
+                    <span class="tl-label eat">早餐</span>
+                    徐闻县城，<strong>白切鸡 + 腌粉</strong>（徐闻特色早点），县城小店随便找一家都地道。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">10:00</span>
+                    <span class="tl-label photo">文化</span>
+                    <strong>大汉三墩 / 徐闻古港</strong>——海上丝绸之路始发港遗址，汉代"万岁"瓦当出土地。三墩岛、红树林、古港遗址，走一圈约 1.5 小时。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">12:00</span>
+                    <span class="tl-label eat">午饭</span>
+                    县城吃午饭——推荐海鲜或白切羊肉，吃饱喝足准备上路。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">13:00</span>
+                    <span class="tl-label exit">出发</span>
+                    往北撤。可选茂名（3h）或阳江（4.5h）住一晚。
+                </div>
+            </div>
+
+            <p style="font-size:0.85rem; color:var(--sunrise); margin-top:14px; text-align:center;">
+                ✅ 优点：光线好、没人、玩的时间充裕
+            </p>
+        </div>
+    </div>
+
+    <!-- ===== 方案二：睡懒觉版 ===== -->
+    <div class="option-card lazy">
+        <div class="card-inner">
+            <div class="option-header lazy-box">
+                <div class="icon-box">☀️</div>
+                <div class="title-group">
+                    <h2>方案二：睡懒觉版</h2>
+                    <div class="tagline">10 点后出发 · 吃好为主 · 轻松随意</div>
+                </div>
+            </div>
+
+            <div class="mini-timeline">
+                <div class="tl-item">
+                    <span class="tl-time">10:00</span>
+                    <span class="tl-label exit">出发</span>
+                    南极村睡到自然醒，收拾退房出发。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">11:00</span>
+                    <span class="tl-label eat">午饭</span>
+                    <strong>直接奔徐闻县城吃午饭</strong>——白切鸡、腌粉、白切羊肉、本地海鲜。午饭吃好才是正经事。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">12:30</span>
+                    <span class="tl-label photo">拍照</span>
+                    <strong>菠萝的海</strong>——正午光线硬但颜色更饱和，天空蓝菠萝田绿对比强烈。路边买两颗菠萝带走当路上零食。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">14:00</span>
+                    时间充裕就去<strong>大汉三墩</strong>逛一圈（1h），来不及就直接往北撤。
+                </div>
+                <div class="tl-item">
+                    <span class="tl-time">15:00</span>
+                    <span class="tl-label exit">出发</span>
+                    往北撤。可选茂名（3h）或阳江（4.5h）住一晚。
+                </div>
+            </div>
+
+            <p style="font-size:0.85rem; color:var(--lazy); margin-top:14px; text-align:center;">
+                ✅ 优点：不赶、吃得好、适合度假心态
+            </p>
+        </div>
+    </div>
+
+    <!-- ===== 对比 ===== -->
+    <div class="section">
+        <div class="comparison-grid">
+            <div class="col">
+                <div class="col-title">🌅 早起版</div>
+                <ul>
+                    <li>菠萝的海清晨没人</li>
+                    <li>光线柔美出片</li>
+                    <li>大汉三墩不走马观花</li>
+                    <li>下午 1 点就能撤</li>
+                    <li><strong>适合：出片党、早起无压力</strong></li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="col-title">☀️ 睡懒觉版</div>
+                <ul>
+                    <li>南极村再瘫一上午</li>
+                    <li>午饭是正片</li>
+                    <li>菠萝的海傍晚前也能看</li>
+                    <li>下午 3 点撤也没问题</li>
+                    <li><strong>适合：度假派、有小孩老人</strong></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== 回程方案 ===== -->
+    <div class="return-card">
+        <h2>🚗 回程 · 分两段开</h2>
+        <p class="sub">后天（7/27）一大早回广州，明天下午就得往北走一半路程。</p>
+        <div class="return-grid">
+            <div class="return-opt">
+                <h3>📍 住茂名</h3>
+                <p>徐闻 → 茂名 <strong>~3h</strong><br>
+                后天早上：茂名 → 广州 <strong>~3h</strong>，上午到家</p>
+            </div>
+            <div class="return-opt">
+                <h3>📍 住阳江</h3>
+                <p>徐闻 → 阳江 <strong>~4.5h</strong><br>
+                后天早上：阳江 → 广州 <strong>~2.5h</strong>，上午到家</p>
+            </div>
+        </div>
+        <p style="margin-top:16px; opacity:0.8; font-size:0.85rem;">
+            💡 建议住茂名：今天下午少开点路，到得早可以茂名市区逛一圈吃晚饭。住阳江的话路上稍赶，但后天回家更轻松。
+        </p>
+    </div>
+
+    <!-- ===== 徐闻必吃 ===== -->
+    <div class="section">
+        <h2 style="font-size:1.2rem; font-weight:800; color:var(--primary); border-left:4px solid var(--primary); padding-left:12px; margin-bottom:16px;">🍜 徐闻必吃清单</h2>
+        <div class="food-cards">
+            <div class="food-mini">
+                <div class="name">🐔 白切鸡</div>
+                <div class="desc">徐闻本地土鸡，皮爽肉滑，蘸沙姜酱油</div>
+            </div>
+            <div class="food-mini">
+                <div class="name">🍜 徐闻腌粉</div>
+                <div class="desc">米粉拌花生碎、酸菜、叉烧，酸香开胃</div>
+            </div>
+            <div class="food-mini">
+                <div class="name">🍍 现削菠萝</div>
+                <div class="desc">菠萝的海路边现买现削，甜度爆表</div>
+            </div>
+            <div class="food-mini">
+                <div class="name">🐑 白切羊肉</div>
+                <div class="desc">本地黑山羊，清甜无膻</div>
+            </div>
+            <div class="food-mini">
+                <div class="name">🦐 海鲜</div>
+                <div class="desc">徐闻靠海，虾蟹贝类新鲜便宜</div>
+            </div>
+            <div class="food-mini">
+                <div class="name">🧊 凉粉草</div>
+                <div class="desc">雷州半岛特色消暑甜品</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 链接 -->
+    <div class="link-note">
+        📌 相关攻略：<a href="/docs/leizhou-guide.html">雷州市区一日游</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>📍 天之尽角 · 陆之尽头 · 徐闻等你 🍍</p>
+    </footer>
+
+</div>
+</body>
+</html>
