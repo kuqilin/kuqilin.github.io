@@ -146,12 +146,19 @@
       <description>
         <![CDATA[<h1>剧透测试（短代码）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>这是一个<span class="spoiler">剧透测试</span><link rel="preload" as="style" href="/css/spoiler.min.e30e5974b174fab0fd4aafad9ac326a20eddea688671d819fed21a8207c6a3d6.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
-<p>图片测试：
-<span class="spoiler"><img src="https://kuqilin.github.io/images/thirtyseven.svg" 
+          <p>这是一个<span class="spoiler">剧透测试</span><link rel="preload" as="style" href="/css/spoiler.min.2732d44345d7e135b3dfa15bbc47af4a4cecc4335e65480a2703b2224c3b6221.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+<h2 id="图片测试">
+<a class="header-anchor" href="#%e5%9b%be%e7%89%87%e6%b5%8b%e8%af%95"></a>
+图片测试
+</h2><span class="spoiler"><img src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc" 
      alt="" 
      referrerpolicy="no-referrer" 
-     loading="lazy" /></span><link rel="preload" as="style" href="/css/spoiler.min.e30e5974b174fab0fd4aafad9ac326a20eddea688671d819fed21a8207c6a3d6.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+     loading="lazy" /></span><link rel="preload" as="style" href="/css/spoiler.min.2732d44345d7e135b3dfa15bbc47af4a4cecc4335e65480a2703b2224c3b6221.css" onload="this.onload=null;this.rel='stylesheet'" />
+<h2 id="英文测试">
+<a class="header-anchor" href="#%e8%8b%b1%e6%96%87%e6%b5%8b%e8%af%95"></a>
+英文测试
+</h2><p><span class="spoiler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur sem sed nisl cursus, at pretium massa sodales. Phasellus et consectetur tortor, rhoncus iaculis urna. Etiam nisi sem, auctor eu massa ornare, viverra mattis est. Etiam scelerisque tortor vel erat feugiat vestibulum. Donec eget eros odio. Etiam sem mi, mattis vitae magna eu, pretium rhoncus felis. Quisque nisi sapien, vulputate nec commodo id, pulvinar vel libero. Nam luctus sapien at finibus sagittis. Aenean sit amet nibh vel nisi pharetra pharetra. Curabitur efficitur nunc nibh, vitae ultrices diam consequat sit amet. Curabitur varius congue purus, ac lobortis risus rhoncus eu. Curabitur venenatis cursus mauris, at commodo orci auctor in. Sed condimentum justo ut ante commodo, eu vulputate justo facilisis.</span><link rel="preload" as="style" href="/css/spoiler.min.2732d44345d7e135b3dfa15bbc47af4a4cecc4335e65480a2703b2224c3b6221.css" onload="this.onload=null;this.rel='stylesheet'" />
+<span class="spoiler">Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu lectus in felis tempor condimentum. Etiam eu neque neque. Mauris ac convallis est. Donec dictum tellus ullamcorper lacus hendrerit, at porttitor dolor laoreet. Praesent convallis diam ut ante pellentesque scelerisque ac non arcu. Donec finibus massa vitae scelerisque porttitor. Sed ut neque libero.</span><link rel="preload" as="style" href="/css/spoiler.min.2732d44345d7e135b3dfa15bbc47af4a4cecc4335e65480a2703b2224c3b6221.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
         
         <hr><p>本文2026-07-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-13</p>]]>
       </description>
