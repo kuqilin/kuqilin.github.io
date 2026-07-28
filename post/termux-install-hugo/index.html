@@ -443,7 +443,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
+              data-src="https://t.alcy.cc/pc"
               data-sizes="auto"
               alt="37 签名 SVG 图片"
               class="lazyload"
@@ -771,32 +771,32 @@
     view: canvas,
     width: 600,
     height: 800,
-    backgroundAlpha: 0
+    backgroundAlpha: 0,
+    premultipliedAlpha: true
   });
-  const model = await PIXI.live2d.Live2DModel.from('/live2d/37/v1a4_306601_37.model3.json');
+  const model = await PIXI.live2d.Live2DModel.from('/live2d/37_skin5/v3a7_306605_37.model3.json');
   model.scale.set(0.14);
   model.x = -50;
-  model.y = 400;
+  model.y = 420;
   app.stage.addChild(model);
 
-  // 所有动作
+  // 所有动作（完美的流体皮肤）
   const allMotions = [
-    't_idle', 'b_idle',
-    'b_diantou', 'b_guzhang', 'b_fumo', 'b_xinxu', 'b_yaotou',
-    'b_sisuo', 'b_gongji', 'b_zhangshi', 'b_tiyi',
-    't_kaixin', 't_yansu', 't_bizui', 't_shengqi', 't_nanguo',
-    't_chijing', 't_kaixin_bizui', 't_yansu_bizui',
-    't_shengqi_bizui', 't_nanguo_bizui', 't_chijing_bizui'
+    'b_diantou','b_fumo','b_idle','b_niunai','b_sisuo','b_xinxu',
+    'b_xuegao','b_yaotou','b_zhangshi',
+    't_bizui','t_buman','t_buman_bizui','t_chijing','t_chijing_bizui',
+    't_idle','t_kaixin','t_kaixin_bizui','t_nanguo','t_nanguo_bizui',
+    't_shengqi','t_shengqi_bizui','t_yansu','t_yansu_bizui',
+    't_yuyue','t_yuyue_bizui'
   ];
 
   let loopTimer = null;
 
   function playRandomMotion() {
     clearTimeout(loopTimer);
-    const idx = Math.floor(Math.random() * allMotions.length);
-    const name = allMotions[idx];
+    const name = allMotions[Math.floor(Math.random() * allMotions.length)];
     console.log('Playing motion:', name);
-    model.internalModel.motionManager.startMotion('', idx);
+    model.internalModel.motionManager.startMotion(name, 0);
     loopTimer = setTimeout(playRandomMotion, 5000);
   }
 
