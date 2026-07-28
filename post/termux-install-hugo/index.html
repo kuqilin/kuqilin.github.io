@@ -443,7 +443,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/pc"
+              data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
               data-sizes="auto"
               alt="37 签名 SVG 图片"
               class="lazyload"
@@ -743,7 +743,72 @@
     "color: white; background: #ff5252; padding:5px 0;",
     "padding:4px;border:1px solid #ff5252;",
   );
-</script><script>
+</script><!-- Live2D 看板娘 (pixi-live2d-display) 开始 -->
+<style>
+  #live2dcanvas {
+    position: fixed;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 250px;
+    height: 350px;
+    z-index: 99999;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 959px) {
+    #live2dcanvas { display: none !important; }
+  }
+</style>
+<canvas id="live2dcanvas" width="600" height="800"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7/dist/pixi.min.js"></script>
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism4.min.js"></script>
+<script>
+(async function() {
+  const canvas = document.getElementById('live2dcanvas');
+  const app = new PIXI.Application({
+    view: canvas,
+    width: 600,
+    height: 800,
+    backgroundAlpha: 0
+  });
+  const model = await PIXI.live2d.Live2DModel.from('/live2d/37/v1a4_306601_37.model3.json');
+  model.scale.set(0.14);
+  model.x = -50;
+  model.y = 400;
+  app.stage.addChild(model);
+
+  // 所有动作
+  const allMotions = [
+    't_idle', 'b_idle',
+    'b_diantou', 'b_guzhang', 'b_fumo', 'b_xinxu', 'b_yaotou',
+    'b_sisuo', 'b_gongji', 'b_zhangshi', 'b_tiyi',
+    't_kaixin', 't_yansu', 't_bizui', 't_shengqi', 't_nanguo',
+    't_chijing', 't_kaixin_bizui', 't_yansu_bizui',
+    't_shengqi_bizui', 't_nanguo_bizui', 't_chijing_bizui'
+  ];
+
+  let loopTimer = null;
+
+  function playRandomMotion() {
+    clearTimeout(loopTimer);
+    const idx = Math.floor(Math.random() * allMotions.length);
+    const name = allMotions[idx];
+    console.log('Playing motion:', name);
+    model.internalModel.motionManager.startMotion('', idx);
+    loopTimer = setTimeout(playRandomMotion, 5000);
+  }
+
+  // 等模型准备好
+  setTimeout(playRandomMotion, 500);
+
+  canvas.addEventListener('click', playRandomMotion);
+  canvas.addEventListener('touchstart', function(e) { e.preventDefault(); playRandomMotion(); });
+})();
+</script>
+<!-- Live2D 看板娘 (pixi-live2d-display) 结束 -->
+<script>
 (function () {
   function markTall(img) {
     if (!img.naturalWidth || !img.naturalHeight) return;
