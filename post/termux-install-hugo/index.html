@@ -273,19 +273,19 @@
 <a class="header-anchor" href="#%e5%ae%89%e8%a3%85-go"></a>
 安装 Go
 </h2><p>使用以下命令来安装 Go：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ pkg install golang
-</span></span></code></pre></div><p>检查是否安装成功，正常输出 go 版本号即为成功：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ go version
-</span></span><span class="line"><span class="cl">go version go1.26.5 android/arm64
-</span></span></code></pre></div><h2 id="编译-hugo">
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">[~]$ pkg install golang
+</span></span></span></code></pre></div><p>检查是否安装成功，正常输出 go 版本号即为成功：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="gp">$</span> go version
+</span></span><span class="line"><span class="cl"><span class="go">go version go1.26.5 android/arm64
+</span></span></span></code></pre></div><h2 id="编译-hugo">
 <a class="header-anchor" href="#%e7%bc%96%e8%af%91-hugo"></a>
 编译 Hugo
 </h2><p>在 Hugo 的 GitHub 仓库中，README 文件贴出了手动编译的命令。源码是从 GitHub 下载，所以请确认网络环境状况或者使用镜像网站。<br>
 因为我使用的 Hugo 主题是 hugo-theme-reimu 所以我要安装拓展版本（Extended edition）。安装拓展版本需要保证有 GCC 或者 Clang 安装，若干没有，运行<code>pkg install clang</code>即可。<br>
 然后执行以下命令进行拓展版本的编译：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ <span class="nv">CGO_ENABLED</span><span class="o">=</span><span class="m">1</span> go install -tags extended github.com/gohugoio/hugo@latest
-</span></span></code></pre></div><p>跑完这一大串就应该编译好了， <del>本人的麒麟 970 芯片只花了 58 秒就编译好了，你也来试试吧</del></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ <span class="nv">CGO_ENABLED</span><span class="o">=</span><span class="m">1</span> go install -tags extended github.com/gohugoio/hugo@latest
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-console" data-lang="console"><span class="line"><span class="cl"><span class="go">CGO_ENABLED=1 go install -tags extended github.com/gohugoio/hugo@latest
+</span></span></span></code></pre></div><p>跑完这一大串就应该编译好了， <del>本人的麒麟 970 芯片只花了 58 秒就编译好了，你也来试试吧</del></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ <span class="nv">CGO_ENABLED</span><span class="o">=</span><span class="m">1</span> go install -tags extended github.com/gohugoio/hugo@latest
 </span></span><span class="line"><span class="cl">go: downloading github.com/gohugoio/hugo v0.164.0                 go: downloading github.com/bep/godartsass/v2 v2.5.0               go: downloading github.com/bep/golibsass v1.2.0                   go: downloading github.com/pelletier/go-toml/v2 v2.4.3            go: downloading github.com/spf13/afero v1.15.0                    go: downloading github.com/tdewolff/parse/v2 v2.8.12              go: downloading github.com/bep/logg v0.4.0                        go: downloading github.com/fatih/color v1.18.0                    go: downloading github.com/alecthomas/chroma/v2 v2.27.0           go: downloading github.com/bep/clocks v0.5.0                      go: downloading github.com/bep/debounce v1.2.0                    go: downloading github.com/bep/lazycache v0.8.1                   go: downloading github.com/bep/mclib v1.20401.20400               go: downloading github.com/bep/overlayfs v0.11.0                  go: downloading github.com/fsnotify/fsnotify v1.9.0               go: downloading github.com/bep/simplecobra v0.7.0                 go: downloading github.com/goccy/go-yaml v1.19.2                  go: downloading github.com/spf13/cobra v1.10.2                    go: downloading github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c                                                           go: downloading github.com/spf13/fsync v0.10.1                    go: downloading github.com/spf13/pflag v1.0.10                    go: downloading go.uber.org/automaxprocs v1.5.3                   go: downloading golang.org/x/sync v0.21.0                         go: downloading golang.org/x/text v0.38.0                         go: downloading github.com/cespare/xxhash/v2 v2.3.0               go: downloading github.com/gohugoio/hashstructure v0.6.0          go: downloading github.com/mattn/go-isatty v0.0.22                go: downloading github.com/mattn/go-colorable v0.1.14             go: downloading google.golang.org/protobuf v1.36.11
 </span></span><span class="line"><span class="cl">go: downloading github.com/hashicorp/golang-lru/v2 v2.0.7
 </span></span><span class="line"><span class="cl">go: downloading github.com/dlclark/regexp2/v2 v2.2.1
@@ -361,10 +361,10 @@
 </span></span><span class="line"><span class="cl">go: downloading github.com/go-openapi/swag/jsonname v0.25.5
 </span></span><span class="line"><span class="cl">go: downloading github.com/oasdiff/yaml3 v0.0.13
 </span></span></code></pre></div><p>不出意外，编译好的 Hugo 会在<code>~/go/bin/</code>里面，检查一下：</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ ~/go/bin/hugo version
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ ~/go/bin/hugo version
 </span></span><span class="line"><span class="cl">hugo v0.164.0+extended android/arm64 <span class="nv">BuildDate</span><span class="o">=</span>unknown
 </span></span></code></pre></div><p>如果你看到类似的输出，恭喜你，编译好了。不过为了方便，执行</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ cp ~/go/bin/hugo ~/../usr/bin/
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="o">[</span>~<span class="o">]</span>$ cp ~/go/bin/hugo ~/../usr/bin/
 </span></span></code></pre></div><p>就可以随意调用 Hugo 了。</p>
 <h2 id="结语">
 <a class="header-anchor" href="#%e7%bb%93%e8%af%ad"></a>
@@ -443,7 +443,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/ycy"
+              data-src="https://t.alcy.cc/pc"
               data-sizes="auto"
               alt="37 签名 SVG 图片"
               class="lazyload"
