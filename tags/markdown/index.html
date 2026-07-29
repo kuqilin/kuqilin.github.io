@@ -941,8 +941,8 @@
     left: 0;
     right: auto;
     bottom: 0;
-    width: 250px;
-    height: 350px;
+    width: 360px;
+    height: 480px;
     z-index: 99999;
     pointer-events: auto;
     cursor: pointer;
@@ -951,7 +951,7 @@
     #live2dcanvas { display: none !important; }
   }
 </style>
-<canvas id="live2dcanvas" width="600" height="800"></canvas>
+<canvas id="live2dcanvas" width="900" height="1200"></canvas>
 <script src="https://cdn.jsdelivr.net/npm/pixi.js@7/dist/pixi.min.js"></script>
 <script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism4.min.js"></script>
@@ -960,25 +960,27 @@
   const canvas = document.getElementById('live2dcanvas');
   const app = new PIXI.Application({
     view: canvas,
-    width: 600,
-    height: 800,
+    width: 900,
+    height: 1200,
     backgroundAlpha: 0,
     premultipliedAlpha: true
   });
-  const model = await PIXI.live2d.Live2DModel.from('/live2d/37_skin5/v3a7_306605_37.model3.json');
-  model.scale.set(0.14);
-  model.x = -50;
-  model.y = 420;
+  const model = await PIXI.live2d.Live2DModel.from('/live2d/37_skin4/v2a2_306604_37.model3.json');
+  model.scale.set(0.28);
+  model.x = -100;
+  model.y = 380;
   app.stage.addChild(model);
 
-  // 所有动作（完美的流体皮肤）
+  // 所有动作（泉眼深处皮肤）
   const allMotions = [
-    'b_diantou','b_fumo','b_idle','b_niunai','b_sisuo','b_xinxu',
-    'b_xuegao','b_yaotou','b_zhangshi',
-    't_bizui','t_buman','t_buman_bizui','t_chijing','t_chijing_bizui',
-    't_idle','t_kaixin','t_kaixin_bizui','t_nanguo','t_nanguo_bizui',
-    't_shengqi','t_shengqi_bizui','t_yansu','t_yansu_bizui',
-    't_yuyue','t_yuyue_bizui'
+    'b_diantou','b_feizou','b_fumo','b_gongji','b_idle',
+    'b_jiangluo','b_jiangluo2','b_naxia','b_qiwu','b_ruchang',
+    'b_shenshou','b_shuzi','b_sisuo','b_tielian','b_tielian2',
+    'b_tielian3','b_tiyi','b_xinxu','b_yaotou','b_zhanshi',
+    't_biyan','t_biyan_bizui','t_bizui','t_chijing','t_chijing_bizui',
+    't_gongji','t_idle','t_kaixin','t_kaixin_bizui','t_nanguo',
+    't_nanguo_bizui','t_shengqi','t_shengqi_bizui','t_shishen',
+    't_shishen_bizui','t_yansu','t_yansu_bizui'
   ];
 
   let loopTimer = null;
