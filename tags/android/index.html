@@ -144,6 +144,7 @@
       </a><a class="main-nav-link-wrap" href="/archives"><div class='main-nav-icon icon '>&#xf187;</div><span class="main-nav-link">归档</span>
       </a><a class="main-nav-link-wrap" href="/about"><div class='main-nav-icon icon '>&#xf05a;</div><span class="main-nav-link">关于</span>
       </a><a class="main-nav-link-wrap" href="/friend"><div class='main-nav-icon icon '>&#xf500;</div><span class="main-nav-link">友链</span>
+      </a><a class="main-nav-link-wrap" href="/changelog"><div class='main-nav-icon icon '>&#xf1da;</div><span class="main-nav-link">日志</span>
       </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation"><a id="nav-rss-link" class="nav-icon" href="/tags/android/index.xml" title="RSS 订阅" aria-label="RSS 订阅" target="_blank"></a></nav><a href="https://github.com/kuqilin/kuqilin.github.io" class="triangle-badge" title="github" target="_blank" rel="noopener nofollow noreferrer">
@@ -790,6 +791,12 @@
         href="/friend"
         aria-label="友链"
       ></a><div class='sidebar-menu-icon icon '>&#xf500;</div><div class="sidebar-menu-link">友链</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/changelog"
+        aria-label="日志"
+      ></a><div class='sidebar-menu-icon icon '>&#xf1da;</div><div class="sidebar-menu-link">日志</div>
     </div></div></div></nav>
 </div><script
     src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
@@ -912,8 +919,8 @@
     left: 0;
     right: auto;
     bottom: 0;
-    width: 360px;
-    height: 480px;
+    width: 390px;
+    height: 520px;
     z-index: 99999;
     pointer-events: auto;
     cursor: pointer;
@@ -931,15 +938,15 @@
   const canvas = document.getElementById('live2dcanvas');
   const app = new PIXI.Application({
     view: canvas,
-    width: 900,
-    height: 1200,
+    width: 960,
+    height: 1280,
     backgroundAlpha: 0,
     premultipliedAlpha: true
   });
   const model = await PIXI.live2d.Live2DModel.from('/live2d/37_skin4/v2a2_306604_37.model3.json');
   model.scale.set(0.28);
   model.x = -100;
-  model.y = 380;
+  model.y = 450;
   app.stage.addChild(model);
 
   // 所有动作（泉眼深处皮肤）
