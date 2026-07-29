@@ -483,19 +483,6 @@
                 href="https://kuqilin.github.io/yue/post/my-gpg/"
                 />
   </url><url>
-    <loc>https://kuqilin.github.io/yue/about/</loc>
-    <lastmod>2026-07-11T08:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/about/"
-                />
-  </url><url>
     <loc>https://kuqilin.github.io/yue/friend/</loc>
     <lastmod>2026-07-12T11:27:37+08:00</lastmod>
     <xhtml:link
@@ -507,6 +494,19 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/friend/"
+                />
+  </url><url>
+    <loc>https://kuqilin.github.io/yue/about/</loc>
+    <lastmod>2026-07-11T08:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/about/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/yue/categories/python/</loc>
