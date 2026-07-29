@@ -4,6 +4,16 @@
   <url>
     <loc>https://kuqilin.github.io/post/fulltest/</loc>
     <lastmod>2026-07-14T18:40:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/fulltest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/fulltest/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
@@ -20,6 +30,16 @@
   </url><url>
     <loc>https://kuqilin.github.io/changelog/</loc>
     <lastmod>2026-07-29T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/changelog/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/changelog/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/categories/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
@@ -36,6 +56,16 @@
   </url><url>
     <loc>https://kuqilin.github.io/tags/hugo/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/hugo/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
@@ -52,125 +82,535 @@
   </url><url>
     <loc>https://kuqilin.github.io/categories/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/categories/%E8%AE%B0%E5%BD%95/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/categories/%E8%AE%B0%E5%BD%95/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/%E8%AE%B0%E5%BD%95/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/%E8%AE%B0%E5%BD%95/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/%E8%AE%B0%E5%BD%95/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/kan-ban-niang/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/kan-ban-niang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/kan-ban-niang/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/android/</loc>
     <lastmod>2026-07-28T17:43:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/android/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/android/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/termux/</loc>
     <lastmod>2026-07-28T17:43:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/termux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/termux/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/termux-install-hugo/</loc>
     <lastmod>2026-07-28T17:43:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/termux-install-hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/termux-install-hugo/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2026-07-28T17:43:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/categories/%E6%95%99%E7%A8%8B/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/categories/%E6%95%99%E7%A8%8B/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/37-signature/</loc>
     <lastmod>2026-07-23T21:33:48+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/37-signature/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/37-signature/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/ai/</loc>
     <lastmod>2026-07-23T21:33:48+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/ai/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/2026%E5%B9%B4/</loc>
     <lastmod>2026-07-21T19:07:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/2026%E5%B9%B4/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/2026%E5%B9%B4/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/archives/2026%E5%B9%B4%E8%AE%B0_v1/</loc>
     <lastmod>2026-07-21T19:07:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/archives/2026%E5%B9%B4%E8%AE%B0_v1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/archives/2026%E5%B9%B4%E8%AE%B0_v1/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/categories/%E5%B9%B4%E8%AE%B0/</loc>
     <lastmod>2026-07-21T19:07:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/categories/%E5%B9%B4%E8%AE%B0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/categories/%E5%B9%B4%E8%AE%B0/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/%E5%B9%B4%E8%AE%B0/</loc>
     <lastmod>2026-07-21T19:07:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/%E5%B9%B4%E8%AE%B0/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/%E5%B9%B4%E8%AE%B0/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/man-zui-lan-geng-de-xue-sheng/</loc>
     <lastmod>2026-07-17T21:01:07+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/man-zui-lan-geng-de-xue-sheng/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/man-zui-lan-geng-de-xue-sheng/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/%E6%95%99%E8%82%B2/</loc>
     <lastmod>2026-07-17T21:01:07+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/%E6%95%99%E8%82%B2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/%E6%95%99%E8%82%B2/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/%E7%A4%BE%E4%BC%9A%E8%A7%82%E5%AF%9F/</loc>
     <lastmod>2026-07-17T21:01:07+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/%E7%A4%BE%E4%BC%9A%E8%A7%82%E5%AF%9F/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/%E7%A4%BE%E4%BC%9A%E8%A7%82%E5%AF%9F/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/categories/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2026-07-17T21:01:07+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/categories/%E8%BD%AC%E8%BD%BD/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/categories/%E8%BD%AC%E8%BD%BD/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/%E8%BD%AC%E8%BD%BD/</loc>
     <lastmod>2026-07-17T21:01:07+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/%E8%BD%AC%E8%BD%BD/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/%E8%BD%AC%E8%BD%BD/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/categories/ai/</loc>
     <lastmod>2026-07-15T21:15:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/categories/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/categories/ai/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/markdown/</loc>
     <lastmod>2026-07-15T21:15:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/markdown/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</loc>
     <lastmod>2026-07-15T21:15:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/telegram-ai-editor-prompt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</loc>
     <lastmod>2026-07-15T21:15:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/spoilertest_shortcode/</loc>
     <lastmod>2026-07-13T11:47:55+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/spoilertest_shortcode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/spoilertest_shortcode/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/20260712/</loc>
     <lastmod>2026-07-12T23:39:27+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/20260712/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/20260712/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/hugo/</loc>
     <lastmod>2026-07-17T10:44:22+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/hugo/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/hello/</loc>
     <lastmod>2026-07-11T22:07:21+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/hello/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/hello/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/20260517/</loc>
     <lastmod>2026-05-17T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/20260517/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/20260517/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/latex/</loc>
     <lastmod>2026-07-14T18:40:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/latex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/latex/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</loc>
     <lastmod>2026-07-12T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/wo-qu-guo-de-xue-xiao/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/gpg/</loc>
     <lastmod>2026-07-16T11:47:46+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/gpg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/gpg/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/my-gpg/</loc>
     <lastmod>2026-07-16T11:47:46+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/my-gpg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/my-gpg/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/about/</loc>
     <lastmod>2026-07-11T08:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/about/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/friend/</loc>
     <lastmod>2026-07-12T11:27:37+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/friend/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/friend/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/categories/python/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/categories/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/categories/python/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/python/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/python/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/python-ji-ben-yu-fa/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/python-ji-ben-yu-fa/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/python-ji-ben-yu-fa/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/queue/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/queue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/queue/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/tags/stack/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/stack/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/stack/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/post/markdown-grammar/</loc>
     <lastmod>2023-01-10T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/markdown-grammar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/markdown-grammar/"
+                />
   </url><url>
     <loc>https://kuqilin.github.io/archives/</loc>
     <lastmod>2022-07-26T21:46:25+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/archives/"
+                />
   </url>
 </urlset>

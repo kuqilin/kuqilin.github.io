@@ -153,7 +153,7 @@
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
           <span id="selected-lang">简体中文</span>
         </div>
-        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li></ul>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li></ul>
       </div>
       <script>
         var selectSelected = document.getElementById("select-selected");
@@ -169,7 +169,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['yue'] = '\/yue\/post\/termux-install-hugo\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -493,7 +493,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/ycy"
+              data-src="https://imgapi.jinghuashang.cn/random"
               data-sizes="auto"
               alt="37 签名 SVG 图片"
               class="lazyload"
@@ -505,7 +505,7 @@
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">37 签名 SVG 图片</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://t.alcy.cc/pc"
+              data-src="https://www.loliapi.com/acg/pc/"
               data-sizes="auto"
               alt="网站看板娘 —— 37 泉眼深处"
               class="lazyload"

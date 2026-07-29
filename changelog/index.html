@@ -153,7 +153,7 @@
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
           <span id="selected-lang">简体中文</span>
         </div>
-        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li></ul>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li></ul>
       </div>
       <script>
         var selectSelected = document.getElementById("select-selected");
@@ -169,7 +169,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['yue'] = '\/yue\/changelog\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -563,6 +563,13 @@
   <tbody>
   
     <tr>
+      <td><code>15460f5</code></td>
+      <td>🭳2026-07-29</td>
+      <td>🭳Test of i18n</td>
+      <td>🭳无</td>
+    </tr>
+  
+    <tr>
       <td><code>8d22cf3</code></td>
       <td>🭳2026-07-29</td>
       <td>🭳Test of i18n Hope the yue will be ok...</td>
@@ -622,13 +629,6 @@
       <td><code>e219000</code></td>
       <td>🭳2026-07-29</td>
       <td>🭳缩小资源体积</td>
-      <td>🭳无</td>
-    </tr>
-  
-    <tr>
-      <td><code>1fa9ca8</code></td>
-      <td>🭳2026-07-29</td>
-      <td>🭳更新看板娘文章</td>
       <td>🭳无</td>
     </tr>
   

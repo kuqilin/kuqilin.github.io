@@ -153,7 +153,7 @@
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
           <span id="selected-lang">简体中文</span>
         </div>
-        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li></ul>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li></ul>
       </div>
       <script>
         var selectSelected = document.getElementById("select-selected");
@@ -169,7 +169,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['yue'] = '\/yue\/post\/markdown-grammar\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -693,7 +693,7 @@ $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$<div class="footnotes" role="doc-end
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap right"><img
-              data-src="https://v2.xxapi.cn/api/randomAcgPic?type=pc&amp;return=302"
+              data-src="https://imgapi.jinghuashang.cn/random"
               data-sizes="auto"
               alt="栈、队列和双端队列的Python实现"
               class="lazyload"

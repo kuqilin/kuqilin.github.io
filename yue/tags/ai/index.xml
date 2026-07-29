@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/yue/tags/ai/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>yue</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本博客所有文章除特别聲明外，均采用 BY-NC-SA 許可協議。轉載請註明出處！</copyright>
+    
+    <lastBuildDate>Thu, 23 Jul 2026 21:33:48 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/yue/tags/ai/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>37 签名 SVG 图片</title>
+      <link>https://kuqilin.github.io/yue/post/37-signature/</link>
+      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/yue/post/37-signature/</guid>
+      <description>
+        <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+        
+        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-23</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>复刻 Telegram 的 AI 编辑器</title>
+      <link>https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/</link>
+      <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/</guid>
+      <description>
+        <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
+        
+        <hr><p>本文2026-07-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
+      </description>
+      
+        <category>AI</category>
+      
+    </item>
+    
+  </channel>
+</rss>
