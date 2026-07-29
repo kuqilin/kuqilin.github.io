@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/zh-cn/tags/python/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    
+    <lastBuildDate>Sat, 13 May 2023 00:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/zh-cn/tags/python/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>栈、队列和双端队列的Python实现</title>
+      <link>https://kuqilin.github.io/zh-cn/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-cn/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
+      <description>
+        <![CDATA[<h1>栈、队列和双端队列的Python实现</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          栈、队列和双端队列的Python实现
+        
+        <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
+      </description>
+      
+        <category>Python</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Python基本语法</title>
+      <link>https://kuqilin.github.io/zh-cn/post/python-ji-ben-yu-fa/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-cn/post/python-ji-ben-yu-fa/</guid>
+      <description>
+        <![CDATA[<h1>Python基本语法</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          Python 基本语法
+        
+        <hr><p>本文2023-05-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2023-05-13</p>]]>
+      </description>
+      
+        <category>Python</category>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -5,12 +5,12 @@
     <link>https://kuqilin.github.io/tags/hugo/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
-    <language>zh-CN</language>
+    <language>en</language>
     
     <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
     <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
     
-    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
     <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
     
@@ -28,11 +28,11 @@
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/kan-ban-niang/</guid>
       <description>
-        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
           <p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
         
-        <hr><p>本文2026-07-28首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-29</p>]]>
+        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-29</p>]]>
       </description>
       
         <category>记录</category>
@@ -48,11 +48,11 @@
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/termux-install-hugo/</guid>
       <description>
-        <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Termux 安装 Hugo</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
           用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
         
-        <hr><p>本文2026-07-28首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-28</p>]]>
+        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-28</p>]]>
       </description>
       
         <category>教程</category>
@@ -68,11 +68,11 @@
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
           记录了我在 GitHub Pages 搭建 Hugo 的经历
         
-        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-17</p>]]>
+        <hr><p>Published on 2026-07-11 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
       </description>
       
         <category>记录</category>
