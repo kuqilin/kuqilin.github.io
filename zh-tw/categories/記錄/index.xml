@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>記錄 on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/zh-tw/categories/%E8%A8%98%E9%8C%84/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
+    
+    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/zh-tw/categories/%E8%A8%98%E9%8C%84/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>網站看板娘 —— 37 泉眼深處</title>
+      <link>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</link>
+      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</guid>
+      <description>
+        <![CDATA[<h1>網站看板娘 —— 37 泉眼深處</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>再次更新，用上了 Cloudflare 的 R2 儲存桶，綁了<code>kuqilin.eu.org</code>域名，可以 <del>盡情</del> 適度食用了。速度比 jsDelivr 快多了！20 秒之內 99% 的使用者都能加載出來了。都去給我欣賞「泉眼深處」😠😠😠</p>
+        
+        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>37 簽名 SVG 圖片</title>
+      <link>https://kuqilin.github.io/zh-tw/post/37-signature/</link>
+      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/37-signature/</guid>
+      <description>
+        <![CDATA[<h1>37 簽名 SVG 圖片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          AI 總結：用 AI 製作了 37 的 SVG 簽名圖，並分享了多版本成品和完整原始碼。
+        
+        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-23</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hugo 搭建個人部落格</title>
+      <link>https://kuqilin.github.io/zh-tw/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/hugo/</guid>
+      <description>
+        <![CDATA[<h1>Hugo 搭建個人部落格</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          記錄了我在 GitHub Pages 搭建 Hugo 的經歷
+        
+        <hr><p>本文2026-07-11首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>我去過的學校</title>
+      <link>https://kuqilin.github.io/zh-tw/post/wo-qu-guo-de-xue-xiao/</link>
+      <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/wo-qu-guo-de-xue-xiao/</guid>
+      <description>
+        <![CDATA[<h1>我去過的學校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="我去過的學校">
+<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e9%81%8e%e7%9a%84%e5%ad%b8%e6%a0%a1"></a>
+我去過的學校
+</h1><p>忽然覺得自己去過很多學校，便想著列個表格出來看看都去過哪些、去幹嘛的：</p>
+<p>（排名不分前後，按記憶順序）</p>
+<table>
+	<thead>
+			<tr>
+					<th style="text-align: center">去過的學校</th>
+					<th style="text-align: center">原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: center">廣州市第六中學</td>
+					<td style="text-align: center">CSP-J 複賽</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州市鐵一中學（越秀校區）</td>
+					<td style="text-align: center">CSP-J/S 初賽</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣東廣雅中學（花都校區）</td>
+					<td style="text-align: center">上高中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州市第八十九中學</td>
+					<td style="text-align: center">英才計劃住宿</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州市第二中學</td>
+					<td style="text-align: center">打比賽</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州大學附屬中學（大學城校區）</td>
+					<td style="text-align: center">CSP-J/S比賽&amp;&amp;廣大附教育集團環大學城拉練活動</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">北京師範大學附屬中學廣州實驗學校（好像是這個名字）</td>
+					<td style="text-align: center">廣州市青少年科技教育夏令營</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州市增城區應元學校</td>
+					<td style="text-align: center">同上</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州市花都區花廣金獅學校（原廣州大學附屬中學花都獅嶺實驗學校）</td>
+					<td style="text-align: center">上初中</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州市花都區花廣學校（原廣州大學附屬中學花都實驗學校）</td>
+					<td style="text-align: center">參觀&amp;&amp;密考（？）</td>
+			</tr>
+			<tr>
+					<td style="text-align: center">廣州市花都區廣州大學附屬中學紫蘭學校</td>
+					<td style="text-align: center">打比賽</td>
+			</tr>
+	</tbody>
+</table>
+<details>你不應看到這裡</details>
+        
+        <hr><p>本文2025-02-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-12</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>20260517</title>
+      <link>https://kuqilin.github.io/zh-tw/post/20260517/</link>
+      <pubDate>Sun, 17 May 2026 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/20260517/</guid>
+      <description>
+        <![CDATA[<h1>20260517</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>難得一個清閒的週末，慢慢地寫作業、慢慢地出去走走、慢慢地吃個飯，一點都不急。作業也少，rage bait 也不推了，溫度很舒適。很久沒過這樣的週末了 <del>（可能是沒刷短影片的原因吧）</del> 。<br>
+自從把 B 站的個性化推薦關掉之後，推給我的都是高質量影片，刷影片功能也沒掉了，比起以前來個</p>
+        
+        <hr><p>本文2026-05-17首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-05-17</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+  </channel>
+</rss>

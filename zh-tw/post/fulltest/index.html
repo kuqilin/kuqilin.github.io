@@ -1,0 +1,1885 @@
+<!doctype html>
+<html
+  lang="zh-TW" 
+  data-theme-mode="auto"
+  >
+  <head><meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/><title>
+  Markdown & LaTeX 全量測試文件 | Kuqilin
+</title>
+<meta name="description" content="測試你的編輯器能否支援這些語法"/><script>
+  window.siteConfig = JSON.parse("{\"anchor\":{\"auto\":{\"enable\":false,\"length\":60},\"explicit\":{\"enable\":false,\"marker\":\"{#anchor-\",\"prefix\":\"anchor-\"}},\"anchor_icon\":null,\"base\":\"https://kuqilin.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"yue\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"yue\":\"複製成功 (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":20},\"i18n_languages\":[{\"label\":\"简体中文\",\"lang\":\"zh-cn\"},{\"label\":\"粵語\",\"lang\":\"yue\"},{\"label\":\"繁體中文\",\"lang\":\"zh-tw\"},{\"label\":\"English\",\"lang\":\"en\"}],\"icon_font\":false,\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"yue\":\"本文最後更新於 {time}，請注意文中內容可能已經唔啱用。\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
+  
+</script>
+<link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="https://fontsapi.zeoseven.com/292/main/result.css"
+    onload="this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="https://fontsapi.zeoseven.com/447/main/result.css"
+    onload="this.rel='stylesheet'"
+  /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+<link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/regular.min.css"
+    integrity="sha384-4qYppzjH8EiA&#43;cGdaubu2vL7Rk8WGiqCSj7oRuP1uwtFWkfKNHD20lPfcrbQc8dU" crossorigin="anonymous"/><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/solid.min.css"
+    integrity="sha384-wbMWab3UDSPm2kvIgVOn/d9KPTecgPU1&#43;Nb3zoQrm/oVu0EkPL6IaKinjbwW0rum" crossorigin="anonymous"/><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/brands.min.css"
+    integrity="sha384-KTGeC2hIMzpeQakhsmzB9bZfhCD5xZZCgI1iZH6f/O457SxzlkzTQg/WXFNoi3ih" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/v5-font-face.min.css"
+    integrity="sha384-nJ1ThfldViXoLpJ6jlKcP2beas8BMbYq26SG9Hi8cH89bZi4RZ644v7helMCqJxd" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/v4-font-face.min.css"
+    integrity="sha384-UlkrhOIvZxJFd4MElSUp7ow6/RUeYKi/orfCZIRRiOENFuQPIAA3T3HjYfmBRhNq" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link rel="stylesheet" href="/css/loader.min.780ef5587bcfea9b20590786f0c831e1d3b37741ba191c9418e0a38e485d5dab.css" /><meta property="og:type" content="website" />
+  <meta property="og:title" content="Markdown & LaTeX 全量測試文件 | Kuqilin" />
+  <meta
+    property="og:description"
+    content="測試你的編輯器能否支援這些語法"
+  />
+  <meta property="og:url" content="https://kuqilin.github.io/zh-tw/post/fulltest/" />
+  <meta
+    property="og:site_name"
+    content="Kuqilin&#39;s Blog"
+  />
+  <meta property="og:image" content="https://ts2.tc.mm.bing.net/th/id/OIP-C.LK4h0b1Imrid50PLb4SL3AHaEH" />
+  <meta property="article:author" content="Kuqilin" />
+  <meta property="article:published_time" content="2026-01-25T14:45:32&#43;08:00" />
+  <meta property="article:modified_time" content="2026-07-14T18:40:16&#43;08:00" /><meta property="article:tag" content="Markdown, LaTeX" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://ts2.tc.mm.bing.net/th/id/OIP-C.LK4h0b1Imrid50PLb4SL3AHaEH" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.481340bb6cea10720b285955e1fcc78dfa4119b85a0e5decf107369dbe593d92.css" /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei&#43;Zx/1oA/0l8ysE" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.24/dist/katex.min.css"
+    integrity="sha384-tTgKLjMYmJr94v8qu2PE5MUGSMbyN2xiH266JUB3gpm8vnnJywd1dWSOEfrFz&#43;YI" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    
+    
+    
+    
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css"
+    integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous"/></head>
+  <body><div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate"><img src="/images/thirtyseven-preloader.svg" alt="loading" /></div><div class="loading-word">算算數學中...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var loaderEl = document.getElementById('loader');
+    var startLoading = () => {
+      time = Date.now();
+      loaderEl.classList.remove("loading");
+    }
+    var hideLoader = () => {
+      document.body.style.overflow = 'auto';
+      loader.classList.add('loading');
+    };
+
+    var endLoading = () => {
+      if (!time) {
+        hideLoader();
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          hideLoader();
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    loaderEl.addEventListener('click', endLoading);
+  </script><div id="copy-tooltip"></div>
+<div id="lang-tooltip">
+本文章沒有找到對應的語言版本
+</div>
+<div id="heatmap-tooltip"></div><div id="container">
+      <div id="wrap"><div id="header-nav">
+  <nav id="main-nav" aria-label="Primary navigation"><a class="main-nav-link-wrap" href="/zh-tw/"><div class='main-nav-icon icon '>&#xf015;</div><span class="main-nav-link">首頁</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/archives"><div class='main-nav-icon icon '>&#xf187;</div><span class="main-nav-link">歸檔</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/about"><div class='main-nav-icon icon '>&#xf05a;</div><span class="main-nav-link">關於</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/friend"><div class='main-nav-icon icon '>&#xf500;</div><span class="main-nav-link">友鏈</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/changelog"><div class='main-nav-icon icon '>&#xf1da;</div><span class="main-nav-link">日誌</span>
+      </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
+  </nav>
+  <nav id="sub-nav" aria-label="Secondary navigation"></nav><nav id="i18n-nav" aria-label="Language selection">
+      <div class="custom-dropdown">
+        <div class="select-selected" id="select-selected" role="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language menu">
+          <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
+          <span id="selected-lang">繁體中文</span>
+        </div>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" aria-selected="false" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li><li data-value="zh-tw" role="option" class="selected" aria-selected="true" >繁體中文</li><li data-value="en" role="option" aria-selected="false" >English</li></ul>
+      </div>
+      <script>
+        var selectSelected = document.getElementById("select-selected");
+        var selectedLang = document.getElementById("selected-lang");
+        var selectItems = document.getElementById("select-items");
+        var selectOptions = selectItems.querySelectorAll("li");
+
+        selectSelected.addEventListener("click", () => {
+          selectItems.classList.toggle("show");
+          var expanded = selectSelected.getAttribute("aria-expanded") === "true";
+          selectSelected.setAttribute("aria-expanded", (!expanded).toString());
+        });
+
+        selectOptions.forEach((item) => {
+          item.addEventListener("click", () => {
+            const langMap = {};langMap['zh-cn'] = '\/zh-cn\/post\/fulltest\/';langMap['yue'] = '\/yue\/post\/fulltest\/';langMap['en'] = '\/post\/fulltest\/';selectedLang.textContent = item.textContent;
+            selectItems.classList.remove("show");
+            selectOptions.forEach((option) => {
+              option.classList.remove("selected");
+            });
+            item.classList.add("selected");
+            if (item.dataset.value === 'zh-tw') {
+              return;
+            }
+            if (!langMap[item.dataset.value]) {
+              _$("#lang-tooltip").style.opacity = "1";
+              setTimeout(() => {
+                _$("#lang-tooltip").style.opacity = "0";
+              }, 1000);
+              return;
+            }
+            window.location = langMap[item.dataset.value];
+          });
+        });
+
+        document.addEventListener("click", (event) => {
+          if (!event.target.closest(".custom-dropdown")) {
+            selectItems.classList.remove("show");
+            selectSelected.setAttribute("aria-expanded", "false");
+          }
+        });
+      </script>
+    </nav><a href="https://github.com/kuqilin/kuqilin.github.io" class="triangle-badge" title="github" target="_blank" rel="noopener nofollow noreferrer">
+      <div class="icon icon-github triangle-badge-icon"></div>
+    </a></div>
+<header id="header" aria-label="Site header"><picture></picture>
+    <img crossorigin="anonymous" fetchpriority="high" src="https://ts2.tc.mm.bing.net/th/id/OIP-C.LK4h0b1Imrid50PLb4SL3AHaEH" alt="Markdown &amp; LaTeX 全量測試文件"><div id="header-outer">
+    <div id="header-title"><span id="logo">
+            <h1 data-aos="slide-up">Markdown &amp; LaTeX 全量測試文件</h1>
+          </span><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
+  </div>
+</header><div id="content"
+          aria-label="Page content"
+          class="sidebar-left"
+            ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container sticky"><div class="sidebar-wrapper">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    ><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目錄</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一markdown-基礎語法測試">一、Markdown 基礎語法測試</a>
+      <ul>
+        <li><a href="#11-標題1-6級">1.1 標題（1-6級）</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#二級標題">二級標題</a>
+      <ul>
+        <li><a href="#三級標題">三級標題</a></li>
+        <li><a href="#12-文本格式">1.2 文本格式</a></li>
+        <li><a href="#13-列表">1.3 列表</a></li>
+        <li><a href="#14-連結與圖片">1.4 連結與圖片</a></li>
+        <li><a href="#15-程式碼塊">1.5 程式碼塊</a></li>
+        <li><a href="#16-分割線">1.6 分割線</a></li>
+        <li><a href="#17-腳註">1.7 腳註</a></li>
+        <li><a href="#18-定義列表">1.8 定義列表</a></li>
+        <li><a href="#19-縮寫abbr">1.9 縮寫（ABBR）</a></li>
+      </ul>
+    </li>
+    <li><a href="#二markdown-進階語法測試">二、Markdown 進階語法測試</a>
+      <ul>
+        <li><a href="#21-表格基礎帶格式帶對齊">2.1 表格（基礎/帶格式/帶對齊）</a></li>
+        <li><a href="#22-表情符號與-emoji">2.2 表情符號與 Emoji</a></li>
+        <li><a href="#23-目錄部分編輯器支援">2.3 目錄（部分編輯器支援）</a></li>
+        <li><a href="#24-數學公式標記latex-入口">2.4 數學公式標記（LaTeX 入口）</a></li>
+        <li><a href="#25-html-標籤測試">2.5 HTML 標籤測試</a></li>
+      </ul>
+    </li>
+    <li><a href="#三latex-語法全測試">三、LaTeX 語法全測試</a>
+      <ul>
+        <li><a href="#31-行內公式基礎">3.1 行內公式（基礎）</a></li>
+        <li><a href="#32-塊級公式基礎">3.2 塊級公式（基礎）</a></li>
+        <li><a href="#33-代數數論公式">3.3 代數/數論公式</a></li>
+        <li><a href="#34-微積分公式">3.4 微積分公式</a></li>
+        <li><a href="#35-線性代數公式">3.5 線性代數公式</a></li>
+        <li><a href="#36-集合論公式">3.6 集合論公式</a></li>
+        <li><a href="#37-邏輯命題公式">3.7 邏輯/命題公式</a></li>
+        <li><a href="#38-幾何公式">3.8 幾何公式</a></li>
+        <li><a href="#39-機率與統計">3.9 機率與統計</a></li>
+        <li><a href="#310-特殊函式符號">3.10 特殊函式/符號</a></li>
+        <li><a href="#311-多行公式對齊分段">3.11 多行公式（對齊/分段）</a></li>
+        <li><a href="#312-公式標註與編號">3.12 公式標註與編號</a></li>
+        <li><a href="#313-array-環境">3.13 array 環境</a></li>
+        <li><a href="#314-化學公式mhchem">3.14 化學公式（mhchem）</a></li>
+      </ul>
+    </li>
+    <li><a href="#四markdown---融合測試">四、Markdown + $\mathrm{\LaTeX}$ 融合測試</a>
+      <ul>
+        <li><a href="#41-表格內嵌入--公式">4.1 表格內嵌入 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#42-列表內嵌入--公式">4.2 列表內嵌入 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#43-引用內嵌入--公式">4.3 引用內嵌入 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#44-程式碼塊旁註--公式">4.4 程式碼塊旁註 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#45-任務列表嵌入公式">4.5 任務列表嵌入公式</a></li>
+      </ul>
+    </li>
+    <li><a href="#五特殊場景測試">五、特殊場景測試</a>
+      <ul>
+        <li><a href="#51-跳脫字元">5.1 跳脫字元</a></li>
+        <li><a href="#52-混合巢狀">5.2 混合巢狀</a></li>
+        <li><a href="#53-大篇幅公式矩陣求和">5.3 大篇幅公式（矩陣+求和）</a></li>
+        <li><a href="#54-連續公式塊">5.4 連續公式塊</a></li>
+        <li><a href="#55-超長行內公式測試">5.5 超長行內公式測試</a></li>
+        <li><a href="#56-特殊-unicode-符號">5.6 特殊 Unicode 符號</a></li>
+        <li><a href="#57-水平線內嵌內容部分編輯器支援">5.7 水平線內嵌內容（部分編輯器支援）</a></li>
+      </ul>
+    </li>
+    <li><a href="#居中斷面標題"><strong>居中斷面標題</strong></a></li>
+    <li><a href="#六mermaid-圖表測試">六、Mermaid 圖表測試</a>
+      <ul>
+        <li><a href="#61-流程圖">6.1 流程圖</a></li>
+        <li><a href="#62-時序圖">6.2 時序圖</a></li>
+        <li><a href="#63-甘特圖">6.3 甘特圖</a></li>
+        <li><a href="#64-類圖">6.4 類圖</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Kuqilin"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Kuqilin</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">16</div>
+  </div>
+  <a class="sidebar-state-category" href="/zh-tw/categories/" aria-label="sidebar-state-category-link">
+    <div>分類</div>
+    <div class="sidebar-state-number">
+      6
+    </div>
+  </a>
+  <a class="sidebar-state-tag" href="/zh-tw/tags/" aria-label="sidebar-state-tag-link">
+    <div>標籤</div>
+    <div class="sidebar-state-number">17</div>
+  </a>
+</div>
+<div class="sidebar-social" style="margin-bottom: 20px;"><div class="icon-email sidebar-social-icon">
+        <a
+          href="mailto:kuqilin@outlook.com"
+          itemprop="url"
+          target="_blank"
+          aria-label="email"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-github sidebar-social-icon">
+        <a
+          href="https://github.com/kuqilin"
+          itemprop="url"
+          target="_blank"
+          aria-label="github"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-twitter sidebar-social-icon">
+        <a
+          href="https://twitter.com/thirtyseven0727"
+          itemprop="url"
+          target="_blank"
+          aria-label="twitter"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div></div></div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div><div class="sidebar-widget"></div></div></aside>
+<section id="main" aria-label="Main content"><article
+  class="h-entry article"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link icon-calendar"
+    data-aos="zoom-in"
+  >
+    <time datetime="2026-01-25 14:45:32 &#43;0800 &#43;0800" itemprop="datePublished"
+      >2026-01-25</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2026-07-14</time
+    >
+  </span><span
+      class="article-date-link icon-calendar-plus"
+      data-aos="zoom-in"
+    >
+      <time datetime="2026-07-14 18:40:16 &#43;0800 &#43;0800" itemprop="dateModified"
+        >2026-07-14</time
+      >
+    </span></div>
+</div><div class="article-entry">
+      <blockquote
+        class="article-summary"
+        data-aos="zoom-in"
+      >
+        <p>Markdown 和 LaTeX 的全量測試文件，試試支不支援這些語法。</p>
+      </blockquote>
+    </div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="markdown--latex-全語法測試文件">
+<a class="header-anchor" href="#markdown--latex-%e5%85%a8%e8%aa%9e%e6%b3%95%e6%b8%ac%e8%a9%a6%e6%96%87%e4%bb%b6"></a>
+Markdown &amp; LaTeX 全語法測試文件
+</h1><p><strong>說明</strong>：本檔案包含 Markdown 基礎/進階語法、$\mathrm{\LaTeX}$ 行內/塊級公式、特殊符號、表格公式融合、HTML 標籤、圖表等全場景測試，可直接在支援 $\mathrm{\LaTeX}$ 的 Markdown 編輯器（Typora、VS Code + Markdown All in One、Notion、Obsidian 等）中預覽。</p>
+<hr>
+<h2 id="一markdown-基礎語法測試">
+<a class="header-anchor" href="#%e4%b8%80markdown-%e5%9f%ba%e7%a4%8e%e8%aa%9e%e6%b3%95%e6%b8%ac%e8%a9%a6"></a>
+一、Markdown 基礎語法測試
+</h2><h3 id="11-標題1-6級">
+<a class="header-anchor" href="#11-%e6%a8%99%e9%a1%8c1-6%e7%b4%9a"></a>
+1.1 標題（1-6級）
+</h3><h1 id="一級標題">
+<a class="header-anchor" href="#%e4%b8%80%e7%b4%9a%e6%a8%99%e9%a1%8c"></a>
+一級標題
+</h1><h2 id="二級標題">
+<a class="header-anchor" href="#%e4%ba%8c%e7%b4%9a%e6%a8%99%e9%a1%8c"></a>
+二級標題
+</h2><h3 id="三級標題">
+<a class="header-anchor" href="#%e4%b8%89%e7%b4%9a%e6%a8%99%e9%a1%8c"></a>
+三級標題
+</h3><h4 id="四級標題">
+<a class="header-anchor" href="#%e5%9b%9b%e7%b4%9a%e6%a8%99%e9%a1%8c"></a>
+四級標題
+</h4><h5 id="五級標題">
+<a class="header-anchor" href="#%e4%ba%94%e7%b4%9a%e6%a8%99%e9%a1%8c"></a>
+五級標題
+</h5><h6 id="六級標題">
+<a class="header-anchor" href="#%e5%85%ad%e7%b4%9a%e6%a8%99%e9%a1%8c"></a>
+六級標題
+</h6><h3 id="12-文本格式">
+<a class="header-anchor" href="#12-%e6%96%87%e6%9c%ac%e6%a0%bc%e5%bc%8f"></a>
+1.2 文本格式
+</h3><p><strong>粗體文本</strong><br>
+<em>斜體文本</em><br>
+<em><strong>粗斜體文本</strong></em><br>
+<del>刪除線文本</del><br>
+<u>下劃線文本</u><br>
+==高亮/標記文本==<br>
+H<del>2</del>O（下標）<br>
+X^2^（上標）<br>
+<code>行內程式碼</code><br>
+:emojicode:（Emoji 短碼）</p>
+<blockquote>
+<p>引用文本</p>
+<blockquote>
+<p>巢狀引用文本</p>
+<blockquote>
+<p>三級巢狀引用</p>
+<blockquote>
+<p>四級巢狀引用（極限測試）</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="13-列表">
+<a class="header-anchor" href="#13-%e5%88%97%e8%a1%a8"></a>
+1.3 列表
+</h3><h4 id="無序列表">
+<a class="header-anchor" href="#%e7%84%a1%e5%ba%8f%e5%88%97%e8%a1%a8"></a>
+無序列表
+</h4><ul>
+<li>無序列表項1
+<ul>
+<li>巢狀無序列表項1-1
+<ul>
+<li>三級巢狀列表項1-1-1</li>
+</ul>
+</li>
+<li>巢狀無序列表項1-2</li>
+</ul>
+</li>
+<li>無序列表項2</li>
+</ul>
+<ul>
+<li>無序列表項3（星號格式）</li>
+</ul>
+<ul>
+<li>無序列表項4（加號格式）</li>
+</ul>
+<h4 id="有序列表">
+<a class="header-anchor" href="#%e6%9c%89%e5%ba%8f%e5%88%97%e8%a1%a8"></a>
+有序列表
+</h4><ol>
+<li>有序列表項1
+<ol>
+<li>巢狀有序列表項1-1</li>
+<li>巢狀有序列表項1-2</li>
+</ol>
+</li>
+<li>有序列表項2</li>
+<li>有序列表項3</li>
+</ol>
+<h4 id="混合巢狀列表">
+<a class="header-anchor" href="#%e6%b7%b7%e5%90%88%e5%b7%a2%e7%8b%80%e5%88%97%e8%a1%a8"></a>
+混合巢狀列表
+</h4><ol>
+<li>第一步
+<ul>
+<li>子任務A</li>
+<li>子任務B
+<ol>
+<li>子任務B-1</li>
+<li>子任務B-2</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>第二步</li>
+</ol>
+<h4 id="任務列表">
+<a class="header-anchor" href="#%e4%bb%bb%e5%8b%99%e5%88%97%e8%a1%a8"></a>
+任務列表
+</h4><ul>
+<li><input checked="" disabled="" type="checkbox"> 已完成任務</li>
+<li><input disabled="" type="checkbox"> 未完成任務</li>
+<li><input disabled="" type="checkbox"> 待跟進任務</li>
+<li><input checked="" disabled="" type="checkbox"> <del>已廢棄的任務</del></li>
+</ul>
+<h3 id="14-連結與圖片">
+<a class="header-anchor" href="#14-%e9%80%a3%e7%b5%90%e8%88%87%e5%9c%96%e7%89%87"></a>
+1.4 連結與圖片
+</h3><h4 id="超連結">
+<a class="header-anchor" href="#%e8%b6%85%e9%80%a3%e7%b5%90"></a>
+超連結
+</h4><p><a href="https://www.baidu.com" title="百度官網">普通超連結</a><br>
+<a href="/zh-tw/post/fulltest/#%e4%b8%80%e3%80%81Markdown-%e5%9f%ba%e7%a4%8e%e8%aa%9e%e6%b3%95%e6%b8%ac%e8%a9%a6">錨點連結</a><br>
+<a href="https://www.example.com" title="引用式連結示例">引用式連結</a><br>
+<a href="mailto:test@example.com">mailto:test@example.com</a>（郵箱連結）<br>
+<a href="https://www.github.com">https://www.github.com</a>（直接連結）</p>
+<h4 id="圖片">
+<a class="header-anchor" href="#%e5%9c%96%e7%89%87"></a>
+圖片
+</h4><p><img src="https://picsum.photos/200/200" 
+     alt="圖片佔位符" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+![帶尺寸圖片](<a href="https://picsum.photos/300/200">https://picsum.photos/300/200</a> =300x200 &ldquo;固定尺寸測試&rdquo;)</p>
+<blockquote>
+<p>圖片引用：
+<img src="https://picsum.photos/150/100" 
+     alt="引用內圖片" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+</blockquote>
+<h4 id="圖片連結">
+<a class="header-anchor" href="#%e5%9c%96%e7%89%87%e9%80%a3%e7%b5%90"></a>
+圖片連結
+</h4><p><a href="https://www.google.com"><img src="https://picsum.photos/100/100" 
+     alt="圖片連結" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></a></p>
+<h3 id="15-程式碼塊">
+<a class="header-anchor" href="#15-%e7%a8%8b%e5%bc%8f%e7%a2%bc%e5%a1%8a"></a>
+1.5 程式碼塊
+</h3><h4 id="行內程式碼">
+<a class="header-anchor" href="#%e8%a1%8c%e5%85%a7%e7%a8%8b%e5%bc%8f%e7%a2%bc"></a>
+行內程式碼
+</h4><p>行內程式碼示例：<code>print(&quot;Hello Markdown &amp; LaTeX&quot;)</code>、<code>sudo apt update</code>、<code>const x = 42</code></p>
+<h4 id="塊級程式碼帶語法高亮">
+<a class="header-anchor" href="#%e5%a1%8a%e7%b4%9a%e7%a8%8b%e5%bc%8f%e7%a2%bc%e5%b8%b6%e8%aa%9e%e6%b3%95%e9%ab%98%e4%ba%ae"></a>
+塊級程式碼（帶語法高亮）
+</h4><div class="highlight" name="text.py"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Python 程式碼測試</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;兩數相加&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&#34;__main__&#34;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">result</span> <span class="o">=</span> <span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;結果：</span><span class="si">{</span><span class="n">result</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><div class="highlight" name="test.sh"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Bash 程式碼測試</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#!/bin/bash</span>
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;測試Markdown程式碼塊&#34;</span>
+</span></span><span class="line"><span class="cl">ls -l <span class="p">|</span> grep <span class="s2">&#34;.md&#34;</span>
+</span></span><span class="line"><span class="cl">mkdir <span class="nb">test</span> <span class="o">&amp;&amp;</span> <span class="nb">cd</span> <span class="nb">test</span>
+</span></span></code></pre></div><div class="highlight" name="test.html"><pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line"><span class="cl"><span class="c">&lt;!-- HTML 程式碼測試 --&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">div</span> <span class="na">class</span><span class="o">=</span><span class="s">&#34;container&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Markdown測試<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>這是HTML程式碼片段<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+</span></span></code></pre></div><div class="highlight" name="test.js"><pre tabindex="0" class="chroma"><code class="language-javascript" data-lang="javascript"><span class="line"><span class="cl"><span class="c1">// JavaScript 程式碼測試
+</span></span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">fibonacci</span> <span class="o">=</span> <span class="p">(</span><span class="nx">n</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">n</span> <span class="o">&lt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="k">return</span> <span class="nx">n</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="nx">fibonacci</span><span class="p">(</span><span class="nx">n</span> <span class="o">-</span> <span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">fibonacci</span><span class="p">(</span><span class="mi">10</span><span class="p">));</span> <span class="c1">// 55
+</span></span></span></code></pre></div><div class="highlight" name="test.json"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;Markdown Test&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;version&#34;</span><span class="p">:</span> <span class="s2">&#34;2.0.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;description&#34;</span><span class="p">:</span> <span class="s2">&#34;全量語法測試文件&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;features&#34;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&#34;Markdown&#34;</span><span class="p">,</span> <span class="s2">&#34;LaTeX&#34;</span><span class="p">,</span> <span class="s2">&#34;HTML&#34;</span><span class="p">,</span> <span class="s2">&#34;Mermaid&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><div class="highlight" name="test.yaml"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># YAML 配置測試</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">server</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">host</span><span class="p">:</span><span class="w"> </span><span class="l">localhost</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">port</span><span class="p">:</span><span class="w"> </span><span class="m">8080</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">database</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">driver</span><span class="p">:</span><span class="w"> </span><span class="l">postgresql</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">connection</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;host=localhost dbname=test&#34;</span><span class="w">
+</span></span></span></code></pre></div><div class="highlight" name="test.sql"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="c1">-- SQL 查詢測試
+</span></span></span><span class="line"><span class="cl"><span class="k">SELECT</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="n">o</span><span class="p">.</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="k">AS</span><span class="w"> </span><span class="n">order_count</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">FROM</span><span class="w"> </span><span class="n">users</span><span class="w"> </span><span class="n">u</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">LEFT</span><span class="w"> </span><span class="k">JOIN</span><span class="w"> </span><span class="n">orders</span><span class="w"> </span><span class="n">o</span><span class="w"> </span><span class="k">ON</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">id</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">o</span><span class="p">.</span><span class="n">user_id</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">GROUP</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">u</span><span class="p">.</span><span class="n">name</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">HAVING</span><span class="w"> </span><span class="k">COUNT</span><span class="p">(</span><span class="n">o</span><span class="p">.</span><span class="n">id</span><span class="p">)</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="mi">5</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="k">ORDER</span><span class="w"> </span><span class="k">BY</span><span class="w"> </span><span class="n">order_count</span><span class="w"> </span><span class="k">DESC</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><h3 id="16-分割線">
+<a class="header-anchor" href="#16-%e5%88%86%e5%89%b2%e7%b7%9a"></a>
+1.6 分割線
+</h3><hr>
+<hr>
+<hr>
+<hr>
+<h3 id="17-腳註">
+<a class="header-anchor" href="#17-%e8%85%b3%e8%a8%bb"></a>
+1.7 腳註
+</h3><p>這是帶腳註的文本<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>，這是第二個腳註<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>，這是第三個腳註<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。</p>
+<h3 id="18-定義列表">
+<a class="header-anchor" href="#18-%e5%ae%9a%e7%be%a9%e5%88%97%e8%a1%a8"></a>
+1.8 定義列表
+</h3><dl>
+<dt>Markdown</dt>
+<dd>一種輕量級標記語言，易讀易寫</dd>
+<dt>$\mathrm{\LaTeX}$</dt>
+<dd>一種專業的排版系統，適用於數學公式、論文排版</dd>
+<dt>Markdown+$\mathrm{\LaTeX}$</dt>
+<dd>結合輕量編輯與專業公式排版的高效組合</dd>
+<dt>Git</dt>
+<dd>分散式版本控制系統</dd>
+<dd>由 Linus Torvalds 建立</dd>
+</dl>
+<h3 id="19-縮寫abbr">
+<a class="header-anchor" href="#19-%e7%b8%ae%e5%af%ababbr"></a>
+1.9 縮寫（ABBR）
+</h3><p>*[HTML]: Hyper Text Markup Language
+*[CSS]: Cascading Style Sheets
+*[API]: Application Programming Interface</p>
+<p>HTML 和 CSS 是現代 Web 開發的基礎，而 API 是前後端互動的橋樑。</p>
+<hr>
+<h2 id="二markdown-進階語法測試">
+<a class="header-anchor" href="#%e4%ba%8cmarkdown-%e9%80%b2%e9%9a%8e%e8%aa%9e%e6%b3%95%e6%b8%ac%e8%a9%a6"></a>
+二、Markdown 進階語法測試
+</h2><h3 id="21-表格基礎帶格式帶對齊">
+<a class="header-anchor" href="#21-%e8%a1%a8%e6%a0%bc%e5%9f%ba%e7%a4%8e%e5%b8%b6%e6%a0%bc%e5%bc%8f%e5%b8%b6%e5%b0%8d%e9%bd%8a"></a>
+2.1 表格（基礎/帶格式/帶對齊）
+</h3><h4 id="基礎表格">
+<a class="header-anchor" href="#%e5%9f%ba%e7%a4%8e%e8%a1%a8%e6%a0%bc"></a>
+基礎表格
+</h4><table>
+	<thead>
+			<tr>
+					<th>姓名</th>
+					<th>年齡</th>
+					<th>職業</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>張三</td>
+					<td>20</td>
+					<td>學生</td>
+			</tr>
+			<tr>
+					<td>李四</td>
+					<td>30</td>
+					<td>工程師</td>
+			</tr>
+	</tbody>
+</table>
+<h4 id="帶文本格式的表格">
+<a class="header-anchor" href="#%e5%b8%b6%e6%96%87%e6%9c%ac%e6%a0%bc%e5%bc%8f%e7%9a%84%e8%a1%a8%e6%a0%bc"></a>
+帶文本格式的表格
+</h4><table>
+	<thead>
+			<tr>
+					<th>語法</th>
+					<th>示例</th>
+					<th>效果</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>粗體</td>
+					<td><strong>Markdown</strong></td>
+					<td><strong>粗體文本</strong></td>
+			</tr>
+			<tr>
+					<td>斜體</td>
+					<td><em>LaTeX</em></td>
+					<td><em>斜體文本</em></td>
+			</tr>
+			<tr>
+					<td>行內程式碼</td>
+					<td><code>print()</code></td>
+					<td><code>行內程式碼</code></td>
+			</tr>
+			<tr>
+					<td>刪除線</td>
+					<td><del>廢棄</del></td>
+					<td><del>刪除文本</del></td>
+			</tr>
+	</tbody>
+</table>
+<h4 id="帶對齊的表格">
+<a class="header-anchor" href="#%e5%b8%b6%e5%b0%8d%e9%bd%8a%e7%9a%84%e8%a1%a8%e6%a0%bc"></a>
+帶對齊的表格
+</h4><table>
+	<thead>
+			<tr>
+					<th style="text-align: left">左對齊</th>
+					<th style="text-align: center">居中對齊</th>
+					<th style="text-align: right">右對齊</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left">內容1</td>
+					<td style="text-align: center">內容2</td>
+					<td style="text-align: right">內容3</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">長文本左對齊測試</td>
+					<td style="text-align: center">長文本居中對齊測試</td>
+					<td style="text-align: right">100</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">更長的文本左對齊測試內容</td>
+					<td style="text-align: center">更長的文本居中對齊測試內容</td>
+					<td style="text-align: right">99.9</td>
+			</tr>
+	</tbody>
+</table>
+<h4 id="空單元格與特殊內容表格">
+<a class="header-anchor" href="#%e7%a9%ba%e5%96%ae%e5%85%83%e6%a0%bc%e8%88%87%e7%89%b9%e6%ae%8a%e5%85%a7%e5%ae%b9%e8%a1%a8%e6%a0%bc"></a>
+空單元格與特殊內容表格
+</h4><table>
+	<thead>
+			<tr>
+					<th style="text-align: left">專案</th>
+					<th style="text-align: left">值</th>
+					<th style="text-align: left">備註</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left">空值</td>
+					<td style="text-align: left"></td>
+					<td style="text-align: left">左側為空</td>
+			</tr>
+			<tr>
+					<td style="text-align: left"></td>
+					<td style="text-align: left">空鍵</td>
+					<td style="text-align: left">左側為空</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">豎線測試</td>
+					<td style="text-align: left">`a</td>
+					<td style="text-align: left">b</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">HTML</td>
+					<td style="text-align: left"><kbd>Ctrl</kbd>+<kbd>C</kbd></td>
+					<td style="text-align: left">HTML 標籤</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="22-表情符號與-emoji">
+<a class="header-anchor" href="#22-%e8%a1%a8%e6%83%85%e7%ac%a6%e8%99%9f%e8%88%87-emoji"></a>
+2.2 表情符號與 Emoji
+</h3><p>😀 😎 📝 ✅ ⚠️ 📚 🔧 🎯 🚀 💡 🔥 ⭐ ❤️ 💻 🎉<br>
+:smile: :book: :rocket: :check: :warning: :bulb: :fire: :star:</p>
+<h3 id="23-目錄部分編輯器支援">
+<a class="header-anchor" href="#23-%e7%9b%ae%e9%8c%84%e9%83%a8%e5%88%86%e7%b7%a8%e8%bc%af%e5%99%a8%e6%94%af%e6%8f%b4"></a>
+2.3 目錄（部分編輯器支援）
+</h3><p>[TOC]</p>
+<h3 id="24-數學公式標記latex-入口">
+<a class="header-anchor" href="#24-%e6%95%b8%e5%ad%b8%e5%85%ac%e5%bc%8f%e6%a8%99%e8%a8%98latex-%e5%85%a5%e5%8f%a3"></a>
+2.4 數學公式標記（LaTeX 入口）
+</h3><p>行內公式：$E=mc^2$</p>
+<p>塊級公式：
+</p>
+$$
+\sum_{i=1}^n i = \frac{n(n+1)}{2}
+$$<h3 id="25-html-標籤測試">
+<a class="header-anchor" href="#25-html-%e6%a8%99%e7%b1%a4%e6%b8%ac%e8%a9%a6"></a>
+2.5 HTML 標籤測試
+</h3><h4 id="文本標籤">
+<a class="header-anchor" href="#%e6%96%87%e6%9c%ac%e6%a8%99%e7%b1%a4"></a>
+文本標籤
+</h4><p><mark>高亮文本</mark><br>
+<ins>插入文本</ins><br>
+<del>刪除文本</del><br>
+<sup>上標</sup> 和 <sub>下標</sub><br>
+<kbd>Ctrl</kbd> + <kbd>S</kbd><br>
+<abbr title="HyperText Markup Language">HTML</abbr></p>
+<h4 id="摺疊詳情塊">
+<a class="header-anchor" href="#%e6%91%ba%e7%96%8a%e8%a9%b3%e6%83%85%e5%a1%8a"></a>
+摺疊/詳情塊
+</h4><details>
+<summary>點選展開詳情</summary>
+<p>這裡是摺疊的內容，可以包含<strong>Markdown</strong>、公式 $E=mc^2$，甚至程式碼塊。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello from details!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div></details>
+<details open>
+<summary>預設展開的詳情塊</summary>
+<p>此詳情塊預設展開。</p>
+</details>
+<h4 id="內聯樣式">
+<a class="header-anchor" href="#%e5%85%a7%e8%81%af%e6%a8%a3%e5%bc%8f"></a>
+內聯樣式
+</h4><p style="color: red;">紅色文字</p>
+<p style="text-align: center;">居中對齊文字</p>
+<hr>
+<h2 id="三latex-語法全測試">
+<a class="header-anchor" href="#%e4%b8%89latex-%e8%aa%9e%e6%b3%95%e5%85%a8%e6%b8%ac%e8%a9%a6"></a>
+三、LaTeX 語法全測試
+</h2><h3 id="31-行內公式基礎">
+<a class="header-anchor" href="#31-%e8%a1%8c%e5%85%a7%e5%85%ac%e5%bc%8f%e5%9f%ba%e7%a4%8e"></a>
+3.1 行內公式（基礎）
+</h3><p>$a + b = c$<br>
+$\sqrt{2} \approx 1.414$<br>
+$\sin(\pi/2) = 1$<br>
+$x^2 + y^2 = r^2$<br>
+$\frac{1}{2} + \frac{1}{3} = \frac{5}{6}$<br>
+$\vec{F} = m\vec{a}$<br>
+$\overline{x} = \frac{1}{n}\sum_{i=1}^n x_i$</p>
+<h3 id="32-塊級公式基礎">
+<a class="header-anchor" href="#32-%e5%a1%8a%e7%b4%9a%e5%85%ac%e5%bc%8f%e5%9f%ba%e7%a4%8e"></a>
+3.2 塊級公式（基礎）
+</h3>$$
+a^2 + 2ab + b^2 = (a + b)^2
+$$$$
+\lim_{x \to \infty} \frac{1}{x} = 0
+$$$$
+\int_{0}^{1} x^2 \, dx = \frac{1}{3}
+$$<h3 id="33-代數數論公式">
+<a class="header-anchor" href="#33-%e4%bb%a3%e6%95%b8%e6%95%b8%e8%ab%96%e5%85%ac%e5%bc%8f"></a>
+3.3 代數/數論公式
+</h3>$$
+\forall x \in \mathbb{R}, \exists y \in \mathbb{N}, \text{ s.t. } y > x
+$$$$
+a_n = a_1 + (n-1)d \quad (\text{等差數列通項})
+$$$$
+S_n = \frac{a_1(1-q^n)}{1-q} \quad (q \neq 1,\ \text{等比數列求和})
+$$$$
+\gcd(a,b) \times \operatorname{lcm}(a,b) = |a \times b|
+$$$$
+n! = \prod_{k=1}^{n} k \quad (\text{階乘})
+$$$$
+\binom{n}{k} = \frac{n!}{k!(n-k)!} \quad (\text{二項式係數})
+$$<h3 id="34-微積分公式">
+<a class="header-anchor" href="#34-%e5%be%ae%e7%a9%8d%e5%88%86%e5%85%ac%e5%bc%8f"></a>
+3.4 微積分公式
+</h3>$$
+\frac{dy}{dx} = \lim_{\Delta x \to 0} \frac{f(x+\Delta x) - f(x)}{\Delta x}
+$$$$
+\int_{a}^{b} f'(x) \, dx = f(b) - f(a) \quad (\text{牛頓-萊布尼茨公式})
+$$$$
+\iint_{D} f(x,y) \, dx\,dy \quad (\text{二重積分})
+$$$$
+\iiint_{\Omega} f(x,y,z) \, dx\,dy\,dz \quad (\text{三重積分})
+$$$$
+\oint_{C} P\,dx + Q\,dy = \iint_{D} \left( \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \right) dx\,dy \quad (\text{格林公式})
+$$$$
+\nabla \cdot \mathbf{F} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z} \quad (\text{散度})
+$$$$
+\nabla \times \mathbf{F} = \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\
+F_x & F_y & F_z
+\end{vmatrix} \quad (\text{旋度})
+$$<h3 id="35-線性代數公式">
+<a class="header-anchor" href="#35-%e7%b7%9a%e6%80%a7%e4%bb%a3%e6%95%b8%e5%85%ac%e5%bc%8f"></a>
+3.5 線性代數公式
+</h3>$$
+\mathbf{A} = \begin{pmatrix}
+a_{11} & a_{12} & \dots & a_{1n} \\
+a_{21} & a_{22} & \dots & a_{2n} \\
+\vdots & \vdots & \ddots & \vdots \\
+a_{m1} & a_{m2} & \dots & a_{mn}
+\end{pmatrix}
+$$$$
+\det(\mathbf{A}) = \begin{vmatrix}
+1 & 2 \\
+3 & 4
+\end{vmatrix} = 1 \times 4 - 2 \times 3 = -2
+$$$$
+\mathbf{A} \mathbf{x} = \lambda \mathbf{x} \quad (\text{特徵值方程})
+$$$$
+\operatorname{rank}(\mathbf{A}) = \operatorname{rank}(\mathbf{A}^T)
+$$$$
+\mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})} \operatorname{adj}(\mathbf{A}) \quad (\text{逆矩陣})
+$$$$
+\| \mathbf{x} \|_2 = \sqrt{\sum_{i=1}^n x_i^2} \quad (\text{L2 範數})
+$$<h3 id="36-集合論公式">
+<a class="header-anchor" href="#36-%e9%9b%86%e5%90%88%e8%ab%96%e5%85%ac%e5%bc%8f"></a>
+3.6 集合論公式
+</h3>$$
+A \cup B = \{x \mid x \in A \lor x \in B\}
+$$$$
+A \cap B = \{x \mid x \in A \land x \in B\}
+$$$$
+A \setminus B = \{x \mid x \in A \land x \notin B\}
+$$$$
+\emptyset \subseteq A \subseteq U \quad (U \text{ 為全集})
+$$$$
+\bigcup_{i=1}^{n} A_i,\quad \bigcap_{i=1}^{n} A_i
+$$$$
+|A \cup B| = |A| + |B| - |A \cap B| \quad (\text{容斥原理})
+$$$$
+\mathcal{P}(A) = \{B \mid B \subseteq A\} \quad (\text{冪集})
+$$<h3 id="37-邏輯命題公式">
+<a class="header-anchor" href="#37-%e9%82%8f%e8%bc%af%e5%91%bd%e9%a1%8c%e5%85%ac%e5%bc%8f"></a>
+3.7 邏輯/命題公式
+</h3>$$
+P \implies Q \quad (\text{蘊含})
+$$$$
+P \iff Q \quad (\text{等價})
+$$$$
+\neg P \quad (\text{非})
+$$$$
+P \lor Q \quad (\text{或}),\quad P \land Q \quad (\text{與})
+$$$$
+\exists x \in A, P(x) \quad (\text{存在量詞}),\quad \forall x \in A, P(x) \quad (\text{全稱量詞})
+$$$$
+\top \quad (\text{永真}),\quad \bot \quad (\text{永假})
+$$<h3 id="38-幾何公式">
+<a class="header-anchor" href="#38-%e5%b9%be%e4%bd%95%e5%85%ac%e5%bc%8f"></a>
+3.8 幾何公式
+</h3>$$
+V_{\text{球}} = \frac{4}{3} \pi R^3 \quad (\text{球的體積})
+$$$$
+S_{\text{圓臺}} = \pi (r_1 + r_2) l + \pi r_1^2 + \pi r_2^2 \quad (\text{圓臺表面積})
+$$$$
+\cos C = \frac{a^2 + b^2 - c^2}{2ab} \quad (\text{餘弦定理})
+$$$$
+\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R \quad (\text{正弦定理})
+$$$$
+d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2} \quad (\text{兩點間距離})
+$$<h3 id="39-機率與統計">
+<a class="header-anchor" href="#39-%e6%a9%9f%e7%8e%87%e8%88%87%e7%b5%b1%e8%a8%88"></a>
+3.9 機率與統計
+</h3>$$
+P(A|B) = \frac{P(B|A)P(A)}{P(B)} \quad (\text{貝葉斯定理})
+$$$$
+\mathbb{E}[X] = \sum_{i=1}^n x_i P(X=x_i) \quad (\text{期望})
+$$$$
+\operatorname{Var}(X) = \mathbb{E}[(X-\mu)^2] = \mathbb{E}[X^2] - \mu^2 \quad (\text{方差})
+$$$$
+f(x) = \frac{1}{\sigma\sqrt{2\pi}} e^{-\frac{(x-\mu)^2}{2\sigma^2}} \quad (\text{正態分佈})
+$$<h3 id="310-特殊函式符號">
+<a class="header-anchor" href="#310-%e7%89%b9%e6%ae%8a%e5%87%bd%e5%bc%8f%e7%ac%a6%e8%99%9f"></a>
+3.10 特殊函式/符號
+</h3>$$
+\ln x,\ \log_a x,\ e^x,\ \exp(x)
+$$$$
+\Gamma(z) = \int_0^\infty t^{z-1} e^{-t} \, dt \quad (\text{伽馬函式})
+$$$$
+\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} \quad (\text{黎曼 Zeta 函式})
+$$<p><strong>希臘字母</strong>：<br>
+$\alpha,\ \beta,\ \gamma,\ \delta,\ \epsilon,\ \zeta,\ \eta,\ \theta,\ \iota,\ \kappa,\ \lambda,\ \mu,\ \nu,\ \xi,\ \pi,\ \rho,\ \sigma,\ \tau,\ \upsilon,\ \phi,\ \chi,\ \psi,\ \omega$</p>
+<p><strong>大寫希臘字母</strong>：<br>
+$\Gamma,\ \Delta,\ \Theta,\ \Lambda,\ \Xi,\ \Pi,\ \Sigma,\ \Upsilon,\ \Phi,\ \Psi,\ \Omega$</p>
+<p><strong>關係符號</strong>：<br>
+$\geq,\ \leq,\ \neq,\ \approx,\ \equiv,\ \propto,\ \sim,\ \simeq,\ \gg,\ \ll$</p>
+<p><strong>集合符號</strong>：<br>
+$\in,\ \notin,\ \subseteq,\ \supseteq,\ \subset,\ \supset,\ \cap,\ \cup,\ \varnothing,\ \emptyset$</p>
+<p><strong>運算子</strong>：<br>
+$\sum,\ \prod,\ \lim,\ \int,\ \oint,\ \nabla,\ \Delta,\ \partial,\ \infty$</p>
+<p><strong>箭頭</strong>：<br>
+$\to,\ \implies,\ \iff,\ \mapsto,\ \leftarrow,\ \rightarrow,\ \leftrightarrow,\ \uparrow,\ \downarrow,\ \Rightarrow,\ \Leftarrow,\ \Leftrightarrow$</p>
+<p><strong>修飾符號</strong>：<br>
+$\vec{a},\ \overrightarrow{AB},\ \bar{x},\ \hat{\theta},\ \tilde{x},\ \dot{x},\ \ddot{x},\ \widehat{ABC},\ \widetilde{xyz}$</p>
+<h3 id="311-多行公式對齊分段">
+<a class="header-anchor" href="#311-%e5%a4%9a%e8%a1%8c%e5%85%ac%e5%bc%8f%e5%b0%8d%e9%bd%8a%e5%88%86%e6%ae%b5"></a>
+3.11 多行公式（對齊/分段）
+</h3><h4 id="公式對齊align">
+<a class="header-anchor" href="#%e5%85%ac%e5%bc%8f%e5%b0%8d%e9%bd%8aalign"></a>
+公式對齊（align）
+</h4>$$
+\begin{align*}
+f(x) &= x^2 + 2x + 1 \\
+     &= (x+1)^2 \\[4pt]
+g(x) &= \sin x + \cos x \\
+     &= \sqrt{2} \sin\left(x + \frac{\pi}{4}\right)
+\end{align*}
+$$<h4 id="多行公式gather">
+<a class="header-anchor" href="#%e5%a4%9a%e8%a1%8c%e5%85%ac%e5%bc%8fgather"></a>
+多行公式（gather）
+</h4>$$
+\begin{gather*}
+E = mc^2 \\
+a^2 + b^2 = c^2 \\
+e^{i\pi} + 1 = 0
+\end{gather*}
+$$<h4 id="分段函式cases">
+<a class="header-anchor" href="#%e5%88%86%e6%ae%b5%e5%87%bd%e5%bc%8fcases"></a>
+分段函式（cases）
+</h4>$$
+f(x) =
+\begin{cases}
+x,    & x > 0 \\
+0,    & x = 0 \\
+-x,   & x < 0
+\end{cases}
+$$<h4 id="多條件分段函式">
+<a class="header-anchor" href="#%e5%a4%9a%e6%a2%9d%e4%bb%b6%e5%88%86%e6%ae%b5%e5%87%bd%e5%bc%8f"></a>
+多條件分段函式
+</h4>$$
+F(x) =
+\begin{cases}
+0,                         & x < a \\
+\frac{x-a}{b-a},           & a \leq x < b \\
+1,                         & x \geq b
+\end{cases}
+$$<h3 id="312-公式標註與編號">
+<a class="header-anchor" href="#312-%e5%85%ac%e5%bc%8f%e6%a8%99%e8%a8%bb%e8%88%87%e7%b7%a8%e8%99%9f"></a>
+3.12 公式標註與編號
+</h3>$$
+\sum_{i=1}^n i = \frac{n(n+1)}{2} \tag{1}
+$$$$
+E=mc^2 \quad \text{（質能方程）} \tag{2}
+$$$$
+\boxed{a^2 + b^2 = c^2} \quad (\text{勾股定理，帶框})
+$$<h3 id="313-array-環境">
+<a class="header-anchor" href="#313-array-%e7%92%b0%e5%a2%83"></a>
+3.13 array 環境
+</h3>$$
+\begin{array}{c|c|c}
+\text{函式} & \text{導數} & \text{積分} \\
+\hline
+x^n & nx^{n-1} & \frac{x^{n+1}}{n+1} + C \\
+\sin x & \cos x & -\cos x + C \\
+e^x & e^x & e^x + C \\
+\ln x & \frac{1}{x} & x\ln x - x + C
+\end{array}
+$$<h3 id="314-化學公式mhchem">
+<a class="header-anchor" href="#314-%e5%8c%96%e5%ad%b8%e5%85%ac%e5%bc%8fmhchem"></a>
+3.14 化學公式（mhchem）
+</h3>$$
+\ce{H2O <=> H+ + OH-}
+$$$$
+\ce{2H2 + O2 ->[\Delta] 2H2O}
+$$$$
+\ce{CO2 + C <=>[\text{高溫}] 2CO}
+$$<hr>
+<h2 id="四markdown---融合測試">
+<a class="header-anchor" href="#%e5%9b%9bmarkdown---%e8%9e%8d%e5%90%88%e6%b8%ac%e8%a9%a6"></a>
+四、Markdown + $\mathrm{\LaTeX}$ 融合測試
+</h2><h3 id="41-表格內嵌入--公式">
+<a class="header-anchor" href="#41-%e8%a1%a8%e6%a0%bc%e5%85%a7%e5%b5%8c%e5%85%a5--%e5%85%ac%e5%bc%8f"></a>
+4.1 表格內嵌入 $\mathrm{\LaTeX}$ 公式
+</h3><table>
+	<thead>
+			<tr>
+					<th style="text-align: left">公式名稱</th>
+					<th style="text-align: center">$\mathrm{\LaTeX}$ 公式</th>
+					<th style="text-align: left">說明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td style="text-align: left">勾股定理</td>
+					<td style="text-align: center">$a^2 + b^2 = c^2$</td>
+					<td style="text-align: left">直角三角形邊長關係</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">自然常數</td>
+					<td style="text-align: center">$\displaystyle\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n = e$</td>
+					<td style="text-align: left">數列極限定義</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">高斯積分</td>
+					<td style="text-align: center">$\displaystyle\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$</td>
+					<td style="text-align: left">特殊定積分</td>
+			</tr>
+			<tr>
+					<td style="text-align: left">尤拉公式</td>
+					<td style="text-align: center">$e^{i\theta} = \cos\theta + i\sin\theta$</td>
+					<td style="text-align: left">復指數與三角函式</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="42-列表內嵌入--公式">
+<a class="header-anchor" href="#42-%e5%88%97%e8%a1%a8%e5%85%a7%e5%b5%8c%e5%85%a5--%e5%85%ac%e5%bc%8f"></a>
+4.2 列表內嵌入 $\mathrm{\LaTeX}$ 公式
+</h3><ol>
+<li>三角函式基本關係：$\sin^2 x + \cos^2 x = 1$</li>
+<li>導數運演算法則：$(uv)' = u'v + uv'$</li>
+<li>矩陣運算：$\mathbf{A} + \mathbf{B} = \mathbf{B} + \mathbf{A}$（交換律）</li>
+<li>積分中值定理：$\exists\ \xi \in [a,b],\ \int_a^b f(x)\,dx = f(\xi)(b-a)$</li>
+</ol>
+<h3 id="43-引用內嵌入--公式">
+<a class="header-anchor" href="#43-%e5%bc%95%e7%94%a8%e5%85%a7%e5%b5%8c%e5%85%a5--%e5%85%ac%e5%bc%8f"></a>
+4.3 引用內嵌入 $\mathrm{\LaTeX}$ 公式
+</h3><blockquote>
+<p>正如尤拉公式所示：$e^{i\pi} + 1 = 0$，該公式被稱為&quot;數學最美公式&quot;，融合了指數、虛數、圓周率、1 和 0 五大核心常數。</p>
+</blockquote>
+<blockquote>
+<p><strong>泰勒展開</strong>：$f(x) = \sum_{n=0}^{\infty} \frac{f^{(n)}(a)}{n!}(x-a)^n$ 是微積分中最重要的工具之一，它將函式展開為冪級數形式。</p>
+</blockquote>
+<h3 id="44-程式碼塊旁註--公式">
+<a class="header-anchor" href="#44-%e7%a8%8b%e5%bc%8f%e7%a2%bc%e5%a1%8a%e6%97%81%e8%a8%bb--%e5%85%ac%e5%bc%8f"></a>
+4.4 程式碼塊旁註 $\mathrm{\LaTeX}$ 公式
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 計算圓的面積 S = πr² ，對應公式 $S = \pi r^2$</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">math</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">circle_area</span><span class="p">(</span><span class="n">r</span><span class="p">:</span> <span class="nb">float</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">float</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;&#34;&#34;返回半徑為 r 的圓面積&#34;&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">math</span><span class="o">.</span><span class="n">pi</span> <span class="o">*</span> <span class="n">r</span> <span class="o">**</span> <span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 驗證：r=1 時，面積應等於 π</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">circle_area</span><span class="p">(</span><span class="mi">1</span><span class="p">))</span>  <span class="c1"># 3.141592653589793</span>
+</span></span></code></pre></div><h3 id="45-任務列表嵌入公式">
+<a class="header-anchor" href="#45-%e4%bb%bb%e5%8b%99%e5%88%97%e8%a1%a8%e5%b5%8c%e5%85%a5%e5%85%ac%e5%bc%8f"></a>
+4.5 任務列表嵌入公式
+</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> 證明 $\sqrt{2}$ 是無理數</li>
+<li><input disabled="" type="checkbox"> 推導 $\displaystyle\int_0^\infty \frac{\sin x}{x}\,dx = \frac{\pi}{2}$</li>
+<li><input disabled="" type="checkbox"> 驗證 $\displaystyle\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}$</li>
+</ul>
+<hr>
+<h2 id="五特殊場景測試">
+<a class="header-anchor" href="#%e4%ba%94%e7%89%b9%e6%ae%8a%e5%a0%b4%e6%99%af%e6%b8%ac%e8%a9%a6"></a>
+五、特殊場景測試
+</h2><h3 id="51-跳脫字元">
+<a class="header-anchor" href="#51-%e8%b7%b3%e8%84%ab%e5%ad%97%e5%85%83"></a>
+5.1 跳脫字元
+</h3><p><strong>Markdown 轉義</strong>：<br>
+<code>\#</code> <code>\*</code> <code>\_</code> <code>\~</code> <code>\</code> <code>\!</code> <code>\|</code> <code>\{</code> <code>\}</code> <code>\[</code> <code>\]</code> <code>\(</code> <code>\)</code></p>
+<p><strong>LaTeX 轉義</strong>：<br>
+$\S\ \%\ \&\ \#\ \_\ \{\ \}\ \backslash$</p>
+<h3 id="52-混合巢狀">
+<a class="header-anchor" href="#52-%e6%b7%b7%e5%90%88%e5%b7%a2%e7%8b%80"></a>
+5.2 混合巢狀
+</h3><blockquote>
+<p><strong>巢狀1</strong>：$f(x) = \displaystyle\int_{0}^{x} \sin t \, dt = 1 - \cos x$</p>
+<ul>
+<li>巢狀2：公式 $\displaystyle\prod_{k=1}^n k = n!$ 為階乘的乘積形式
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">巢狀3：行內程式碼與公式 $x^3 - 3x + 1 = 0$
+</span></span></code></pre></div></li>
+<li>巢狀4：<code>行內程式碼</code></li>
+</ul>
+<blockquote>
+<p>巢狀5：雙重引用內嵌公式 $\nabla^2 \phi = 0$</p>
+</blockquote>
+</blockquote>
+<h3 id="53-大篇幅公式矩陣求和">
+<a class="header-anchor" href="#53-%e5%a4%a7%e7%af%87%e5%b9%85%e5%85%ac%e5%bc%8f%e7%9f%a9%e9%99%a3%e6%b1%82%e5%92%8c"></a>
+5.3 大篇幅公式（矩陣+求和）
+</h3>$$
+\mathbf{M} = \sum_{k=1}^{n} \begin{bmatrix}
+\cos k\theta & -\sin k\theta \\
+\sin k\theta & \cos k\theta
+\end{bmatrix}
+= \frac{1}{2\sin\left(\frac{\theta}{2}\right)}
+\begin{bmatrix}
+\sin\left(\frac{n\theta}{2}\right)\cos\left(\frac{(n+1)\theta}{2}\right) &
+-\sin\left(\frac{n\theta}{2}\right)\sin\left(\frac{(n+1)\theta}{2}\right) \\[8pt]
+\sin\left(\frac{n\theta}{2}\right)\sin\left(\frac{(n+1)\theta}{2}\right) &
+\sin\left(\frac{n\theta}{2}\right)\cos\left(\frac{(n+1)\theta}{2}\right)
+\end{bmatrix}
+$$<h3 id="54-連續公式塊">
+<a class="header-anchor" href="#54-%e9%80%a3%e7%ba%8c%e5%85%ac%e5%bc%8f%e5%a1%8a"></a>
+5.4 連續公式塊
+</h3>$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$<p>
+</p>
+$$
+\Delta = b^2 - 4ac
+$$<p>
+</p>
+$$
+\text{若 }\Delta > 0,\text{ 則方程有兩個不等實根}
+$$<h3 id="55-超長行內公式測試">
+<a class="header-anchor" href="#55-%e8%b6%85%e9%95%b7%e8%a1%8c%e5%85%a7%e5%85%ac%e5%bc%8f%e6%b8%ac%e8%a9%a6"></a>
+5.5 超長行內公式測試
+</h3><p>這是一段包含超長行內公式的文本：$\displaystyle\oint_{\partial\Omega} \omega = \int_{\Omega} d\omega$，該公式被稱為廣義斯托克斯定理，是微分幾何中的核心定理之一。它統一了格林公式、高斯公式和斯托克斯公式。</p>
+<h3 id="56-特殊-unicode-符號">
+<a class="header-anchor" href="#56-%e7%89%b9%e6%ae%8a-unicode-%e7%ac%a6%e8%99%9f"></a>
+5.6 特殊 Unicode 符號
+</h3><p>數學符號：∀ ∃ ∄ ∅ ∞ ± ∓ × ÷ √ ∝ ∟ ∠ ∡ ∢ ∣ ∥<br>
+箭頭：→ ← ↑ ↓ ↔ ↕ ⇒ ⇐ ⇔ ➔ ➤ ➜<br>
+分數：½ ⅓ ⅔ ¼ ¾ ⅕ ⅖ ⅗ ⅘ ⅙ ⅚ ⅛ ⅜ ⅝ ⅞<br>
+其他：℃ ℉ № ℗ ™ © ® § ¶ † ‡ • … ‰ € £ ¥ ₹</p>
+<h3 id="57-水平線內嵌內容部分編輯器支援">
+<a class="header-anchor" href="#57-%e6%b0%b4%e5%b9%b3%e7%b7%9a%e5%85%a7%e5%b5%8c%e5%85%a7%e5%ae%b9%e9%83%a8%e5%88%86%e7%b7%a8%e8%bc%af%e5%99%a8%e6%94%af%e6%8f%b4"></a>
+5.7 水平線內嵌內容（部分編輯器支援）
+</h3><p>以下是一個帶標題的水平分割線：</p>
+<hr>
+<h2 id="居中斷面標題">
+<a class="header-anchor" href="#%e5%b1%85%e4%b8%ad%e6%96%b7%e9%9d%a2%e6%a8%99%e9%a1%8c"></a>
+<strong>居中斷面標題</strong>
+</h2><h2 id="六mermaid-圖表測試">
+<a class="header-anchor" href="#%e5%85%admermaid-%e5%9c%96%e8%a1%a8%e6%b8%ac%e8%a9%a6"></a>
+六、Mermaid 圖表測試
+</h2><h3 id="61-流程圖">
+<a class="header-anchor" href="#61-%e6%b5%81%e7%a8%8b%e5%9c%96"></a>
+6.1 流程圖
+</h3><pre class="mermaid">
+  graph TD
+    A[開始] --> B{判斷條件}
+    B -->|是| C[執行操作A]
+    B -->|否| D[執行操作B]
+    C --> E[結束]
+    D --> E
+</pre><h3 id="62-時序圖">
+<a class="header-anchor" href="#62-%e6%99%82%e5%ba%8f%e5%9c%96"></a>
+6.2 時序圖
+</h3><pre class="mermaid">
+  sequenceDiagram
+    participant 客戶端
+    participant 伺服器
+    participant 資料庫
+    客戶端->>伺服器: 傳送請求
+    伺服器->>資料庫: 查詢資料
+    資料庫-->>伺服器: 返回結果
+    伺服器-->>客戶端: 響應資料
+</pre><h3 id="63-甘特圖">
+<a class="header-anchor" href="#63-%e7%94%98%e7%89%b9%e5%9c%96"></a>
+6.3 甘特圖
+</h3><pre class="mermaid">
+  gantt
+    title 專案開發計劃
+    dateFormat  YYYY-MM-DD
+    section 階段一
+    需求分析    :a1, 2026-01-01, 7d
+    概要設計    :a2, after a1, 5d
+    section 階段二
+    詳細設計    :b1, after a2, 10d
+    編碼實現    :b2, after b1, 20d
+    測試        :b3, after b2, 10d
+</pre><h3 id="64-類圖">
+<a class="header-anchor" href="#64-%e9%a1%9e%e5%9c%96"></a>
+6.4 類圖
+</h3><pre class="mermaid">
+  classDiagram
+    class Animal {
+        +String name
+        +int age
+        +eat() void
+        +sleep() void
+    }
+    class Dog {
+        +bark() void
+    }
+    class Cat {
+        +meow() void
+    }
+    Animal <|-- Dog
+    Animal <|-- Cat
+</pre><hr>
+<p><strong>文件結束</strong>：本檔案覆蓋 Markdown 所有主流語法（基礎+進階）、LaTeX 核心公式場景（代數、微積分、線代、機率、集合、幾何、化學等）、HTML 標籤、Mermaid 圖表及二者/多者融合用法，可作為 Markdown/LaTeX 語法速查與編輯器相容性測試模板。</p>
+<p>內容由 AI 生成</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>第一個腳註的內容&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>第二個腳註的內容，可包含<strong>粗體</strong>、<em>斜體</em>甚至行內程式碼<code>code</code>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>第三個腳註，支援多段落。</p>
+<p>這是腳註的第二段。&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+</div>
+    <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Deepseek-V4-Pro</p><p>
+      <strong><span class="icon-link icon"></span>本文連結：</strong><a href="https://kuqilin.github.io/zh-tw/post/fulltest/">https://kuqilin.github.io/zh-tw/post/fulltest/</a>
+    </p><p><strong><span class="icon-pencil icon"></span>本文標題：</strong>Markdown &amp; LaTeX 全量測試文件</p><p><strong><span class="icon-calendar icon"></span>本文發佈時間：</strong>2026-01-25 14:45:32</p><p><strong><span class="icon-calendar icon"></span>本文更新時間：</strong>2026-07-14 18:40:16</p><p>
+      
+      <strong><span class="icon-copyright icon"></span>本文版權：</strong>
+      本部落格所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 授權協議。轉載請註明出處！
+    </p>
+    <span class="icon-creative-commons article-copyright-bg"></span></blockquote>
+<div class="sponsor-wrapper">
+  <div class="sponsor-button"><div class="sponsor-icon rotate"></div><div class="sponsor-title">贊助</div><div class="sponsor-icon rotate"></div></div><div class="sponsor-tip">請作者喝杯咖啡吧</div><div class="sponsor-qr"><div class="sponsor-qr-image-wrapper">
+          <img src="https://pic1.imgdb.cn/i/033tqeAoS6qICWi3ei38wg.png" alt="微信/WeChat" width="200" />
+          <p class="sponsor-qr-name">微信/WeChat</p>
+        </div><div class="sponsor-qr-image-wrapper">
+          <img src="https://pic1.imgdb.cn/i/033tqeAw3RMCnHsTBYmddV.jpg" alt="支付宝/AliPay" width="200" />
+          <p class="sponsor-qr-name">支付宝/AliPay</p>
+        </div></div></div><div class="share-wrapper"><a href="https://twitter.com/intent/tweet?url=https://kuqilin.github.io/zh-tw/post/fulltest/&amp;text=Markdown%20&amp;%20LaTeX%20%e5%85%a8%e9%87%8f%e6%b8%ac%e8%a9%a6%e6%96%87%e4%bb%b6&amp;via=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Markdown &amp; LaTeX 全量測試文件">
+      <div class="share-icon icon icon-twitter"></div>
+    </a><a href="javascript:;"  title="Markdown &amp; LaTeX 全量測試文件">
+      <div class="share-icon icon icon-weixin"><div id="share-weixin">
+            <div class="share-weixin-dom">
+              <div class="share-weixin-content">
+                <img id="share-weixin-banner"> 
+                <div id="share-weixin-title"></div>
+                <div id="share-weixin-desc"></div>
+              </div>
+              <div class="share-weixin-qrcode">
+                <div class="share-weixin-info">
+                  <div id="share-weixin-author"></div>
+                  <div id="share-weixin-theme">Powered By hugo-theme-reimu</div>
+                </div>
+                <img id="share-weixin-qr" >
+              </div>
+            </div>
+            <div class="share-weixin-canvas"></div>
+          </div></div>
+    </a></div><ul class="article-category-list"></ul>
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/zh-tw/tags/markdown"
+        rel="tag"
+        >Markdown</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/zh-tw/tags/latex"
+        rel="tag"
+        >LaTeX</a
+      >
+    </li></ul>
+</footer>
+  </div><nav
+    id="article-nav"
+    aria-label="Article navigation"
+    data-aos="fade-up"
+  ><div class="article-nav-link-wrap left"><img
+              data-src="https://t.alcy.cc/ycy"
+              data-sizes="auto"
+              alt="網站看板娘 —— 37 泉眼深處"
+              class="lazyload"
+            /><a
+          href="/zh-tw/post/kan-ban-niang/"
+          aria-label="前一篇:網站看板娘 —— 37 泉眼深處"
+          title="前一篇:網站看板娘 —— 37 泉眼深處"
+        ></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">網站看板娘 —— 37 泉眼深處</h3>
+      </div></nav></article></section>
+        </div><footer id="footer" aria-label="Site footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info"><div style="display:flex; flex-direction:column; align-items:center;">
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0.2em;">
+    <span>All website licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="Attribution" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="Non Commercial" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="ShareAlike" style="max-width:1em; max-height:1em;">
+  </div>
+</div><div>
+      <span class="icon-copyright"></span>2023-2026<span class="footer-info-sep rotate"></span>Kuqilin
+    </div><div>
+        基於&nbsp;<a
+          href="https://gohugo.io/"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          >Hugo</a
+        >&nbsp;Theme.<a
+          href="https://github.com/D-Sketon/hugo-theme-reimu"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          >Reimu</a
+        >
+      </div><div>
+        <span class="icon-brush"
+          >&nbsp;36.6k</span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;01:19</span>
+      </div><div class="footer-beian">
+        <img
+          style="object-fit: contain;margin-right: 2px;"
+          src="https://icp.gov.moe/images/ico64.png"
+          alt=""
+          width="24"
+          height="24"
+        />
+        <a
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          href="https://icp.gov.moe/?keyword=20256767"
+          >萌ICP备20256767号</a
+        >
+      </div><div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv"
+          >總訪問量&nbsp;<span
+            id="busuanzi_value_site_pv"
+          ></span
+        ></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv"
+          >總訪客量&nbsp;<span
+            id="busuanzi_value_site_uv"
+          ></span
+        ></span>
+      </div></div>
+</footer>
+<div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div><div id="mask" class="hide"></div>
+      </div><nav id="mobile-nav" aria-label="Mobile navigation">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目錄</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#一markdown-基礎語法測試">一、Markdown 基礎語法測試</a>
+      <ul>
+        <li><a href="#11-標題1-6級">1.1 標題（1-6級）</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#二級標題">二級標題</a>
+      <ul>
+        <li><a href="#三級標題">三級標題</a></li>
+        <li><a href="#12-文本格式">1.2 文本格式</a></li>
+        <li><a href="#13-列表">1.3 列表</a></li>
+        <li><a href="#14-連結與圖片">1.4 連結與圖片</a></li>
+        <li><a href="#15-程式碼塊">1.5 程式碼塊</a></li>
+        <li><a href="#16-分割線">1.6 分割線</a></li>
+        <li><a href="#17-腳註">1.7 腳註</a></li>
+        <li><a href="#18-定義列表">1.8 定義列表</a></li>
+        <li><a href="#19-縮寫abbr">1.9 縮寫（ABBR）</a></li>
+      </ul>
+    </li>
+    <li><a href="#二markdown-進階語法測試">二、Markdown 進階語法測試</a>
+      <ul>
+        <li><a href="#21-表格基礎帶格式帶對齊">2.1 表格（基礎/帶格式/帶對齊）</a></li>
+        <li><a href="#22-表情符號與-emoji">2.2 表情符號與 Emoji</a></li>
+        <li><a href="#23-目錄部分編輯器支援">2.3 目錄（部分編輯器支援）</a></li>
+        <li><a href="#24-數學公式標記latex-入口">2.4 數學公式標記（LaTeX 入口）</a></li>
+        <li><a href="#25-html-標籤測試">2.5 HTML 標籤測試</a></li>
+      </ul>
+    </li>
+    <li><a href="#三latex-語法全測試">三、LaTeX 語法全測試</a>
+      <ul>
+        <li><a href="#31-行內公式基礎">3.1 行內公式（基礎）</a></li>
+        <li><a href="#32-塊級公式基礎">3.2 塊級公式（基礎）</a></li>
+        <li><a href="#33-代數數論公式">3.3 代數/數論公式</a></li>
+        <li><a href="#34-微積分公式">3.4 微積分公式</a></li>
+        <li><a href="#35-線性代數公式">3.5 線性代數公式</a></li>
+        <li><a href="#36-集合論公式">3.6 集合論公式</a></li>
+        <li><a href="#37-邏輯命題公式">3.7 邏輯/命題公式</a></li>
+        <li><a href="#38-幾何公式">3.8 幾何公式</a></li>
+        <li><a href="#39-機率與統計">3.9 機率與統計</a></li>
+        <li><a href="#310-特殊函式符號">3.10 特殊函式/符號</a></li>
+        <li><a href="#311-多行公式對齊分段">3.11 多行公式（對齊/分段）</a></li>
+        <li><a href="#312-公式標註與編號">3.12 公式標註與編號</a></li>
+        <li><a href="#313-array-環境">3.13 array 環境</a></li>
+        <li><a href="#314-化學公式mhchem">3.14 化學公式（mhchem）</a></li>
+      </ul>
+    </li>
+    <li><a href="#四markdown---融合測試">四、Markdown + $\mathrm{\LaTeX}$ 融合測試</a>
+      <ul>
+        <li><a href="#41-表格內嵌入--公式">4.1 表格內嵌入 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#42-列表內嵌入--公式">4.2 列表內嵌入 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#43-引用內嵌入--公式">4.3 引用內嵌入 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#44-程式碼塊旁註--公式">4.4 程式碼塊旁註 $\mathrm{\LaTeX}$ 公式</a></li>
+        <li><a href="#45-任務列表嵌入公式">4.5 任務列表嵌入公式</a></li>
+      </ul>
+    </li>
+    <li><a href="#五特殊場景測試">五、特殊場景測試</a>
+      <ul>
+        <li><a href="#51-跳脫字元">5.1 跳脫字元</a></li>
+        <li><a href="#52-混合巢狀">5.2 混合巢狀</a></li>
+        <li><a href="#53-大篇幅公式矩陣求和">5.3 大篇幅公式（矩陣+求和）</a></li>
+        <li><a href="#54-連續公式塊">5.4 連續公式塊</a></li>
+        <li><a href="#55-超長行內公式測試">5.5 超長行內公式測試</a></li>
+        <li><a href="#56-特殊-unicode-符號">5.6 特殊 Unicode 符號</a></li>
+        <li><a href="#57-水平線內嵌內容部分編輯器支援">5.7 水平線內嵌內容（部分編輯器支援）</a></li>
+      </ul>
+    </li>
+    <li><a href="#居中斷面標題"><strong>居中斷面標題</strong></a></li>
+    <li><a href="#六mermaid-圖表測試">六、Mermaid 圖表測試</a>
+      <ul>
+        <li><a href="#61-流程圖">6.1 流程圖</a></li>
+        <li><a href="#62-時序圖">6.2 時序圖</a></li>
+        <li><a href="#63-甘特圖">6.3 甘特圖</a></li>
+        <li><a href="#64-類圖">6.4 類圖</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Kuqilin"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Kuqilin</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">16</div>
+  </div>
+  <a class="sidebar-state-category" href="/zh-tw/categories/" aria-label="sidebar-state-category-link">
+    <div>分類</div>
+    <div class="sidebar-state-number">
+      6
+    </div>
+  </a>
+  <a class="sidebar-state-tag" href="/zh-tw/tags/" aria-label="sidebar-state-tag-link">
+    <div>標籤</div>
+    <div class="sidebar-state-number">17</div>
+  </a>
+</div>
+<div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
+        <a
+          href="mailto:kuqilin@outlook.com"
+          itemprop="url"
+          target="_blank"
+          aria-label="email"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-github sidebar-social-icon">
+        <a
+          href="https://github.com/kuqilin"
+          itemprop="url"
+          target="_blank"
+          aria-label="github"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-twitter sidebar-social-icon">
+        <a
+          href="https://twitter.com/thirtyseven0727"
+          itemprop="url"
+          target="_blank"
+          aria-label="twitter"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div></div><div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/"
+        aria-label="首頁"
+      ></a><div class='sidebar-menu-icon icon '>&#xf015;</div><div class="sidebar-menu-link">首頁</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/archives"
+        aria-label="歸檔"
+      ></a><div class='sidebar-menu-icon icon '>&#xf187;</div><div class="sidebar-menu-link">歸檔</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/about"
+        aria-label="關於"
+      ></a><div class='sidebar-menu-icon icon '>&#xf05a;</div><div class="sidebar-menu-link">關於</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/friend"
+        aria-label="友鏈"
+      ></a><div class='sidebar-menu-icon icon '>&#xf500;</div><div class="sidebar-menu-link">友鏈</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/changelog"
+        aria-label="日誌"
+      ></a><div class='sidebar-menu-icon icon '>&#xf1da;</div><div class="sidebar-menu-link">日誌</div>
+    </div></div></div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
+</div><script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    
+    
+    
+    
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    
+    
+    
+    
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/material-theme@1.0.0/dist/material-theme.umd.js"
+    
+    
+    
+    
+    integrity="sha384-vLev0II0HKFaxkcm&#43;/7kX5IGwVFBASkGchU311wmU/veIj2bB0UcBkQbW6yw2asK" crossorigin="anonymous"></script><script src="/js/main.js" integrity="" crossorigin="anonymous"  ></script><script src="/js/aos.js" integrity="" crossorigin="anonymous"  ></script><script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script><script src="/js/pjax_main.js" integrity="" crossorigin="anonymous" data-pjax ></script><script>
+  var setupFirework = () => {
+    if (! false  || !window.matchMedia('(max-width: 768px)').matches) {
+      if (window.firework) {
+        const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"var(--red-1)\",\"var(--red-2)\",\"var(--red-3)\",\"var(--red-4)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"var(--red-0)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+        options.excludeElements = options.excludeelements;
+        delete options.excludeelements;
+        window.firework(options);
+      }
+    }
+  }
+</script><script
+    src="https://npm.webcache.cn/mouse-firework@0.2.0/dist/index.umd.js"
+    defer
+    
+    
+    onload="setupFirework()"
+    integrity="sha384-qi9WggRt19tv8Vc7pCHW3ulMNLwrn515zaLEWZjl1px07vz8&#43;pUoWX8n1rgq282T" crossorigin="anonymous"></script>
+
+<div id="lazy-script">
+  <div><script data-pjax>
+        window.REIMU_POST = {
+          author: "Deepseek-V4-Pro",
+          title: "Markdown \u0026 LaTeX 全量測試文件",
+          url: "https:\/\/kuqilin.github.io\/zh-tw\/post\/fulltest\/",
+          description: "測試你的編輯器能否支援這些語法",
+          cover: "https:\/\/ts2.tc.mm.bing.net\/th\/id\/OIP-C.LK4h0b1Imrid50PLb4SL3AHaEH",
+        };
+      </script><script
+    src="https://npm.webcache.cn/mermaid@11.12.0/dist/mermaid.min.js"
+    
+    
+    data-pjax
+    
+    integrity="sha384-o&#43;g/BxPwhi0C3RK7oQBxQuNimeafQ3GE/ST4iT2BxVI4Wzt60SH4pq9iXVYujjaS" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/dompurify@3.2.6/dist/purify.min.js"
+    
+    
+    data-pjax
+    
+    integrity="sha384-JEyTNhjM6R1ElGoJns4U2Ln4ofPcqzSsynQkmEc/KGy6336qAZl70tDLufbkla&#43;3" crossorigin="anonymous"></script><script data-pjax>
+        if (window.mermaid) {
+          
+          const elementCode = '.mermaid'
+          const processElements = (callback) => {
+            const els = _$$(elementCode);
+            if (!els.length) return Promise.resolve();
+            
+            return new Promise((resolve, reject) => {
+              try {
+                els.forEach(callback);
+                resolve();
+              } catch (error) {
+                reject(error);
+              }
+            });
+          };
+          const saveOriginalData = () => processElements(el => {
+            if (!el.getAttribute('data-original-code')) {
+              el.setAttribute('data-original-code', el.innerHTML);
+            }
+          });
+
+          const resetProcessed = () => processElements(el => {
+            const originalCode = el.getAttribute('data-original-code');
+            if (originalCode) {
+              el.removeAttribute('data-processed');
+              el.innerHTML = DOMPurify.sanitize(originalCode);
+            }
+          });
+          const loadMermaid = async (theme) => {
+            window.mermaid.initialize({theme, startOnLoad: false})
+            await window.mermaid.run({querySelector: elementCode, suppressErrors: true})
+            if (window.svgPanZoom) {
+              window.__panZoomList?.forEach(panZoom => {try {panZoom.destroy()} catch {}});
+              window.__panZoomList = [];
+              _$$('.mermaid > svg').forEach(el => {
+                const bbox = el.getBBox();
+                el.setAttribute('height', Math.max(bbox.height, 80));
+                window.__panZoomList.push(window.svgPanZoom(el, {
+                  zoomEnabled: true,
+                  controlIconsEnabled: true,
+                  fit: true,
+                  center: true
+                }));
+              });
+              if (window.__resizeMermaidSvg) {
+                window.removeEventListener('resize', window.__resizeMermaidSvg);
+              }
+              window.__resizeMermaidSvg = () => {
+                try {
+                  window.__panZoomList.forEach(panZoom => {
+                    panZoom.resize();
+                    panZoom.fit();
+                    panZoom.center();
+                  });
+                } catch {
+                  window.removeEventListener('resize', window.__resizeMermaidSvg);
+                  window.__panZoomList = [];
+                }
+              }
+              window.addEventListener('resize', window.__resizeMermaidSvg);
+            }
+          }
+          const initMermaid = async (theme) => {
+            try {
+              await saveOriginalData();
+              await resetProcessed();
+              await loadMermaid(theme);
+            } catch (error) {
+              console.error(error);
+            }
+          };
+          
+          document.body.addEventListener('reimu:theme-set', (e) => {
+            const isDark = e.detail.isDark;
+            initMermaid(isDark ? 'dark' : 'default');
+          });
+
+          const mode = localStorage.getItem('dark_mode');
+          if (mode === 'auto') {
+            const osMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            initMermaid(osMode ? 'dark' : 'default');
+          } else {
+            initMermaid(mode === 'true' ? 'dark' : 'default');
+          }
+        }
+      </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax ></script><script src="/js/tabs.js" integrity="" crossorigin="anonymous" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
+          if (_$$(`${gallery} ${children}`).length > 0) {
+            new PhotoSwipeLightbox({
+              gallery,
+              children,pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+        }
+        const pswp = () => {
+          initPswp('.article-entry', 'a.article-gallery-item');
+          initPswp('.article-gallery', 'a.article-gallery-item');
+        }
+        pswp()
+      </script><script
+    src="https://npm.webcache.cn/qrcode@1.5.1/build/qrcode.js"
+    defer
+    
+    data-pjax
+    
+    integrity="sha384-VT1EeewTCEXgndcPMQ0PzV&#43;uVFYjxFIjmAA7s5gcMX9t4Dt5TD&#43;OVQIn7NJWIXn7" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/@zumer/snapdom@1.9.14/dist/snapdom.min.js"
+    defer
+    
+    data-pjax
+    
+    integrity="sha384-OEQ&#43;fJp/Mvi2uzBREXybtxryJvLytWapuHu4EE6LPwTKUwATYcc55tPPcZTzVcmx" crossorigin="anonymous"></script><script data-pjax>
+          window.MathJax = JSON.parse("[{\"loader\":{\"load\":[\"input/asciimath\",\"[tex]/noerrors\"]},\"options\":{\"ignoreHtmlClass\":\"tex2jax_ignore\",\"processHtmlClass\":\"tex2jax_process\",\"skipHtmlTags\":[\"script\",\"noscript\",\"style\",\"textarea\",\"pre\",\"code\"]},\"tex\":{\"autoload\":{\"color\":[],\"colorv2\":[\"color\"]},\"displayMath\":[[\"$$\",\"$$\"],[\"\\\\\\\\[\",\"\\\\\\\\]\"]],\"inlineMath\":[[\"$\",\"$\"],[\"\\\\\\\\(\",\"\\\\\\\\)\"]],\"packages\":{\"[+]\":[\"noerrors\"]},\"processEnvironments\":true,\"processEscapes\":true,\"tags\":\"ams\",\"useLabelIds\":true}}]")[0];
+        </script><script
+    src="https://npm.webcache.cn/mathjax@3.2.2/es5/tex-mml-chtml.js"
+    defer
+    
+    data-pjax
+    
+    integrity="sha384-Wuix6BuhrWbjDBs24bXrjf4ZQ5aFeFWBuKkFekO2t8xFU0iNaLQfp2K6/1Nxveei" crossorigin="anonymous"></script></div>
+</div><script
+    src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
+    
+    async
+    
+    
+    integrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script><script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script><!-- Live2D 看板娘 (pixi-live2d-display) 开始 -->
+<style>
+  #live2dcanvas {
+    position: fixed;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 390px;
+    height: 520px;
+    z-index: 99999;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 959px) {
+    #live2dcanvas { display: none !important; }
+  }
+</style>
+<canvas id="live2dcanvas" width="900" height="1200"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7/dist/pixi.min.js"></script>
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism4.min.js"></script>
+<script>
+(async function() {
+  const canvas = document.getElementById('live2dcanvas');
+  const app = new PIXI.Application({
+    view: canvas,
+    width: 960,
+    height: 1280,
+    backgroundAlpha: 0,
+    premultipliedAlpha: true
+  });
+  const model = await PIXI.live2d.Live2DModel.from('/live2d/37_skin4/v2a2_306604_37.model3.json');
+  model.scale.set(0.28);
+  model.x = -100;
+  model.y = 450;
+  app.stage.addChild(model);
+
+  // 所有动作（泉眼深处皮肤）
+  const allMotions = [
+    'b_diantou','b_feizou','b_fumo','b_gongji','b_idle',
+    'b_jiangluo','b_jiangluo2','b_naxia','b_qiwu','b_ruchang',
+    'b_shenshou','b_shuzi','b_sisuo','b_tielian','b_tielian2',
+    'b_tielian3','b_tiyi','b_xinxu','b_yaotou','b_zhanshi',
+    't_biyan','t_biyan_bizui','t_bizui','t_chijing','t_chijing_bizui',
+    't_gongji','t_idle','t_kaixin','t_kaixin_bizui','t_nanguo',
+    't_nanguo_bizui','t_shengqi','t_shengqi_bizui','t_shishen',
+    't_shishen_bizui','t_yansu','t_yansu_bizui'
+  ];
+
+  let loopTimer = null;
+
+  function playRandomMotion() {
+    clearTimeout(loopTimer);
+    const name = allMotions[Math.floor(Math.random() * allMotions.length)];
+    console.log('Playing motion:', name);
+    model.internalModel.motionManager.startMotion(name, 0);
+    loopTimer = setTimeout(playRandomMotion, 5000);
+  }
+
+  // 等模型准备好
+  setTimeout(playRandomMotion, 500);
+
+  canvas.addEventListener('click', playRandomMotion);
+  canvas.addEventListener('touchstart', function(e) { e.preventDefault(); playRandomMotion(); });
+})();
+</script>
+<!-- Live2D 看板娘 (pixi-live2d-display) 结束 -->
+<script>
+(function () {
+  function markTall(img) {
+    if (!img.naturalWidth || !img.naturalHeight) return;
+    if (img.naturalHeight > img.naturalWidth) {
+      img.classList.add("tall");
+    } else {
+      img.classList.remove("tall");
+    }
+  }
+  function scan() {
+    document.querySelectorAll(".article-entry img").forEach(function (img) {
+      // 对B站图床的图片禁用Referer，绕过防盗链
+      if (/hdslb\.com/.test(img.src)) {
+        img.referrerPolicy = "no-referrer";
+      }
+      if (img.complete && img.naturalWidth) {
+        markTall(img);
+      } else {
+        img.addEventListener("load", function () { markTall(img); }, { once: true });
+      }
+    });
+  }
+  // 主题使用 lazysizes 懒加载，加载完成时派发 lazyloaded 事件
+  document.addEventListener("lazyloaded", function (e) {
+    if (e.target && e.target.matches(".article-entry img")) markTall(e.target);
+  });
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", scan);
+  } else {
+    scan();
+  }
+})();
+</script>
+</body>
+</html>

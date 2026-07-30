@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/zh-tw/tags/hugo/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
+    
+    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/zh-tw/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>網站看板娘 —— 37 泉眼深處</title>
+      <link>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</link>
+      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</guid>
+      <description>
+        <![CDATA[<h1>網站看板娘 —— 37 泉眼深處</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>再次更新，用上了 Cloudflare 的 R2 儲存桶，綁了<code>kuqilin.eu.org</code>域名，可以 <del>盡情</del> 適度食用了。速度比 jsDelivr 快多了！20 秒之內 99% 的使用者都能加載出來了。都去給我欣賞「泉眼深處」😠😠😠</p>
+        
+        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Termux 安裝 Hugo</title>
+      <link>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</link>
+      <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</guid>
+      <description>
+        <![CDATA[<h1>Termux 安裝 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          用 Go 編譯 Hugo Extended，解決 Termux arm64 無預編譯二進位制檔案的問題
+        
+        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-28</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hugo 搭建個人部落格</title>
+      <link>https://kuqilin.github.io/zh-tw/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/hugo/</guid>
+      <description>
+        <![CDATA[<h1>Hugo 搭建個人部落格</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          記錄了我在 GitHub Pages 搭建 Hugo 的經歷
+        
+        <hr><p>本文2026-07-11首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+  </channel>
+</rss>

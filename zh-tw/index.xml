@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/zh-tw/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
+    
+    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/zh-tw/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>網站看板娘 —— 37 泉眼深處</title>
+      <link>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</link>
+      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</guid>
+      <description>
+        <![CDATA[<h1>網站看板娘 —— 37 泉眼深處</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>再次更新，用上了 Cloudflare 的 R2 儲存桶，綁了<code>kuqilin.eu.org</code>域名，可以 <del>盡情</del> 適度食用了。速度比 jsDelivr 快多了！20 秒之內 99% 的使用者都能加載出來了。都去給我欣賞「泉眼深處」😠😠😠</p>
+        
+        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Termux 安裝 Hugo</title>
+      <link>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</link>
+      <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</guid>
+      <description>
+        <![CDATA[<h1>Termux 安裝 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          用 Go 編譯 Hugo Extended，解決 Termux arm64 無預編譯二進位制檔案的問題
+        
+        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-28</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>37 簽名 SVG 圖片</title>
+      <link>https://kuqilin.github.io/zh-tw/post/37-signature/</link>
+      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/37-signature/</guid>
+      <description>
+        <![CDATA[<h1>37 簽名 SVG 圖片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          AI 總結：用 AI 製作了 37 的 SVG 簽名圖，並分享了多版本成品和完整原始碼。
+        
+        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-23</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師</title>
+      <link>https://kuqilin.github.io/zh-tw/post/man-zui-lan-geng-de-xue-sheng/</link>
+      <pubDate>Fri, 17 Jul 2026 21:01:07 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/man-zui-lan-geng-de-xue-sheng/</guid>
+      <description>
+        <![CDATA[<h1>[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          深圳初中生滿嘴網路爛梗髒話成風，一線教師懲戒權被限制，部分家長不配合反投訴，教育陷入無力困局。
+        
+        <hr><p>本文2026-07-17首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
+      </description>
+      
+        <category>轉載</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hugo 搭建個人部落格</title>
+      <link>https://kuqilin.github.io/zh-tw/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/hugo/</guid>
+      <description>
+        <![CDATA[<h1>Hugo 搭建個人部落格</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          記錄了我在 GitHub Pages 搭建 Hugo 的經歷
+        
+        <hr><p>本文2026-07-11首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
+      </description>
+      
+        <category>記錄</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>我的GPG公鑰</title>
+      <link>https://kuqilin.github.io/zh-tw/post/my-gpg/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/my-gpg/</guid>
+      <description>
+        <![CDATA[<h1>我的GPG公鑰</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          更新：修改了公鑰以及郵箱
+        
+        <hr><p>本文2024-01-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-16</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>復刻 Telegram 的 AI 編輯器</title>
+      <link>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</link>
+      <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</guid>
+      <description>
+        <![CDATA[<h1>復刻 Telegram 的 AI 編輯器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          本文收集並整合了多個民間復刻版 Telegram AI 編輯器的提示詞，涵蓋 Telegram 官方提供的六種風格及表情化功能。文章<strong>單一版本</strong>提供了八種風格的獨立提示詞，每條提示詞均要求嚴格模仿 Cocoon AI 的改寫邏輯，只輸出正文、保留核心資訊、不篡改原意；<strong>整合版本</strong>則將所有風格合併為一個提示詞，通過輸入風格關鍵詞即可在單一對話中切換不同文風進行改寫。
+        
+        <hr><p>本文2026-07-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
+      </description>
+      
+        <category>AI</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Markdown &amp; LaTeX 全量測試文件</title>
+      <link>https://kuqilin.github.io/zh-tw/post/fulltest/</link>
+      <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/fulltest/</guid>
+      <description>
+        <![CDATA[<h1>Markdown & LaTeX 全量測試文件</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          Markdown 和 LaTeX 的全量測試文件，試試支不支援這些語法。
+        
+        <hr><p>本文2026-01-25首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-14</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>劇透測試（短程式碼）</title>
+      <link>https://kuqilin.github.io/zh-tw/post/spoilertest_shortcode/</link>
+      <pubDate>Mon, 13 Jul 2026 11:47:55 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/spoilertest_shortcode/</guid>
+      <description>
+        <![CDATA[<h1>劇透測試（短程式碼）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>這是一個<span class="spoiler">劇透測試</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+<h2 id="圖片測試">
+<a class="header-anchor" href="#%e5%9c%96%e7%89%87%e6%b8%ac%e8%a9%a6"></a>
+圖片測試
+</h2><span class="spoiler"><img src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc" 
+     alt="" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
+<h2 id="英文測試">
+<a class="header-anchor" href="#%e8%8b%b1%e6%96%87%e6%b8%ac%e8%a9%a6"></a>
+英文測試
+</h2><p><span class="spoiler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur sem sed nisl cursus, at pretium massa sodales. Phasellus et consectetur tortor, rhoncus iaculis urna. Etiam nisi sem, auctor eu massa ornare, viverra mattis est. Etiam scelerisque tortor vel erat feugiat vestibulum. Donec eget eros odio. Etiam sem mi, mattis vitae magna eu, pretium rhoncus felis. Quisque nisi sapien, vulputate nec commodo id, pulvinar vel libero. Nam luctus sapien at finibus sagittis. Aenean sit amet nibh vel nisi pharetra pharetra. Curabitur efficitur nunc nibh, vitae ultrices diam consequat sit amet. Curabitur varius congue purus, ac lobortis risus rhoncus eu. Curabitur venenatis cursus mauris, at commodo orci auctor in. Sed condimentum justo ut ante commodo, eu vulputate justo facilisis.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
+<span class="spoiler">Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu lectus in felis tempor condimentum. Etiam eu neque neque. Mauris ac convallis est. Donec dictum tellus ullamcorper lacus hendrerit, at porttitor dolor laoreet. Praesent convallis diam ut ante pellentesque scelerisque ac non arcu. Donec finibus massa vitae scelerisque porttitor. Sed ut neque libero.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+        
+        <hr><p>本文2026-07-13首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-13</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>20260712</title>
+      <link>https://kuqilin.github.io/zh-tw/post/20260712/</link>
+      <pubDate>Sun, 12 Jul 2026 23:39:27 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/20260712/</guid>
+      <description>
+        <![CDATA[<h1>20260712</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          Vibe Coding給部落格的長圖在寬屏下渲染為1/2，其他情況不變。本文是全對話，使用 Kimi Code 搭配 Deepseek-v4-pro 進行。
+        
+        <hr><p>本文2026-07-12首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-12</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>

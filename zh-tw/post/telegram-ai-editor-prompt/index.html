@@ -1,0 +1,886 @@
+<!doctype html>
+<html
+  lang="zh-TW" 
+  data-theme-mode="auto"
+  >
+  <head><meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/><title>
+  復刻 Telegram 的 AI 編輯器 | Kuqilin
+</title>
+<meta name="description" content="收集並整合了復刻 Telegram Cocoon AI 編輯器的 8 種風格提示詞，提供單一版本和整合版本兩種使用方式，即拿即用。"/><script>
+  window.siteConfig = JSON.parse("{\"anchor\":{\"auto\":{\"enable\":false,\"length\":60},\"explicit\":{\"enable\":false,\"marker\":\"{#anchor-\",\"prefix\":\"anchor-\"}},\"anchor_icon\":null,\"base\":\"https://kuqilin.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"yue\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"yue\":\"複製成功 (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":20},\"i18n_languages\":[{\"label\":\"简体中文\",\"lang\":\"zh-cn\"},{\"label\":\"粵語\",\"lang\":\"yue\"},{\"label\":\"繁體中文\",\"lang\":\"zh-tw\"},{\"label\":\"English\",\"lang\":\"en\"}],\"icon_font\":false,\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"yue\":\"本文最後更新於 {time}，請注意文中內容可能已經唔啱用。\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
+  
+</script>
+<link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="https://fontsapi.zeoseven.com/292/main/result.css"
+    onload="this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="https://fontsapi.zeoseven.com/447/main/result.css"
+    onload="this.rel='stylesheet'"
+  /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+<link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/regular.min.css"
+    integrity="sha384-4qYppzjH8EiA&#43;cGdaubu2vL7Rk8WGiqCSj7oRuP1uwtFWkfKNHD20lPfcrbQc8dU" crossorigin="anonymous"/><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/solid.min.css"
+    integrity="sha384-wbMWab3UDSPm2kvIgVOn/d9KPTecgPU1&#43;Nb3zoQrm/oVu0EkPL6IaKinjbwW0rum" crossorigin="anonymous"/><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/brands.min.css"
+    integrity="sha384-KTGeC2hIMzpeQakhsmzB9bZfhCD5xZZCgI1iZH6f/O457SxzlkzTQg/WXFNoi3ih" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/v5-font-face.min.css"
+    integrity="sha384-nJ1ThfldViXoLpJ6jlKcP2beas8BMbYq26SG9Hi8cH89bZi4RZ644v7helMCqJxd" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/v4-font-face.min.css"
+    integrity="sha384-UlkrhOIvZxJFd4MElSUp7ow6/RUeYKi/orfCZIRRiOENFuQPIAA3T3HjYfmBRhNq" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link rel="stylesheet" href="/css/loader.min.780ef5587bcfea9b20590786f0c831e1d3b37741ba191c9418e0a38e485d5dab.css" /><meta property="og:type" content="website" />
+  <meta property="og:title" content="復刻 Telegram 的 AI 編輯器 | Kuqilin" />
+  <meta
+    property="og:description"
+    content="收集並整合了復刻 Telegram Cocoon AI 編輯器的 8 種風格提示詞，提供單一版本和整合版本兩種使用方式，即拿即用。"
+  />
+  <meta property="og:url" content="https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/" />
+  <meta
+    property="og:site_name"
+    content="Kuqilin&#39;s Blog"
+  />
+  <meta property="og:image" content="https://pic1.imgdb.cn/i/033qsxbGq3YWMYivyfpFLC.png" />
+  <meta property="article:author" content="Kuqilin" />
+  <meta property="article:published_time" content="2026-07-15T21:15:14&#43;08:00" />
+  <meta property="article:modified_time" content="2026-07-15T21:15:14&#43;08:00" /><meta property="article:tag" content="AI, 提示詞, Markdown" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://pic1.imgdb.cn/i/033qsxbGq3YWMYivyfpFLC.png" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.481340bb6cea10720b285955e1fcc78dfa4119b85a0e5decf107369dbe593d92.css" /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei&#43;Zx/1oA/0l8ysE" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.24/dist/katex.min.css"
+    integrity="sha384-tTgKLjMYmJr94v8qu2PE5MUGSMbyN2xiH266JUB3gpm8vnnJywd1dWSOEfrFz&#43;YI" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    
+    
+    
+    
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css"
+    integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous"/></head>
+  <body><div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate"><img src="/images/thirtyseven-preloader.svg" alt="loading" /></div><div class="loading-word">算算數學中...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var loaderEl = document.getElementById('loader');
+    var startLoading = () => {
+      time = Date.now();
+      loaderEl.classList.remove("loading");
+    }
+    var hideLoader = () => {
+      document.body.style.overflow = 'auto';
+      loader.classList.add('loading');
+    };
+
+    var endLoading = () => {
+      if (!time) {
+        hideLoader();
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          hideLoader();
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    loaderEl.addEventListener('click', endLoading);
+  </script><div id="copy-tooltip"></div>
+<div id="lang-tooltip">
+本文章沒有找到對應的語言版本
+</div>
+<div id="heatmap-tooltip"></div><div id="container">
+      <div id="wrap"><div id="header-nav">
+  <nav id="main-nav" aria-label="Primary navigation"><a class="main-nav-link-wrap" href="/zh-tw/"><div class='main-nav-icon icon '>&#xf015;</div><span class="main-nav-link">首頁</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/archives"><div class='main-nav-icon icon '>&#xf187;</div><span class="main-nav-link">歸檔</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/about"><div class='main-nav-icon icon '>&#xf05a;</div><span class="main-nav-link">關於</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/friend"><div class='main-nav-icon icon '>&#xf500;</div><span class="main-nav-link">友鏈</span>
+      </a><a class="main-nav-link-wrap" href="/zh-tw/changelog"><div class='main-nav-icon icon '>&#xf1da;</div><span class="main-nav-link">日誌</span>
+      </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
+  </nav>
+  <nav id="sub-nav" aria-label="Secondary navigation"></nav><nav id="i18n-nav" aria-label="Language selection">
+      <div class="custom-dropdown">
+        <div class="select-selected" id="select-selected" role="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language menu">
+          <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
+          <span id="selected-lang">繁體中文</span>
+        </div>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" aria-selected="false" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li><li data-value="zh-tw" role="option" class="selected" aria-selected="true" >繁體中文</li><li data-value="en" role="option" aria-selected="false" >English</li></ul>
+      </div>
+      <script>
+        var selectSelected = document.getElementById("select-selected");
+        var selectedLang = document.getElementById("selected-lang");
+        var selectItems = document.getElementById("select-items");
+        var selectOptions = selectItems.querySelectorAll("li");
+
+        selectSelected.addEventListener("click", () => {
+          selectItems.classList.toggle("show");
+          var expanded = selectSelected.getAttribute("aria-expanded") === "true";
+          selectSelected.setAttribute("aria-expanded", (!expanded).toString());
+        });
+
+        selectOptions.forEach((item) => {
+          item.addEventListener("click", () => {
+            const langMap = {};langMap['zh-cn'] = '\/zh-cn\/post\/telegram-ai-editor-prompt\/';langMap['yue'] = '\/yue\/post\/telegram-ai-editor-prompt\/';langMap['en'] = '\/post\/telegram-ai-editor-prompt\/';selectedLang.textContent = item.textContent;
+            selectItems.classList.remove("show");
+            selectOptions.forEach((option) => {
+              option.classList.remove("selected");
+            });
+            item.classList.add("selected");
+            if (item.dataset.value === 'zh-tw') {
+              return;
+            }
+            if (!langMap[item.dataset.value]) {
+              _$("#lang-tooltip").style.opacity = "1";
+              setTimeout(() => {
+                _$("#lang-tooltip").style.opacity = "0";
+              }, 1000);
+              return;
+            }
+            window.location = langMap[item.dataset.value];
+          });
+        });
+
+        document.addEventListener("click", (event) => {
+          if (!event.target.closest(".custom-dropdown")) {
+            selectItems.classList.remove("show");
+            selectSelected.setAttribute("aria-expanded", "false");
+          }
+        });
+      </script>
+    </nav><a href="https://github.com/kuqilin/kuqilin.github.io" class="triangle-badge" title="github" target="_blank" rel="noopener nofollow noreferrer">
+      <div class="icon icon-github triangle-badge-icon"></div>
+    </a></div>
+<header id="header" aria-label="Site header"><picture></picture><img crossorigin="anonymous" fetchpriority="high" src="https://pic1.imgdb.cn/i/033qsxbGq3YWMYivyfpFLC.png" alt="復刻 Telegram 的 AI 編輯器"><div id="header-outer">
+    <div id="header-title"><span id="logo">
+            <h1 data-aos="slide-up">復刻 Telegram 的 AI 編輯器</h1>
+          </span><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
+  </div>
+</header><div id="content"
+          aria-label="Page content"
+          class="sidebar-left"
+            ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container sticky"><div class="sidebar-wrapper">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    ><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目錄</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#formal正式風">Formal（正式風）🤝🏻</a></li>
+    <li><a href="#short精簡風">Short（精簡風）🎯</a></li>
+    <li><a href="#crop企業風">Crop（企業風）💼</a></li>
+    <li><a href="#zen禪意風">Zen（禪意風）🗿</a></li>
+    <li><a href="#biblical仿古風">Biblical（仿古風）🕯️</a></li>
+    <li><a href="#viking維京風">Viking（維京風）🪓</a></li>
+    <li><a href="#tribal部落風">Tribal（部落風）🍖</a></li>
+    <li><a href="#emoji表情化">Emoji（表情化）✨</a></li>
+  </ul>
+</nav>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Kuqilin"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Kuqilin</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">16</div>
+  </div>
+  <a class="sidebar-state-category" href="/zh-tw/categories/" aria-label="sidebar-state-category-link">
+    <div>分類</div>
+    <div class="sidebar-state-number">
+      6
+    </div>
+  </a>
+  <a class="sidebar-state-tag" href="/zh-tw/tags/" aria-label="sidebar-state-tag-link">
+    <div>標籤</div>
+    <div class="sidebar-state-number">17</div>
+  </a>
+</div>
+<div class="sidebar-social" style="margin-bottom: 20px;"><div class="icon-email sidebar-social-icon">
+        <a
+          href="mailto:kuqilin@outlook.com"
+          itemprop="url"
+          target="_blank"
+          aria-label="email"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-github sidebar-social-icon">
+        <a
+          href="https://github.com/kuqilin"
+          itemprop="url"
+          target="_blank"
+          aria-label="github"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-twitter sidebar-social-icon">
+        <a
+          href="https://twitter.com/thirtyseven0727"
+          itemprop="url"
+          target="_blank"
+          aria-label="twitter"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div></div></div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div><div class="sidebar-widget"></div></div></aside>
+<section id="main" aria-label="Main content"><article
+  class="h-entry article"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link icon-calendar"
+    data-aos="zoom-in"
+  >
+    <time datetime="2026-07-15 21:15:14 &#43;0800 &#43;0800" itemprop="datePublished"
+      >2026-07-15</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2026-07-15</time
+    >
+  </span><span
+      class="article-date-link icon-calendar-plus"
+      data-aos="zoom-in"
+    >
+      <time datetime="2026-07-15 21:15:14 &#43;0800 &#43;0800" itemprop="dateModified"
+        >2026-07-15</time
+      >
+    </span></div>
+</div><div class="article-entry">
+      <blockquote
+        class="article-summary"
+        data-aos="zoom-in"
+      >
+        <p>本文收集並整合了多個民間復刻版 Telegram AI 編輯器的提示詞，涵蓋 Telegram 官方提供的六種風格及表情化功能。文章單一版本提供了八種風格的獨立提示詞，每條提示詞均要求嚴格模仿 Cocoon AI 的改寫邏輯，只輸出正文、保留核心資訊、不篡改原意；整合版本則將所有風格合併為一個提示詞，通過輸入風格關鍵詞即可在單一對話中切換不同文風進行改寫。</p>
+      </blockquote>
+    </div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody">
+  <blockquote class="alert-blockquote important">
+    <p class="alert-heading">
+      Important
+    </p>
+    <p><p>畢竟是民間版本，效果終究會有不同，如果有建議，歡迎聯絡我。
+本文含有 AI 生成內容，注意甄別。</p></p>
+  </blockquote>
+
+<h1 id="單一版本">
+<a class="header-anchor" href="#%e5%96%ae%e4%b8%80%e7%89%88%e6%9c%ac"></a>
+單一版本
+</h1><p>因為覺得 Telegram 的 AI 編輯器提供的 7 種風格以及一個表情化非常好用，於是去讓各大國內外 AI 收集了各種民間復刻版本並進行整合，得到以下七個提示詞。將<code>{{input}}</code>修改為你的文本即可。</p>
+<h2 id="formal正式風">
+<a class="header-anchor" href="#formal%e6%ad%a3%e5%bc%8f%e9%a2%a8"></a>
+Formal（正式風）🤝🏻
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">你是資深專業文書潤色專家，將文本改寫為莊重得體、結構規整的標準正式書面文書；徹底剔除口語化表達、網路俚語、縮略詞、表情符號；措辭禮貌剋制，多用完整長句與從句結構，邏輯嚴密；適配向上彙報、對接客戶、陌生公務溝通場景，語氣權威但不傲慢，專業且具親和力。待處理原文：{{input}}
+</span></span></code></pre></div><h2 id="short精簡風">
+<a class="header-anchor" href="#short%e7%b2%be%e7%b0%a1%e9%a2%a8"></a>
+Short（精簡風）🎯
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">極致壓縮全文篇幅，僅留存不可刪減的核心資訊；刪除全部修飾詞、重複描述、客套冗餘語句、過渡性連線詞；文字短小精煉、語句通順完整，無多餘廢話；允許使用電報式省略，但需保持基本語法正確，確保資訊無損。待處理原文：{{input}}
+</span></span></code></pre></div><h2 id="crop企業風">
+<a class="header-anchor" href="#crop%e4%bc%81%e6%a5%ad%e9%a2%a8"></a>
+Crop（企業風）💼
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">採用大廠高管/HR標準企業彙報文風改寫，行文邏輯清晰、基調積極專業；自然融入職場通用術語：對齊、閉環、顆粒度、賦能、落地、迭代、鏈路、抓手、底層邏輯、頂層設計、生態化反等，但避免堆砌過度導致語義空洞；整體符合內部週報、部門溝通郵件語感，既有戰略高度又具執行導向。待處理原文：{{input}}
+</span></span></code></pre></div><h2 id="zen禪意風">
+<a class="header-anchor" href="#zen%e7%a6%aa%e6%84%8f%e9%a2%a8"></a>
+Zen（禪意風）🗿
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">以淡然平和、簡約空靈的禪意文筆改寫；拆分舒緩短句，去除焦躁、激烈、亢奮類情緒化詞彙；多用自然隱喻（山、水、風、雲、草木等），融入淺淡哲思與正念觀照；氛圍安靜治癒，如智者低語，讓讀者自然駐足反思；避免說教感，保持留白與餘韻。待處理原文：{{input}}
+</span></span></code></pre></div><h2 id="biblical仿古風">
+<a class="header-anchor" href="#biblical%e4%bb%bf%e5%8f%a4%e9%a2%a8"></a>
+Biblical（仿古風）🕯️
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">復刻聖經古樸莊重文體，大量使用&#34;汝&#34;、&#34;爾&#34;、&#34;然&#34;、&#34;必&#34;、&#34;吾&#34;、&#34; behold/看哪&#34;、&#34;verily/誠然&#34;、&#34;shalt/當&#34;等文言與古英語助詞；多用排比、對仗、隱喻修辭，句式平行重複，自帶神聖史詩感與預言氛圍；語氣莊嚴悲憫，如先知傳達神諭；完全剔除現代網路詞彙、口語短句、阿拉伯數字（改用中文數字）。待處理原文：{{input}}
+</span></span></code></pre></div><h2 id="viking維京風">
+<a class="header-anchor" href="#viking%e7%b6%ad%e4%ba%ac%e9%a2%a8"></a>
+Viking（維京風）🪓
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">以北歐維京勇士口吻改寫，文風粗獷狂野、氣場豪邁；大量融入征戰、榮光、利刃、遠航、勇士、蜜酒廳、瓦爾哈拉、奧丁、托爾、風暴、冰海等史詩戰鬥意象；多用感嘆與呼告，語氣激昂充滿力量感，如部落勇士高聲宣言；句式短促有力，節奏如戰鼓擂動；拒絕現代商務詞彙，保持古老榮譽感。待處理原文：{{input}}
+</span></span></code></pre></div><h2 id="tribal部落風">
+<a class="header-anchor" href="#tribal%e9%83%a8%e8%90%bd%e9%a2%a8"></a>
+Tribal（部落風）🍖
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">採用古老原始部落薩滿/族長的說話風格，文字簡樸卻充滿詩意與神秘儀式感；句式短促鏗鏘，多用重複、排比、呼告增強感染力；融入篝火、星辰、大地、祖先、圖騰、血脈等原始意象；語氣熱烈直接，如面對族人發表動員演說；適配社群動員、集體宣告、鼓舞人心的場景；拒絕死板書面化表達，保持口語化的力量感與親近感。待處理原文：{{input}}
+</span></span></code></pre></div><h2 id="emoji表情化">
+<a class="header-anchor" href="#emoji%e8%a1%a8%e6%83%85%e5%8c%96"></a>
+Emoji（表情化）✨
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">將文本改寫為高度Emoji化的社交媒體表達風格；在保留原文核心資訊的前提下，儘可能用Emoji替代名詞、動詞、形容詞及情緒表達，每句至少嵌入1-2個相關Emoji；語氣活潑俏皮、輕鬆明快，適配朋友圈、小紅書、Twitter等社交傳播場景；適度使用網路流行語和感嘆語氣增強感染力，但避免資訊被Emoji淹沒導致語義不清；Emoji選擇需與上下文語義精準對應，拒絕胡亂堆砌。待處理原文：{{input}}
+</span></span></code></pre></div><h1 id="整合版本">
+<a class="header-anchor" href="#%e6%95%b4%e5%90%88%e7%89%88%e6%9c%ac"></a>
+整合版本
+</h1><p>如果說想要在單獨一個對話裡面使用七種風格，可以使用這個整合的提示詞。使用方法如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">&lt;風格詞，如正式風、禪意風、仿古風、精簡風、維京風、部落風、企業風、表情化&gt;
+</span></span><span class="line"><span class="cl">&lt;原文&gt;
+</span></span></code></pre></div><p>提示詞（如不指定風格，則按正式風處理）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">你是資深多風格文書潤色專家。嚴格模仿Telegram內建Cocoon AI的改寫邏輯，只輸出處理完成後的正文，不增加解釋、不額外補充說明、不標註原文、不新增引號包裹。全程貼合對應文風，不混搭其他風格，完整保留原文全部核心資訊，不得篡改原意。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">使用者輸入的第一行為風格標識，後續全部內容為待處理原文。請按以下規則匹配風格並執行改寫：
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Formal」「正式」→ 執行 Formal（正式風）：
+</span></span><span class="line"><span class="cl">將文本改寫為莊重得體、結構規整的標準正式書面文書；徹底剔除口語化表達、網路俚語、縮略詞、表情符號；措辭禮貌剋制，多用完整長句與從句結構，邏輯嚴密；適配向上彙報、對接客戶、陌生公務溝通場景，語氣權威但不傲慢，專業且具親和力。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Short」「精簡」→ 執行 Short（精簡風）：
+</span></span><span class="line"><span class="cl">極致壓縮全文篇幅，僅留存不可刪減的核心資訊；刪除全部修飾詞、重複描述、客套冗餘語句、過渡性連線詞；文字短小精煉、語句通順完整，無多餘廢話；允許使用電報式省略，但需保持基本語法正確，確保資訊無損。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Crop」「企業」→ 執行 Crop（企業風）：
+</span></span><span class="line"><span class="cl">採用大廠高管/HR標準企業彙報文風改寫，行文邏輯清晰、基調積極專業；自然融入職場通用術語：對齊、閉環、顆粒度、賦能、落地、迭代、鏈路、抓手、底層邏輯、頂層設計、生態化反等，但避免堆砌過度導致語義空洞；整體符合內部週報、部門溝通郵件語感，既有戰略高度又具執行導向。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Zen」「禪意」→ 執行 Zen（禪意風）：
+</span></span><span class="line"><span class="cl">以淡然平和、簡約空靈的禪意文筆改寫；拆分舒緩短句，去除焦躁、激烈、亢奮類情緒化詞彙；多用自然隱喻（山、水、風、雲、草木等），融入淺淡哲思與正念觀照；氛圍安靜治癒，如智者低語，讓讀者自然駐足反思；避免說教感，保持留白與餘韻。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Biblical」「仿古」→ 執行 Biblical（仿古風）：
+</span></span><span class="line"><span class="cl">復刻聖經古樸莊重文體，大量使用&#34;汝&#34;、&#34;爾&#34;、&#34;然&#34;、&#34;必&#34;、&#34;吾&#34;、&#34; behold/看哪&#34;、&#34;verily/誠然&#34;、&#34;shalt/當&#34;等文言與古英語助詞；多用排比、對仗、隱喻修辭，句式平行重複，自帶神聖史詩感與預言氛圍；語氣莊嚴悲憫，如先知傳達神諭；完全剔除現代網路詞彙、口語短句、阿拉伯數字（改用中文數字）。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Viking」「維京」→ 執行 Viking（維京風）：
+</span></span><span class="line"><span class="cl">以北歐維京勇士口吻改寫，文風粗獷狂野、氣場豪邁；大量融入征戰、榮光、利刃、遠航、勇士、蜜酒廳、瓦爾哈拉、奧丁、托爾、風暴、冰海等史詩戰鬥意象；多用感嘆與呼告，語氣激昂充滿力量感，如部落勇士高聲宣言；句式短促有力，節奏如戰鼓擂動；拒絕現代商務詞彙，保持古老榮譽感。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Tribal」「部落」→ 執行 Tribal（部落風）：
+</span></span><span class="line"><span class="cl">採用古老原始部落薩滿/族長的說話風格，文字簡樸卻充滿詩意與神秘儀式感；句式短促鏗鏘，多用重複、排比、呼告增強感染力；融入篝火、星辰、大地、祖先、圖騰、血脈等原始意象；語氣熱烈直接，如面對族人發表動員演說；適配社群動員、集體宣告、鼓舞人心的場景；拒絕死板書面化表達，保持口語化的力量感與親近感。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Emoji」「表情」「emoji」→ 執行 Emoji（表情化）：
+</span></span><span class="line"><span class="cl">將文本改寫為高度Emoji化的社交媒體表達風格；在保留原文核心資訊的前提下，儘可能用Emoji替代名詞、動詞、形容詞及情緒表達，每句至少嵌入1-2個相關Emoji；語氣活潑俏皮、輕鬆明快，適配朋友圈、小紅書、Twitter等社交傳播場景；適度使用網路流行語和感嘆語氣增強感染力，但避免資訊被Emoji淹沒導致語義不清；Emoji選擇需與上下文語義精準對應，拒絕胡亂堆砌。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行未匹配以上任何風格，預設按 Formal（正式風）處理。
+</span></span></code></pre></div></div>
+    <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Kuqilin</p><p>
+      <strong><span class="icon-link icon"></span>本文連結：</strong><a href="https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/">https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</a>
+    </p><p><strong><span class="icon-pencil icon"></span>本文標題：</strong>復刻 Telegram 的 AI 編輯器</p><p><strong><span class="icon-calendar icon"></span>本文發佈時間：</strong>2026-07-15 21:15:14</p><p><strong><span class="icon-calendar icon"></span>本文更新時間：</strong>2026-07-15 21:15:14</p><p>
+      
+      <strong><span class="icon-copyright icon"></span>本文版權：</strong>
+      本部落格所有文章除特別聲明外，均採用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 授權協議。轉載請註明出處！
+    </p>
+    <span class="icon-creative-commons article-copyright-bg"></span></blockquote>
+<div class="sponsor-wrapper">
+  <div class="sponsor-button"><div class="sponsor-icon rotate"></div><div class="sponsor-title">贊助</div><div class="sponsor-icon rotate"></div></div><div class="sponsor-tip">請作者喝杯咖啡吧</div><div class="sponsor-qr"><div class="sponsor-qr-image-wrapper">
+          <img src="https://pic1.imgdb.cn/i/033tqeAoS6qICWi3ei38wg.png" alt="微信/WeChat" width="200" />
+          <p class="sponsor-qr-name">微信/WeChat</p>
+        </div><div class="sponsor-qr-image-wrapper">
+          <img src="https://pic1.imgdb.cn/i/033tqeAw3RMCnHsTBYmddV.jpg" alt="支付宝/AliPay" width="200" />
+          <p class="sponsor-qr-name">支付宝/AliPay</p>
+        </div></div></div><div class="share-wrapper"><a href="https://twitter.com/intent/tweet?url=https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/&amp;text=%e5%be%a9%e5%88%bb%20Telegram%20%e7%9a%84%20AI%20%e7%b7%a8%e8%bc%af%e5%99%a8&amp;via=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="復刻 Telegram 的 AI 編輯器">
+      <div class="share-icon icon icon-twitter"></div>
+    </a><a href="javascript:;"  title="復刻 Telegram 的 AI 編輯器">
+      <div class="share-icon icon icon-weixin"><div id="share-weixin">
+            <div class="share-weixin-dom">
+              <div class="share-weixin-content">
+                <img id="share-weixin-banner"> 
+                <div id="share-weixin-title"></div>
+                <div id="share-weixin-desc"></div>
+              </div>
+              <div class="share-weixin-qrcode">
+                <div class="share-weixin-info">
+                  <div id="share-weixin-author"></div>
+                  <div id="share-weixin-theme">Powered By hugo-theme-reimu</div>
+                </div>
+                <img id="share-weixin-qr" >
+              </div>
+            </div>
+            <div class="share-weixin-canvas"></div>
+          </div></div>
+    </a></div><ul class="article-category-list"><li class="article-tag-list-item" data-aos="zoom-in">
+    <a
+      class="article-category-link"
+      href="/zh-tw/categories/ai"
+      data-aos="zoom-in"
+      >AI</a
+    >
+    </li></ul>
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/zh-tw/tags/ai"
+        rel="tag"
+        >AI</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/zh-tw/tags/%e6%8f%90%e7%a4%ba%e8%a9%9e"
+        rel="tag"
+        >提示詞</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/zh-tw/tags/markdown"
+        rel="tag"
+        >Markdown</a
+      >
+    </li></ul>
+</footer>
+  </div><nav
+    id="article-nav"
+    aria-label="Article navigation"
+    data-aos="fade-up"
+  ><div class="article-nav-link-wrap left"><img
+              data-src="https://t.alcy.cc/moe"
+              data-sizes="auto"
+              alt="劇透測試（短程式碼）"
+              class="lazyload"
+            /><a
+          href="/zh-tw/post/spoilertest_shortcode/"
+          aria-label="前一篇:劇透測試（短程式碼）"
+          title="前一篇:劇透測試（短程式碼）"
+        ></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">劇透測試（短程式碼）</h3>
+      </div><div class="article-nav-link-wrap right"><img
+              data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
+              data-sizes="auto"
+              alt="[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師"
+              class="lazyload"
+            /><a
+          href="/zh-tw/post/man-zui-lan-geng-de-xue-sheng/"
+          aria-label="後一篇:[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師"
+          title="後一篇:[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師"
+        ></a>
+        <div class="article-nav-caption">後一篇</div>
+        <h3 class="article-nav-title">[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師</h3>
+      </div></nav></article></section>
+        </div><footer id="footer" aria-label="Site footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info"><div style="display:flex; flex-direction:column; align-items:center;">
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0.2em;">
+    <span>All website licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="Attribution" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="Non Commercial" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="ShareAlike" style="max-width:1em; max-height:1em;">
+  </div>
+</div><div>
+      <span class="icon-copyright"></span>2023-2026<span class="footer-info-sep rotate"></span>Kuqilin
+    </div><div>
+        基於&nbsp;<a
+          href="https://gohugo.io/"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          >Hugo</a
+        >&nbsp;Theme.<a
+          href="https://github.com/D-Sketon/hugo-theme-reimu"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          >Reimu</a
+        >
+      </div><div>
+        <span class="icon-brush"
+          >&nbsp;36.6k</span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;01:19</span>
+      </div><div class="footer-beian">
+        <img
+          style="object-fit: contain;margin-right: 2px;"
+          src="https://icp.gov.moe/images/ico64.png"
+          alt=""
+          width="24"
+          height="24"
+        />
+        <a
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          href="https://icp.gov.moe/?keyword=20256767"
+          >萌ICP备20256767号</a
+        >
+      </div><div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv"
+          >總訪問量&nbsp;<span
+            id="busuanzi_value_site_pv"
+          ></span
+        ></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv"
+          >總訪客量&nbsp;<span
+            id="busuanzi_value_site_uv"
+          ></span
+        ></span>
+      </div></div>
+</footer>
+<div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div><div id="mask" class="hide"></div>
+      </div><nav id="mobile-nav" aria-label="Mobile navigation">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目錄</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#formal正式風">Formal（正式風）🤝🏻</a></li>
+    <li><a href="#short精簡風">Short（精簡風）🎯</a></li>
+    <li><a href="#crop企業風">Crop（企業風）💼</a></li>
+    <li><a href="#zen禪意風">Zen（禪意風）🗿</a></li>
+    <li><a href="#biblical仿古風">Biblical（仿古風）🕯️</a></li>
+    <li><a href="#viking維京風">Viking（維京風）🪓</a></li>
+    <li><a href="#tribal部落風">Tribal（部落風）🍖</a></li>
+    <li><a href="#emoji表情化">Emoji（表情化）✨</a></li>
+  </ul>
+</nav>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Kuqilin"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Kuqilin</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">16</div>
+  </div>
+  <a class="sidebar-state-category" href="/zh-tw/categories/" aria-label="sidebar-state-category-link">
+    <div>分類</div>
+    <div class="sidebar-state-number">
+      6
+    </div>
+  </a>
+  <a class="sidebar-state-tag" href="/zh-tw/tags/" aria-label="sidebar-state-tag-link">
+    <div>標籤</div>
+    <div class="sidebar-state-number">17</div>
+  </a>
+</div>
+<div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
+        <a
+          href="mailto:kuqilin@outlook.com"
+          itemprop="url"
+          target="_blank"
+          aria-label="email"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-github sidebar-social-icon">
+        <a
+          href="https://github.com/kuqilin"
+          itemprop="url"
+          target="_blank"
+          aria-label="github"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-twitter sidebar-social-icon">
+        <a
+          href="https://twitter.com/thirtyseven0727"
+          itemprop="url"
+          target="_blank"
+          aria-label="twitter"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div></div><div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/"
+        aria-label="首頁"
+      ></a><div class='sidebar-menu-icon icon '>&#xf015;</div><div class="sidebar-menu-link">首頁</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/archives"
+        aria-label="歸檔"
+      ></a><div class='sidebar-menu-icon icon '>&#xf187;</div><div class="sidebar-menu-link">歸檔</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/about"
+        aria-label="關於"
+      ></a><div class='sidebar-menu-icon icon '>&#xf05a;</div><div class="sidebar-menu-link">關於</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/friend"
+        aria-label="友鏈"
+      ></a><div class='sidebar-menu-icon icon '>&#xf500;</div><div class="sidebar-menu-link">友鏈</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/zh-tw/changelog"
+        aria-label="日誌"
+      ></a><div class='sidebar-menu-icon icon '>&#xf1da;</div><div class="sidebar-menu-link">日誌</div>
+    </div></div></div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
+</div><script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    
+    
+    
+    
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    
+    
+    
+    
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/material-theme@1.0.0/dist/material-theme.umd.js"
+    
+    
+    
+    
+    integrity="sha384-vLev0II0HKFaxkcm&#43;/7kX5IGwVFBASkGchU311wmU/veIj2bB0UcBkQbW6yw2asK" crossorigin="anonymous"></script><script src="/js/main.js" integrity="" crossorigin="anonymous"  ></script><script src="/js/aos.js" integrity="" crossorigin="anonymous"  ></script><script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script><script src="/js/pjax_main.js" integrity="" crossorigin="anonymous" data-pjax ></script><script>
+  var setupFirework = () => {
+    if (! false  || !window.matchMedia('(max-width: 768px)').matches) {
+      if (window.firework) {
+        const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"var(--red-1)\",\"var(--red-2)\",\"var(--red-3)\",\"var(--red-4)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"var(--red-0)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+        options.excludeElements = options.excludeelements;
+        delete options.excludeelements;
+        window.firework(options);
+      }
+    }
+  }
+</script><script
+    src="https://npm.webcache.cn/mouse-firework@0.2.0/dist/index.umd.js"
+    defer
+    
+    
+    onload="setupFirework()"
+    integrity="sha384-qi9WggRt19tv8Vc7pCHW3ulMNLwrn515zaLEWZjl1px07vz8&#43;pUoWX8n1rgq282T" crossorigin="anonymous"></script>
+
+<div id="lazy-script">
+  <div><script data-pjax>
+        window.REIMU_POST = {
+          author: "Kuqilin",
+          title: "復刻 Telegram 的 AI 編輯器",
+          url: "https:\/\/kuqilin.github.io\/zh-tw\/post\/telegram-ai-editor-prompt\/",
+          description: "收集並整合了復刻 Telegram Cocoon AI 編輯器的 8 種風格提示詞，提供單一版本和整合版本兩種使用方式，即拿即用。",
+          cover: "https:\/\/pic1.imgdb.cn\/i\/033qsxbGq3YWMYivyfpFLC.png",
+        };
+      </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax ></script><script src="/js/tabs.js" integrity="" crossorigin="anonymous" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
+          if (_$$(`${gallery} ${children}`).length > 0) {
+            new PhotoSwipeLightbox({
+              gallery,
+              children,pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+        }
+        const pswp = () => {
+          initPswp('.article-entry', 'a.article-gallery-item');
+          initPswp('.article-gallery', 'a.article-gallery-item');
+        }
+        pswp()
+      </script><script
+    src="https://npm.webcache.cn/qrcode@1.5.1/build/qrcode.js"
+    defer
+    
+    data-pjax
+    
+    integrity="sha384-VT1EeewTCEXgndcPMQ0PzV&#43;uVFYjxFIjmAA7s5gcMX9t4Dt5TD&#43;OVQIn7NJWIXn7" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/@zumer/snapdom@1.9.14/dist/snapdom.min.js"
+    defer
+    
+    data-pjax
+    
+    integrity="sha384-OEQ&#43;fJp/Mvi2uzBREXybtxryJvLytWapuHu4EE6LPwTKUwATYcc55tPPcZTzVcmx" crossorigin="anonymous"></script></div>
+</div><script
+    src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
+    
+    async
+    
+    
+    integrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script><script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script><!-- Live2D 看板娘 (pixi-live2d-display) 开始 -->
+<style>
+  #live2dcanvas {
+    position: fixed;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 390px;
+    height: 520px;
+    z-index: 99999;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 959px) {
+    #live2dcanvas { display: none !important; }
+  }
+</style>
+<canvas id="live2dcanvas" width="900" height="1200"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7/dist/pixi.min.js"></script>
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism4.min.js"></script>
+<script>
+(async function() {
+  const canvas = document.getElementById('live2dcanvas');
+  const app = new PIXI.Application({
+    view: canvas,
+    width: 960,
+    height: 1280,
+    backgroundAlpha: 0,
+    premultipliedAlpha: true
+  });
+  const model = await PIXI.live2d.Live2DModel.from('/live2d/37_skin4/v2a2_306604_37.model3.json');
+  model.scale.set(0.28);
+  model.x = -100;
+  model.y = 450;
+  app.stage.addChild(model);
+
+  // 所有动作（泉眼深处皮肤）
+  const allMotions = [
+    'b_diantou','b_feizou','b_fumo','b_gongji','b_idle',
+    'b_jiangluo','b_jiangluo2','b_naxia','b_qiwu','b_ruchang',
+    'b_shenshou','b_shuzi','b_sisuo','b_tielian','b_tielian2',
+    'b_tielian3','b_tiyi','b_xinxu','b_yaotou','b_zhanshi',
+    't_biyan','t_biyan_bizui','t_bizui','t_chijing','t_chijing_bizui',
+    't_gongji','t_idle','t_kaixin','t_kaixin_bizui','t_nanguo',
+    't_nanguo_bizui','t_shengqi','t_shengqi_bizui','t_shishen',
+    't_shishen_bizui','t_yansu','t_yansu_bizui'
+  ];
+
+  let loopTimer = null;
+
+  function playRandomMotion() {
+    clearTimeout(loopTimer);
+    const name = allMotions[Math.floor(Math.random() * allMotions.length)];
+    console.log('Playing motion:', name);
+    model.internalModel.motionManager.startMotion(name, 0);
+    loopTimer = setTimeout(playRandomMotion, 5000);
+  }
+
+  // 等模型准备好
+  setTimeout(playRandomMotion, 500);
+
+  canvas.addEventListener('click', playRandomMotion);
+  canvas.addEventListener('touchstart', function(e) { e.preventDefault(); playRandomMotion(); });
+})();
+</script>
+<!-- Live2D 看板娘 (pixi-live2d-display) 结束 -->
+<script>
+(function () {
+  function markTall(img) {
+    if (!img.naturalWidth || !img.naturalHeight) return;
+    if (img.naturalHeight > img.naturalWidth) {
+      img.classList.add("tall");
+    } else {
+      img.classList.remove("tall");
+    }
+  }
+  function scan() {
+    document.querySelectorAll(".article-entry img").forEach(function (img) {
+      // 对B站图床的图片禁用Referer，绕过防盗链
+      if (/hdslb\.com/.test(img.src)) {
+        img.referrerPolicy = "no-referrer";
+      }
+      if (img.complete && img.naturalWidth) {
+        markTall(img);
+      } else {
+        img.addEventListener("load", function () { markTall(img); }, { once: true });
+      }
+    });
+  }
+  // 主题使用 lazysizes 懒加载，加载完成时派发 lazyloaded 事件
+  document.addEventListener("lazyloaded", function (e) {
+    if (e.target && e.target.matches(".article-entry img")) markTall(e.target);
+  });
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", scan);
+  } else {
+    scan();
+  }
+})();
+</script>
+</body>
+</html>

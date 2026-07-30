@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPG on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/zh-tw/tags/gpg/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
+    
+    <lastBuildDate>Thu, 16 Jul 2026 11:47:46 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/zh-tw/tags/gpg/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>我的GPG公鑰</title>
+      <link>https://kuqilin.github.io/zh-tw/post/my-gpg/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/my-gpg/</guid>
+      <description>
+        <![CDATA[<h1>我的GPG公鑰</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          更新：修改了公鑰以及郵箱
+        
+        <hr><p>本文2024-01-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-16</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>

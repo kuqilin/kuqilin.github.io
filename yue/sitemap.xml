@@ -16,6 +16,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/fulltest/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/fulltest/"
                 />
@@ -31,6 +36,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -52,6 +62,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/changelog/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/changelog/"
                 />
@@ -67,6 +82,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -88,6 +108,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/hugo/"
                 />
@@ -106,6 +131,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/"
                 />
@@ -121,6 +151,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/post/kan-ban-niang/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/kan-ban-niang/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -178,6 +213,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/android/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/android/"
                 />
@@ -193,6 +233,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/tags/termux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/termux/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -214,6 +259,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/termux-install-hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/termux-install-hugo/"
                 />
@@ -229,6 +279,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/categories/%E6%95%99%E7%A8%8B/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/categories/%E6%95%99%E7%A8%8B/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -250,6 +305,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/37-signature/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/37-signature/"
                 />
@@ -265,6 +325,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/tags/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/ai/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -286,6 +351,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/2026%E5%B9%B4/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/2026%E5%B9%B4/"
                 />
@@ -301,6 +371,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/archives/2026%E5%B9%B4%E8%AE%B0_v1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/archives/2026%E5%B9%B4%E8%AE%B0_v1/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -358,6 +433,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/man-zui-lan-geng-de-xue-sheng/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/man-zui-lan-geng-de-xue-sheng/"
                 />
@@ -373,6 +453,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/tags/%E6%95%99%E8%82%B2/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/%E6%95%99%E8%82%B2/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -448,6 +533,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/categories/ai/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/categories/ai/"
                 />
@@ -463,6 +553,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -502,6 +597,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/telegram-ai-editor-prompt/"
                 />
@@ -517,6 +617,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/post/spoilertest_shortcode/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/spoilertest_shortcode/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -538,6 +643,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/20260712/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/20260712/"
                 />
@@ -553,6 +663,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/post/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -574,6 +689,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/hello/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/hello/"
                 />
@@ -589,6 +709,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/post/20260517/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/20260517/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -610,6 +735,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/latex/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/latex/"
                 />
@@ -625,6 +755,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/post/wo-qu-guo-de-xue-xiao/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/wo-qu-guo-de-xue-xiao/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -646,6 +781,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/gpg/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/gpg/"
                 />
@@ -661,6 +801,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/post/my-gpg/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/my-gpg/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -682,6 +827,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/friend/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/friend/"
                 />
@@ -697,6 +847,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/about/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -718,6 +873,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/categories/python/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/categories/python/"
                 />
@@ -733,6 +893,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/python/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -754,6 +919,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/python-ji-ben-yu-fa/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/python-ji-ben-yu-fa/"
                 />
@@ -769,6 +939,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/tags/queue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/queue/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -790,6 +965,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/stack/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/stack/"
                 />
@@ -805,6 +985,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -826,6 +1011,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/markdown-grammar/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/markdown-grammar/"
                 />
@@ -841,6 +1031,11 @@
                 rel="alternate"
                 hreflang="yue"
                 href="https://kuqilin.github.io/yue/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/archives/"
                 />
     <xhtml:link
                 rel="alternate"
