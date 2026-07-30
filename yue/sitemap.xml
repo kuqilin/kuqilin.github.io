@@ -470,24 +470,6 @@
                 href="https://kuqilin.github.io/tags/markdown/"
                 />
   </url><url>
-    <loc>https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/</loc>
-    <lastmod>2026-07-15T21:15:14+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/zh-cn/post/telegram-ai-editor-prompt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kuqilin.github.io/post/telegram-ai-editor-prompt/"
-                />
-  </url><url>
     <loc>https://kuqilin.github.io/yue/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/</loc>
     <lastmod>2026-07-15T21:15:14+08:00</lastmod>
     <xhtml:link
@@ -504,6 +486,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/%E6%8F%90%E7%A4%BA%E8%AF%8D/"
+                />
+  </url><url>
+    <loc>https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/</loc>
+    <lastmod>2026-07-15T21:15:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/zh-cn/post/telegram-ai-editor-prompt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kuqilin.github.io/post/telegram-ai-editor-prompt/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/yue/post/spoilertest_shortcode/</loc>

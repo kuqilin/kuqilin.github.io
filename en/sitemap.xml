@@ -182,24 +182,6 @@
                 href="https://kuqilin.github.io/tags/android/"
                 />
   </url><url>
-    <loc>https://kuqilin.github.io/tags/termux/</loc>
-    <lastmod>2026-07-28T17:43:14+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/zh-cn/tags/termux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/tags/termux/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kuqilin.github.io/tags/termux/"
-                />
-  </url><url>
     <loc>https://kuqilin.github.io/post/termux-install-hugo/</loc>
     <lastmod>2026-07-28T17:43:14+08:00</lastmod>
     <xhtml:link
@@ -216,6 +198,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/post/termux-install-hugo/"
+                />
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/termux/</loc>
+    <lastmod>2026-07-28T17:43:14+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/zh-cn/tags/termux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/termux/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kuqilin.github.io/tags/termux/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
@@ -758,6 +758,24 @@
                 href="https://kuqilin.github.io/post/python-ji-ben-yu-fa/"
                 />
   </url><url>
+    <loc>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</loc>
+    <lastmod>2023-05-13T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/zh-cn/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
+                />
+  </url><url>
     <loc>https://kuqilin.github.io/tags/queue/</loc>
     <lastmod>2023-05-13T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -792,24 +810,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/tags/stack/"
-                />
-  </url><url>
-    <loc>https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</loc>
-    <lastmod>2023-05-13T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/zh-cn/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kuqilin.github.io/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/post/markdown-grammar/</loc>

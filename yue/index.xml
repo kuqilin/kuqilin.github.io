@@ -22,15 +22,19 @@
     
 
     <item>
-      <title>网站看板娘 —— 37 泉眼深处</title>
+      <title>網站看板娘 —— 37 泉眼深處</title>
       <link>https://kuqilin.github.io/yue/post/kan-ban-niang/</link>
       <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/kan-ban-niang/</guid>
       <description>
-        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>網站看板娘 —— 37 泉眼深處</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
+          <p>再次更新，用咗 Cloudflare 嘅 R2 儲存桶，綁咗 <code>kuqilin.eu.org</code> 域名，可以 <del>盡情</del> 適度咁用喇。速度比 jsDelivr 快好多！20 秒之內 99% 嘅用戶都 load 到出嚟。個個都同我去欣賞「泉眼深處」😠😠😠</p>
+<p>太好喇，經歷咗各種鬥智鬥勇（唔係）終於將網站看板娘搞掂咗 —— 一個唔會講嘢嘅 37。<br>
+點解話鬥智鬥勇呢？你睇<a href="/yue/post/kan-ban-niang/#37-%e6%b3%89%e7%9c%bc%e6%b7%b1%e8%99%95">下面</a>。唔容易啊，最後發現有呢啲白色方塊大概係因為大佬解包嘅過程入面出咗啲小問題，搞到模型圖片裏面有一個白塊，嗰陣睇模型圖片就覺得怪，上咗 game 睇皮膚，發現本來呢度乜都冇，於是就用 IsoPix Pro 將白塊擦咗，發現終於冇白塊喇（應該唔會有咩問題嘅）。<br>
+然後都將模型擺放位置同大小做咗啲調整。可惜嘅係暫時仲未識點樣畀佢添加例如舉牌、對話框呢啲，所以看板娘蠢蠢哋。<br>
+唉，國內裸連 GitHub 都仲係唔好，將 moc3 文件上傳到 jsDelivr 上面都唔見得快幾多，你哋最壞情況要 2 分鐘先見到靚靚嘅 37！（最好情況係 3 秒）</p>
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
       </description>
@@ -42,15 +46,15 @@
     
 
     <item>
-      <title>Termux 安装 Hugo</title>
+      <title>Termux 安裝 Hugo</title>
       <link>https://kuqilin.github.io/yue/post/termux-install-hugo/</link>
       <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/termux-install-hugo/</guid>
       <description>
-        <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Termux 安裝 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
+          用 Go 編譯 Hugo Extended，解決 Termux arm64 冇預編譯二進制文件嘅問題
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-28</p>]]>
       </description>
@@ -62,15 +66,15 @@
     
 
     <item>
-      <title>37 签名 SVG 图片</title>
+      <title>37 簽名 SVG 圖片</title>
       <link>https://kuqilin.github.io/yue/post/37-signature/</link>
       <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/37-signature/</guid>
       <description>
-        <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>37 簽名 SVG 圖片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+          AI 總結：用 AI 整咗 37 嘅 SVG 簽名圖，仲分享咗多個版本嘅成品同完整源碼。
         
         <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-23</p>]]>
       </description>
@@ -82,15 +86,15 @@
     
 
     <item>
-      <title>[转]满嘴烂梗的学生，正在“逼疯”深圳教师</title>
+      <title>[轉]滿嘴爛梗嘅學生，正在「逼癲」深圳教師</title>
       <link>https://kuqilin.github.io/yue/post/man-zui-lan-geng-de-xue-sheng/</link>
       <pubDate>Fri, 17 Jul 2026 21:01:07 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/man-zui-lan-geng-de-xue-sheng/</guid>
       <description>
-        <![CDATA[<h1>[转]满嘴烂梗的学生，正在“逼疯”深圳教师</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>[轉]滿嘴爛梗嘅學生，正在「逼癲」深圳教師</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          深圳初中生满嘴网络烂梗脏话成风，一线教师惩戒权被限制，部分家长不配合反投诉，教育陷入无力困局。
+          深圳初中生滿嘴網絡爛梗粗口成風，一線教師懲戒權被限制，部分家長唔配合反投訴，教育陷入無力困局。
         
         <hr><p>本文2026-07-17首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
       </description>
@@ -102,15 +106,15 @@
     
 
     <item>
-      <title>Hugo 搭建个人博客</title>
+      <title>Hugo 搭建個人博客</title>
       <link>https://kuqilin.github.io/yue/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hugo 搭建個人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          记录了我在 GitHub Pages 搭建 Hugo 的经历
+          記錄咗我喺 GitHub Pages 搭建 Hugo 嘅經歷
         
         <hr><p>本文2026-07-11首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
       </description>
@@ -122,15 +126,15 @@
     
 
     <item>
-      <title>我的GPG公钥</title>
+      <title>我嘅 GPG 公匙</title>
       <link>https://kuqilin.github.io/yue/post/my-gpg/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/my-gpg/</guid>
       <description>
-        <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>我嘅 GPG 公匙</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          更新：修改了公钥以及邮箱
+          更新：改咗公匙同埋電郵
         
         <hr><p>本文2024-01-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-16</p>]]>
       </description>
@@ -140,15 +144,15 @@
     
 
     <item>
-      <title>复刻 Telegram 的 AI 编辑器</title>
+      <title>複刻 Telegram 嘅 AI 編輯器</title>
       <link>https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/</link>
       <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/telegram-ai-editor-prompt/</guid>
       <description>
-        <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>複刻 Telegram 嘅 AI 編輯器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
+          本文收集並整合咗多個民間複刻版 Telegram AI 編輯器嘅提示詞，涵蓋 Telegram 官方提供嘅六種風格同埋表情化功能。文章<strong>單一版本</strong>提供咗八種風格嘅獨立提示詞，每條提示詞都要求嚴格模仿 Cocoon AI 嘅改寫邏輯，淨係輸出正文、保留核心訊息、唔篡改原意；<strong>整合版本</strong>就將所有風格合併做一個提示詞，透過輸入風格關鍵詞就可以喺單一對話入面切換唔同文風進行改寫。
         
         <hr><p>本文2026-07-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
       </description>
@@ -160,15 +164,15 @@
     
 
     <item>
-      <title>Markdown &amp; LaTeX 全量测试文档</title>
+      <title>Markdown &amp; LaTeX 全量測試文件</title>
       <link>https://kuqilin.github.io/yue/post/fulltest/</link>
       <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/fulltest/</guid>
       <description>
-        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Markdown & LaTeX 全量測試文件</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
+          Markdown 同 LaTeX 嘅全量測試文件，試下你個編輯器撐唔撐呢啲語法。
         
         <hr><p>本文2026-01-25首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-14</p>]]>
       </description>
@@ -178,25 +182,25 @@
     
 
     <item>
-      <title>剧透测试（短代码）</title>
+      <title>劇透測試（短代碼）</title>
       <link>https://kuqilin.github.io/yue/post/spoilertest_shortcode/</link>
       <pubDate>Mon, 13 Jul 2026 11:47:55 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/spoilertest_shortcode/</guid>
       <description>
-        <![CDATA[<h1>剧透测试（短代码）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>劇透測試（短代碼）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>这是一个<span class="spoiler">剧透测试</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
-<h2 id="图片测试">
-<a class="header-anchor" href="#%e5%9b%be%e7%89%87%e6%b5%8b%e8%af%95"></a>
-图片测试
+          <p>呢個係一個<span class="spoiler">劇透測試</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+<h2 id="圖片測試">
+<a class="header-anchor" href="#%e5%9c%96%e7%89%87%e6%b8%ac%e8%a9%a6"></a>
+圖片測試
 </h2><span class="spoiler"><img src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc" 
      alt="" 
      referrerpolicy="no-referrer" 
      loading="lazy" /></span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
-<h2 id="英文测试">
-<a class="header-anchor" href="#%e8%8b%b1%e6%96%87%e6%b5%8b%e8%af%95"></a>
-英文测试
+<h2 id="英文測試">
+<a class="header-anchor" href="#%e8%8b%b1%e6%96%87%e6%b8%ac%e8%a9%a6"></a>
+英文測試
 </h2><p><span class="spoiler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur sem sed nisl cursus, at pretium massa sodales. Phasellus et consectetur tortor, rhoncus iaculis urna. Etiam nisi sem, auctor eu massa ornare, viverra mattis est. Etiam scelerisque tortor vel erat feugiat vestibulum. Donec eget eros odio. Etiam sem mi, mattis vitae magna eu, pretium rhoncus felis. Quisque nisi sapien, vulputate nec commodo id, pulvinar vel libero. Nam luctus sapien at finibus sagittis. Aenean sit amet nibh vel nisi pharetra pharetra. Curabitur efficitur nunc nibh, vitae ultrices diam consequat sit amet. Curabitur varius congue purus, ac lobortis risus rhoncus eu. Curabitur venenatis cursus mauris, at commodo orci auctor in. Sed condimentum justo ut ante commodo, eu vulputate justo facilisis.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
 <span class="spoiler">Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu lectus in felis tempor condimentum. Etiam eu neque neque. Mauris ac convallis est. Donec dictum tellus ullamcorper lacus hendrerit, at porttitor dolor laoreet. Praesent convallis diam ut ante pellentesque scelerisque ac non arcu. Donec finibus massa vitae scelerisque porttitor. Sed ut neque libero.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
         

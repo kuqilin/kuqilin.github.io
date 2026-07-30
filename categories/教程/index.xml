@@ -22,15 +22,15 @@
     
 
     <item>
-      <title>Termux 安装 Hugo</title>
+      <title>Installing Hugo on Termux</title>
       <link>https://kuqilin.github.io/post/termux-install-hugo/</link>
       <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/termux-install-hugo/</guid>
       <description>
-        <![CDATA[<h1>Termux 安装 Hugo</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Installing Hugo on Termux</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
+          Compile Hugo Extended with Go to work around the lack of pre-built binaries for Termux arm64
         
         <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-28</p>]]>
       </description>

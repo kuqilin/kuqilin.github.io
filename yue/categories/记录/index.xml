@@ -22,15 +22,19 @@
     
 
     <item>
-      <title>网站看板娘 —— 37 泉眼深处</title>
+      <title>網站看板娘 —— 37 泉眼深處</title>
       <link>https://kuqilin.github.io/yue/post/kan-ban-niang/</link>
       <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/kan-ban-niang/</guid>
       <description>
-        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>網站看板娘 —— 37 泉眼深處</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
+          <p>再次更新，用咗 Cloudflare 嘅 R2 儲存桶，綁咗 <code>kuqilin.eu.org</code> 域名，可以 <del>盡情</del> 適度咁用喇。速度比 jsDelivr 快好多！20 秒之內 99% 嘅用戶都 load 到出嚟。個個都同我去欣賞「泉眼深處」😠😠😠</p>
+<p>太好喇，經歷咗各種鬥智鬥勇（唔係）終於將網站看板娘搞掂咗 —— 一個唔會講嘢嘅 37。<br>
+點解話鬥智鬥勇呢？你睇<a href="/yue/post/kan-ban-niang/#37-%e6%b3%89%e7%9c%bc%e6%b7%b1%e8%99%95">下面</a>。唔容易啊，最後發現有呢啲白色方塊大概係因為大佬解包嘅過程入面出咗啲小問題，搞到模型圖片裏面有一個白塊，嗰陣睇模型圖片就覺得怪，上咗 game 睇皮膚，發現本來呢度乜都冇，於是就用 IsoPix Pro 將白塊擦咗，發現終於冇白塊喇（應該唔會有咩問題嘅）。<br>
+然後都將模型擺放位置同大小做咗啲調整。可惜嘅係暫時仲未識點樣畀佢添加例如舉牌、對話框呢啲，所以看板娘蠢蠢哋。<br>
+唉，國內裸連 GitHub 都仲係唔好，將 moc3 文件上傳到 jsDelivr 上面都唔見得快幾多，你哋最壞情況要 2 分鐘先見到靚靚嘅 37！（最好情況係 3 秒）</p>
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
       </description>
@@ -42,15 +46,15 @@
     
 
     <item>
-      <title>37 签名 SVG 图片</title>
+      <title>37 簽名 SVG 圖片</title>
       <link>https://kuqilin.github.io/yue/post/37-signature/</link>
       <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/37-signature/</guid>
       <description>
-        <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>37 簽名 SVG 圖片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+          AI 總結：用 AI 整咗 37 嘅 SVG 簽名圖，仲分享咗多個版本嘅成品同完整源碼。
         
         <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-23</p>]]>
       </description>
@@ -62,15 +66,15 @@
     
 
     <item>
-      <title>Hugo 搭建个人博客</title>
+      <title>Hugo 搭建個人博客</title>
       <link>https://kuqilin.github.io/yue/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hugo 搭建個人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          记录了我在 GitHub Pages 搭建 Hugo 的经历
+          記錄咗我喺 GitHub Pages 搭建 Hugo 嘅經歷
         
         <hr><p>本文2026-07-11首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
       </description>
@@ -82,74 +86,74 @@
     
 
     <item>
-      <title>我去过的学校</title>
+      <title>我去過嘅學校</title>
       <link>https://kuqilin.github.io/yue/post/wo-qu-guo-de-xue-xiao/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/wo-qu-guo-de-xue-xiao/</guid>
       <description>
-        <![CDATA[<h1>我去过的学校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>我去過嘅學校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <h1 id="我去过的学校">
-<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e8%bf%87%e7%9a%84%e5%ad%a6%e6%a0%a1"></a>
-我去过的学校
-</h1><p>忽然觉得自己去过很多学校，便想着列个表格出来看看都去过哪些、去干嘛的：</p>
-<p>（排名不分前后，按记忆顺序）</p>
+          <h1 id="我去過嘅學校">
+<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e9%81%8e%e5%98%85%e5%ad%b8%e6%a0%a1"></a>
+我去過嘅學校
+</h1><p>忽然發覺自己去過好多間學校，就諗住列個表出嚟睇下都去過邊啲、去做乜嘢：</p>
+<p>（排名唔分先後，跟記憶順序）</p>
 <table>
 	<thead>
 			<tr>
-					<th style="text-align: center">去过的学校</th>
+					<th style="text-align: center">去過嘅學校</th>
 					<th style="text-align: center">原因</th>
 			</tr>
 	</thead>
 	<tbody>
 			<tr>
-					<td style="text-align: center">广州市第六中学</td>
-					<td style="text-align: center">CSP-J 复赛</td>
+					<td style="text-align: center">廣州市第六中學</td>
+					<td style="text-align: center">CSP-J 複賽</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州市铁一中学（越秀校区）</td>
-					<td style="text-align: center">CSP-J/S 初赛</td>
+					<td style="text-align: center">廣州市鐵一中學（越秀校區）</td>
+					<td style="text-align: center">CSP-J/S 初賽</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广东广雅中学（花都校区）</td>
-					<td style="text-align: center">上高中</td>
+					<td style="text-align: center">廣東廣雅中學（花都校區）</td>
+					<td style="text-align: center">讀高中</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州市第八十九中学</td>
-					<td style="text-align: center">英才计划住宿</td>
+					<td style="text-align: center">廣州市第八十九中學</td>
+					<td style="text-align: center">英才計劃住宿</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州市第二中学</td>
-					<td style="text-align: center">打比赛</td>
+					<td style="text-align: center">廣州市第二中學</td>
+					<td style="text-align: center">打比賽</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州大学附属中学（大学城校区）</td>
-					<td style="text-align: center">CSP-J/S比赛&amp;&amp;广大附教育集团环大学城拉练活动</td>
+					<td style="text-align: center">廣州大學附屬中學（大學城校區）</td>
+					<td style="text-align: center">CSP-J/S比賽&amp;&amp;廣大附教育集團環大學城拉練活動</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">北京师范大学附属中学广州实验学校（好像是这个名字）</td>
-					<td style="text-align: center">广州市青少年科技教育夏令营</td>
+					<td style="text-align: center">北京師範大學附屬中學廣州實驗學校（好似係呢個名）</td>
+					<td style="text-align: center">廣州市青少年科技教育夏令營</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州市增城区应元学校</td>
+					<td style="text-align: center">廣州市增城區應元學校</td>
 					<td style="text-align: center">同上</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州市花都区花广金狮学校（原广州大学附属中学花都狮岭实验学校）</td>
-					<td style="text-align: center">上初中</td>
+					<td style="text-align: center">廣州市花都區花廣金獅學校（原廣州大學附屬中學花都獅嶺實驗學校）</td>
+					<td style="text-align: center">讀初中</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州市花都区花广学校（原广州大学附属中学花都实验学校）</td>
-					<td style="text-align: center">参观&amp;&amp;密考（？）</td>
+					<td style="text-align: center">廣州市花都區花廣學校（原廣州大學附屬中學花都實驗學校）</td>
+					<td style="text-align: center">參觀&amp;&amp;密考（？）</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">广州市花都区广州大学附属中学紫兰学校</td>
-					<td style="text-align: center">打比赛</td>
+					<td style="text-align: center">廣州市花都區廣州大學附屬中學紫蘭學校</td>
+					<td style="text-align: center">打比賽</td>
 			</tr>
 	</tbody>
 </table>
-<details>你不应看到这里</details>
+<details>你唔應該睇到呢度</details>
         
         <hr><p>本文2025-02-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-12</p>]]>
       </description>
@@ -169,8 +173,8 @@
       <description>
         <![CDATA[<h1>20260517</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>难得一个清闲的周末，慢慢地写作业、慢慢地出去走走、慢慢地吃个饭，一点都不急。作业也少，rage bait 也不推了，温度很舒适。很久没过这样的周末了 <del>（可能是没刷短视频的原因吧）</del> 。<br>
-自从把 B 站的个性化推荐关掉之后，推给我的都是高质量视频，刷视频功能也没掉了，比起以前来个</p>
+          <p>難得一個清閒嘅週末，慢慢咁做功課、慢慢咁出去行下、慢慢咁食餐飯，一啲都唔急。功課又少，rage bait 都唔推喇，溫度好舒服。好耐冇試過咁嘅週末喇 <del>（可能係冇刷短視頻嘅原因啩）</del> 。<br>
+自從將 B 站嘅個性化推薦閂咗之後，推畀我嘅都係高質量視頻，刷視頻功能都冇埋，比起以前成日見到</p>
         
         <hr><p>本文2026-05-17首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-05-17</p>]]>
       </description>

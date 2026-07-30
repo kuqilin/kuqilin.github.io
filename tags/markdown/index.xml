@@ -22,15 +22,15 @@
     
 
     <item>
-      <title>复刻 Telegram 的 AI 编辑器</title>
+      <title>Replicating Telegram&#39;s AI Editor</title>
       <link>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</link>
       <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</guid>
       <description>
-        <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Replicating Telegram's AI Editor</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
+          This article collects and integrates multiple community-recreated Telegram AI editor prompts, covering all six official styles plus the emoji transformation feature. The <strong>individual versions</strong> section provides eight standalone prompts, each strictly mimicking Cocoon AI&rsquo;s rewriting logic — outputting only the body text, preserving core information, and never altering the original meaning. The <strong>unified version</strong> merges all styles into a single prompt, allowing you to switch between different writing styles within a single conversation by entering a style keyword.
         
         <hr><p>Published on 2026-07-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-15</p>]]>
       </description>
@@ -42,15 +42,15 @@
     
 
     <item>
-      <title>Markdown &amp; LaTeX 全量测试文档</title>
+      <title>Markdown &amp; LaTeX Full Test Document</title>
       <link>https://kuqilin.github.io/post/fulltest/</link>
       <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/fulltest/</guid>
       <description>
-        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Markdown & LaTeX Full Test Document</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
+          A comprehensive test document for Markdown and LaTeX — check if your editor supports these syntaxes.
         
         <hr><p>Published on 2026-01-25 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-14</p>]]>
       </description>
@@ -60,15 +60,15 @@
     
 
     <item>
-      <title>Markdown语法</title>
+      <title>Markdown Syntax</title>
       <link>https://kuqilin.github.io/post/markdown-grammar/</link>
       <pubDate>Tue, 10 Jan 2023 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/markdown-grammar/</guid>
       <description>
-        <![CDATA[<h1>Markdown语法</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Markdown Syntax</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          一些 Markdown 语法
+          Some Markdown syntax
         
         <hr><p>Published on 2023-01-10 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2023-01-10</p>]]>
       </description>
