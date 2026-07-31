@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/categories/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Tue, 28 Jul 2026 17:43:14 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Installing Hugo on Termux</title>
+      <link>https://kuqilin.github.io/en/post/termux-install-hugo/</link>
+      <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/termux-install-hugo/</guid>
+      <description>
+        <![CDATA[<h1>Installing Hugo on Termux</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Compile Hugo Extended with Go to work around the lack of pre-built binaries for Termux arm64
+        
+        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-28</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+  </channel>
+</rss>

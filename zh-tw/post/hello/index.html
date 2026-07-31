@@ -169,7 +169,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};langMap['zh-cn'] = '\/zh-cn\/post\/hello\/';langMap['yue'] = '\/yue\/post\/hello\/';langMap['en'] = '\/post\/hello\/';selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['zh-cn'] = '\/post\/hello\/';langMap['yue'] = '\/yue\/post\/hello\/';langMap['en'] = '\/en\/post\/hello\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -352,7 +352,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
+              data-src="https://v2.xxapi.cn/api/randomAcgPic?type=pc&amp;return=302"
               data-sizes="auto"
               alt="20260517"
               class="lazyload"

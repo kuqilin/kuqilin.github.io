@@ -5,12 +5,12 @@
     <link>https://kuqilin.github.io/tags/latex/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh-CN</language>
     
     <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
     <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
     
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
     <lastBuildDate>Tue, 14 Jul 2026 18:40:16 +0800</lastBuildDate>
     
@@ -22,17 +22,17 @@
     
 
     <item>
-      <title>Markdown &amp; LaTeX Full Test Document</title>
+      <title>Markdown &amp; LaTeX 全量测试文档</title>
       <link>https://kuqilin.github.io/post/fulltest/</link>
       <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/fulltest/</guid>
       <description>
-        <![CDATA[<h1>Markdown & LaTeX Full Test Document</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          A comprehensive test document for Markdown and LaTeX — check if your editor supports these syntaxes.
+          Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
         
-        <hr><p>Published on 2026-01-25 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-14</p>]]>
+        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-14</p>]]>
       </description>
       
     </item>

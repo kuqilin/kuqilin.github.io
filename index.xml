@@ -5,12 +5,12 @@
     <link>https://kuqilin.github.io/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
-    <language>en</language>
+    <language>zh-CN</language>
     
     <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
     <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
     
-    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
     <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
     
@@ -22,21 +22,17 @@
     
 
     <item>
-      <title>Website Mascot — 37 &#34;Spring&#39;s Depths&#34;</title>
+      <title>网站看板娘 —— 37 泉眼深处</title>
       <link>https://kuqilin.github.io/post/kan-ban-niang/</link>
       <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/kan-ban-niang/</guid>
       <description>
-        <![CDATA[<h1>Website Mascot — 37 "Spring's Depths"</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>Updated again — now using Cloudflare R2 storage buckets, bound to the <code>kuqilin.eu.org</code> domain. You can now <del>gorge yourself on</del> enjoy it at a reasonable pace. It&rsquo;s way faster than jsDelivr! Within 20 seconds, 99% of users can load it. Go admire &ldquo;Spring&rsquo;s Depths&rdquo; already 😠😠😠</p>
-<p>After all kinds of battling wits (not really), I&rsquo;ve finally got the website mascot working — a silent 37.<br>
-Why &ldquo;battling wits&rdquo;? Check <a href="/post/kan-ban-niang/#37-springs-depths">below</a>. It wasn&rsquo;t easy. Turns out those little white patches were likely caused by a minor issue during the unpacking process by the original creator, leaving a white patch in the model texture. Looking at the texture image, it already seemed odd. I checked the skin in-game and saw there was nothing there originally, so I used IsoPix Pro to erase the white patch — finally, no more white blocks! (Should be fine, hopefully.)<br>
-I also adjusted the model&rsquo;s position and size a bit. Unfortunately, I haven&rsquo;t yet figured out how to add things like sign-holding or dialog boxes, so the mascot is a bit dopey.<br>
-Oh, and connecting directly to GitHub from mainland China is still a pain — even uploading the moc3 file to jsDelivr didn&rsquo;t speed things up much. In the worst case, it could take you 2 whole minutes to see the beautiful 37! (Best case: 3 seconds.)</p>
+          <p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
         
-        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-29</p>]]>
+        <hr><p>本文2026-07-28首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-29</p>]]>
       </description>
       
         <category>记录</category>
@@ -46,17 +42,17 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>Installing Hugo on Termux</title>
+      <title>Termux 安装 Hugo</title>
       <link>https://kuqilin.github.io/post/termux-install-hugo/</link>
       <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/termux-install-hugo/</guid>
       <description>
-        <![CDATA[<h1>Installing Hugo on Termux</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          Compile Hugo Extended with Go to work around the lack of pre-built binaries for Termux arm64
+          用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
         
-        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-28</p>]]>
+        <hr><p>本文2026-07-28首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-28</p>]]>
       </description>
       
         <category>教程</category>
@@ -66,17 +62,17 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>37 Signature SVG</title>
+      <title>37 签名 SVG 图片</title>
       <link>https://kuqilin.github.io/post/37-signature/</link>
       <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/37-signature/</guid>
       <description>
-        <![CDATA[<h1>37 Signature SVG</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          AI-generated summary: Used AI to create 37&rsquo;s SVG signature, and shared multiple versions along with the complete source code.
+          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
         
-        <hr><p>Published on 2026-07-22 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-23</p>]]>
+        <hr><p>本文2026-07-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-23</p>]]>
       </description>
       
         <category>记录</category>
@@ -86,17 +82,17 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>[Repost] Students Spouting Internet Trash Talk Are &#39;Driving Shenzhen Teachers Crazy&#39;</title>
+      <title>[转]满嘴烂梗的学生，正在“逼疯”深圳教师</title>
       <link>https://kuqilin.github.io/post/man-zui-lan-geng-de-xue-sheng/</link>
       <pubDate>Fri, 17 Jul 2026 21:01:07 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/man-zui-lan-geng-de-xue-sheng/</guid>
       <description>
-        <![CDATA[<h1>[Repost] Students Spouting Internet Trash Talk Are 'Driving Shenzhen Teachers Crazy'</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>[转]满嘴烂梗的学生，正在“逼疯”深圳教师</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          Shenzhen junior high students are steeped in internet trash talk and profanity. Frontline teachers have limited disciplinary powers, and some parents are uncooperative or even file complaints, leaving education in a helpless predicament.
+          深圳初中生满嘴网络烂梗脏话成风，一线教师惩戒权被限制，部分家长不配合反投诉，教育陷入无力困局。
         
-        <hr><p>Published on 2026-07-17 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
+        <hr><p>本文2026-07-17首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-17</p>]]>
       </description>
       
         <category>转载</category>
@@ -106,17 +102,17 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>Building a Personal Blog with Hugo</title>
+      <title>Hugo 搭建个人博客</title>
       <link>https://kuqilin.github.io/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Building a Personal Blog with Hugo</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          A record of my experience building a Hugo blog on GitHub Pages
+          记录了我在 GitHub Pages 搭建 Hugo 的经历
         
-        <hr><p>Published on 2026-07-11 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
+        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-17</p>]]>
       </description>
       
         <category>记录</category>
@@ -126,17 +122,17 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>My GPG Public Key</title>
+      <title>我的GPG公钥</title>
       <link>https://kuqilin.github.io/post/my-gpg/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/my-gpg/</guid>
       <description>
-        <![CDATA[<h1>My GPG Public Key</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          Update: changed public key and email
+          更新：修改了公钥以及邮箱
         
-        <hr><p>Published on 2024-01-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-16</p>]]>
+        <hr><p>本文2024-01-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-16</p>]]>
       </description>
       
     </item>
@@ -144,17 +140,17 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>Replicating Telegram&#39;s AI Editor</title>
+      <title>复刻 Telegram 的 AI 编辑器</title>
       <link>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</link>
       <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</guid>
       <description>
-        <![CDATA[<h1>Replicating Telegram's AI Editor</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          This article collects and integrates multiple community-recreated Telegram AI editor prompts, covering all six official styles plus the emoji transformation feature. The <strong>individual versions</strong> section provides eight standalone prompts, each strictly mimicking Cocoon AI&rsquo;s rewriting logic — outputting only the body text, preserving core information, and never altering the original meaning. The <strong>unified version</strong> merges all styles into a single prompt, allowing you to switch between different writing styles within a single conversation by entering a style keyword.
+          本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
         
-        <hr><p>Published on 2026-07-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-15</p>]]>
+        <hr><p>本文2026-07-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-15</p>]]>
       </description>
       
         <category>AI</category>
@@ -164,17 +160,17 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>Markdown &amp; LaTeX Full Test Document</title>
+      <title>Markdown &amp; LaTeX 全量测试文档</title>
       <link>https://kuqilin.github.io/post/fulltest/</link>
       <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/fulltest/</guid>
       <description>
-        <![CDATA[<h1>Markdown & LaTeX Full Test Document</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          A comprehensive test document for Markdown and LaTeX — check if your editor supports these syntaxes.
+          Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
         
-        <hr><p>Published on 2026-01-25 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-14</p>]]>
+        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-14</p>]]>
       </description>
       
     </item>
@@ -182,29 +178,29 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>Spoiler Test (Shortcode)</title>
+      <title>剧透测试（短代码）</title>
       <link>https://kuqilin.github.io/post/spoilertest_shortcode/</link>
       <pubDate>Mon, 13 Jul 2026 11:47:55 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/spoilertest_shortcode/</guid>
       <description>
-        <![CDATA[<h1>Spoiler Test (Shortcode)</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>剧透测试（短代码）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>This is a <span class="spoiler">spoiler test</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
-<h2 id="image-test">
-<a class="header-anchor" href="#image-test"></a>
-Image Test
+          <p>这是一个<span class="spoiler">剧透测试</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+<h2 id="图片测试">
+<a class="header-anchor" href="#%e5%9b%be%e7%89%87%e6%b5%8b%e8%af%95"></a>
+图片测试
 </h2><span class="spoiler"><img src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc" 
      alt="" 
      referrerpolicy="no-referrer" 
      loading="lazy" /></span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
-<h2 id="english-test">
-<a class="header-anchor" href="#english-test"></a>
-English Test
+<h2 id="英文测试">
+<a class="header-anchor" href="#%e8%8b%b1%e6%96%87%e6%b5%8b%e8%af%95"></a>
+英文测试
 </h2><p><span class="spoiler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur sem sed nisl cursus, at pretium massa sodales. Phasellus et consectetur tortor, rhoncus iaculis urna. Etiam nisi sem, auctor eu massa ornare, viverra mattis est. Etiam scelerisque tortor vel erat feugiat vestibulum. Donec eget eros odio. Etiam sem mi, mattis vitae magna eu, pretium rhoncus felis. Quisque nisi sapien, vulputate nec commodo id, pulvinar vel libero. Nam luctus sapien at finibus sagittis. Aenean sit amet nibh vel nisi pharetra pharetra. Curabitur efficitur nunc nibh, vitae ultrices diam consequat sit amet. Curabitur varius congue purus, ac lobortis risus rhoncus eu. Curabitur venenatis cursus mauris, at commodo orci auctor in. Sed condimentum justo ut ante commodo, eu vulputate justo facilisis.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
 <span class="spoiler">Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu lectus in felis tempor condimentum. Etiam eu neque neque. Mauris ac convallis est. Donec dictum tellus ullamcorper lacus hendrerit, at porttitor dolor laoreet. Praesent convallis diam ut ante pellentesque scelerisque ac non arcu. Donec finibus massa vitae scelerisque porttitor. Sed ut neque libero.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
         
-        <hr><p>Published on 2026-07-13 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-13</p>]]>
+        <hr><p>本文2026-07-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-13</p>]]>
       </description>
       
     </item>
@@ -218,11 +214,11 @@ English Test
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/post/20260712/</guid>
       <description>
-        <![CDATA[<h1>20260712</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>20260712</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           Vibe Coding给博客的长图在宽屏下渲染为1/2，其他情况不变。本文是全对话，使用 Kimi Code 搭配 Deepseek-v4-pro 进行。
         
-        <hr><p>Published on 2026-07-12 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-12</p>]]>
+        <hr><p>本文2026-07-12首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-12</p>]]>
       </description>
       
     </item>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/tags/python/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Sat, 13 May 2023 00:00:00 +0000</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/tags/python/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Python Implementation of Stacks, Queues, and Deques</title>
+      <link>https://kuqilin.github.io/en/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
+      <description>
+        <![CDATA[<h1>Python Implementation of Stacks, Queues, and Deques</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Python Implementation of Stacks, Queues, and Deques
+        
+        <hr><p>Published on 2023-05-13 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2023-05-13</p>]]>
+      </description>
+      
+        <category>Python</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Python Basic Syntax</title>
+      <link>https://kuqilin.github.io/en/post/python-ji-ben-yu-fa/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/python-ji-ben-yu-fa/</guid>
+      <description>
+        <![CDATA[<h1>Python Basic Syntax</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Python Basic Syntax
+        
+        <hr><p>Published on 2023-05-13 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2023-05-13</p>]]>
+      </description>
+      
+        <category>Python</category>
+      
+    </item>
+    
+  </channel>
+</rss>

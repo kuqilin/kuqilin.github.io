@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/archives/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate></lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/archives/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+  </channel>
+</rss>

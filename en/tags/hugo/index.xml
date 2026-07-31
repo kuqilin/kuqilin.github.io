@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/tags/hugo/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Website Mascot — 37 &#34;Spring&#39;s Depths&#34;</title>
+      <link>https://kuqilin.github.io/en/post/kan-ban-niang/</link>
+      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/kan-ban-niang/</guid>
+      <description>
+        <![CDATA[<h1>Website Mascot — 37 "Spring's Depths"</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          <p>Updated again — now using Cloudflare R2 storage buckets, bound to the <code>kuqilin.eu.org</code> domain. You can now <del>gorge yourself on</del> enjoy it at a reasonable pace. It&rsquo;s way faster than jsDelivr! Within 20 seconds, 99% of users can load it. Go admire &ldquo;Spring&rsquo;s Depths&rdquo; already 😠😠😠</p>
+<p>After all kinds of battling wits (not really), I&rsquo;ve finally got the website mascot working — a silent 37.<br>
+Why &ldquo;battling wits&rdquo;? Check <a href="/en/post/kan-ban-niang/#37-springs-depths">below</a>. It wasn&rsquo;t easy. Turns out those little white patches were likely caused by a minor issue during the unpacking process by the original creator, leaving a white patch in the model texture. Looking at the texture image, it already seemed odd. I checked the skin in-game and saw there was nothing there originally, so I used IsoPix Pro to erase the white patch — finally, no more white blocks! (Should be fine, hopefully.)<br>
+I also adjusted the model&rsquo;s position and size a bit. Unfortunately, I haven&rsquo;t yet figured out how to add things like sign-holding or dialog boxes, so the mascot is a bit dopey.<br>
+Oh, and connecting directly to GitHub from mainland China is still a pain — even uploading the moc3 file to jsDelivr didn&rsquo;t speed things up much. In the worst case, it could take you 2 whole minutes to see the beautiful 37! (Best case: 3 seconds.)</p>
+        
+        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-29</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Installing Hugo on Termux</title>
+      <link>https://kuqilin.github.io/en/post/termux-install-hugo/</link>
+      <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/termux-install-hugo/</guid>
+      <description>
+        <![CDATA[<h1>Installing Hugo on Termux</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Compile Hugo Extended with Go to work around the lack of pre-built binaries for Termux arm64
+        
+        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-28</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Building a Personal Blog with Hugo</title>
+      <link>https://kuqilin.github.io/en/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/hugo/</guid>
+      <description>
+        <![CDATA[<h1>Building a Personal Blog with Hugo</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          A record of my experience building a Hugo blog on GitHub Pages
+        
+        <hr><p>Published on 2026-07-11 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+  </channel>
+</rss>

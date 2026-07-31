@@ -169,7 +169,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};langMap['zh-cn'] = '\/zh-cn\/friend\/';langMap['zh-tw'] = '\/zh-tw\/friend\/';langMap['en'] = '\/friend\/';selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['zh-cn'] = '\/friend\/';langMap['zh-tw'] = '\/zh-tw\/friend\/';langMap['en'] = '\/en\/friend\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");

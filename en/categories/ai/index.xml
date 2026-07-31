@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/categories/ai/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Wed, 15 Jul 2026 21:15:14 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/categories/ai/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Replicating Telegram&#39;s AI Editor</title>
+      <link>https://kuqilin.github.io/en/post/telegram-ai-editor-prompt/</link>
+      <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/telegram-ai-editor-prompt/</guid>
+      <description>
+        <![CDATA[<h1>Replicating Telegram's AI Editor</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          This article collects and integrates multiple community-recreated Telegram AI editor prompts, covering all six official styles plus the emoji transformation feature. The <strong>individual versions</strong> section provides eight standalone prompts, each strictly mimicking Cocoon AI&rsquo;s rewriting logic — outputting only the body text, preserving core information, and never altering the original meaning. The <strong>unified version</strong> merges all styles into a single prompt, allowing you to switch between different writing styles within a single conversation by entering a style keyword.
+        
+        <hr><p>Published on 2026-07-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-15</p>]]>
+      </description>
+      
+        <category>AI</category>
+      
+    </item>
+    
+  </channel>
+</rss>

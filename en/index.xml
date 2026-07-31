@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Website Mascot — 37 &#34;Spring&#39;s Depths&#34;</title>
+      <link>https://kuqilin.github.io/en/post/kan-ban-niang/</link>
+      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/kan-ban-niang/</guid>
+      <description>
+        <![CDATA[<h1>Website Mascot — 37 "Spring's Depths"</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          <p>Updated again — now using Cloudflare R2 storage buckets, bound to the <code>kuqilin.eu.org</code> domain. You can now <del>gorge yourself on</del> enjoy it at a reasonable pace. It&rsquo;s way faster than jsDelivr! Within 20 seconds, 99% of users can load it. Go admire &ldquo;Spring&rsquo;s Depths&rdquo; already 😠😠😠</p>
+<p>After all kinds of battling wits (not really), I&rsquo;ve finally got the website mascot working — a silent 37.<br>
+Why &ldquo;battling wits&rdquo;? Check <a href="/en/post/kan-ban-niang/#37-springs-depths">below</a>. It wasn&rsquo;t easy. Turns out those little white patches were likely caused by a minor issue during the unpacking process by the original creator, leaving a white patch in the model texture. Looking at the texture image, it already seemed odd. I checked the skin in-game and saw there was nothing there originally, so I used IsoPix Pro to erase the white patch — finally, no more white blocks! (Should be fine, hopefully.)<br>
+I also adjusted the model&rsquo;s position and size a bit. Unfortunately, I haven&rsquo;t yet figured out how to add things like sign-holding or dialog boxes, so the mascot is a bit dopey.<br>
+Oh, and connecting directly to GitHub from mainland China is still a pain — even uploading the moc3 file to jsDelivr didn&rsquo;t speed things up much. In the worst case, it could take you 2 whole minutes to see the beautiful 37! (Best case: 3 seconds.)</p>
+        
+        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-29</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Installing Hugo on Termux</title>
+      <link>https://kuqilin.github.io/en/post/termux-install-hugo/</link>
+      <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/termux-install-hugo/</guid>
+      <description>
+        <![CDATA[<h1>Installing Hugo on Termux</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Compile Hugo Extended with Go to work around the lack of pre-built binaries for Termux arm64
+        
+        <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-28</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>37 Signature SVG</title>
+      <link>https://kuqilin.github.io/en/post/37-signature/</link>
+      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/37-signature/</guid>
+      <description>
+        <![CDATA[<h1>37 Signature SVG</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          AI-generated summary: Used AI to create 37&rsquo;s SVG signature, and shared multiple versions along with the complete source code.
+        
+        <hr><p>Published on 2026-07-22 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-23</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>[Repost] Students Spouting Internet Trash Talk Are &#39;Driving Shenzhen Teachers Crazy&#39;</title>
+      <link>https://kuqilin.github.io/en/post/man-zui-lan-geng-de-xue-sheng/</link>
+      <pubDate>Fri, 17 Jul 2026 21:01:07 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/man-zui-lan-geng-de-xue-sheng/</guid>
+      <description>
+        <![CDATA[<h1>[Repost] Students Spouting Internet Trash Talk Are 'Driving Shenzhen Teachers Crazy'</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Shenzhen junior high students are steeped in internet trash talk and profanity. Frontline teachers have limited disciplinary powers, and some parents are uncooperative or even file complaints, leaving education in a helpless predicament.
+        
+        <hr><p>Published on 2026-07-17 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
+      </description>
+      
+        <category>转载</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Building a Personal Blog with Hugo</title>
+      <link>https://kuqilin.github.io/en/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/hugo/</guid>
+      <description>
+        <![CDATA[<h1>Building a Personal Blog with Hugo</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          A record of my experience building a Hugo blog on GitHub Pages
+        
+        <hr><p>Published on 2026-07-11 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>My GPG Public Key</title>
+      <link>https://kuqilin.github.io/en/post/my-gpg/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/my-gpg/</guid>
+      <description>
+        <![CDATA[<h1>My GPG Public Key</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Update: changed public key and email
+        
+        <hr><p>Published on 2024-01-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-16</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Replicating Telegram&#39;s AI Editor</title>
+      <link>https://kuqilin.github.io/en/post/telegram-ai-editor-prompt/</link>
+      <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/telegram-ai-editor-prompt/</guid>
+      <description>
+        <![CDATA[<h1>Replicating Telegram's AI Editor</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          This article collects and integrates multiple community-recreated Telegram AI editor prompts, covering all six official styles plus the emoji transformation feature. The <strong>individual versions</strong> section provides eight standalone prompts, each strictly mimicking Cocoon AI&rsquo;s rewriting logic — outputting only the body text, preserving core information, and never altering the original meaning. The <strong>unified version</strong> merges all styles into a single prompt, allowing you to switch between different writing styles within a single conversation by entering a style keyword.
+        
+        <hr><p>Published on 2026-07-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-15</p>]]>
+      </description>
+      
+        <category>AI</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Markdown &amp; LaTeX Full Test Document</title>
+      <link>https://kuqilin.github.io/en/post/fulltest/</link>
+      <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/fulltest/</guid>
+      <description>
+        <![CDATA[<h1>Markdown & LaTeX Full Test Document</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          A comprehensive test document for Markdown and LaTeX — check if your editor supports these syntaxes.
+        
+        <hr><p>Published on 2026-01-25 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-14</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Spoiler Test (Shortcode)</title>
+      <link>https://kuqilin.github.io/en/post/spoilertest_shortcode/</link>
+      <pubDate>Mon, 13 Jul 2026 11:47:55 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/spoilertest_shortcode/</guid>
+      <description>
+        <![CDATA[<h1>Spoiler Test (Shortcode)</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          <p>This is a <span class="spoiler">spoiler test</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+<h2 id="image-test">
+<a class="header-anchor" href="#image-test"></a>
+Image Test
+</h2><span class="spoiler"><img src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc" 
+     alt="" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
+<h2 id="english-test">
+<a class="header-anchor" href="#english-test"></a>
+English Test
+</h2><p><span class="spoiler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur sem sed nisl cursus, at pretium massa sodales. Phasellus et consectetur tortor, rhoncus iaculis urna. Etiam nisi sem, auctor eu massa ornare, viverra mattis est. Etiam scelerisque tortor vel erat feugiat vestibulum. Donec eget eros odio. Etiam sem mi, mattis vitae magna eu, pretium rhoncus felis. Quisque nisi sapien, vulputate nec commodo id, pulvinar vel libero. Nam luctus sapien at finibus sagittis. Aenean sit amet nibh vel nisi pharetra pharetra. Curabitur efficitur nunc nibh, vitae ultrices diam consequat sit amet. Curabitur varius congue purus, ac lobortis risus rhoncus eu. Curabitur venenatis cursus mauris, at commodo orci auctor in. Sed condimentum justo ut ante commodo, eu vulputate justo facilisis.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
+<span class="spoiler">Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu lectus in felis tempor condimentum. Etiam eu neque neque. Mauris ac convallis est. Donec dictum tellus ullamcorper lacus hendrerit, at porttitor dolor laoreet. Praesent convallis diam ut ante pellentesque scelerisque ac non arcu. Donec finibus massa vitae scelerisque porttitor. Sed ut neque libero.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+        
+        <hr><p>Published on 2026-07-13 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-13</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>20260712</title>
+      <link>https://kuqilin.github.io/en/post/20260712/</link>
+      <pubDate>Sun, 12 Jul 2026 23:39:27 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/20260712/</guid>
+      <description>
+        <![CDATA[<h1>20260712</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Vibe Coding给博客的长图在宽屏下渲染为1/2，其他情况不变。本文是全对话，使用 Kimi Code 搭配 Deepseek-v4-pro 进行。
+        
+        <hr><p>Published on 2026-07-12 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-12</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GPG on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/tags/gpg/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Thu, 16 Jul 2026 11:47:46 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/tags/gpg/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>My GPG Public Key</title>
+      <link>https://kuqilin.github.io/en/post/my-gpg/</link>
+      <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/my-gpg/</guid>
+      <description>
+        <![CDATA[<h1>My GPG Public Key</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          Update: changed public key and email
+        
+        <hr><p>Published on 2024-01-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-16</p>]]>
+      </description>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,6 @@
 <!doctype html>
 <html
-  lang="en" 
+  lang="zh-CN" 
   data-theme-mode="auto"
   >
   <head><meta charset="utf-8" />
@@ -103,7 +103,7 @@
     <div class="loading-left-bg loading-bg"></div>
     <div class="loading-right-bg loading-bg"></div>
     <div class="spinner-box">
-      <div class="loading-taichi rotate"><img src="/images/thirtyseven-preloader.svg" alt="loading" /></div><div class="loading-word">Calculating...</div>
+      <div class="loading-taichi rotate"><img src="/images/thirtyseven-preloader.svg" alt="loading" /></div><div class="loading-word">算算数学中...</div>
     </div>
   </div>
   </div>
@@ -136,24 +136,24 @@
     loaderEl.addEventListener('click', endLoading);
   </script><div id="copy-tooltip"></div>
 <div id="lang-tooltip">
-This article does not have a corresponding language version
+本文章没有找到对应的语言版本
 </div>
 <div id="heatmap-tooltip"></div><div id="container">
       <div id="wrap"><div id="header-nav">
-  <nav id="main-nav" aria-label="Primary navigation"><a class="main-nav-link-wrap" href="/"><div class='main-nav-icon icon '>&#xf015;</div><span class="main-nav-link">Home</span>
-      </a><a class="main-nav-link-wrap" href="/archives"><div class='main-nav-icon icon '>&#xf187;</div><span class="main-nav-link">Archives</span>
-      </a><a class="main-nav-link-wrap" href="/about"><div class='main-nav-icon icon '>&#xf05a;</div><span class="main-nav-link">About</span>
-      </a><a class="main-nav-link-wrap" href="/friend"><div class='main-nav-icon icon '>&#xf500;</div><span class="main-nav-link">Friend</span>
-      </a><a class="main-nav-link-wrap" href="/changelog"><div class='main-nav-icon icon '>&#xf1da;</div><span class="main-nav-link">Changelog</span>
+  <nav id="main-nav" aria-label="Primary navigation"><a class="main-nav-link-wrap" href="/"><div class='main-nav-icon icon '>&#xf015;</div><span class="main-nav-link">首页</span>
+      </a><a class="main-nav-link-wrap" href="/archives"><div class='main-nav-icon icon '>&#xf187;</div><span class="main-nav-link">归档</span>
+      </a><a class="main-nav-link-wrap" href="/about"><div class='main-nav-icon icon '>&#xf05a;</div><span class="main-nav-link">关于</span>
+      </a><a class="main-nav-link-wrap" href="/friend"><div class='main-nav-icon icon '>&#xf500;</div><span class="main-nav-link">友链</span>
+      </a><a class="main-nav-link-wrap" href="/changelog"><div class='main-nav-icon icon '>&#xf1da;</div><span class="main-nav-link">日志</span>
       </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
   <nav id="sub-nav" aria-label="Secondary navigation"></nav><nav id="i18n-nav" aria-label="Language selection">
       <div class="custom-dropdown">
         <div class="select-selected" id="select-selected" role="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language menu">
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
-          <span id="selected-lang">English</span>
+          <span id="selected-lang">简体中文</span>
         </div>
-        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" aria-selected="false" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li><li data-value="zh-tw" role="option" aria-selected="false" >繁體中文</li><li data-value="en" role="option" class="selected" aria-selected="true" >English</li></ul>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li><li data-value="zh-tw" role="option" aria-selected="false" >繁體中文</li><li data-value="en" role="option" aria-selected="false" >English</li></ul>
       </div>
       <script>
         var selectSelected = document.getElementById("select-selected");
@@ -169,13 +169,13 @@ This article does not have a corresponding language version
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};langMap['zh-cn'] = '\/zh-cn\/post\/20260712\/';langMap['yue'] = '\/yue\/post\/20260712\/';langMap['zh-tw'] = '\/zh-tw\/post\/20260712\/';selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['yue'] = '\/yue\/post\/20260712\/';langMap['zh-tw'] = '\/zh-tw\/post\/20260712\/';langMap['en'] = '\/en\/post\/20260712\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
             });
             item.classList.add("selected");
-            if (item.dataset.value === 'en') {
+            if (item.dataset.value === 'zh-cn') {
               return;
             }
             if (!langMap[item.dataset.value]) {
@@ -211,7 +211,7 @@ This article does not have a corresponding language version
     <div
       class="sidebar-wrap"
       data-aos="fade-up"
-    ><div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
+    ><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
 <div class="sidebar-toc-wrapper toc-div-class">
   <nav id="TableOfContents">
   <ul>
@@ -238,16 +238,16 @@ This article does not have a corresponding language version
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>Posts</div><div class="sidebar-state-number">16</div>
+    <div>文章</div><div class="sidebar-state-number">16</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
-    <div>Categories</div>
+    <div>分类</div>
     <div class="sidebar-state-number">
       6
     </div>
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
-    <div>Tags</div>
+    <div>标签</div>
     <div class="sidebar-state-number">17</div>
   </a>
 </div>
@@ -2540,16 +2540,16 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
 <p><strong>判断逻辑</strong>：高 &gt; 宽（竖图/长图）→ <code>.tall</code> → 桌面 1/2；宽 ≥ 高（横图/方图）→ 占满。脚本同时处理了主题的 lazysizes 懒加载（监听 <code>lazyloaded</code> 事件）和已缓存直接完成的图片。</p>
 <p><strong>一点提醒</strong>：我无法在本地跑 Hugo（环境未装），所以这段注入脚本和 CSS 是按主题机制写的，逻辑我核对过，但没有实机渲染验证。你构建预览时重点看两点：竖图是否变成半宽、横图是否占满。如果主题实际没用 lazysizes 或事件名不同，告诉我，我再调。</p>
 </div>
-    <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>Author: </strong>Kuqilin</p><p>
-      <strong><span class="icon-link icon"></span>Permalink: </strong><a href="https://kuqilin.github.io/post/20260712/">https://kuqilin.github.io/post/20260712/</a>
-    </p><p><strong><span class="icon-pencil icon"></span>Title: </strong>20260712</p><p><strong><span class="icon-calendar icon"></span>Published: </strong>2026-07-12 23:39:27</p><p><strong><span class="icon-calendar icon"></span>Updated: </strong>2026-07-12 23:39:27</p><p>
+    <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Kuqilin</p><p>
+      <strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://kuqilin.github.io/post/20260712/">https://kuqilin.github.io/post/20260712/</a>
+    </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>20260712</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-07-12 23:39:27</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-07-12 23:39:27</p><p>
       
-      <strong><span class="icon-copyright icon"></span>License: </strong>
-      All articles on this blog are licensed under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> license agreement unless otherwise stated. Please indicate the source when reprinting!
+      <strong><span class="icon-copyright icon"></span>本文版权：</strong>
+      本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 许可协议。转载请注明出处！
     </p>
     <span class="icon-creative-commons article-copyright-bg"></span></blockquote>
 <div class="sponsor-wrapper">
-  <div class="sponsor-button"><div class="sponsor-icon rotate"></div><div class="sponsor-title">Sponsor</div><div class="sponsor-icon rotate"></div></div><div class="sponsor-tip">Buy me a coffee</div><div class="sponsor-qr"><div class="sponsor-qr-image-wrapper">
+  <div class="sponsor-button"><div class="sponsor-icon rotate"></div><div class="sponsor-title">赞助</div><div class="sponsor-icon rotate"></div></div><div class="sponsor-tip">请作者喝杯咖啡吧</div><div class="sponsor-qr"><div class="sponsor-qr-image-wrapper">
           <img src="https://pic1.imgdb.cn/i/033tqeAoS6qICWi3ei38wg.png" alt="微信/WeChat" width="200" />
           <p class="sponsor-qr-name">微信/WeChat</p>
         </div><div class="sponsor-qr-image-wrapper">
@@ -2585,27 +2585,27 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
   ><div class="article-nav-link-wrap left"><img
             data-src="/images/banner.webp"
             data-sizes="auto"
-            alt="Building a Personal Blog with Hugo"
+            alt="Hugo 搭建个人博客"
             class="lazyload"
           /><a
           href="/post/hugo/"
-          aria-label="Prev:Building a Personal Blog with Hugo"
-          title="Prev:Building a Personal Blog with Hugo"
+          aria-label="前一篇:Hugo 搭建个人博客"
+          title="前一篇:Hugo 搭建个人博客"
         ></a>
-        <div class="article-nav-caption">Prev</div>
-        <h3 class="article-nav-title">Building a Personal Blog with Hugo</h3>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">Hugo 搭建个人博客</h3>
       </div><div class="article-nav-link-wrap right"><img
               data-src="https://v2.xxapi.cn/api/randomAcgPic?type=pc&amp;return=302"
               data-sizes="auto"
-              alt="Spoiler Test (Shortcode)"
+              alt="剧透测试（短代码）"
               class="lazyload"
             /><a
           href="/post/spoilertest_shortcode/"
-          aria-label="Next:Spoiler Test (Shortcode)"
-          title="Next:Spoiler Test (Shortcode)"
+          aria-label="后一篇:剧透测试（短代码）"
+          title="后一篇:剧透测试（短代码）"
         ></a>
-        <div class="article-nav-caption">Next</div>
-        <h3 class="article-nav-title">Spoiler Test (Shortcode)</h3>
+        <div class="article-nav-caption">后一篇</div>
+        <h3 class="article-nav-title">剧透测试（短代码）</h3>
       </div></nav></article></section>
         </div><footer id="footer" aria-label="Site footer">
   <div style="width: 100%; overflow: hidden">
@@ -2622,7 +2622,7 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
 </div><div>
       <span class="icon-copyright"></span>2023-2026<span class="footer-info-sep rotate"></span>Kuqilin
     </div><div>
-        Powered by&nbsp;<a
+        基于&nbsp;<a
           href="https://gohugo.io/"
           target="_blank"
           rel="noopener nofollow noreferrer"
@@ -2635,10 +2635,10 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;29.1k</span
+          >&nbsp;36.5k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;01:18</span>
+        <span class="icon-coffee">&nbsp;01:19</span>
       </div><div class="footer-beian">
         <img
           style="object-fit: contain;margin-right: 2px;"
@@ -2656,14 +2656,14 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
       </div><div>
         <span class="icon-eye"></span>
         <span id="busuanzi_container_site_pv"
-          >Number of visits&nbsp;<span
+          >总访问量&nbsp;<span
             id="busuanzi_value_site_pv"
           ></span
         ></span>
         &nbsp;|&nbsp;
         <span class="icon-user"></span>
         <span id="busuanzi_container_site_uv"
-          >Number of visitors&nbsp;<span
+          >总访客量&nbsp;<span
             id="busuanzi_value_site_uv"
           ></span
         ></span>
@@ -2674,7 +2674,7 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
             <div class="arrow-up"></div>
           </div><div id="mask" class="hide"></div>
       </div><nav id="mobile-nav" aria-label="Mobile navigation">
-  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目录</h3>
 <div class="sidebar-toc-wrapper toc-div-class">
   <nav id="TableOfContents">
   <ul>
@@ -2701,16 +2701,16 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>Posts</div><div class="sidebar-state-number">16</div>
+    <div>文章</div><div class="sidebar-state-number">16</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
-    <div>Categories</div>
+    <div>分类</div>
     <div class="sidebar-state-number">
       6
     </div>
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
-    <div>Tags</div>
+    <div>标签</div>
     <div class="sidebar-state-number">17</div>
   </a>
 </div>
@@ -2742,32 +2742,32 @@ CSS 没有&quot;当图片高 &gt; 宽时才生效&quot;的选择器，无法读�
       <a
         class="sidebar-menu-link-dummy"
         href="/"
-        aria-label="Home"
-      ></a><div class='sidebar-menu-icon icon '>&#xf015;</div><div class="sidebar-menu-link">Home</div>
+        aria-label="首页"
+      ></a><div class='sidebar-menu-icon icon '>&#xf015;</div><div class="sidebar-menu-link">首页</div>
     </div><div class="sidebar-menu-link-wrap">
       <a
         class="sidebar-menu-link-dummy"
         href="/archives"
-        aria-label="Archives"
-      ></a><div class='sidebar-menu-icon icon '>&#xf187;</div><div class="sidebar-menu-link">Archives</div>
+        aria-label="归档"
+      ></a><div class='sidebar-menu-icon icon '>&#xf187;</div><div class="sidebar-menu-link">归档</div>
     </div><div class="sidebar-menu-link-wrap">
       <a
         class="sidebar-menu-link-dummy"
         href="/about"
-        aria-label="About"
-      ></a><div class='sidebar-menu-icon icon '>&#xf05a;</div><div class="sidebar-menu-link">About</div>
+        aria-label="关于"
+      ></a><div class='sidebar-menu-icon icon '>&#xf05a;</div><div class="sidebar-menu-link">关于</div>
     </div><div class="sidebar-menu-link-wrap">
       <a
         class="sidebar-menu-link-dummy"
         href="/friend"
-        aria-label="Friend"
-      ></a><div class='sidebar-menu-icon icon '>&#xf500;</div><div class="sidebar-menu-link">Friend</div>
+        aria-label="友链"
+      ></a><div class='sidebar-menu-icon icon '>&#xf500;</div><div class="sidebar-menu-link">友链</div>
     </div><div class="sidebar-menu-link-wrap">
       <a
         class="sidebar-menu-link-dummy"
         href="/changelog"
-        aria-label="Changelog"
-      ></a><div class='sidebar-menu-icon icon '>&#xf1da;</div><div class="sidebar-menu-link">Changelog</div>
+        aria-label="日志"
+      ></a><div class='sidebar-menu-icon icon '>&#xf1da;</div><div class="sidebar-menu-link">日志</div>
     </div></div></div></div><div class="sidebar-btn-wrapper">
         <div class="sidebar-toc-btn current"></div>
         <div class="sidebar-common-btn"></div>

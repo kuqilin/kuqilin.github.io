@@ -169,7 +169,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};langMap['zh-cn'] = '\/zh-cn\/post\/markdown-grammar\/';langMap['zh-tw'] = '\/zh-tw\/post\/markdown-grammar\/';langMap['en'] = '\/post\/markdown-grammar\/';selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['zh-cn'] = '\/post\/markdown-grammar\/';langMap['zh-tw'] = '\/zh-tw\/post\/markdown-grammar\/';langMap['en'] = '\/en\/post\/markdown-grammar\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");

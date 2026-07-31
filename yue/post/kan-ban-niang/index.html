@@ -169,7 +169,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};langMap['zh-cn'] = '\/zh-cn\/post\/kan-ban-niang\/';langMap['zh-tw'] = '\/zh-tw\/post\/kan-ban-niang\/';langMap['en'] = '\/post\/kan-ban-niang\/';selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['zh-cn'] = '\/post\/kan-ban-niang\/';langMap['zh-tw'] = '\/zh-tw\/post\/kan-ban-niang\/';langMap['en'] = '\/en\/post\/kan-ban-niang\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -419,7 +419,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/pc"
+              data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
               data-sizes="auto"
               alt="Termux 安裝 Hugo"
               class="lazyload"
