@@ -26,7 +26,7 @@
                 />
   </url><url>
     <loc>https://kuqilin.github.io/</loc>
-    <lastmod>2026-07-29T14:41:02+08:00</lastmod>
+    <lastmod>2026-07-31T17:41:47+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -337,6 +337,9 @@
                 href="https://kuqilin.github.io/en/tags/ai/"
                 />
   </url><url>
+    <loc>https://kuqilin.github.io/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</loc>
+    <lastmod>2026-07-22T17:10:00+08:00</lastmod>
+  </url><url>
     <loc>https://kuqilin.github.io/tags/2026%E5%B9%B4/</loc>
     <lastmod>2026-07-21T19:07:21+08:00</lastmod>
     <xhtml:link
@@ -629,27 +632,27 @@
                 href="https://kuqilin.github.io/en/post/spoilertest_shortcode/"
                 />
   </url><url>
-    <loc>https://kuqilin.github.io/post/20260712/</loc>
-    <lastmod>2026-07-12T23:39:27+08:00</lastmod>
+    <loc>https://kuqilin.github.io/archives/20260712/</loc>
+    <lastmod>2026-07-31T17:41:47+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://kuqilin.github.io/post/20260712/"
+                href="https://kuqilin.github.io/archives/20260712/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="yue"
-                href="https://kuqilin.github.io/yue/post/20260712/"
+                href="https://kuqilin.github.io/yue/archives/20260712/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-TW"
-                href="https://kuqilin.github.io/zh-tw/post/20260712/"
+                href="https://kuqilin.github.io/zh-tw/archives/20260712/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kuqilin.github.io/en/post/20260712/"
+                href="https://kuqilin.github.io/en/archives/20260712/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/post/hugo/</loc>
