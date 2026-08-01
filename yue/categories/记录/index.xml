@@ -12,12 +12,32 @@
     
     <copyright>本博客所有文章除特别聲明外，均采用 BY-NC-SA 許可協議。轉載請註明出處！</copyright>
     
-    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 10:49:11 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/yue/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>37 簽名 SVG 圖片</title>
+      <link>https://kuqilin.github.io/yue/post/37-signature/</link>
+      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/yue/post/37-signature/</guid>
+      <description>
+        <![CDATA[<h1>37 簽名 SVG 圖片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          AI 總結：用 AI 整咗 37 嘅 SVG 簽名圖，仲分享咗多個版本嘅成品同完整源碼。
+        
+        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
     
     
 
@@ -37,26 +57,6 @@
 唉，國內裸連 GitHub 都仲係唔好，將 moc3 文件上傳到 jsDelivr 上面都唔見得快幾多，你哋最壞情況要 2 分鐘先見到靚靚嘅 37！（最好情況係 3 秒）</p>
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
-      </description>
-      
-        <category>记录</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>37 簽名 SVG 圖片</title>
-      <link>https://kuqilin.github.io/yue/post/37-signature/</link>
-      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/yue/post/37-signature/</guid>
-      <description>
-        <![CDATA[<h1>37 簽名 SVG 圖片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          AI 總結：用 AI 整咗 37 嘅 SVG 簽名圖，仲分享咗多個版本嘅成品同完整源碼。
-        
-        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-23</p>]]>
       </description>
       
         <category>记录</category>
