@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kuqilin.github.io/zh-tw/post/fulltest/</loc>
-    <lastmod>2026-07-14T18:40:16+08:00</lastmod>
+    <loc>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</loc>
+    <lastmod>2026-07-29T14:41:02+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://kuqilin.github.io/post/fulltest/"
+                href="https://kuqilin.github.io/post/kan-ban-niang/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="yue"
-                href="https://kuqilin.github.io/yue/post/fulltest/"
+                href="https://kuqilin.github.io/yue/post/kan-ban-niang/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-TW"
-                href="https://kuqilin.github.io/zh-tw/post/fulltest/"
+                href="https://kuqilin.github.io/zh-tw/post/kan-ban-niang/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kuqilin.github.io/en/post/fulltest/"
+                href="https://kuqilin.github.io/en/post/kan-ban-niang/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/zh-tw/</loc>
@@ -145,29 +145,6 @@
   </url><url>
     <loc>https://kuqilin.github.io/zh-tw/tags/%E8%A8%98%E9%8C%84/</loc>
     <lastmod>2026-07-29T14:41:02+08:00</lastmod>
-  </url><url>
-    <loc>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</loc>
-    <lastmod>2026-07-29T14:41:02+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/post/kan-ban-niang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/post/kan-ban-niang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-TW"
-                href="https://kuqilin.github.io/zh-tw/post/kan-ban-niang/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kuqilin.github.io/en/post/kan-ban-niang/"
-                />
   </url><url>
     <loc>https://kuqilin.github.io/zh-tw/tags/android/</loc>
     <lastmod>2026-07-28T17:43:14+08:00</lastmod>
@@ -622,6 +599,29 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/en/tags/latex/"
+                />
+  </url><url>
+    <loc>https://kuqilin.github.io/zh-tw/post/fulltest/</loc>
+    <lastmod>2026-07-14T18:40:16+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/post/fulltest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/post/fulltest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/post/fulltest/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kuqilin.github.io/en/post/fulltest/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/zh-tw/post/wo-qu-guo-de-xue-xiao/</loc>
