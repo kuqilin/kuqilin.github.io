@@ -5,8 +5,29 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>望文生义 · 成语释义二选一</title>
 <link rel="stylesheet" href="https://fontsapi.zeoseven.com/292/main/result.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  .home-btn {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 100;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #408d9f;
+    background: rgba(255, 255, 255, .85);
+    border: 1px solid #99c2cc;
+    border-radius: 999px;
+    padding: 8px 16px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(25, 118, 140, .15);
+    transition: background .15s, transform .15s;
+  }
+  .home-btn:hover { background: #eaf2f5; transform: translateY(-1px); }
   body {
     font-family: "LXGW WenKai", "Noto Serif SC", "Source Han Serif CN", "Songti SC", SimSun, serif;
     background: linear-gradient(160deg, #f2f7f9 0%, #eaf2f5 100%);
@@ -85,16 +106,20 @@
   .count { margin-top: 22px; font-size: 12px; color: #73abb9; }
   @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
   .opt { animation: fadeUp .22s ease; }
+  .idiom.flash { animation: fadeUp .3s ease; }
+  @keyframes pop { 0% { transform: scale(.5); opacity: 0; } 60% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }
+  .feedback.ok, .feedback.bad { animation: pop .3s ease; }
 </style>
 </head>
 <body>
+  <a class="home-btn" href="/" title="返回首页"><i class="fa-solid fa-home"></i>首页</a>
   <div class="card">
-    <div class="badge">望文生义 · 成语释义二选一</div>
+    <div class="badge">🧐 望文生义 · 成语释义二选一</div>
     <h1 class="idiom" id="idiom"></h1>
     <p class="question" id="question">下列选项中，哪一个是这个成语的正确释义？</p>
     <div class="options" id="options"></div>
     <div class="feedback" id="feedback"></div>
-    <button class="next" id="next" hidden>下一题</button>
+    <button class="next" id="next" hidden>下一题 ➡️</button>
     <div class="count" id="count"></div>
   </div>
 
@@ -118,6 +143,10 @@ function pick(DATA) {
   return e;
 }
 
+const goodEmojis = ["👍", "🎉", "🌟", "💯", "🏆", "👏"];
+const badEmojis = ["😅", "🤔", "💡", "🙈"];
+function rand(a) { return a[Math.floor(Math.random() * a.length)]; }
+
 async function start() {
   const idiomEl = document.getElementById("idiom");
   const questionEl = document.getElementById("question");
@@ -133,7 +162,7 @@ async function start() {
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     data = await resp.json();
   } catch (err) {
-    idiomEl.textContent = "题库加载失败";
+    idiomEl.textContent = "❌ 题库加载失败";
     questionEl.textContent = "请确认 wang-wen-sheng-yi.json 与本页面在同一个目录，并且通过 HTTP 访问（直接双击打开文件会被浏览器拦截）。";
     countEl.textContent = "错误：" + err.message;
     return;
@@ -143,15 +172,18 @@ async function start() {
     e => e["成语"] && e["原意"] && e["易错点"] && e["原意"] !== e["易错点"]
   );
   if (!usable.length) {
-    idiomEl.textContent = "题库为空";
+    idiomEl.textContent = "📭 题库为空";
     questionEl.textContent = "JSON 里没有可出的题（每条需含 成语/原意/易错点，且原意不等于易错点）。";
     return;
   }
-  countEl.textContent = "题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
+  countEl.textContent = "📚 题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
 
   function renderQuestion() {
     const entry = pick(usable);
     idiomEl.textContent = entry["成语"];
+    idiomEl.classList.remove("flash");
+    void idiomEl.offsetWidth;
+    idiomEl.classList.add("flash");
 
     box.innerHTML = "";
     feedback.className = "feedback";
@@ -178,14 +210,14 @@ async function start() {
         }
         if (opt.correct) {
           feedback.className = "feedback ok";
-          feedback.textContent = "回答正确！";
+          feedback.textContent = rand(goodEmojis) + " 回答正确！";
         } else {
           btn.classList.add("wrong");
           for (const b of box.children) {
             if (b !== btn && b.dataset.correct !== "true") b.classList.add("dim");
           }
           feedback.className = "feedback bad";
-          feedback.textContent = "回答错误，选错了释义。";
+          feedback.textContent = rand(badEmojis) + " 回答错误，选错了释义。";
         }
         next.hidden = false;
       });

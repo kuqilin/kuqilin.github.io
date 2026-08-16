@@ -26,7 +26,7 @@
                 />
   </url><url>
     <loc>https://kuqilin.github.io/categories/</loc>
-    <lastmod>2026-08-15T23:50:24+08:00</lastmod>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -49,7 +49,7 @@
                 />
   </url><url>
     <loc>https://kuqilin.github.io/tags/hugo/</loc>
-    <lastmod>2026-08-15T23:50:24+08:00</lastmod>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -72,7 +72,7 @@
                 />
   </url><url>
     <loc>https://kuqilin.github.io/</loc>
-    <lastmod>2026-08-15T23:50:24+08:00</lastmod>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -95,7 +95,7 @@
                 />
   </url><url>
     <loc>https://kuqilin.github.io/tags/</loc>
-    <lastmod>2026-08-15T23:50:24+08:00</lastmod>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -117,11 +117,11 @@
                 href="https://kuqilin.github.io/en/tags/"
                 />
   </url><url>
-    <loc>https://kuqilin.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2026-08-15T23:50:24+08:00</lastmod>
+    <loc>https://kuqilin.github.io/tags/%E6%88%90%E8%AF%AD/</loc>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2026-08-15T23:50:24+08:00</lastmod>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -137,6 +137,15 @@
                 hreflang="en"
                 href="https://kuqilin.github.io/en/categories/%E8%AE%B0%E5%BD%95/"
                 />
+  </url><url>
+    <loc>https://kuqilin.github.io/post/wang-wen-sheng-yi-ce-yu/</loc>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/%E5%B0%8F%E6%B5%8B/</loc>
+    <lastmod>2026-08-16T11:22:15+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2026-08-15T23:50:24+08:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/post/yi-xie-you-yong-de-dong-xi/</loc>
     <lastmod>2026-08-15T23:50:24+08:00</lastmod>
