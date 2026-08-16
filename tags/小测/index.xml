@@ -12,7 +12,7 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Sun, 16 Aug 2026 11:22:15 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 11:43:32 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/tags/%E5%B0%8F%E6%B5%8B/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -30,8 +30,7 @@
       <description>
         <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>成语最怕「望文生义」。以下小测每题给出一个成语和两个释义，选出一个正确的——小心，另一个往往就是你第一反应想选的那个。</p>
-<p>本文同时演示两种把互动小测放进文章的做法：<strong>方式一</strong>是把小测的 HTML/CSS/JS 直接内嵌进正文（推荐，体验无缝）；<strong>方式二</strong>是 iframe 嵌入独立页面。对比后选其一即可。</p>
+          <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
         
         <hr><p>本文2026-08-16首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
       </description>
