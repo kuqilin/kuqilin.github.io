@@ -81,8 +81,7 @@
     background: linear-gradient(160deg, #f2f7f9 0%, #eaf2f5 100%);
     min-height: 100vh;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     padding: 24px;
   }
   .card {
@@ -93,6 +92,7 @@
     width: min(560px, 100%);
     padding: 40px 36px 36px;
     text-align: center;
+    margin: auto 0;
   }
   .badge {
     font-size: 14px;
@@ -171,7 +171,6 @@
     <button class="next" id="next" hidden>下一题 ➡️</button>
     <div class="count" id="count"></div>
   </div>
-
   <div class="modal-mask" id="aboutModal">
     <div class="modal">
       <div class="modal-head">
@@ -189,7 +188,6 @@
       </div>
     </div>
   </div>
-
 <script>
 function shuffle(a) {
   for (let i = a.length - 1; i > 0; i--) {
@@ -198,7 +196,6 @@ function shuffle(a) {
   }
   return a;
 }
-
 // 连续两次不抽同一题
 let last = null;
 function pick(DATA) {
@@ -209,11 +206,9 @@ function pick(DATA) {
   last = e;
   return e;
 }
-
 const goodEmojis = ["👍", "🎉", "🌟", "💯", "🏆", "👏"];
 const badEmojis = ["😅", "🤔", "💡", "🙈"];
 function rand(a) { return a[Math.floor(Math.random() * a.length)]; }
-
 async function start() {
   const idiomEl = document.getElementById("idiom");
   const questionEl = document.getElementById("question");
@@ -221,20 +216,18 @@ async function start() {
   const feedback = document.getElementById("feedback");
   const next = document.getElementById("next");
   const countEl = document.getElementById("count");
-
   let data;
   try {
     // cache: "no-store" 保证改了 JSON 后不用清浏览器缓存也能立刻看到新题
     const resp = await fetch("wang-wen-sheng-yi.json", { cache: "no-store" });
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     data = await resp.json();
-  } catch (err) {
+  } catch (err)
     idiomEl.textContent = "❌ 题库加载失败";
     questionEl.textContent = "请确认 wang-wen-sheng-yi.json 与本页面在同一个目录，并且通过 HTTP 访问（直接双击打开文件会被浏览器拦截）。";
     countEl.textContent = "错误：" + err.message;
     return;
   }
-
   const usable = data.filter(
     e => e["成语"] && e["原意"] && e["易错点"] && e["原意"] !== e["易错点"]
   );
@@ -246,24 +239,20 @@ async function start() {
   countEl.textContent = "📚 题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
   const aboutCountEl = document.getElementById("aboutCount");
   if (aboutCountEl) aboutCountEl.textContent = data.length + " 条";
-
   function renderQuestion() {
     const entry = pick(usable);
     idiomEl.textContent = entry["成语"];
     idiomEl.classList.remove("flash");
     void idiomEl.offsetWidth;
     idiomEl.classList.add("flash");
-
     box.innerHTML = "";
     feedback.className = "feedback";
     feedback.textContent = "";
     next.hidden = true;
-
     const options = shuffle([
       { text: entry["原意"], correct: true },
       { text: entry["易错点"], correct: false },
     ]);
-
     let answered = false;
     for (const opt of options) {
       const btn = document.createElement("button");
@@ -293,12 +282,10 @@ async function start() {
       box.appendChild(btn);
     }
   }
-
   // 下一题不再整页刷新，前端直接换题
   next.addEventListener("click", renderQuestion);
   renderQuestion();
 }
-
 // 关于弹窗
 (function () {
   const aboutBtn = document.getElementById("aboutBtn");
@@ -310,7 +297,15 @@ async function start() {
   modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("show"); });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") modal.classList.remove("show"); });
 })();
+start();
+</script>
 
-start();</script>
+<div style="text-align:center; margin-top:30px; font-size:13px; color:#73abb9;">
+<script src="//cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.min.js" defer></script>
+<br />
+今日总访问量 <span id="busuanzi_today_pv">加载中...</span> 次
+<br />
+本页总阅读量 <span id="busuanzi_page_pv">加载中...</span> 次
+</div>
 </body>
 </html>
