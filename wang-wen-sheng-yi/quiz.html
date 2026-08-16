@@ -83,6 +83,8 @@
   }
   .next:hover { background: #00677f; }
   .count { margin-top: 22px; font-size: 12px; color: #73abb9; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .opt { animation: fadeUp .22s ease; }
 </style>
 </head>
 <body>
@@ -147,44 +149,53 @@ async function start() {
   }
   countEl.textContent = "题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
 
-  const entry = pick(usable);
-  idiomEl.textContent = entry["成语"];
+  function renderQuestion() {
+    const entry = pick(usable);
+    idiomEl.textContent = entry["成语"];
 
-  next.addEventListener("click", () => location.reload());
+    box.innerHTML = "";
+    feedback.className = "feedback";
+    feedback.textContent = "";
+    next.hidden = true;
 
-  const options = shuffle([
-    { text: entry["原意"], correct: true },
-    { text: entry["易错点"], correct: false },
-  ]);
+    const options = shuffle([
+      { text: entry["原意"], correct: true },
+      { text: entry["易错点"], correct: false },
+    ]);
 
-  let answered = false;
-  for (const opt of options) {
-    const btn = document.createElement("button");
-    btn.className = "opt";
-    btn.textContent = opt.text;
-    btn.dataset.correct = opt.correct ? "true" : "false";
-    btn.addEventListener("click", () => {
-      if (answered) return;
-      answered = true;
-      for (const b of box.children) b.disabled = true;
-      for (const b of box.children) {
-        if (b.dataset.correct === "true") b.classList.add("correct");
-      }
-      if (opt.correct) {
-        feedback.className = "feedback ok";
-        feedback.textContent = "回答正确！";
-      } else {
-        btn.classList.add("wrong");
+    let answered = false;
+    for (const opt of options) {
+      const btn = document.createElement("button");
+      btn.className = "opt";
+      btn.textContent = opt.text;
+      btn.dataset.correct = opt.correct ? "true" : "false";
+      btn.addEventListener("click", () => {
+        if (answered) return;
+        answered = true;
+        for (const b of box.children) b.disabled = true;
         for (const b of box.children) {
-          if (b !== btn && b.dataset.correct !== "true") b.classList.add("dim");
+          if (b.dataset.correct === "true") b.classList.add("correct");
         }
-        feedback.className = "feedback bad";
-        feedback.textContent = "回答错误，选错了释义。";
-      }
-      next.hidden = false;
-    });
-    box.appendChild(btn);
+        if (opt.correct) {
+          feedback.className = "feedback ok";
+          feedback.textContent = "回答正确！";
+        } else {
+          btn.classList.add("wrong");
+          for (const b of box.children) {
+            if (b !== btn && b.dataset.correct !== "true") b.classList.add("dim");
+          }
+          feedback.className = "feedback bad";
+          feedback.textContent = "回答错误，选错了释义。";
+        }
+        next.hidden = false;
+      });
+      box.appendChild(btn);
+    }
   }
+
+  // 下一题不再整页刷新，前端直接换题
+  next.addEventListener("click", renderQuestion);
+  renderQuestion();
 }
 
 start();</script>
