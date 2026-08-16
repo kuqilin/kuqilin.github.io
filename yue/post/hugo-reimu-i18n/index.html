@@ -1,0 +1,1120 @@
+<!doctype html>
+<html
+  lang="yue"data-theme-mode="auto"
+>
+  <head><meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/><title>
+  Reimu 主题下的 i18n | Kuqilin
+</title>
+<meta name="description" content="Hugo Reimu 主题多语言配置完整指南"/><script>
+  window.siteConfig = JSON.parse("{\"anchor\":{\"auto\":{\"enable\":false,\"length\":60},\"explicit\":{\"enable\":false,\"marker\":\"{#anchor-\",\"prefix\":\"anchor-\"}},\"anchor_icon\":null,\"base\":\"https://kuqilin.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"yue\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"yue\":\"複製成功 (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":20},\"dark_mode\":{\"button\":true,\"mode\":\"auto\"},\"i18n_languages\":[{\"label\":\"简体中文\",\"lang\":\"zh-cn\"},{\"label\":\"粵語\",\"lang\":\"yue\"},{\"label\":\"繁體中文\",\"lang\":\"zh-tw\"},{\"label\":\"English\",\"lang\":\"en\"}],\"icon_font\":false,\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"yue\":\"本文最後更新於 {time}，請注意文中內容可能已經唔啱用。\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
+  
+</script>
+<link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="https://fontsapi.zeoseven.com/292/main/result.css"
+    onload="this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    crossorigin
+    href="https://fontsapi.zeoseven.com/447/main/result.css"
+    onload="this.rel='stylesheet'"
+  /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  rel="preload"
+  as="style"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+/>
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7cNoto%20Serif%20SC:400,400italic,700,700italic%7c&amp;display=swap"
+  media="print"
+  onload="this.media='all'"
+/>
+<link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/regular.min.css"
+    integrity="sha384-4qYppzjH8EiA&#43;cGdaubu2vL7Rk8WGiqCSj7oRuP1uwtFWkfKNHD20lPfcrbQc8dU" crossorigin="anonymous"/><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/solid.min.css"
+    integrity="sha384-wbMWab3UDSPm2kvIgVOn/d9KPTecgPU1&#43;Nb3zoQrm/oVu0EkPL6IaKinjbwW0rum" crossorigin="anonymous"/><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/brands.min.css"
+    integrity="sha384-KTGeC2hIMzpeQakhsmzB9bZfhCD5xZZCgI1iZH6f/O457SxzlkzTQg/WXFNoi3ih" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/v5-font-face.min.css"
+    integrity="sha384-nJ1ThfldViXoLpJ6jlKcP2beas8BMbYq26SG9Hi8cH89bZi4RZ644v7helMCqJxd" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/@fortawesome/fontawesome-free@7.1.0/css/v4-font-face.min.css"
+    integrity="sha384-UlkrhOIvZxJFd4MElSUp7ow6/RUeYKi/orfCZIRRiOENFuQPIAA3T3HjYfmBRhNq" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link rel="stylesheet" href="/css/loader.min.780ef5587bcfea9b20590786f0c831e1d3b37741ba191c9418e0a38e485d5dab.css" /><meta property="og:type" content="website" />
+  <meta property="og:title" content="Reimu 主题下的 i18n | Kuqilin" />
+  <meta
+    property="og:description"
+    content="Hugo Reimu 主题多语言配置完整指南"
+  />
+  <meta property="og:url" content="https://kuqilin.github.io/yue/post/hugo-reimu-i18n/" />
+  <meta
+    property="og:site_name"
+    content="Kuqilin&#39;s Blog"
+  />
+  <meta property="og:image" content="https://pic1.imgdb.cn/i/033qsxbGq3YWMYivyfpFLC.png" />
+  <meta property="article:author" content="Kuqilin" />
+  <meta property="article:published_time" content="2026-08-01T17:15:02&#43;08:00" />
+  <meta property="article:modified_time" content="2026-08-01T17:15:02&#43;08:00" /><meta property="article:tag" content="记录, Hugo, Reimu" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://pic1.imgdb.cn/i/033qsxbGq3YWMYivyfpFLC.png" />
+<link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.de8a8786be3c69cc78acc98bd1cb3af54887f1e0fe52c38b11695cd3a6404f29.css" /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css"
+    integrity="sha384-IfxC36XL/toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei&#43;Zx/1oA/0l8ysE" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="preload"
+    as="style"
+    href="https://npm.webcache.cn/katex@0.16.24/dist/katex.min.css"
+    integrity="sha384-tTgKLjMYmJr94v8qu2PE5MUGSMbyN2xiH266JUB3gpm8vnnJywd1dWSOEfrFz&#43;YI" crossorigin="anonymous"
+    onload="this.onload=null;this.rel='stylesheet'"
+  /><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@waline/client@2.15.8/dist/waline.css"
+    integrity="sha384-vltfZtesCdl6NYVcFVcjEaIi5RpNvZe9t7fXvq8twVtcoy&#43;Ub9QgnxUYJmwOhYCK" crossorigin="anonymous"/><script
+    src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js"
+    
+    
+    
+    
+    integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script><link
+    rel="stylesheet"
+    href="https://npm.webcache.cn/@reimujs/aos@0.1.2/dist/aos.css"
+    integrity="sha384-GMRP93c6Hkz9JVKGAuRR3nTS7M07RwPgTFenXiosjq2VbVgvdDNcz1g6Mkj8AONa" crossorigin="anonymous"/></head>
+  <body><div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate"><img src="/images/thirtyseven-preloader.svg" alt="loading" /></div><div class="loading-word">算緊數學...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var loaderEl = document.getElementById('loader');
+    var startLoading = () => {
+      time = Date.now();
+      loaderEl.classList.remove("loading");
+    }
+    var hideLoader = () => {
+      document.body.style.overflow = 'auto';
+      loader.classList.add('loading');
+    };
+
+    var endLoading = () => {
+      if (!time) {
+        hideLoader();
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          hideLoader();
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    loaderEl.addEventListener('click', endLoading);
+  </script><div id="copy-tooltip"></div>
+<div id="lang-tooltip">
+本文章冇搵到對應嘅語言版本
+</div>
+<div id="heatmap-tooltip"></div><div id="container">
+      <div id="wrap"><div id="header-nav">
+  <nav id="main-nav" aria-label="Primary navigation"><a class="main-nav-link-wrap" href="/yue/"><div class='main-nav-icon icon '>&#xf015;</div><span class="main-nav-link">首頁</span>
+      </a><a class="main-nav-link-wrap" href="/yue/archives"><div class='main-nav-icon icon '>&#xf187;</div><span class="main-nav-link">收埋</span>
+      </a><a class="main-nav-link-wrap" href="/yue/about"><div class='main-nav-icon icon '>&#xf05a;</div><span class="main-nav-link">關於</span>
+      </a><a class="main-nav-link-wrap" href="/yue/friend"><div class='main-nav-icon icon '>&#xf500;</div><span class="main-nav-link">好朋友</span>
+      </a><a class="main-nav-link-wrap" href="/yue/changelog"><div class='main-nav-icon icon '>&#xf1da;</div><span class="main-nav-link">日誌</span>
+      </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
+  </nav>
+  <nav id="sub-nav" aria-label="Secondary navigation"></nav><nav id="i18n-nav" aria-label="Language selection">
+      <div class="custom-dropdown">
+        <div class="select-selected" id="select-selected" role="button" aria-haspopup="listbox" aria-expanded="false" aria-label="Language menu">
+          <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
+          <span id="selected-lang">粵語</span>
+        </div>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" aria-selected="false" >简体中文</li><li data-value="yue" role="option" class="selected" aria-selected="true" >粵語</li><li data-value="zh-tw" role="option" aria-selected="false" >繁體中文</li><li data-value="en" role="option" aria-selected="false" >English</li></ul>
+      </div>
+      <script>
+        var selectSelected = document.getElementById("select-selected");
+        var selectedLang = document.getElementById("selected-lang");
+        var selectItems = document.getElementById("select-items");
+        var selectOptions = selectItems.querySelectorAll("li");
+
+        selectSelected.addEventListener("click", () => {
+          selectItems.classList.toggle("show");
+          var expanded = selectSelected.getAttribute("aria-expanded") === "true";
+          selectSelected.setAttribute("aria-expanded", (!expanded).toString());
+        });
+
+        selectOptions.forEach((item) => {
+          item.addEventListener("click", () => {
+            const langMap = {};langMap['zh-cn'] = '\/post\/hugo-reimu-i18n\/';langMap['zh-tw'] = '\/zh-tw\/post\/hugo-reimu-i18n\/';langMap['en'] = '\/en\/post\/hugo-reimu-i18n\/';selectedLang.textContent = item.textContent;
+            selectItems.classList.remove("show");
+            selectOptions.forEach((option) => {
+              option.classList.remove("selected");
+            });
+            item.classList.add("selected");
+            if (item.dataset.value === 'yue') {
+              return;
+            }
+            if (!langMap[item.dataset.value]) {
+              _$("#lang-tooltip").style.opacity = "1";
+              setTimeout(() => {
+                _$("#lang-tooltip").style.opacity = "0";
+              }, 1000);
+              return;
+            }
+            window.location = langMap[item.dataset.value];
+          });
+        });
+
+        document.addEventListener("click", (event) => {
+          if (!event.target.closest(".custom-dropdown")) {
+            selectItems.classList.remove("show");
+            selectSelected.setAttribute("aria-expanded", "false");
+          }
+        });
+      </script>
+    </nav><a href="https://github.com/kuqilin/kuqilin.github.io" class="triangle-badge" title="github" target="_blank" rel="noopener nofollow noreferrer">
+      <div class="icon icon-github triangle-badge-icon"></div>
+    </a></div>
+<header id="header" aria-label="Site header"><picture></picture><img  fetchpriority="high" src="https://pic1.imgdb.cn/i/033qsxbGq3YWMYivyfpFLC.png" alt="Reimu 主题下的 i18n"><div id="header-outer">
+    <div id="header-title"><span id="logo">
+            <h1 data-aos="slide-up">Reimu 主题下的 i18n</h1>
+          </span><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
+  </div>
+</header><div id="content"
+          aria-label="Page content"
+          class="sidebar-left"
+            ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container sticky"><div class="sidebar-wrapper">
+    <div
+      class="sidebar-wrap"
+      data-aos="fade-up"
+    ><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目錄</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#为什么需要手动配置">为什么需要手动配置？</a></li>
+    <li><a href="#第一步调整内容文件夹结构">第一步：调整内容文件夹结构</a></li>
+    <li><a href="#第二步关联不同语言版本translationkey">第二步：关联不同语言版本（translationKey）</a></li>
+    <li><a href="#第三步在-hugotoml-中声明语言">第三步：在 <code>hugo.toml</code> 中声明语言</a></li>
+    <li><a href="#第四步处理主题未内置的自定义语言">第四步：处理「主题未内置」的自定义语言</a>
+      <ul>
+        <li><a href="#41-补充-paramsyml-中的文案翻译">4.1 补充 <code>params.yml</code> 中的文案翻译</a></li>
+        <li><a href="#42-创建独立的-i18n-翻译文件">4.2 创建独立的 <code>i18n</code> 翻译文件</a></li>
+      </ul>
+    </li>
+    <li><a href="#常见问题">常见问题</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Kuqilin"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Kuqilin</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">19</div>
+  </div>
+  <a class="sidebar-state-category" href="/yue/categories/" aria-label="sidebar-state-category-link">
+    <div>分類</div>
+    <div class="sidebar-state-number">
+      6
+    </div>
+  </a>
+  <a class="sidebar-state-tag" href="/yue/tags/" aria-label="sidebar-state-tag-link">
+    <div>標簽</div>
+    <div class="sidebar-state-number">21</div>
+  </a>
+</div>
+<div class="sidebar-social" style="margin-bottom: 20px;"><div class="icon-email sidebar-social-icon">
+        <a
+          href="mailto:kuqilin@outlook.com"
+          itemprop="url"
+          target="_blank"
+          aria-label="email"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-github sidebar-social-icon">
+        <a
+          href="https://github.com/kuqilin"
+          itemprop="url"
+          target="_blank"
+          aria-label="github"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-twitter sidebar-social-icon">
+        <a
+          href="https://twitter.com/thirtyseven0727"
+          itemprop="url"
+          target="_blank"
+          aria-label="twitter"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div></div></div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div><div class="sidebar-widget"></div></div></aside>
+<section id="main" aria-label="Main content"><article
+  class="h-entry article"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
+  <div
+    class="article-inner"
+    data-aos="fade-up"
+  >
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link icon-calendar"
+    data-aos="zoom-in"
+  >
+    <time datetime="2026-08-01 17:15:02 &#43;0800 &#43;0800" itemprop="datePublished"
+      >2026-08-01</time
+    >
+    <time style="display: none;" id="post-update-time"
+      >2026-08-01</time
+    >
+  </span><span
+      class="article-date-link icon-calendar-plus"
+      data-aos="zoom-in"
+    >
+      <time datetime="2026-08-01 17:15:02 &#43;0800 &#43;0800" itemprop="dateModified"
+        >2026-08-01</time
+      >
+    </span></div>
+</div><div class="article-entry">
+      <blockquote
+        class="article-summary"
+        data-aos="zoom-in"
+      >
+        <p>一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。</p>
+      </blockquote>
+    </div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody">
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>建议先通读本文了解基本流程和坑以后在一步一步跟着操作。<br>
+因为作者表达能力欠佳，本文由作者写完之后交由 AI 进行润色。</p></p>
+  </blockquote>
+
+<p>虽然花时间翻译自己的文章并不常见，但既然做了，就记录一下完整流程，方便后来者。</p>
+<h2 id="为什么需要手动配置">
+<a class="header-anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e6%89%8b%e5%8a%a8%e9%85%8d%e7%bd%ae"></a>
+为什么需要手动配置？
+</h2><p>Hugo 本身支持多语言（i18n），但主题通常需要你按约定组织文件和配置。Reimu 主题默认只提供单语言结构，要启用多语言，你需要做三件事：</p>
+<ol>
+<li>重构内容文件夹，按语言分目录</li>
+<li>为每篇文章关联翻译（通过 <code>translationKey</code>）</li>
+<li>在配置文件中声明语言，并（如果使用非内置语言）补充主题的本地化文案和翻译文件</li>
+</ol>
+<p>下面按步骤展开。</p>
+<h2 id="第一步调整内容文件夹结构">
+<a class="header-anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e8%b0%83%e6%95%b4%e5%86%85%e5%ae%b9%e6%96%87%e4%bb%b6%e5%a4%b9%e7%bb%93%e6%9e%84"></a>
+第一步：调整内容文件夹结构
+</h2><p>Reimu 主题默认将文章放在 <code>content/</code> 下（如 <code>content/post/</code>、<code>content/about.md</code> 等）。<br>
+<strong>多语言时，需在 <code>content/</code> 下为每种语言单独建一个子文件夹</strong>，子文件夹名即为语言代码（如 <code>zh-CN</code>、<code>en</code>、<code>yue</code>）。</p>
+<p><strong>操作示例</strong><br>
+假设你原有简体中文内容（<code>zh-CN</code>），现在要增加英文（<code>en</code>）和粤语（<code>yue</code>）：</p>
+<ol>
+<li>在 <code>content/</code> 下新建 <code>zh-CN/</code>、<code>en/</code>、<code>yue/</code> 文件夹。</li>
+<li>将原来 <code>content/</code> 下的所有内容（<code>about.md</code>、<code>post/</code> 等）<strong>整个移动或复制</strong>到 <code>zh-CN/</code> 内（作为默认语言）。</li>
+<li>再将 <code>zh-CN/</code> 下的内容<strong>复制</strong>到 <code>en/</code> 和 <code>yue/</code> 中，之后分别翻译各文件夹内的 <code>.md</code> 文件。</li>
+</ol>
+<p>最终结构类似：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content/
+</span></span><span class="line"><span class="cl">├── en/
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   ├── archives/
+</span></span><span class="line"><span class="cl">│   ├── friend.md
+</span></span><span class="line"><span class="cl">│   └── post/
+</span></span><span class="line"><span class="cl">├── yue/
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   ├── archives/
+</span></span><span class="line"><span class="cl">│   ├── friend.md
+</span></span><span class="line"><span class="cl">│   └── post/
+</span></span><span class="line"><span class="cl">├── zh-CN/
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   ├── archives/
+</span></span><span class="line"><span class="cl">│   ├── friend.md
+</span></span><span class="line"><span class="cl">│   └── post/
+</span></span><span class="line"><span class="cl">└── zh-TW/          <span class="c1"># 可选，以此类推</span>
+</span></span><span class="line"><span class="cl">    ├── about.md
+</span></span><span class="line"><span class="cl">    ├── archives/
+</span></span><span class="line"><span class="cl">    ├── friend.md
+</span></span><span class="line"><span class="cl">    └── post/
+</span></span></code></pre></div><blockquote>
+<p><strong>注意</strong>：原 <code>content/</code> 根目录下不要再放置任何内容，否则 Hugo 会将其视为无语言归属的内容，可能引发混乱。</p>
+</blockquote>
+<h2 id="第二步关联不同语言版本translationkey">
+<a class="header-anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%85%b3%e8%81%94%e4%b8%8d%e5%90%8c%e8%af%ad%e8%a8%80%e7%89%88%e6%9c%actranslationkey"></a>
+第二步：关联不同语言版本（translationKey）
+</h2><p>Hugo 需要通过 <code>translationKey</code> 来识别哪些文件互为翻译。<br>
+<strong>在每个语言的对应文件中，frontmatter 里写上相同的 <code>translationKey</code> 值</strong>。</p>
+<p>例如，在 <code>content/zh-CN/about.md</code>、<code>content/en/about.md</code> 和 <code>content/yue/about.md</code> 中都加入：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">translationKey</span><span class="p">:</span><span class="w"> </span><span class="l">about</span><span class="w">
+</span></span></span></code></pre></div><p>同样，每篇博文（如 <code>post/hello.md</code>）也要在所有语言版本中设置相同的 <code>translationKey</code>（可以设置为文章标题的 slug 或自定义标识）。</p>
+<p><strong>为什么重要</strong>：没有这个字段，语言切换按钮将无法在文章页显示可切换的语言列表。</p>
+<h2 id="第三步在-hugotoml-中声明语言">
+<a class="header-anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%9c%a8-hugotoml-%e4%b8%ad%e5%a3%b0%e6%98%8e%e8%af%ad%e8%a8%80"></a>
+第三步：在 <code>hugo.toml</code> 中声明语言
+</h2><p>完成文件夹结构后，构建时 Hugo 会找不到语言定义而喜提报错。你需要在 <code>hugo.toml</code>（或 <code>config.toml</code>）中为每一种语言添加配置。</p>
+<p><strong>基础配置示例</strong>（以粤语 <code>yue</code> 为例）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">yue</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">locale</span> <span class="p">=</span> <span class="s2">&#34;yue&#34;</span>                <span class="c"># 语言代码，需与文件夹名一致</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">label</span> <span class="p">=</span> <span class="s2">&#34;粵語&#34;</span>                <span class="c"># 界面显示的语言名称（可自定义）</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">true</span>         <span class="c"># 若语言包含中日韩文字，设为 true</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/yue&#34;</span>    <span class="c"># 指向该语言的内容文件夹</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>                    <span class="c"># 在语言切换列表中的排序，数值越小越靠前</span>
+</span></span></code></pre></div><p><strong>其他语言</strong>（如英文）同理：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">locale</span> <span class="p">=</span> <span class="s2">&#34;en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">label</span> <span class="p">=</span> <span class="s2">&#34;English&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+</span></span></code></pre></div><p><strong>设置默认语言</strong>（避免浏览器语言偏好干扰）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">defaultContentLanguage</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>   <span class="c"># 设为你的主语言</span>
+</span></span></code></pre></div><blockquote>
+<p>提示：<code>weight</code> 影响切换菜单中的顺序，建议为常用语言设较小值。</p>
+</blockquote>
+<h2 id="第四步处理主题未内置的自定义语言">
+<a class="header-anchor" href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%a4%84%e7%90%86%e4%b8%bb%e9%a2%98%e6%9c%aa%e5%86%85%e7%bd%ae%e7%9a%84%e8%87%aa%e5%ae%9a%e4%b9%89%e8%af%ad%e8%a8%80"></a>
+第四步：处理「主题未内置」的自定义语言
+</h2><p>Reimu 主题自带了一些 UI 文案（如“复制成功”），但只在部分语言（如 <code>en</code>、<code>zh-CN</code>、<code>ja</code> 等）中预置了翻译。<br>
+如果你添加的语言不在主题支持列表中（例如泰文 <code>th</code>、粤语 <code>yue</code> 虽然主题可能未包含），则必须额外补充两处配置，否则构建时主题会因找不到对应语言的文案而报错。</p>
+<h3 id="41-补充-paramsyml-中的文案翻译">
+<a class="header-anchor" href="#41-%e8%a1%a5%e5%85%85-paramsyml-%e4%b8%ad%e7%9a%84%e6%96%87%e6%a1%88%e7%bf%bb%e8%af%91"></a>
+4.1 补充 <code>params.yml</code> 中的文案翻译
+</h3><p>主题的 UI 文案定义在 <code>themes/reimu/config/_default/params.yml</code> 中。<br>
+你需要<strong>将这份文件复制到项目根目录的 <code>config/_default/params.yml</code></strong>（若没有则新建对应文件夹），然后在该文件中为你的语言添加所有字段。</p>
+<p>例如，原文件中有 <code>clipboard.success</code> 字段：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">clipboard</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">success</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">en</span><span class="p">:</span><span class="w"> </span><span class="l">Copy successfully (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">zh-CN</span><span class="p">:</span><span class="w"> </span><span class="l">复制成功 (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">yue</span><span class="p">:</span><span class="w"> </span><span class="l">複製成功 (*^▽^*)         </span><span class="w"> </span><span class="c"># 新增 yue 的翻译</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">zh-TW</span><span class="p">:</span><span class="w"> </span><span class="l">複製成功 (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ja</span><span class="p">:</span><span class="w"> </span><span class="l">コピー成功 (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">pt-BR</span><span class="p">:</span><span class="w"> </span><span class="l">Copiado com sucesso (*^▽^*)</span><span class="w">
+</span></span></span></code></pre></div><p>你需要检查所有带 i18n 的字段（如 <code>comment.title</code>、<code>preloader.text</code> 等），逐一为你的语言添加对应值。<br>
+<strong>注意</strong>：语言键（如 <code>yue</code>）必须与你在 <code>hugo.toml</code> 中 <code>[languages.yue]</code> 的 <code>locale</code> 值完全一致。</p>
+<h3 id="42-创建独立的-i18n-翻译文件">
+<a class="header-anchor" href="#42-%e5%88%9b%e5%bb%ba%e7%8b%ac%e7%ab%8b%e7%9a%84-i18n-%e7%bf%bb%e8%af%91%e6%96%87%e4%bb%b6"></a>
+4.2 创建独立的 <code>i18n</code> 翻译文件
+</h3><p>Hugo 本身需要一些基础翻译字符串（如月份名称、日期格式等），这些在主题的 <code>i18n/</code> 文件夹中提供。<br>
+同样，将 <code>themes/reimu/i18n/</code> 下的某个现有文件（如 <code>zh-CN.yml</code>）复制到项目根目录的 <code>i18n/</code> 文件夹中，重命名为你的语言代码（如 <code>yue.yml</code>），然后将里面的字符串逐一翻译成你的语言。</p>
+<p>如果不做这一步，Hugo 构建时会因为缺少翻译数据而报错（类似 <code>missing translations</code>）。</p>
+<h2 id="常见问题">
+<a class="header-anchor" href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98"></a>
+常见问题
+</h2><ul>
+<li>
+<p><strong>切换语言后页面 404？</strong><br>
+检查 <code>contentDir</code> 路径是否正确，且每个语言文件夹内确有对应文件。</p>
+</li>
+<li>
+<p><strong>语言切换按钮不出现？</strong><br>
+确认所有互为翻译的文件都设置了相同的 <code>translationKey</code>，且至少有两个语言版本存在。</p>
+</li>
+<li>
+<p><strong>修改后仍报错？</strong><br>
+运行 <code>hugo --cleanDestinationDir</code> 清除缓存后重新构建，有时旧配置会残留。</p>
+</li>
+<li>
+<p><strong>只改 <code>params.yml</code> 还不够？</strong><br>
+确保同时完成了 <strong>4.1</strong> 和 <strong>4.2</strong> 两步，缺一不可。</p>
+</li>
+</ul>
+<h2 id="总结">
+<a class="header-anchor" href="#%e6%80%bb%e7%bb%93"></a>
+总结
+</h2><p>Reimu 主题的 i18n 配置虽不复杂，但步骤环环相扣。简记要点：</p>
+<ul>
+<li>按语言分目录 → 加 <code>translationKey</code> → 声明语言配置</li>
+<li>若使用非内置语言，额外补充主题 UI 文案（<code>params.yml</code>）和基础翻译（<code>i18n/*.yml</code>）</li>
+</ul>
+<p>按照上述步骤操作，你就能拥有一个完美切换的多语言 Hugo 站点。祝写作愉快！</p>
+</div>
+    <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Kuqilin</p><p>
+      <strong><span class="icon-link icon"></span>本文鏈接：</strong><a href="https://kuqilin.github.io/yue/post/hugo-reimu-i18n/">https://kuqilin.github.io/yue/post/hugo-reimu-i18n/</a>
+    </p><p><strong><span class="icon-pencil icon"></span>本文標題：</strong>Reimu 主题下的 i18n</p><p><strong><span class="icon-calendar icon"></span>本文發布時間：</strong>2026-08-01 17:15:02</p><p><strong><span class="icon-calendar icon"></span>本文更新時間：</strong>2026-08-01 17:15:02</p><p>
+      
+      <strong><span class="icon-copyright icon"></span>本文版權：</strong>
+      本博客所有文章除特别聲明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener nofollow noreferrer" target="_blank"><span class="icon-creative-commons"></span>BY-NC-SA</a> 許可協議。轉載請註明出處！
+    </p>
+    <span class="icon-creative-commons article-copyright-bg"></span></blockquote>
+<div class="sponsor-wrapper">
+  <div class="sponsor-button"><div class="sponsor-icon rotate"></div><div class="sponsor-title">贊助</div><div class="sponsor-icon rotate"></div></div><div class="sponsor-tip">請我飲杯咖啡點樣</div><div class="sponsor-qr"><div class="sponsor-qr-image-wrapper">
+          <img src="https://pic1.imgdb.cn/i/033tqeAoS6qICWi3ei38wg.png" alt="微信/WeChat" width="200" />
+          <p class="sponsor-qr-name">微信/WeChat</p>
+        </div><div class="sponsor-qr-image-wrapper">
+          <img src="https://pic1.imgdb.cn/i/033tqeAw3RMCnHsTBYmddV.jpg" alt="支付宝/AliPay" width="200" />
+          <p class="sponsor-qr-name">支付宝/AliPay</p>
+        </div></div></div><div class="share-wrapper"><a href="https://twitter.com/intent/tweet?url=https://kuqilin.github.io/yue/post/hugo-reimu-i18n/&amp;text=Reimu%20%e4%b8%bb%e9%a2%98%e4%b8%8b%e7%9a%84%20i18n&amp;via=https://kuqilin.github.io/" target="_blank" rel="noopener noreferrer" title="Reimu 主题下的 i18n">
+      <div class="share-icon icon icon-twitter"></div>
+    </a><a href="javascript:;"  title="Reimu 主题下的 i18n">
+      <div class="share-icon icon icon-weixin"><div id="share-weixin">
+            <div class="share-weixin-dom">
+              <div class="share-weixin-content">
+                <img id="share-weixin-banner"> 
+                <div id="share-weixin-title"></div>
+                <div id="share-weixin-desc"></div>
+              </div>
+              <div class="share-weixin-qrcode">
+                <div class="share-weixin-info">
+                  <div id="share-weixin-author"></div>
+                  <div id="share-weixin-theme">Powered By hugo-theme-reimu</div>
+                </div>
+                <img id="share-weixin-qr" >
+              </div>
+            </div>
+            <div class="share-weixin-canvas"></div>
+          </div></div>
+    </a></div><a
+          data-aos="zoom-in"
+          href="/yue/post/hugo-reimu-i18n/#comments"
+          class="article-comment-link"
+        >
+          <span
+            class="post-comments-count waline-comment-count"
+            data-path="/yue/post/hugo-reimu-i18n/"
+            itemprop="commentCount"
+          ></span>
+          留言
+        </a><span
+          data-aos="zoom-in"
+          class="article-visitor-link"
+        >
+          <span
+            class="waline-pageview-count"
+            data-path="/yue/post/hugo-reimu-i18n/"
+            >0</span
+          >
+          <em class="post-meta-item-text">閱讀量</em>
+        </span><ul class="article-category-list"><li class="article-tag-list-item" data-aos="zoom-in">
+    <a
+      class="article-category-link"
+      href="/yue/categories/%e6%95%99%e7%a8%8b"
+      data-aos="zoom-in"
+      >教程</a
+    >
+    </li></ul>
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/yue/tags/%e8%ae%b0%e5%bd%95"
+        rel="tag"
+        >记录</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/yue/tags/hugo"
+        rel="tag"
+        >Hugo</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/yue/tags/reimu"
+        rel="tag"
+        >Reimu</a
+      >
+    </li></ul>
+</footer>
+  </div><nav
+    id="article-nav"
+    aria-label="Article navigation"
+    data-aos="fade-up"
+  ><div class="article-nav-link-wrap left"><img
+            data-src="https://avatars.githubusercontent.com/u/8104776"
+            data-sizes="auto"
+            alt="Termux 安装 Hugo"
+            class="lazyload"
+          /><a
+          href="/yue/post/termux-install-hugo/"
+          aria-label="前一篇:Termux 安装 Hugo"
+          title="前一篇:Termux 安装 Hugo"
+        ></a>
+        <div class="article-nav-caption">前一篇</div>
+        <h3 class="article-nav-title">Termux 安装 Hugo</h3>
+      </div><div class="article-nav-link-wrap right"><img
+              data-src="https://t.alcy.cc/moe"
+              data-sizes="auto"
+              alt="一些有用的东西"
+              class="lazyload"
+            /><a
+          href="/yue/post/yi-xie-you-yong-de-dong-xi/"
+          aria-label="後一篇:一些有用的东西"
+          title="後一篇:一些有用的东西"
+        ></a>
+        <div class="article-nav-caption">後一篇</div>
+        <h3 class="article-nav-title">一些有用的东西</h3>
+      </div></nav></article><section id="comments" data-aos="fade-up">
+<div class="comment-header"><h2 class="comment-title">留低啲乜嘢！</h2>
+  <div class="comment-selector">
+    <div class="comment-selector-wrap"><div class="selector-item" data-selector="waline">
+          <span>waline</span>
+        </div></div>
+  </div>
+</div>
+
+<div class="comment-content"><div class="comment waline-comment" data-aos="fade-up"
+     >
+    </div></div>
+</section></section>
+        </div><footer id="footer" aria-label="Site footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info"><div style="display:flex; flex-direction:column; align-items:center;">
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:center; gap:0.2em;">
+    <span>All website licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a></span>
+    <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="Attribution" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="Non Commercial" style="max-width:1em; max-height:1em;">
+    <img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="ShareAlike" style="max-width:1em; max-height:1em;">
+  </div>
+</div><div>
+      <span class="icon-copyright"></span>2023-2026<span class="footer-info-sep rotate"></span>Kuqilin
+    </div><div>
+        基於&nbsp;<a
+          href="https://gohugo.io/"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          >Hugo</a
+        >&nbsp;Theme.<a
+          href="https://github.com/D-Sketon/hugo-theme-reimu"
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          >Reimu</a
+        >
+      </div><div>
+        <span class="icon-brush"
+          >&nbsp;29.4k</span
+        >
+        &nbsp;|&nbsp;
+        <span class="icon-coffee">&nbsp;01:07</span>
+      </div><div class="footer-beian">
+        <img
+          style="object-fit: contain;margin-right: 2px;"
+          src="https://icp.gov.moe/images/ico64.png"
+          alt=""
+          width="24"
+          height="24"
+        />
+        <a
+          target="_blank"
+          rel="noopener nofollow noreferrer"
+          href="https://icp.gov.moe/?keyword=20256767"
+          >萌ICP备20256767号</a
+        >
+      </div><div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv"
+          >總訪問量&nbsp;<span
+            id="busuanzi_value_site_pv"
+          ></span
+        ></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv"
+          >總訪客量&nbsp;<span
+            id="busuanzi_value_site_uv"
+          ></span
+        ></span>
+      </div></div>
+</footer>
+<div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div><div id="mask" class="hide"></div>
+      </div><nav id="mobile-nav" aria-label="Mobile navigation">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">文章目錄</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#为什么需要手动配置">为什么需要手动配置？</a></li>
+    <li><a href="#第一步调整内容文件夹结构">第一步：调整内容文件夹结构</a></li>
+    <li><a href="#第二步关联不同语言版本translationkey">第二步：关联不同语言版本（translationKey）</a></li>
+    <li><a href="#第三步在-hugotoml-中声明语言">第三步：在 <code>hugo.toml</code> 中声明语言</a></li>
+    <li><a href="#第四步处理主题未内置的自定义语言">第四步：处理「主题未内置」的自定义语言</a>
+      <ul>
+        <li><a href="#41-补充-paramsyml-中的文案翻译">4.1 补充 <code>params.yml</code> 中的文案翻译</a></li>
+        <li><a href="#42-创建独立的-i18n-翻译文件">4.2 创建独立的 <code>i18n</code> 翻译文件</a></li>
+      </ul>
+    </li>
+    <li><a href="#常见问题">常见问题</a></li>
+    <li><a href="#总结">总结</a></li>
+  </ul>
+</nav>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img
+    data-src="/avatar/avatar.jpg"
+    data-sizes="auto"
+    alt="Kuqilin"
+    class="lazyload"
+  />
+  <div class="sidebar-author-name">Kuqilin</div>
+  <div class="sidebar-description"></div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div><div class="sidebar-state-number">19</div>
+  </div>
+  <a class="sidebar-state-category" href="/yue/categories/" aria-label="sidebar-state-category-link">
+    <div>分類</div>
+    <div class="sidebar-state-number">
+      6
+    </div>
+  </a>
+  <a class="sidebar-state-tag" href="/yue/tags/" aria-label="sidebar-state-tag-link">
+    <div>標簽</div>
+    <div class="sidebar-state-number">21</div>
+  </a>
+</div>
+<div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
+        <a
+          href="mailto:kuqilin@outlook.com"
+          itemprop="url"
+          target="_blank"
+          aria-label="email"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-github sidebar-social-icon">
+        <a
+          href="https://github.com/kuqilin"
+          itemprop="url"
+          target="_blank"
+          aria-label="github"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div><div class="icon-twitter sidebar-social-icon">
+        <a
+          href="https://twitter.com/thirtyseven0727"
+          itemprop="url"
+          target="_blank"
+          aria-label="twitter"
+          rel="noopener nofollow noreferrer"
+        ></a>
+      </div></div><div class="sidebar-menu"><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/yue/"
+        aria-label="首頁"
+      ></a><div class='sidebar-menu-icon icon '>&#xf015;</div><div class="sidebar-menu-link">首頁</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/yue/archives"
+        aria-label="收埋"
+      ></a><div class='sidebar-menu-icon icon '>&#xf187;</div><div class="sidebar-menu-link">收埋</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/yue/about"
+        aria-label="關於"
+      ></a><div class='sidebar-menu-icon icon '>&#xf05a;</div><div class="sidebar-menu-link">關於</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/yue/friend"
+        aria-label="好朋友"
+      ></a><div class='sidebar-menu-icon icon '>&#xf500;</div><div class="sidebar-menu-link">好朋友</div>
+    </div><div class="sidebar-menu-link-wrap">
+      <a
+        class="sidebar-menu-link-dummy"
+        href="/yue/changelog"
+        aria-label="日誌"
+      ></a><div class='sidebar-menu-icon icon '>&#xf1da;</div><div class="sidebar-menu-link">日誌</div>
+    </div></div></div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
+</div><script
+    src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
+    
+    
+    
+    
+    integrity="sha384-3gT/vsepWkfz/ff7PpWNUeMzeWoH3cDhm/A8jM7ouoAK0/fP/9bcHHR5kHq2nf&#43;e" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js"
+    
+    
+    
+    
+    integrity="sha384-J08i8An/QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script><script src="/js/main.js" integrity="" crossorigin="anonymous"  ></script><script src="/js/aos.js" integrity="" crossorigin="anonymous"  ></script><script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", aosInit);
+    } else {
+      aosInit();
+    }
+  </script><script src="/js/pjax_main.js" integrity="" crossorigin="anonymous" data-pjax ></script><script>
+  var setupFirework = () => {
+    if (! false  || !window.matchMedia('(max-width: 768px)').matches) {
+      if (window.firework) {
+        const options = JSON.parse("{\"excludeelements\":[\"a\",\"button\"],\"particles\":[{\"colors\":[\"var(--red-1)\",\"var(--red-2)\",\"var(--red-3)\",\"var(--red-4)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"emit\"],\"number\":20,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.3,0.5],\"radius\":[16,32]}},{\"colors\":[\"var(--red-0)\"],\"duration\":[1200,1800],\"easing\":\"easeOutExpo\",\"move\":[\"diffuse\"],\"number\":1,\"shape\":\"circle\",\"shapeOptions\":{\"alpha\":[0.2,0.5],\"lineWidth\":6,\"radius\":20}}]}");
+        options.excludeElements = options.excludeelements;
+        delete options.excludeelements;
+        window.firework(options);
+      }
+    }
+  }
+</script><script
+    src="https://npm.webcache.cn/mouse-firework@0.2.0/dist/index.umd.js"
+    defer
+    
+    
+    onload="setupFirework()"
+    integrity="sha384-qi9WggRt19tv8Vc7pCHW3ulMNLwrn515zaLEWZjl1px07vz8&#43;pUoWX8n1rgq282T" crossorigin="anonymous"></script>
+
+<div id="lazy-script">
+  <div><script data-pjax>
+        window.REIMU_POST = {
+          author: "Kuqilin",
+          title: "Reimu 主题下的 i18n",
+          url: "https:\/\/kuqilin.github.io\/yue\/post\/hugo-reimu-i18n\/",
+          description: "Hugo Reimu 主题多语言配置完整指南",
+          cover: "https:\/\/pic1.imgdb.cn\/i\/033qsxbGq3YWMYivyfpFLC.png",
+        };
+      </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax ></script><script src="/js/tabs.js" integrity="" crossorigin="anonymous" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {
+          if (_$$(`${gallery} ${children}`).length > 0) {
+            new PhotoSwipeLightbox({
+              gallery,
+              children,pswpModule: () => safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8\u002boTJ7m3DfYEWX1fu1scuS4\u002bs")}).init();
+          }
+        }
+        const pswp = () => {
+          initPswp('.article-entry', 'a.article-gallery-item');
+          initPswp('.article-gallery', 'a.article-gallery-item');
+        }
+        pswp()
+      </script><script data-pjax>
+  var loadScript = (src, integrity) => {
+    const script = document.createElement('script');
+    script.src = src;
+    if (integrity) script.integrity = integrity;
+    script.crossOrigin = 'anonymous';
+    return script;
+  };
+  var commentConfigKeys = ['valine', 'waline', 'twikoo', 'gitalk', 'giscus', 'utterances', 'beaudar', 'disqus'];
+  var commentConfig = {waline: {
+      enable: true,
+      load: async () => {
+        const container = document.querySelector('.waline-comment');
+        if (!container) return;
+        container.style.display = 'block';
+
+        let walineInit;
+        const walineCdn = 'https:\/\/npm.webcache.cn\/@waline\/client@2.15.8\/dist\/waline.mjs';
+        
+        if ('webcache|@waline\/client@2.15.8\/dist\/waline.mjs'.startsWith('local')) {
+          
+          const module = await safeImport(walineCdn);
+          walineInit = module.init;
+        } else {
+          
+          const module = await safeImport(
+            walineCdn, 
+            'sha384-9sbqJjrfGjbkI6\/PI4nU\/MvBfEmkkPC4YK9I4zBeMIf1CVCZdCMH\/KinBEAZII\/5'
+          );
+          walineInit = module.init;
+        }
+        
+        window.walineInstance = walineInit({
+          el: '.waline-comment',
+          serverURL: 'comments.kuqilin.eu.org',
+          lang: document.documentElement.lang || 'en',
+          locale: JSON.parse("{}"),
+          emoji: JSON.parse("[\"https://unpkg.com/@waline/emojis@1.2.0/weibo\",\"https://unpkg.com/@waline/emojis@1.2.0/alus\",\"https://unpkg.com/@waline/emojis@1.2.0/bilibili\",\"https://unpkg.com/@waline/emojis@1.2.0/qq\",\"https://unpkg.com/@waline/emojis@1.2.0/tieba\",\"https://unpkg.com/@waline/emojis@1.2.0/tw-emoji\"]"),
+          meta: JSON.parse("[\"nick\",\"mail\",\"link\"]"),
+          requiredMeta: JSON.parse("[\"nick\",\"mail\"]"),
+          wordLimit:  0 ,
+          comment: true,
+          pageSize:  10 ,
+          dark: 'html[data-theme="dark"]',
+          pageview:  true ,
+        });
+      }
+    },};
+  commentConfig.enable = commentConfigKeys.some(key => commentConfig?.[key]?.enable);
+
+  var defaultComment = '';
+  if (commentConfig.enable) {
+    
+    var savedCommentType = localStorage.getItem('commentType');
+    
+    
+    if (savedCommentType) {
+      if (commentConfig[savedCommentType]?.enable) {
+        defaultComment = savedCommentType;
+      }
+    }
+    
+    
+    if (!defaultComment) {
+      var configDefault = 'waline';
+      if (commentConfig[configDefault]?.enable) {
+        defaultComment = configDefault;
+      }
+    }
+    
+    
+    if (!defaultComment) {
+      defaultComment = commentConfigKeys.find(sys => commentConfig?.[sys]?.enable) || '';
+    }
+  }
+
+  function loadComments() {
+    if (!commentConfig.enable) return;
+    
+    const loadedComments = {
+      valine: false,
+      waline: false,
+      twikoo: false,
+      gitalk: false,
+      giscus: false,
+      disqus: false,
+      utterances: false,
+      beaudar: false,
+    };
+
+    
+    const hideAllComments = () => {
+      const commentContainers = document.querySelectorAll('.comment');
+      commentContainers.forEach(container => {
+        container.style.display = 'none';
+      });
+    };
+
+    
+    const loadCommentSystem = (type) => {
+      if (loadedComments[type]) {
+        
+        document.querySelector(`.${type}-comment`).style.display = 'block';
+        return;
+      }
+
+      
+      commentConfig[type]?.load();
+      loadedComments[type] = true;
+    };
+
+    
+    const changeActiveCommentItems = (item) => {
+      const commentItems = document.querySelectorAll('.selector-item');
+      for (let i = 0; i < commentItems.length; i++) {
+        commentItems[i].classList.remove('active');
+      }
+      item.classList.add('active');
+
+      
+      const commentType = item.getAttribute('data-selector');
+
+      
+      hideAllComments();
+
+      
+      loadCommentSystem(commentType);
+    };
+
+    const commentInit = () => {
+      
+      const commentItems = document.querySelectorAll('.selector-item');
+      for (let item of commentItems) {
+        item.addEventListener('click', () => {
+          
+          const commentType = item.getAttribute('data-selector');
+          window.localStorage.setItem('commentType', commentType);
+          
+          changeActiveCommentItems(item);
+        });
+      }
+
+      
+      if (defaultComment) {
+        const defaultSelectorItem = document.querySelector(`[data-selector="${defaultComment}"]`);
+        if (!defaultSelectorItem) return;
+        defaultSelectorItem.style.display = 'block';
+        defaultSelectorItem.classList.add('active');
+        loadCommentSystem(defaultComment);
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', commentInit);
+    } else {
+      commentInit();
+    }
+  };
+  loadComments();
+</script><script
+    src="https://npm.webcache.cn/qrcode@1.5.1/build/qrcode.js"
+    defer
+    
+    data-pjax
+    
+    integrity="sha384-VT1EeewTCEXgndcPMQ0PzV&#43;uVFYjxFIjmAA7s5gcMX9t4Dt5TD&#43;OVQIn7NJWIXn7" crossorigin="anonymous"></script><script
+    src="https://npm.webcache.cn/@zumer/snapdom@1.9.14/dist/snapdom.min.js"
+    defer
+    
+    data-pjax
+    
+    integrity="sha384-OEQ&#43;fJp/Mvi2uzBREXybtxryJvLytWapuHu4EE6LPwTKUwATYcc55tPPcZTzVcmx" crossorigin="anonymous"></script></div>
+</div><script
+    src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js"
+    
+    async
+    
+    
+    integrity="sha384-0M75wtSkhjIInv4coYlaJU83&#43;OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id&#43;S" crossorigin="anonymous"></script><script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then((registrations) => {
+        for (let registration of registrations) {
+          registration.unregister();
+        }
+      });
+    }
+  </script><script>
+  const reimuCopyright = String.raw`
+   ______     ______     __     __    __     __  __    
+  /\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+  \ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+   \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+    \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                    
+  `;
+  console.log(String.raw`%c ${reimuCopyright}`, "color: #ff5252;");
+  console.log(
+    "%c Theme.Reimu" + " %c https://github.com/D-Sketon/hugo-theme-reimu ",
+    "color: white; background: #ff5252; padding:5px 0;",
+    "padding:4px;border:1px solid #ff5252;",
+  );
+</script><!-- Live2D 看板娘 (pixi-live2d-display) 开始 -->
+<style>
+  #live2dcanvas {
+    position: fixed;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    width: 390px;
+    height: 520px;
+    z-index: 99999;
+    pointer-events: auto;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 959px) {
+    #live2dcanvas { display: none !important; }
+  }
+</style>
+<canvas id="live2dcanvas" width="900" height="1200"></canvas>
+<script src="https://cdn.jsdelivr.net/npm/pixi.js@7/dist/pixi.min.js"></script>
+<script src="https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/pixi-live2d-display/dist/cubism4.min.js"></script>
+<script>
+(async function() {
+  const canvas = document.getElementById('live2dcanvas');
+  const app = new PIXI.Application({
+    view: canvas,
+    width: 960,
+    height: 1280,
+    backgroundAlpha: 0,
+    premultipliedAlpha: true
+  });
+  const model = await PIXI.live2d.Live2DModel.from('/live2d/37_skin4/v2a2_306604_37.model3.json');
+  model.scale.set(0.28);
+  model.x = -100;
+  model.y = 450;
+  app.stage.addChild(model);
+
+  // 所有动作（泉眼深处皮肤）
+  const allMotions = [
+    'b_diantou','b_feizou','b_fumo','b_gongji','b_idle',
+    'b_jiangluo','b_jiangluo2','b_naxia','b_qiwu','b_ruchang',
+    'b_shenshou','b_shuzi','b_sisuo','b_tielian','b_tielian2',
+    'b_tielian3','b_tiyi','b_xinxu','b_yaotou','b_zhanshi',
+    't_biyan','t_biyan_bizui','t_bizui','t_chijing','t_chijing_bizui',
+    't_gongji','t_idle','t_kaixin','t_kaixin_bizui','t_nanguo',
+    't_nanguo_bizui','t_shengqi','t_shengqi_bizui','t_shishen',
+    't_shishen_bizui','t_yansu','t_yansu_bizui'
+  ];
+
+  let loopTimer = null;
+
+  function playRandomMotion() {
+    clearTimeout(loopTimer);
+    const name = allMotions[Math.floor(Math.random() * allMotions.length)];
+    console.log('Playing motion:', name);
+    model.internalModel.motionManager.startMotion(name, 0);
+    loopTimer = setTimeout(playRandomMotion, 5000);
+  }
+
+  // 等模型准备好
+  setTimeout(playRandomMotion, 500);
+
+  canvas.addEventListener('click', playRandomMotion);
+  canvas.addEventListener('touchstart', function(e) { e.preventDefault(); playRandomMotion(); });
+})();
+</script>
+<!-- Live2D 看板娘 (pixi-live2d-display) 结束 -->
+<script>
+(function () {
+  function scan() {
+    document.querySelectorAll(".article-entry img").forEach(function (img) {
+      // 对B站图床的图片禁用Referer，绕过防盗链
+      if (/hdslb\.com/.test(img.src)) {
+        img.referrerPolicy = "no-referrer";
+      }
+    });
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", scan);
+  } else {
+    scan();
+  }
+})();
+</script>
+</body>
+</html>

@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 11:43:32 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/en/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,19 +22,81 @@
     
 
     <item>
-      <title>Website Mascot — 37 &#34;Spring&#39;s Depths&#34;</title>
+      <title>望文生义 · 成语辨析小测</title>
+      <link>https://kuqilin.github.io/en/post/wang-wen-sheng-yi-ce-yu/</link>
+      <pubDate>Sun, 16 Aug 2026 11:22:15 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/wang-wen-sheng-yi-ce-yu/</guid>
+      <description>
+        <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
+        
+        <hr><p>Published on 2026-08-16 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-08-16</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>一些有用的东西</title>
+      <link>https://kuqilin.github.io/en/post/yi-xie-you-yong-de-dong-xi/</link>
+      <pubDate>Sat, 15 Aug 2026 23:50:24 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/yi-xie-you-yong-de-dong-xi/</guid>
+      <description>
+        <![CDATA[<h1>一些有用的东西</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          <p>这里放一些小工具、网页之类的。</p>
+<a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz.html" title="315 望文生义成语辨析小测" target="_blank">315 望文生义成语辨析小测</a>
+<a href="https://kuqilin.github.io/docs/leizhou-guide.html" title="雷州一日游" target="_blank">雷州一日游</a>
+<a href="https://kuqilin.github.io/docs/xuwen-guide.html" title="徐闻一日游" target="_blank">徐闻一日游</a>
+        
+        <hr><p>Published on 2026-08-15 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-08-15</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>37 签名 SVG 图片</title>
+      <link>https://kuqilin.github.io/en/post/37-signature/</link>
+      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/37-signature/</guid>
+      <description>
+        <![CDATA[<h1>37 签名 SVG 图片</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+        
+        <hr><p>Published on 2026-07-22 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-08-01</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>网站看板娘 —— 37 泉眼深处</title>
       <link>https://kuqilin.github.io/en/post/kan-ban-niang/</link>
       <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/en/post/kan-ban-niang/</guid>
       <description>
-        <![CDATA[<h1>Website Mascot — 37 "Spring's Depths"</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          <p>Updated again — now using Cloudflare R2 storage buckets, bound to the <code>kuqilin.eu.org</code> domain. You can now <del>gorge yourself on</del> enjoy it at a reasonable pace. It&rsquo;s way faster than jsDelivr! Within 20 seconds, 99% of users can load it. Go admire &ldquo;Spring&rsquo;s Depths&rdquo; already 😠😠😠</p>
-<p>After all kinds of battling wits (not really), I&rsquo;ve finally got the website mascot working — a silent 37.<br>
-Why &ldquo;battling wits&rdquo;? Check <a href="/en/post/kan-ban-niang/#37-springs-depths">below</a>. It wasn&rsquo;t easy. Turns out those little white patches were likely caused by a minor issue during the unpacking process by the original creator, leaving a white patch in the model texture. Looking at the texture image, it already seemed odd. I checked the skin in-game and saw there was nothing there originally, so I used IsoPix Pro to erase the white patch — finally, no more white blocks! (Should be fine, hopefully.)<br>
-I also adjusted the model&rsquo;s position and size a bit. Unfortunately, I haven&rsquo;t yet figured out how to add things like sign-holding or dialog boxes, so the mascot is a bit dopey.<br>
-Oh, and connecting directly to GitHub from mainland China is still a pain — even uploading the moc3 file to jsDelivr didn&rsquo;t speed things up much. In the worst case, it could take you 2 whole minutes to see the beautiful 37! (Best case: 3 seconds.)</p>
+          <h2 id="再次更新">
+<a class="header-anchor" href="#%e5%86%8d%e6%ac%a1%e6%9b%b4%e6%96%b0"></a>
+再次更新
+</h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
         
         <hr><p>Published on 2026-07-28 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-29</p>]]>
       </description>
@@ -46,15 +108,21 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>37 Signature SVG</title>
-      <link>https://kuqilin.github.io/en/post/37-signature/</link>
-      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <title>大道雅文答案（AI生成）</title>
+      <link>https://kuqilin.github.io/en/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</link>
+      <pubDate>Wed, 22 Jul 2026 17:10:00 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/en/post/37-signature/</guid>
+      <guid>https://kuqilin.github.io/en/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</guid>
       <description>
-        <![CDATA[<h1>37 Signature SVG</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>大道雅文答案（AI生成）</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          AI-generated summary: Used AI to create 37&rsquo;s SVG signature, and shared multiple versions along with the complete source code.
+          <h1 id="大道雅文融合读写全部任务一答案">
+<a class="header-anchor" href="#%e5%a4%a7%e9%81%93%e9%9b%85%e6%96%87%e8%9e%8d%e5%90%88%e8%af%bb%e5%86%99%e5%85%a8%e9%83%a8%e4%bb%bb%e5%8a%a1%e4%b8%80%e7%ad%94%e6%a1%88"></a>
+大道雅文融合读写——全部任务一答案
+</h1><h2 id="总第44期任务一老旧小区改造">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac44%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e8%80%81%e6%97%a7%e5%b0%8f%e5%8c%ba%e6%94%b9%e9%80%a0"></a>
+总第44期·任务一：老旧小区改造
+</h2><p>近年来，全国多地推进老旧小区改造工程，这一民生实践与中华文明&quot;民为邦本&quot;&ldquo;富民调均&quot;&ldquo;天人合一&quot;&ldquo;和合共生&quot;等传统理念深度契合，彰显了中国式现代化的文化底蕴。</p>
         
         <hr><p>Published on 2026-07-22 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-22</p>]]>
       </description>
@@ -66,15 +134,15 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>Building a Personal Blog with Hugo</title>
+      <title>Hugo 搭建个人博客</title>
       <link>https://kuqilin.github.io/en/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/en/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Building a Personal Blog with Hugo</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          A record of my experience building a Hugo blog on GitHub Pages
+          记录了我在 GitHub Pages 搭建 Hugo 的经历
         
         <hr><p>Published on 2026-07-11 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
       </description>
@@ -86,74 +154,74 @@ Oh, and connecting directly to GitHub from mainland China is still a pain — ev
     
 
     <item>
-      <title>Schools I&#39;ve Visited</title>
+      <title>我去过的学校</title>
       <link>https://kuqilin.github.io/en/post/wo-qu-guo-de-xue-xiao/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/en/post/wo-qu-guo-de-xue-xiao/</guid>
       <description>
-        <![CDATA[<h1>Schools I've Visited</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        <![CDATA[<h1>我去过的学校</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          <h1 id="schools-ive-visited">
-<a class="header-anchor" href="#schools-ive-visited"></a>
-Schools I&rsquo;ve Visited
-</h1><p>It suddenly occurred to me that I&rsquo;ve been to quite a few schools, so I thought I&rsquo;d list them in a table — where and for what:</p>
-<p>(In no particular order, just as I remember them)</p>
+          <h1 id="我去过的学校">
+<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e8%bf%87%e7%9a%84%e5%ad%a6%e6%a0%a1"></a>
+我去过的学校
+</h1><p>忽然觉得自己去过很多学校，便想着列个表格出来看看都去过哪些、去干嘛的：</p>
+<p>（排名不分前后，按记忆顺序）</p>
 <table>
 	<thead>
 			<tr>
-					<th style="text-align: center">School</th>
-					<th style="text-align: center">Reason</th>
+					<th style="text-align: center">去过的学校</th>
+					<th style="text-align: center">原因</th>
 			</tr>
 	</thead>
 	<tbody>
 			<tr>
-					<td style="text-align: center">Guangzhou No.6 Middle School</td>
-					<td style="text-align: center">CSP-J Round 2</td>
+					<td style="text-align: center">广州市第六中学</td>
+					<td style="text-align: center">CSP-J 复赛</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">Guangzhou Tieyi Middle School (Yuexiu Campus)</td>
-					<td style="text-align: center">CSP-J/S Round 1</td>
+					<td style="text-align: center">广州市铁一中学（越秀校区）</td>
+					<td style="text-align: center">CSP-J/S 初赛</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">Guangdong Guangya High School (Huadu Campus)</td>
-					<td style="text-align: center">Attending high school</td>
+					<td style="text-align: center">广东广雅中学（花都校区）</td>
+					<td style="text-align: center">上高中</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">Guangzhou No.89 Middle School</td>
-					<td style="text-align: center">Yingcai Program accommodation</td>
+					<td style="text-align: center">广州市第八十九中学</td>
+					<td style="text-align: center">英才计划住宿</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">Guangzhou No.2 Middle School</td>
-					<td style="text-align: center">Competition</td>
+					<td style="text-align: center">广州市第二中学</td>
+					<td style="text-align: center">打比赛</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">The Affiliated High School of Guangzhou University (University Town Campus)</td>
-					<td style="text-align: center">CSP-J/S competition &amp; GUDA Affiliated Schools University Town Marathon</td>
+					<td style="text-align: center">广州大学附属中学（大学城校区）</td>
+					<td style="text-align: center">CSP-J/S比赛&amp;&amp;广大附教育集团环大学城拉练活动</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">BNU Affiliated High School Guangzhou Experimental School (I think that&rsquo;s the name)</td>
-					<td style="text-align: center">Guangzhou Youth Science &amp; Tech Education Summer Camp</td>
+					<td style="text-align: center">北京师范大学附属中学广州实验学校（好像是这个名字）</td>
+					<td style="text-align: center">广州市青少年科技教育夏令营</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">Guangzhou Zengcheng Yingyuan School</td>
-					<td style="text-align: center">Same as above</td>
+					<td style="text-align: center">广州市增城区应元学校</td>
+					<td style="text-align: center">同上</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">Guangzhou Huadu Huaguang Jinshi School (formerly GUDA Affiliated Huadu Shiling Experimental School)</td>
-					<td style="text-align: center">Attending middle school</td>
+					<td style="text-align: center">广州市花都区花广金狮学校（原广州大学附属中学花都狮岭实验学校）</td>
+					<td style="text-align: center">上初中</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">Guangzhou Huadu Huaguang School (formerly GUDA Affiliated Huadu Experimental School)</td>
-					<td style="text-align: center">Visit &amp; placement test (?)</td>
+					<td style="text-align: center">广州市花都区花广学校（原广州大学附属中学花都实验学校）</td>
+					<td style="text-align: center">参观&amp;&amp;密考（？）</td>
 			</tr>
 			<tr>
-					<td style="text-align: center">GUDA Affiliated Zilan School (Huadu)</td>
-					<td style="text-align: center">Competition</td>
+					<td style="text-align: center">广州市花都区广州大学附属中学紫兰学校</td>
+					<td style="text-align: center">打比赛</td>
 			</tr>
 	</tbody>
 </table>
-<details>You shouldn't be seeing this</details>
+<details>你不应看到这里</details>
         
         <hr><p>Published on 2025-02-22 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-12</p>]]>
       </description>
@@ -173,8 +241,8 @@ Schools I&rsquo;ve Visited
       <description>
         <![CDATA[<h1>20260517</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          <p>A rare, leisurely weekend — slowly doing homework, slowly taking a walk, slowly eating a meal, not rushed at all. Not much homework, no more rage bait pushed to me, comfortably mild weather. It&rsquo;s been a long time since I&rsquo;ve had a weekend like this <del>(probably because I stopped scrolling short videos)</del>.<br>
-Ever since I turned off Bilibili&rsquo;s personalized recommendations, all I get are high-quality videos, and the endless-scroll feature is basically gone too. Much better than before, when I&rsquo;d come across things like</p>
+          <p>难得一个清闲的周末，慢慢地写作业、慢慢地出去走走、慢慢地吃个饭，一点都不急。作业也少，rage bait 也不推了，温度很舒适。很久没过这样的周末了 <del>（可能是没刷短视频的原因吧）</del> 。<br>
+自从把 B 站的个性化推荐关掉之后，推给我的都是高质量视频，刷视频功能也没掉了，比起以前来个</p>
         
         <hr><p>Published on 2026-05-17 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-05-17</p>]]>
       </description>

@@ -12,7 +12,7 @@
     
     <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
     
-    <lastBuildDate>Tue, 28 Jul 2026 17:43:14 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 17:15:02 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/zh-tw/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,15 +22,35 @@
     
 
     <item>
-      <title>Termux 安裝 Hugo</title>
+      <title>Reimu 主题下的 i18n</title>
+      <link>https://kuqilin.github.io/zh-tw/post/hugo-reimu-i18n/</link>
+      <pubDate>Sat, 01 Aug 2026 17:15:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/hugo-reimu-i18n/</guid>
+      <description>
+        <![CDATA[<h1>Reimu 主题下的 i18n</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。
+        
+        <hr><p>本文2026-08-01首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Termux 安装 Hugo</title>
       <link>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</link>
       <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</guid>
       <description>
-        <![CDATA[<h1>Termux 安裝 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          用 Go 編譯 Hugo Extended，解決 Termux arm64 無預編譯二進位制檔案的問題
+          用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-28</p>]]>
       </description>

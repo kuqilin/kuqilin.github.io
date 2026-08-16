@@ -12,7 +12,7 @@
     
     <copyright>本博客所有文章除特别聲明外，均采用 BY-NC-SA 許可協議。轉載請註明出處！</copyright>
     
-    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 11:43:32 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/yue/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,19 +22,81 @@
     
 
     <item>
-      <title>網站看板娘 —— 37 泉眼深處</title>
+      <title>望文生义 · 成语辨析小测</title>
+      <link>https://kuqilin.github.io/yue/post/wang-wen-sheng-yi-ce-yu/</link>
+      <pubDate>Sun, 16 Aug 2026 11:22:15 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/yue/post/wang-wen-sheng-yi-ce-yu/</guid>
+      <description>
+        <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
+        
+        <hr><p>本文2026-08-16首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>一些有用的东西</title>
+      <link>https://kuqilin.github.io/yue/post/yi-xie-you-yong-de-dong-xi/</link>
+      <pubDate>Sat, 15 Aug 2026 23:50:24 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/yue/post/yi-xie-you-yong-de-dong-xi/</guid>
+      <description>
+        <![CDATA[<h1>一些有用的东西</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>这里放一些小工具、网页之类的。</p>
+<a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz.html" title="315 望文生义成语辨析小测" target="_blank">315 望文生义成语辨析小测</a>
+<a href="https://kuqilin.github.io/docs/leizhou-guide.html" title="雷州一日游" target="_blank">雷州一日游</a>
+<a href="https://kuqilin.github.io/docs/xuwen-guide.html" title="徐闻一日游" target="_blank">徐闻一日游</a>
+        
+        <hr><p>本文2026-08-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-15</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Reimu 主题下的 i18n</title>
+      <link>https://kuqilin.github.io/yue/post/hugo-reimu-i18n/</link>
+      <pubDate>Sat, 01 Aug 2026 17:15:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/yue/post/hugo-reimu-i18n/</guid>
+      <description>
+        <![CDATA[<h1>Reimu 主题下的 i18n</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。
+        
+        <hr><p>本文2026-08-01首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>网站看板娘 —— 37 泉眼深处</title>
       <link>https://kuqilin.github.io/yue/post/kan-ban-niang/</link>
       <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/kan-ban-niang/</guid>
       <description>
-        <![CDATA[<h1>網站看板娘 —— 37 泉眼深處</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>再次更新，用咗 Cloudflare 嘅 R2 儲存桶，綁咗 <code>kuqilin.eu.org</code> 域名，可以 <del>盡情</del> 適度咁用喇。速度比 jsDelivr 快好多！20 秒之內 99% 嘅用戶都 load 到出嚟。個個都同我去欣賞「泉眼深處」😠😠😠</p>
-<p>太好喇，經歷咗各種鬥智鬥勇（唔係）終於將網站看板娘搞掂咗 —— 一個唔會講嘢嘅 37。<br>
-點解話鬥智鬥勇呢？你睇<a href="/yue/post/kan-ban-niang/#37-%e6%b3%89%e7%9c%bc%e6%b7%b1%e8%99%95">下面</a>。唔容易啊，最後發現有呢啲白色方塊大概係因為大佬解包嘅過程入面出咗啲小問題，搞到模型圖片裏面有一個白塊，嗰陣睇模型圖片就覺得怪，上咗 game 睇皮膚，發現本來呢度乜都冇，於是就用 IsoPix Pro 將白塊擦咗，發現終於冇白塊喇（應該唔會有咩問題嘅）。<br>
-然後都將模型擺放位置同大小做咗啲調整。可惜嘅係暫時仲未識點樣畀佢添加例如舉牌、對話框呢啲，所以看板娘蠢蠢哋。<br>
-唉，國內裸連 GitHub 都仲係唔好，將 moc3 文件上傳到 jsDelivr 上面都唔見得快幾多，你哋最壞情況要 2 分鐘先見到靚靚嘅 37！（最好情況係 3 秒）</p>
+          <h2 id="再次更新">
+<a class="header-anchor" href="#%e5%86%8d%e6%ac%a1%e6%9b%b4%e6%96%b0"></a>
+再次更新
+</h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
       </description>
@@ -46,15 +108,15 @@
     
 
     <item>
-      <title>Termux 安裝 Hugo</title>
+      <title>Termux 安装 Hugo</title>
       <link>https://kuqilin.github.io/yue/post/termux-install-hugo/</link>
       <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/termux-install-hugo/</guid>
       <description>
-        <![CDATA[<h1>Termux 安裝 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          用 Go 編譯 Hugo Extended，解決 Termux arm64 冇預編譯二進制文件嘅問題
+          用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-28</p>]]>
       </description>
@@ -66,15 +128,15 @@
     
 
     <item>
-      <title>Hugo 搭建個人博客</title>
+      <title>Hugo 搭建个人博客</title>
       <link>https://kuqilin.github.io/yue/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/yue/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Hugo 搭建個人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          記錄咗我喺 GitHub Pages 搭建 Hugo 嘅經歷
+          记录了我在 GitHub Pages 搭建 Hugo 的经历
         
         <hr><p>本文2026-07-11首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
       </description>

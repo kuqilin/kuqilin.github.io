@@ -22,15 +22,15 @@
     
 
     <item>
-      <title>復刻 Telegram 的 AI 編輯器</title>
+      <title>复刻 Telegram 的 AI 编辑器</title>
       <link>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</link>
       <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</guid>
       <description>
-        <![CDATA[<h1>復刻 Telegram 的 AI 編輯器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          本文收集並整合了多個民間復刻版 Telegram AI 編輯器的提示詞，涵蓋 Telegram 官方提供的六種風格及表情化功能。文章<strong>單一版本</strong>提供了八種風格的獨立提示詞，每條提示詞均要求嚴格模仿 Cocoon AI 的改寫邏輯，只輸出正文、保留核心資訊、不篡改原意；<strong>整合版本</strong>則將所有風格合併為一個提示詞，通過輸入風格關鍵詞即可在單一對話中切換不同文風進行改寫。
+          本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
         
         <hr><p>本文2026-07-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
       </description>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/zh-tw/tags/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
+    
+    <lastBuildDate>Sat, 15 Aug 2026 23:50:24 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/zh-tw/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>一些有用的东西</title>
+      <link>https://kuqilin.github.io/zh-tw/post/yi-xie-you-yong-de-dong-xi/</link>
+      <pubDate>Sat, 15 Aug 2026 23:50:24 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/yi-xie-you-yong-de-dong-xi/</guid>
+      <description>
+        <![CDATA[<h1>一些有用的东西</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>这里放一些小工具、网页之类的。</p>
+<a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz.html" title="315 望文生义成语辨析小测" target="_blank">315 望文生义成语辨析小测</a>
+<a href="https://kuqilin.github.io/docs/leizhou-guide.html" title="雷州一日游" target="_blank">雷州一日游</a>
+<a href="https://kuqilin.github.io/docs/xuwen-guide.html" title="徐闻一日游" target="_blank">徐闻一日游</a>
+        
+        <hr><p>本文2026-08-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-15</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+  </channel>
+</rss>

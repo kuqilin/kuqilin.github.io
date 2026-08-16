@@ -12,7 +12,7 @@
     
     <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
     
-    <lastBuildDate>Wed, 29 Jul 2026 14:41:02 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 11:43:32 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/zh-tw/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,35 +22,121 @@
     
 
     <item>
-      <title>網站看板娘 —— 37 泉眼深處</title>
-      <link>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</link>
-      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
+      <title>望文生义 · 成语辨析小测</title>
+      <link>https://kuqilin.github.io/zh-tw/post/wang-wen-sheng-yi-ce-yu/</link>
+      <pubDate>Sun, 16 Aug 2026 11:22:15 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</guid>
+      <guid>https://kuqilin.github.io/zh-tw/post/wang-wen-sheng-yi-ce-yu/</guid>
       <description>
-        <![CDATA[<h1>網站看板娘 —— 37 泉眼深處</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          <p>再次更新，用上了 Cloudflare 的 R2 儲存桶，綁了<code>kuqilin.eu.org</code>域名，可以 <del>盡情</del> 適度食用了。速度比 jsDelivr 快多了！20 秒之內 99% 的使用者都能加載出來了。都去給我欣賞「泉眼深處」😠😠😠</p>
+          <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
         
-        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
+        <hr><p>本文2026-08-16首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p>]]>
       </description>
       
-        <category>記錄</category>
+        <category>记录</category>
       
     </item>
     
     
 
     <item>
-      <title>Termux 安裝 Hugo</title>
+      <title>一些有用的东西</title>
+      <link>https://kuqilin.github.io/zh-tw/post/yi-xie-you-yong-de-dong-xi/</link>
+      <pubDate>Sat, 15 Aug 2026 23:50:24 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/yi-xie-you-yong-de-dong-xi/</guid>
+      <description>
+        <![CDATA[<h1>一些有用的东西</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>这里放一些小工具、网页之类的。</p>
+<a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz.html" title="315 望文生义成语辨析小测" target="_blank">315 望文生义成语辨析小测</a>
+<a href="https://kuqilin.github.io/docs/leizhou-guide.html" title="雷州一日游" target="_blank">雷州一日游</a>
+<a href="https://kuqilin.github.io/docs/xuwen-guide.html" title="徐闻一日游" target="_blank">徐闻一日游</a>
+        
+        <hr><p>本文2026-08-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-15</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Reimu 主题下的 i18n</title>
+      <link>https://kuqilin.github.io/zh-tw/post/hugo-reimu-i18n/</link>
+      <pubDate>Sat, 01 Aug 2026 17:15:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/hugo-reimu-i18n/</guid>
+      <description>
+        <![CDATA[<h1>Reimu 主题下的 i18n</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。
+        
+        <hr><p>本文2026-08-01首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>37 签名 SVG 图片</title>
+      <link>https://kuqilin.github.io/zh-tw/post/37-signature/</link>
+      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/37-signature/</guid>
+      <description>
+        <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+        
+        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>网站看板娘 —— 37 泉眼深处</title>
+      <link>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</link>
+      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</guid>
+      <description>
+        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h2 id="再次更新">
+<a class="header-anchor" href="#%e5%86%8d%e6%ac%a1%e6%9b%b4%e6%96%b0"></a>
+再次更新
+</h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
+        
+        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Termux 安装 Hugo</title>
       <link>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</link>
       <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</guid>
       <description>
-        <![CDATA[<h1>Termux 安裝 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          用 Go 編譯 Hugo Extended，解決 Termux arm64 無預編譯二進位制檔案的問題
+          用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
         
         <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-28</p>]]>
       </description>
@@ -62,225 +148,84 @@
     
 
     <item>
-      <title>37 簽名 SVG 圖片</title>
-      <link>https://kuqilin.github.io/zh-tw/post/37-signature/</link>
-      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <title>大道雅文答案（AI生成）</title>
+      <link>https://kuqilin.github.io/zh-tw/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</link>
+      <pubDate>Wed, 22 Jul 2026 17:10:00 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/37-signature/</guid>
+      <guid>https://kuqilin.github.io/zh-tw/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</guid>
       <description>
-        <![CDATA[<h1>37 簽名 SVG 圖片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>大道雅文答案（AI生成）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          AI 總結：用 AI 製作了 37 的 SVG 簽名圖，並分享了多版本成品和完整原始碼。
+          <h1 id="大道雅文融合读写全部任务一答案">
+<a class="header-anchor" href="#%e5%a4%a7%e9%81%93%e9%9b%85%e6%96%87%e8%9e%8d%e5%90%88%e8%af%bb%e5%86%99%e5%85%a8%e9%83%a8%e4%bb%bb%e5%8a%a1%e4%b8%80%e7%ad%94%e6%a1%88"></a>
+大道雅文融合读写——全部任务一答案
+</h1><h2 id="总第44期任务一老旧小区改造">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac44%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e8%80%81%e6%97%a7%e5%b0%8f%e5%8c%ba%e6%94%b9%e9%80%a0"></a>
+总第44期·任务一：老旧小区改造
+</h2><p>近年来，全国多地推进老旧小区改造工程，这一民生实践与中华文明&quot;民为邦本&quot;&ldquo;富民调均&quot;&ldquo;天人合一&quot;&ldquo;和合共生&quot;等传统理念深度契合，彰显了中国式现代化的文化底蕴。</p>
         
         <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-22</p>]]>
       </description>
       
-        <category>記錄</category>
+        <category>记录</category>
       
     </item>
     
     
 
     <item>
-      <title>[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師</title>
+      <title>[转]满嘴烂梗的学生，正在“逼疯”深圳教师</title>
       <link>https://kuqilin.github.io/zh-tw/post/man-zui-lan-geng-de-xue-sheng/</link>
       <pubDate>Fri, 17 Jul 2026 21:01:07 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/zh-tw/post/man-zui-lan-geng-de-xue-sheng/</guid>
       <description>
-        <![CDATA[<h1>[轉]滿嘴爛梗的學生，正在“逼瘋”深圳教師</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>[转]满嘴烂梗的学生，正在“逼疯”深圳教师</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          深圳初中生滿嘴網路爛梗髒話成風，一線教師懲戒權被限制，部分家長不配合反投訴，教育陷入無力困局。
+          深圳初中生满嘴网络烂梗脏话成风，一线教师惩戒权被限制，部分家长不配合反投诉，教育陷入无力困局。
         
         <hr><p>本文2026-07-17首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
       </description>
       
-        <category>轉載</category>
+        <category>转载</category>
       
     </item>
     
     
 
     <item>
-      <title>Hugo 搭建個人部落格</title>
+      <title>Hugo 搭建个人博客</title>
       <link>https://kuqilin.github.io/zh-tw/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/zh-tw/post/hugo/</guid>
       <description>
-        <![CDATA[<h1>Hugo 搭建個人部落格</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          記錄了我在 GitHub Pages 搭建 Hugo 的經歷
+          记录了我在 GitHub Pages 搭建 Hugo 的经历
         
         <hr><p>本文2026-07-11首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-17</p>]]>
       </description>
       
-        <category>記錄</category>
+        <category>记录</category>
       
     </item>
     
     
 
     <item>
-      <title>我的GPG公鑰</title>
+      <title>我的GPG公钥</title>
       <link>https://kuqilin.github.io/zh-tw/post/my-gpg/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
       <guid>https://kuqilin.github.io/zh-tw/post/my-gpg/</guid>
       <description>
-        <![CDATA[<h1>我的GPG公鑰</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          更新：修改了公鑰以及郵箱
+          更新：修改了公钥以及邮箱
         
         <hr><p>本文2024-01-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-16</p>]]>
       </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>復刻 Telegram 的 AI 編輯器</title>
-      <link>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</link>
-      <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</guid>
-      <description>
-        <![CDATA[<h1>復刻 Telegram 的 AI 編輯器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          本文收集並整合了多個民間復刻版 Telegram AI 編輯器的提示詞，涵蓋 Telegram 官方提供的六種風格及表情化功能。文章<strong>單一版本</strong>提供了八種風格的獨立提示詞，每條提示詞均要求嚴格模仿 Cocoon AI 的改寫邏輯，只輸出正文、保留核心資訊、不篡改原意；<strong>整合版本</strong>則將所有風格合併為一個提示詞，通過輸入風格關鍵詞即可在單一對話中切換不同文風進行改寫。
-        
-        <hr><p>本文2026-07-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
-      </description>
-      
-        <category>AI</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Markdown &amp; LaTeX 全量測試文件</title>
-      <link>https://kuqilin.github.io/zh-tw/post/fulltest/</link>
-      <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/fulltest/</guid>
-      <description>
-        <![CDATA[<h1>Markdown & LaTeX 全量測試文件</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          Markdown 和 LaTeX 的全量測試文件，試試支不支援這些語法。
-        
-        <hr><p>本文2026-01-25首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-14</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>劇透測試（短程式碼）</title>
-      <link>https://kuqilin.github.io/zh-tw/post/spoilertest_shortcode/</link>
-      <pubDate>Mon, 13 Jul 2026 11:47:55 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/spoilertest_shortcode/</guid>
-      <description>
-        <![CDATA[<h1>劇透測試（短程式碼）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <p>這是一個<span class="spoiler">劇透測試</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
-<h2 id="圖片測試">
-<a class="header-anchor" href="#%e5%9c%96%e7%89%87%e6%b8%ac%e8%a9%a6"></a>
-圖片測試
-</h2><span class="spoiler"><img src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc" 
-     alt="" 
-     referrerpolicy="no-referrer" 
-     loading="lazy" /></span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
-<h2 id="英文測試">
-<a class="header-anchor" href="#%e8%8b%b1%e6%96%87%e6%b8%ac%e8%a9%a6"></a>
-英文測試
-</h2><p><span class="spoiler">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec efficitur sem sed nisl cursus, at pretium massa sodales. Phasellus et consectetur tortor, rhoncus iaculis urna. Etiam nisi sem, auctor eu massa ornare, viverra mattis est. Etiam scelerisque tortor vel erat feugiat vestibulum. Donec eget eros odio. Etiam sem mi, mattis vitae magna eu, pretium rhoncus felis. Quisque nisi sapien, vulputate nec commodo id, pulvinar vel libero. Nam luctus sapien at finibus sagittis. Aenean sit amet nibh vel nisi pharetra pharetra. Curabitur efficitur nunc nibh, vitae ultrices diam consequat sit amet. Curabitur varius congue purus, ac lobortis risus rhoncus eu. Curabitur venenatis cursus mauris, at commodo orci auctor in. Sed condimentum justo ut ante commodo, eu vulputate justo facilisis.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />
-<span class="spoiler">Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce eu lectus in felis tempor condimentum. Etiam eu neque neque. Mauris ac convallis est. Donec dictum tellus ullamcorper lacus hendrerit, at porttitor dolor laoreet. Praesent convallis diam ut ante pellentesque scelerisque ac non arcu. Donec finibus massa vitae scelerisque porttitor. Sed ut neque libero.</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
-        
-        <hr><p>本文2026-07-13首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-13</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>我去過的學校</title>
-      <link>https://kuqilin.github.io/zh-tw/post/wo-qu-guo-de-xue-xiao/</link>
-      <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/wo-qu-guo-de-xue-xiao/</guid>
-      <description>
-        <![CDATA[<h1>我去過的學校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <h1 id="我去過的學校">
-<a class="header-anchor" href="#%e6%88%91%e5%8e%bb%e9%81%8e%e7%9a%84%e5%ad%b8%e6%a0%a1"></a>
-我去過的學校
-</h1><p>忽然覺得自己去過很多學校，便想著列個表格出來看看都去過哪些、去幹嘛的：</p>
-<p>（排名不分前後，按記憶順序）</p>
-<table>
-	<thead>
-			<tr>
-					<th style="text-align: center">去過的學校</th>
-					<th style="text-align: center">原因</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td style="text-align: center">廣州市第六中學</td>
-					<td style="text-align: center">CSP-J 複賽</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州市鐵一中學（越秀校區）</td>
-					<td style="text-align: center">CSP-J/S 初賽</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣東廣雅中學（花都校區）</td>
-					<td style="text-align: center">上高中</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州市第八十九中學</td>
-					<td style="text-align: center">英才計劃住宿</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州市第二中學</td>
-					<td style="text-align: center">打比賽</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州大學附屬中學（大學城校區）</td>
-					<td style="text-align: center">CSP-J/S比賽&amp;&amp;廣大附教育集團環大學城拉練活動</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">北京師範大學附屬中學廣州實驗學校（好像是這個名字）</td>
-					<td style="text-align: center">廣州市青少年科技教育夏令營</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州市增城區應元學校</td>
-					<td style="text-align: center">同上</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州市花都區花廣金獅學校（原廣州大學附屬中學花都獅嶺實驗學校）</td>
-					<td style="text-align: center">上初中</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州市花都區花廣學校（原廣州大學附屬中學花都實驗學校）</td>
-					<td style="text-align: center">參觀&amp;&amp;密考（？）</td>
-			</tr>
-			<tr>
-					<td style="text-align: center">廣州市花都區廣州大學附屬中學紫蘭學校</td>
-					<td style="text-align: center">打比賽</td>
-			</tr>
-	</tbody>
-</table>
-<details>你不應看到這裡</details>
-        
-        <hr><p>本文2025-02-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-12</p>]]>
-      </description>
-      
-        <category>記錄</category>
       
     </item>
     

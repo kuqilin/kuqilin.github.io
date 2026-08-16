@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reimu on Kuqilin&#39;s Blog</title>
+    <link>https://kuqilin.github.io/en/tags/reimu/</link>
+    <description>Recent content from Kuqilin&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    
+    <managingEditor>kuqilin@outlook.com (Kuqilin)</managingEditor>
+    <webMaster>kuqilin@outlook.com (Kuqilin)</webMaster>
+    
+    <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
+    
+    <lastBuildDate>Sat, 01 Aug 2026 17:15:02 +0800</lastBuildDate>
+    
+    
+    <atom:link href="https://kuqilin.github.io/en/tags/reimu/index.xml" rel="self" type="application/rss&#43;xml" />
+    
+
+    
+    
+
+    <item>
+      <title>Reimu 主题下的 i18n</title>
+      <link>https://kuqilin.github.io/en/post/hugo-reimu-i18n/</link>
+      <pubDate>Sat, 01 Aug 2026 17:15:02 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/hugo-reimu-i18n/</guid>
+      <description>
+        <![CDATA[<h1>Reimu 主题下的 i18n</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。
+        
+        <hr><p>Published on 2026-08-01 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-08-01</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>Hugo 搭建个人博客</title>
+      <link>https://kuqilin.github.io/en/post/hugo/</link>
+      <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/en/post/hugo/</guid>
+      <description>
+        <![CDATA[<h1>Hugo 搭建个人博客</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
+        
+          记录了我在 GitHub Pages 搭建 Hugo 的经历
+        
+        <hr><p>Published on 2026-07-11 at <a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
+    
+  </channel>
+</rss>
