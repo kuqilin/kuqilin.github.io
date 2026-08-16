@@ -8,10 +8,9 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  .home-btn {
+  .home-btn, .about-btn {
     position: fixed;
     top: 16px;
-    left: 16px;
     z-index: 100;
     display: inline-flex;
     align-items: center;
@@ -27,7 +26,56 @@
     box-shadow: 0 4px 12px rgba(25, 118, 140, .15);
     transition: background .15s, transform .15s;
   }
-  .home-btn:hover { background: #eaf2f5; transform: translateY(-1px); }
+  .home-btn { left: 16px; }
+  .about-btn { right: 16px; cursor: pointer; }
+  .home-btn:hover, .about-btn:hover { background: #eaf2f5; transform: translateY(-1px); }
+  .modal-mask {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(0, 0, 0, .45);
+  }
+  .modal-mask.show { display: flex; }
+  .modal {
+    width: min(440px, 100%);
+    max-height: 80vh;
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #99c2cc;
+    border-radius: 14px;
+    box-shadow: 0 16px 48px rgba(25, 118, 140, .25);
+    padding: 22px 24px;
+    text-align: left;
+  }
+  .modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 700;
+    color: #24292e;
+    margin-bottom: 12px;
+  }
+  .modal-close {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #73abb9;
+    cursor: pointer;
+  }
+  .modal-close:hover { background: #eaf2f5; color: #408d9f; }
+  .modal-body { font-size: 15px; line-height: 1.8; color: #444; }
+  .modal-body ul { margin: 8px 0 12px; padding-left: 20px; }
+  .modal-body a { color: #19768c; }
   body {
     font-family: "LXGW WenKai", "Noto Serif SC", "Source Han Serif CN", "Songti SC", SimSun, serif;
     background: linear-gradient(160deg, #f2f7f9 0%, #eaf2f5 100%);
@@ -112,7 +160,8 @@
 </style>
 </head>
 <body>
-  <a class="home-btn" href="/" title="返回首页"><i class="fa-solid fa-home"></i>首页</a>
+  <a class="home-btn" href="/" title="返回首页"><i class="fa-solid fa-house"></i>首页</a>
+  <button class="about-btn" id="aboutBtn" title="关于这个小测"><i class="fa-solid fa-circle-info"></i>关于</button>
   <div class="card">
     <div class="badge">🧐 望文生义 · 成语释义二选一</div>
     <h1 class="idiom" id="idiom"></h1>
@@ -121,6 +170,24 @@
     <div class="feedback" id="feedback"></div>
     <button class="next" id="next" hidden>下一题 ➡️</button>
     <div class="count" id="count"></div>
+  </div>
+
+  <div class="modal-mask" id="aboutModal">
+    <div class="modal">
+      <div class="modal-head">
+        <span>🧐 关于这个小测</span>
+        <button class="modal-close" id="modalClose" title="关闭">×</button>
+      </div>
+      <div class="modal-body">
+        <p>《望文生义 · 成语释义二选一》：随机抽一个成语，从「原意」与常见的「易错点」中选出正确释义，看看你会不会望文生义。</p>
+        <ul>
+          <li>📚 题库共 <b id="aboutCount">…</b> 条成语</li>
+          <li>🎲 随机抽题，连续两次不会抽到同一题</li>
+          <li>💡 答对/答错即时反馈，换题无刷新</li>
+        </ul>
+        <p>出自 <a href="/" target="_blank" rel="noopener">Kuqilin 的小站</a>，也可以到 <a href="/post/wang-wen-sheng-yi-ce-yu/" target="_blank" rel="noopener">这篇博文</a>里体验内嵌版。</p>
+      </div>
+    </div>
   </div>
 
 <script>
@@ -177,6 +244,8 @@ async function start() {
     return;
   }
   countEl.textContent = "📚 题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
+  const aboutCountEl = document.getElementById("aboutCount");
+  if (aboutCountEl) aboutCountEl.textContent = data.length + " 条";
 
   function renderQuestion() {
     const entry = pick(usable);
@@ -229,6 +298,18 @@ async function start() {
   next.addEventListener("click", renderQuestion);
   renderQuestion();
 }
+
+// 关于弹窗
+(function () {
+  const aboutBtn = document.getElementById("aboutBtn");
+  const modal = document.getElementById("aboutModal");
+  const modalClose = document.getElementById("modalClose");
+  if (!aboutBtn || !modal || !modalClose) return;
+  aboutBtn.addEventListener("click", () => modal.classList.add("show"));
+  modalClose.addEventListener("click", () => modal.classList.remove("show"));
+  modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("show"); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") modal.classList.remove("show"); });
+})();
 
 start();</script>
 </body>
