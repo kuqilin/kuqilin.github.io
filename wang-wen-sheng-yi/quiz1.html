@@ -166,7 +166,7 @@
   <div class="card">
     <div class="badge">📝 成语用法辨析 · 二选一</div>
     <h1 class="idiom" id="idiom"></h1>
-    <p class="question" id="question">下面哪个句子中，这个成语使用得 <strong>正确</strong>？</p>
+    <p class="question" id="question">下面哪个句子中，这个成语使用得<strong>正确</strong>？</p>
     <div class="options" id="options"></div>
     <div class="feedback" id="feedback"></div>
     <button class="next" id="next" hidden>下一题 ➡️</button>
@@ -225,7 +225,7 @@ async function start() {
   // 1. 加载老数据（用于解析）
   let legacyMap = {};
   try {
-    const respLegacy = await fetch("wang-wen-sheng-yi.json", { cache: "no-store" });
+    const respLegacy = await fetch("https://kuqilin.github.io/wang-wen-sheng-yi/wang-wen-sheng-yi.json", { cache: "no-store" });
     if (respLegacy.ok) {
       const legacyData = await respLegacy.json();
       // 按成语名称建立映射，以便根据当前成语获取原意和易错点
@@ -246,7 +246,7 @@ async function start() {
   // 2. 加载新数据（题目）
   let data;
   try {
-    const resp = await fetch("wang-wen-sheng-yi-quiz.json", { cache: "no-store" });
+    const resp = await fetch("https://kuqilin.github.io/wang-wen-sheng-yi/wang-wen-sheng-yi-quiz.json", { cache: "no-store" });
     if (!resp.ok) throw new Error("HTTP " + resp.status);
     data = await resp.json();
   } catch (err) {
@@ -309,7 +309,7 @@ async function start() {
         // 构建解析字符串
         let解析文本 = "";
         if (原意 || 易错点) {
-          解析文本 = `<br>📝 解析：${原意 || "（无原意）"}。易错点：${易错点 || "（无易错点）"}`;
+          解析文本 = `<br>📝 解析：${原意 || "（无原意）"}易错点：${易错点 || "（无易错点）"}`;
         }
         // 编号总是显示
         解析文本 += `<br>🔎 参见原书编号 ${编号}`;
