@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>成语用法辨析 · 二选一</title>
+<link rel="stylesheet" href="https://fontsapi.zeoseven.com/292/main/result.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  .home-btn, .about-btn {
+    position: fixed;
+    top: 16px;
+    z-index: 100;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: inherit;
+    font-size: 14px;
+    color: #408d9f;
+    background: rgba(255, 255, 255, .85);
+    border: 1px solid #99c2cc;
+    border-radius: 999px;
+    padding: 8px 16px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(25, 118, 140, .15);
+    transition: background .15s, transform .15s;
+  }
+  .home-btn { left: 16px; }
+  .about-btn { right: 16px; cursor: pointer; }
+  .home-btn:hover, .about-btn:hover { background: #eaf2f5; transform: translateY(-1px); }
+  .modal-mask {
+    position: fixed;
+    inset: 0;
+    z-index: 200;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: rgba(0, 0, 0, .45);
+  }
+  .modal-mask.show { display: flex; }
+  .modal {
+    width: min(440px, 100%);
+    max-height: 80vh;
+    overflow: auto;
+    background: #fff;
+    border: 1px solid #99c2cc;
+    border-radius: 14px;
+    box-shadow: 0 16px 48px rgba(25, 118, 140, .25);
+    padding: 22px 24px;
+    text-align: left;
+  }
+  .modal-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 700;
+    color: #24292e;
+    margin-bottom: 12px;
+  }
+  .modal-close {
+    font-family: inherit;
+    font-size: 20px;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background: transparent;
+    color: #73abb9;
+    cursor: pointer;
+  }
+  .modal-close:hover { background: #eaf2f5; color: #408d9f; }
+  .modal-body { font-size: 15px; line-height: 1.8; color: #444; }
+  .modal-body ul { margin: 8px 0 12px; padding-left: 20px; }
+  .modal-body a { color: #19768c; }
+  body {
+    font-family: "LXGW WenKai", "Noto Serif SC", "Source Han Serif CN", "Songti SC", SimSun, serif;
+    background: linear-gradient(160deg, #f2f7f9 0%, #eaf2f5 100%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #ffffff;
+    border: 1px solid #99c2cc;
+    border-radius: 16px;
+    box-shadow: 0 12px 32px rgba(25, 118, 140, .12);
+    width: min(560px, 100%);
+    padding: 40px 36px 36px;
+    text-align: center;
+  }
+  .badge {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #408d9f;
+    margin-bottom: 18px;
+  }
+  .idiom {
+    font-size: 52px;
+    font-weight: 700;
+    color: #24292e;
+    margin-bottom: 6px;
+  }
+  .question {
+    font-size: 16px;
+    color: #7d7d7d;
+    margin-bottom: 28px;
+  }
+  .options { display: flex; flex-direction: column; gap: 14px; }
+  .opt {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: left;
+    padding: 14px 18px;
+    border: 2px solid #99c2cc;
+    border-radius: 10px;
+    background: #fff;
+    color: #24292e;
+    cursor: pointer;
+    transition: transform .08s, border-color .15s, background .15s;
+  }
+  .opt:hover { border-color: #408d9f; background: #eaf2f5; transform: translateY(-1px); }
+  .opt:disabled { cursor: default; transform: none; }
+  .opt.correct { border-color: #22863a; background: #f0fff4; color: #22863a; }
+  .opt.wrong   { border-color: #d73a49; background: #ffeef0; color: #d73a49; }
+  .opt.dim     { opacity: .55; }
+  .feedback {
+    margin-top: 20px;
+    font-size: 16px;
+    min-height: 26px;
+    color: #7d7d7d;
+    line-height: 1.8;
+  }
+  .feedback.ok { color: #22863a; }
+  .feedback.bad { color: #d73a49; }
+  .next {
+    margin-top: 18px;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 12px 34px;
+    border: none;
+    border-radius: 10px;
+    background: #19768c;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(25, 118, 140, .35);
+  }
+  .next:hover { background: #00677f; }
+  .count { margin-top: 22px; font-size: 12px; color: #73abb9; }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .opt { animation: fadeUp .22s ease; }
+  .idiom.flash { animation: fadeUp .3s ease; }
+  @keyframes pop { 0% { transform: scale(.5); opacity: 0; } 60% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }
+  .feedback.ok, .feedback.bad { animation: pop .3s ease; }
+</style>
+</head>
+<body>
+  <a class="home-btn" href="/" title="返回首页"><i class="fa-solid fa-house"></i>首页</a>
+  <button class="about-btn" id="aboutBtn" title="关于这个小测"><i class="fa-solid fa-circle-info"></i>关于</button>
+  <div class="card">
+    <div class="badge">📝 成语用法辨析 · 二选一</div>
+    <h1 class="idiom" id="idiom"></h1>
+    <p class="question" id="question">下面哪个句子中，这个成语使用得 <strong>正确</strong>？</p>
+    <div class="options" id="options"></div>
+    <div class="feedback" id="feedback"></div>
+    <button class="next" id="next" hidden>下一题 ➡️</button>
+    <div class="count" id="count"></div>
+  </div>
+
+  <div class="modal-mask" id="aboutModal">
+    <div class="modal">
+      <div class="modal-head">
+        <span>📝 关于这个小测</span>
+        <button class="modal-close" id="modalClose" title="关闭">×</button>
+      </div>
+      <div class="modal-body">
+        <p>《成语用法辨析 · 二选一》：随机抽一个成语，从「正确用法」与「错误用法」中选出正确的一项，检验你对成语实际运用的敏感度。</p>
+        <ul>
+          <li>📚 题库共 <b id="aboutCount">…</b> 条成语</li>
+          <li>🎲 随机抽题，连续两次不会抽到同一题</li>
+          <li>💡 答对/答错即时反馈，并显示解析（原意+易错点）</li>
+        </ul>
+        <p>出自 <a href="/" target="_blank" rel="noopener">Kuqilin 的小站</a>。</p>
+      </div>
+    </div>
+  </div>
+
+<script>
+function shuffle(a) {
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+let last = null;
+function pick(DATA) {
+  let e;
+  do {
+    e = DATA[Math.floor(Math.random() * DATA.length)];
+  } while (e === last && DATA.length > 1);
+  last = e;
+  return e;
+}
+
+const goodEmojis = ["👍", "🎉", "🌟", "💯", "🏆", "👏"];
+const badEmojis = ["😅", "🤔", "💡", "🙈"];
+function rand(a) { return a[Math.floor(Math.random() * a.length)]; }
+
+async function start() {
+  const idiomEl = document.getElementById("idiom");
+  const questionEl = document.getElementById("question");
+  const box = document.getElementById("options");
+  const feedback = document.getElementById("feedback");
+  const next = document.getElementById("next");
+  const countEl = document.getElementById("count");
+
+  // 1. 加载老数据（用于解析）
+  let legacyMap = {};
+  try {
+    const respLegacy = await fetch("wang-wen-sheng-yi.json", { cache: "no-store" });
+    if (respLegacy.ok) {
+      const legacyData = await respLegacy.json();
+      // 按成语名称建立映射，以便根据当前成语获取原意和易错点
+      legacyData.forEach(item => {
+        if (item["成语"]) {
+          legacyMap[item["成语"]] = {
+            原意: item["原意"] || "",
+            易错点: item["易错点"] || ""
+          };
+        }
+      });
+    }
+  } catch (e) {
+    // 老数据加载失败，不影响主流程，只是没有解析
+    console.warn("未加载到解析数据", e);
+  }
+
+  // 2. 加载新数据（题目）
+  let data;
+  try {
+    const resp = await fetch("wang-wen-sheng-yi-quiz.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    data = await resp.json();
+  } catch (err) {
+    idiomEl.textContent = "❌ 题库加载失败";
+    questionEl.textContent = "请确认 wang-wen-sheng-yi-quiz.json 与本页面在同一个目录，并且通过 HTTP 访问（直接双击打开文件会被浏览器拦截）。";
+    countEl.textContent = "错误：" + err.message;
+    return;
+  }
+
+  const usable = data.filter(
+    e => e["编号"] && e["成语"] && e["正确"] && e["错误"] && e["正确"] !== e["错误"]
+  );
+  if (!usable.length) {
+    idiomEl.textContent = "📭 题库为空";
+    questionEl.textContent = "JSON 里没有可出的题（每条需含 编号/成语/正确/错误，且正确不等于错误）。";
+    return;
+  }
+  countEl.textContent = "📚 题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
+  const aboutCountEl = document.getElementById("aboutCount");
+  if (aboutCountEl) aboutCountEl.textContent = data.length + " 条";
+
+  function renderQuestion() {
+    const entry = pick(usable);
+    idiomEl.textContent = entry["成语"];
+    idiomEl.classList.remove("flash");
+    void idiomEl.offsetWidth;
+    idiomEl.classList.add("flash");
+
+    box.innerHTML = "";
+    feedback.className = "feedback";
+    feedback.textContent = "";
+    next.hidden = true;
+
+    const options = shuffle([
+      { text: entry["正确"], correct: true },
+      { text: entry["错误"], correct: false },
+    ]);
+
+    // 从 legacyMap 获取解析
+    const idiomName = entry["成语"];
+    const legacy = legacyMap[idiomName] || {};
+    const 原意 = legacy["原意"] || "";
+    const 易错点 = legacy["易错点"] || "";
+    const 编号 = entry["编号"] || "";
+
+    let answered = false;
+    for (const opt of options) {
+      const btn = document.createElement("button");
+      btn.className = "opt";
+      btn.textContent = opt.text;
+      btn.dataset.correct = opt.correct ? "true" : "false";
+      btn.addEventListener("click", () => {
+        if (answered) return;
+        answered = true;
+        for (const b of box.children) b.disabled = true;
+        for (const b of box.children) {
+          if (b.dataset.correct === "true") b.classList.add("correct");
+        }
+
+        // 构建解析字符串
+        let解析文本 = "";
+        if (原意 || 易错点) {
+          解析文本 = `<br>📝 解析：${原意 || "（无原意）"}。易错点：${易错点 || "（无易错点）"}`;
+        }
+        // 编号总是显示
+        解析文本 += `<br>🔎 参见原书编号 ${编号}`;
+
+        if (opt.correct) {
+          feedback.className = "feedback ok";
+          feedback.innerHTML = rand(goodEmojis) + " 回答正确！" + 解析文本;
+        } else {
+          btn.classList.add("wrong");
+          for (const b of box.children) {
+            if (b !== btn && b.dataset.correct !== "true") b.classList.add("dim");
+          }
+          feedback.className = "feedback bad";
+          feedback.innerHTML = rand(badEmojis) + " 回答错误，选错了用法。" + 解析文本;
+        }
+        next.hidden = false;
+      });
+      box.appendChild(btn);
+    }
+  }
+
+  next.addEventListener("click", renderQuestion);
+  renderQuestion();
+}
+
+// 关于弹窗
+(function () {
+  const aboutBtn = document.getElementById("aboutBtn");
+  const modal = document.getElementById("aboutModal");
+  const modalClose = document.getElementById("modalClose");
+  if (!aboutBtn || !modal || !modalClose) return;
+  aboutBtn.addEventListener("click", () => modal.classList.add("show"));
+  modalClose.addEventListener("click", () => modal.classList.remove("show"));
+  modal.addEventListener("click", (e) => { if (e.target === modal) modal.classList.remove("show"); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") modal.classList.remove("show"); });
+})();
+
+start();
+</script>
+</body>
+</html>
