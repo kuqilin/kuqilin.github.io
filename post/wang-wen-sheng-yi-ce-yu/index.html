@@ -462,14 +462,14 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
             }
             if (opt.correct) {
               feedback.className = "wq-feedback wq-ok";
-              feedback.textContent = rand(goodEmojis) + " 回答正确！";
+              feedback.innerHTML = rand(goodEmojis) + " 回答正确！<br>🔎参见原书编号 " + entry["编号"];
             } else {
               btn.classList.add("wq-wrong");
               for (const b of box.children) {
                 if (b !== btn && b.dataset.correct !== "true") b.classList.add("wq-dim");
               }
               feedback.className = "wq-feedback wq-bad";
-              feedback.textContent = rand(badEmojis) + " 回答错误，选错了释义。";
+              feedback.innerHTML = rand(badEmojis) + " 回答错误，选错了释义。<br>🔎参见原书编号 " + entry["编号"];
             }
             next.hidden = false;
           });
@@ -499,8 +499,7 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
   </blockquote>
 
 <p>把独立的 <code>quiz.html</code> 页面以 iframe 形式嵌进来，外观是「页面套页面」，自带整页背景色与居中卡片，左上角有「首页」按钮、右上角有「关于」按钮：</p>
-<iframe src="/wang-wen-sheng-yi/quiz.html" loading="lazy" title="望文生义成语小测" style="width:100%;height:600px;border:1px solid #99c2cc;border-radius:12px;background:#fff;"></iframe>
-</div>
+<iframe src="/wang-wen-sheng-yi/quiz.html" loading="lazy" title="望文生义成语小测" style="width:100%;height:600px;border:1px solid #99c2cc;border-radius:12px;background:#fff;"></iframe></div>
     <footer class="article-footer"><blockquote class="article-copyright"><p><strong><span class="icon-user icon"></span>本文作者：</strong>Kuqilin</p><p>
       <strong><span class="icon-link icon"></span>本文链接：</strong><a href="https://kuqilin.github.io/post/wang-wen-sheng-yi-ce-yu/">https://kuqilin.github.io/post/wang-wen-sheng-yi-ce-yu/</a>
     </p><p><strong><span class="icon-pencil icon"></span>本文标题：</strong>望文生义 · 成语辨析小测</p><p><strong><span class="icon-calendar icon"></span>本文发布时间：</strong>2026-08-16 11:22:15</p><p><strong><span class="icon-calendar icon"></span>本文更新时间：</strong>2026-08-16 11:43:32</p><p>
@@ -593,7 +592,7 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://t.alcy.cc/pc"
+              data-src="https://imgapi.jinghuashang.cn/random"
               data-sizes="auto"
               alt="一些有用的东西"
               class="lazyload"
