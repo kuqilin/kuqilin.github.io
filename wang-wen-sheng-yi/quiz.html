@@ -279,14 +279,14 @@ async function start() {
         }
         if (opt.correct) {
           feedback.className = "feedback ok";
-          feedback.textContent = rand(goodEmojis) + " 回答正确！<br />🔎参见原书编号" + entry["编号"];
+          feedback.innerHTML = rand(goodEmojis) + " 回答正确！<br />🔎参见原书编号" + entry["编号"];
         } else {
           btn.classList.add("wrong");
           for (const b of box.children) {
             if (b !== btn && b.dataset.correct !== "true") b.classList.add("dim");
           }
           feedback.className = "feedback bad";
-          feedback.textContent = rand(badEmojis) + " 回答错误，选错了释义。<br />🔎参见原书编号" + entry["编号"];
+          feedback.innerHTML = rand(badEmojis) + " 回答错误，选错了释义。<br />🔎参见原书编号" + entry["编号"];
         }
         next.hidden = false;
       });
