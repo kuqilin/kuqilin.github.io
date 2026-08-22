@@ -296,7 +296,7 @@ async function start() {
     for (const opt of options) {
       const btn = document.createElement("button");
       btn.className = "opt";
-      btn.textContent = opt.text;
+      btn.innerHTML = opt.text;
       btn.dataset.correct = opt.correct ? "true" : "false";
       btn.addEventListener("click", () => {
         if (answered) return;
