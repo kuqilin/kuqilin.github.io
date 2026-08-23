@@ -12,12 +12,32 @@
     
     <copyright>本博客所有文章除特别聲明外，均采用 BY-NC-SA 許可協議。轉載請註明出處！</copyright>
     
-    <lastBuildDate>Sat, 13 May 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 10:17:53 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/yue/tags/python/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>晚修延时摄影项目介绍</title>
+      <link>https://kuqilin.github.io/yue/post/class-night-lapse/</link>
+      <pubDate>Sun, 23 Aug 2026 10:17:53 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/yue/post/class-night-lapse/</guid>
+      <description>
+        <![CDATA[<h1>晚修延时摄影项目介绍</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          一个基于 Python + OpenCV 的班级晚修延时摄影小工具，支持定时拍摄、自动时间戳、双输出日志，可选 WebDAV 上传。
+        
+        <hr><p>本文2026-08-23首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-23</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
     
     
 

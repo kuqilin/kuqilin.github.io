@@ -155,7 +155,7 @@
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
           <span id="selected-lang">简体中文</span>
         </div>
-        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li></ul>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li><li data-value="zh-tw" role="option" aria-selected="false" >繁體中文</li><li data-value="en" role="option" aria-selected="false" >English</li></ul>
       </div>
       <script>
         var selectSelected = document.getElementById("select-selected");
@@ -171,7 +171,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['yue'] = '\/yue\/post\/wang-wen-sheng-yi-1\/';langMap['zh-tw'] = '\/zh-tw\/post\/wang-wen-sheng-yi-1\/';langMap['en'] = '\/en\/post\/wang-wen-sheng-yi-1\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -234,7 +234,7 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">20</div>
+    <div>文章</div><div class="sidebar-state-number">21</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
@@ -244,7 +244,7 @@
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>标签</div>
-    <div class="sidebar-state-number">21</div>
+    <div class="sidebar-state-number">22</div>
   </a>
 </div>
 <div class="sidebar-social" style="margin-bottom: 20px;"><div class="icon-email sidebar-social-icon">
@@ -594,7 +594,7 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://img.paulzzh.com/touhou/random"
+              data-src="https://www.loliapi.com/acg/pc/"
               data-sizes="auto"
               alt="一些有用的东西"
               class="lazyload"
@@ -606,7 +606,7 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">一些有用的东西</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://t.alcy.cc/ycy"
+              data-src="https://t.alcy.cc/moe"
               data-sizes="auto"
               alt="望文生义 · 成语用法辨析"
               class="lazyload"
@@ -658,10 +658,10 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;29.8k</span
+          >&nbsp;31.5k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;01:08</span>
+        <span class="icon-coffee">&nbsp;01:12</span>
       </div><div class="footer-beian">
         <img
           style="object-fit: contain;margin-right: 2px;"
@@ -718,7 +718,7 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">20</div>
+    <div>文章</div><div class="sidebar-state-number">21</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
@@ -728,7 +728,7 @@ html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
   </a>
   <a class="sidebar-state-tag" href="/tags/" aria-label="sidebar-state-tag-link">
     <div>标签</div>
-    <div class="sidebar-state-number">21</div>
+    <div class="sidebar-state-number">22</div>
   </a>
 </div>
 <div class="sidebar-social" ><div class="icon-email sidebar-social-icon">
