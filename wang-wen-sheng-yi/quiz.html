@@ -170,6 +170,11 @@
     <div class="feedback" id="feedback"></div>
     <button class="next" id="next" hidden>下一题 ➡️</button>
     <div class="count" id="count"></div>
+    <div class="count" style="margin-top: 8px;">
+      <span id="busuanzi_container_page_pv">👀 本页访问 <span id="busuanzi_value_page_pv"></span> 次</span>
+      &nbsp;|&nbsp;
+      <span id="busuanzi_container_site_pv">🌐 全站访问 <span id="busuanzi_value_site_pv"></span> 次</span>
+    </div>
   </div>
 
   <div class="modal-mask" id="aboutModal">
@@ -312,5 +317,6 @@ async function start() {
 })();
 
 start();</script>
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
