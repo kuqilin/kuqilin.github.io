@@ -26,7 +26,7 @@
                 />
   </url><url>
     <loc>https://kuqilin.github.io/categories/</loc>
-    <lastmod>2026-08-30T13:56:00+08:00</lastmod>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -48,11 +48,11 @@
                 href="https://kuqilin.github.io/en/categories/"
                 />
   </url><url>
-    <loc>https://kuqilin.github.io/tags/jetbrains/</loc>
-    <lastmod>2026-08-30T13:56:00+08:00</lastmod>
+    <loc>https://kuqilin.github.io/tags/katex/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/</loc>
-    <lastmod>2026-08-30T13:56:00+08:00</lastmod>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -74,8 +74,54 @@
                 href="https://kuqilin.github.io/en/"
                 />
   </url><url>
+    <loc>https://kuqilin.github.io/tags/latex/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/latex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/latex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/latex/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kuqilin.github.io/en/tags/latex/"
+                />
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/markdown/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kuqilin.github.io/en/tags/markdown/"
+                />
+  </url><url>
     <loc>https://kuqilin.github.io/tags/</loc>
-    <lastmod>2026-08-30T13:56:00+08:00</lastmod>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -96,6 +142,44 @@
                 hreflang="en"
                 href="https://kuqilin.github.io/en/tags/"
                 />
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/word/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/post/high-school-typography-guide/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://kuqilin.github.io/categories/%E6%95%99%E7%A8%8B/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://kuqilin.github.io/yue/categories/%E6%95%99%E7%A8%8B/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://kuqilin.github.io/zh-tw/categories/%E6%95%99%E7%A8%8B/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://kuqilin.github.io/en/categories/%E6%95%99%E7%A8%8B/"
+                />
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/%E6%8E%92%E7%89%88/</loc>
+    <lastmod>2026-09-06T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://kuqilin.github.io/tags/jetbrains/</loc>
+    <lastmod>2026-08-30T13:56:00+08:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/post/jetbrains-xue-sheng-mian-fei-zhi-nan/</loc>
     <lastmod>2026-08-30T13:56:00+08:00</lastmod>
@@ -122,32 +206,6 @@
                 hreflang="en"
                 href="https://kuqilin.github.io/en/tags/%E5%B7%A5%E5%85%B7/"
                 />
-  </url><url>
-    <loc>https://kuqilin.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-08-30T13:56:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/categories/%E6%95%99%E7%A8%8B/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/categories/%E6%95%99%E7%A8%8B/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-TW"
-                href="https://kuqilin.github.io/zh-tw/categories/%E6%95%99%E7%A8%8B/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kuqilin.github.io/en/categories/%E6%95%99%E7%A8%8B/"
-                />
-  </url><url>
-    <loc>https://kuqilin.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2026-08-30T13:56:00+08:00</lastmod>
   </url><url>
     <loc>https://kuqilin.github.io/tags/opencv/</loc>
     <lastmod>2026-08-23T10:17:53+08:00</lastmod>
@@ -844,29 +902,6 @@
                 href="https://kuqilin.github.io/en/categories/ai/"
                 />
   </url><url>
-    <loc>https://kuqilin.github.io/tags/markdown/</loc>
-    <lastmod>2026-07-15T21:15:14+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-TW"
-                href="https://kuqilin.github.io/zh-tw/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kuqilin.github.io/en/tags/markdown/"
-                />
-  </url><url>
     <loc>https://kuqilin.github.io/post/telegram-ai-editor-prompt/</loc>
     <lastmod>2026-07-15T21:15:14+08:00</lastmod>
     <xhtml:link
@@ -1026,29 +1061,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://kuqilin.github.io/en/post/20260517/"
-                />
-  </url><url>
-    <loc>https://kuqilin.github.io/tags/latex/</loc>
-    <lastmod>2026-07-14T18:40:16+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://kuqilin.github.io/tags/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://kuqilin.github.io/yue/tags/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-TW"
-                href="https://kuqilin.github.io/zh-tw/tags/latex/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kuqilin.github.io/en/tags/latex/"
                 />
   </url><url>
     <loc>https://kuqilin.github.io/post/fulltest/</loc>
