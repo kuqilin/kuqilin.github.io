@@ -155,7 +155,7 @@
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
           <span id="selected-lang">简体中文</span>
         </div>
-        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li></ul>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li><li data-value="zh-tw" role="option" aria-selected="false" >繁體中文</li><li data-value="en" role="option" aria-selected="false" >English</li></ul>
       </div>
       <script>
         var selectSelected = document.getElementById("select-selected");
@@ -171,7 +171,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['yue'] = '\/yue\/post\/jetbrains-xue-sheng-mian-fei-zhi-nan\/';langMap['zh-tw'] = '\/zh-tw\/post\/jetbrains-xue-sheng-mian-fei-zhi-nan\/';langMap['en'] = '\/en\/post\/jetbrains-xue-sheng-mian-fei-zhi-nan\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
@@ -251,7 +251,7 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">27</div>
+    <div>文章</div><div class="sidebar-state-number">26</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>
@@ -599,7 +599,7 @@
     aria-label="Article navigation"
     data-aos="fade-up"
   ><div class="article-nav-link-wrap left"><img
-              data-src="https://uapis.cn/api/v1/random/image?category=acg&amp;type=pc"
+              data-src="https://t.alcy.cc/moez"
               data-sizes="auto"
               alt="晚修延时摄影项目介绍"
               class="lazyload"
@@ -611,7 +611,7 @@
         <div class="article-nav-caption">前一篇</div>
         <h3 class="article-nav-title">晚修延时摄影项目介绍</h3>
       </div><div class="article-nav-link-wrap right"><img
-              data-src="https://api.elaina.cat/random/pc"
+              data-src="https://v2.xxapi.cn/api/randomAcgPic?type=pc&amp;return=302"
               data-sizes="auto"
               alt="高中生排版指北"
               class="lazyload"
@@ -672,10 +672,10 @@
         >
       </div><div>
         <span class="icon-brush"
-          >&nbsp;68.5k</span
+          >&nbsp;62.4k</span
         >
         &nbsp;|&nbsp;
-        <span class="icon-coffee">&nbsp;02:31</span>
+        <span class="icon-coffee">&nbsp;02:18</span>
       </div><div class="footer-beian">
         <img
           style="object-fit: contain;margin-right: 2px;"
@@ -749,7 +749,7 @@
 </div>
 <div class="sidebar-state">
   <div class="sidebar-state-article">
-    <div>文章</div><div class="sidebar-state-number">27</div>
+    <div>文章</div><div class="sidebar-state-number">26</div>
   </div>
   <a class="sidebar-state-category" href="/categories/" aria-label="sidebar-state-category-link">
     <div>分类</div>

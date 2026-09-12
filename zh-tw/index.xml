@@ -12,12 +12,52 @@
     
     <copyright>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</copyright>
     
-    <lastBuildDate>Sun, 23 Aug 2026 10:17:53 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0800</lastBuildDate>
     
     
     <atom:link href="https://kuqilin.github.io/zh-tw/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>高中生排版指北</title>
+      <link>https://kuqilin.github.io/zh-tw/post/high-school-typography-guide/</link>
+      <pubDate>Sun, 06 Sep 2026 00:00:00 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/high-school-typography-guide/</guid>
+      <description>
+        <![CDATA[<h1>高中生排版指北</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          写完发现，这大概是我除了作业和论文之外写过最正经的东西了。但其实也没多正经。
+        
+        <hr><p>本文2026-09-06首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-09-06</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>高中生免费正版 JetBrains 全家桶：学生免费申请全指南</title>
+      <link>https://kuqilin.github.io/zh-tw/post/jetbrains-xue-sheng-mian-fei-zhi-nan/</link>
+      <pubDate>Sun, 30 Aug 2026 13:56:00 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/jetbrains-xue-sheng-mian-fei-zhi-nan/</guid>
+      <description>
+        <![CDATA[<h1>高中生免费正版 JetBrains 全家桶：学生免费申请全指南</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          高中生申请 JetBrains 学生免费的完整指南：资格条件、三条验证路线（GitHub 学生包 / 官方文件 / ISIC）、申请步骤、续期方法与常见坑。
+        
+        <hr><p>本文2026-08-30首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-30</p>]]>
+      </description>
+      
+        <category>教程</category>
+      
+    </item>
     
     
 
@@ -36,6 +76,36 @@
       </description>
       
         <category>记录</category>
+      
+    </item>
+    
+    
+
+    <item>
+      <title>敦行志 第五期</title>
+      <link>https://kuqilin.github.io/zh-tw/post/dun-xing-zhi-5/</link>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 &#43;0000</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://kuqilin.github.io/zh-tw/post/dun-xing-zhi-5/</guid>
+      <description>
+        <![CDATA[<h1>敦行志 第五期</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <h1 id="敦行志">
+<a class="header-anchor" href="#%e6%95%a6%e8%a1%8c%e5%bf%97"></a>
+敦行志
+</h1><p><strong>广东广雅中学2027届高三级组</strong></p>
+<p><strong>第5期</strong></p>
+<p><strong>2026年8月17日</strong></p>
+<h2 id="编者按">
+<a class="header-anchor" href="#%e7%bc%96%e8%80%85%e6%8c%89"></a>
+编者按
+</h2><blockquote>
+<p>李普曼警示我们：别把“刻板印象”当成全部真相。备考中，若只盯着平均分、纠结一时进退，便是陷入了认知盲点。真正的破局，在于看懂“二八定律”背后的事律逻辑——80%的提分，往往来自20%的核心漏洞。愿你们跳出“线性努力”的陷阱，在AI浪潮前找准属于自己的“优先连接”，教本务实，行稳致远。</p>
+        
+        <hr><p>本文2026-08-17首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-17</p>]]>
+      </description>
+      
+        <category>敦行志</category>
       
     </item>
     
@@ -126,109 +196,58 @@
     
 
     <item>
-      <title>Reimu 主题下的 i18n</title>
-      <link>https://kuqilin.github.io/zh-tw/post/hugo-reimu-i18n/</link>
-      <pubDate>Sat, 01 Aug 2026 17:15:02 &#43;0800</pubDate>
+      <title>敦行志 第四期</title>
+      <link>https://kuqilin.github.io/zh-tw/post/dun-xing-zhi-4/</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/hugo-reimu-i18n/</guid>
+      <guid>https://kuqilin.github.io/zh-tw/post/dun-xing-zhi-4/</guid>
       <description>
-        <![CDATA[<h1>Reimu 主题下的 i18n</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>敦行志 第四期</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。
+          <h1 id="敦行志">
+<a class="header-anchor" href="#%e6%95%a6%e8%a1%8c%e5%bf%97"></a>
+敦行志
+</h1><p><strong>广东广雅中学2027届高三级组</strong></p>
+<p><strong>第4期</strong></p>
+<p><strong>2026年8月14日</strong></p>
+<h2 id="编者按">
+<a class="header-anchor" href="#%e7%bc%96%e8%80%85%e6%8c%89"></a>
+编者按
+</h2><blockquote>
+<p>本期文章，意在打破一道无形的墙。这道墙，一边是公式定理的推演，一边是诗词史哲的浸润；这道墙，一边是过往成败的纠缠，一边是未来格局的打开。丘成桐先生以一代数学大家的视野，告诉我们“科技与人文，大道同源”，真正的创造力源于“浩然之气”，而非机械的堆砌。这启示我们，高三的复习不应只是冰冷的分数追逐，更应是一次“求真逐美”的心性磨砺——当你能从一道解析几何题中读出逻辑的优雅，能从一篇古文里悟到思维的辩证，你的备考便拥有了“敦行”的厚度。</p>
         
-        <hr><p>本文2026-08-01首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+        <hr><p>本文2026-08-14首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-14</p>]]>
       </description>
       
-        <category>教程</category>
+        <category>敦行志</category>
       
     </item>
     
     
 
     <item>
-      <title>37 签名 SVG 图片</title>
-      <link>https://kuqilin.github.io/zh-tw/post/37-signature/</link>
-      <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
+      <title>敦行志 第三期</title>
+      <link>https://kuqilin.github.io/zh-tw/post/dun-xing-zhi-3/</link>
+      <pubDate>Fri, 07 Aug 2026 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/37-signature/</guid>
+      <guid>https://kuqilin.github.io/zh-tw/post/dun-xing-zhi-3/</guid>
       <description>
-        <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        <![CDATA[<h1>敦行志 第三期</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+          <h1 id="敦行志">
+<a class="header-anchor" href="#%e6%95%a6%e8%a1%8c%e5%bf%97"></a>
+敦行志
+</h1><p><strong>广东广雅中学2027届高三级组</strong></p>
+<p><strong>第3期</strong></p>
+<p><strong>2026年8月7日</strong></p>
+<blockquote>
+<p>编者按:<br>
+本期的两篇文章属于“温和派”，它们的中心只有一个——发现并认识真实的自己，坦然接受，然后保持向往，静静地努力。站在高三的起点，站在高山的脚下，如果恨不得一下子登顶，你会感到痛苦且容易力竭。读读下面的文章，审视自己的处境，明白什么叫“静水流深”，从此欣然出发，笑着登上顶峰。</p>
         
-        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+        <hr><p>本文2026-08-07首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-08-07</p>]]>
       </description>
       
-        <category>记录</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>网站看板娘 —— 37 泉眼深处</title>
-      <link>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</link>
-      <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/kan-ban-niang/</guid>
-      <description>
-        <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <h2 id="再次更新">
-<a class="header-anchor" href="#%e5%86%8d%e6%ac%a1%e6%9b%b4%e6%96%b0"></a>
-再次更新
-</h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
-        
-        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
-      </description>
-      
-        <category>记录</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>Termux 安装 Hugo</title>
-      <link>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</link>
-      <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/termux-install-hugo/</guid>
-      <description>
-        <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
-        
-        <hr><p>本文2026-07-28首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-28</p>]]>
-      </description>
-      
-        <category>教程</category>
-      
-    </item>
-    
-    
-
-    <item>
-      <title>大道雅文答案（AI生成）</title>
-      <link>https://kuqilin.github.io/zh-tw/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</link>
-      <pubDate>Wed, 22 Jul 2026 17:10:00 &#43;0800</pubDate>
-      <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</guid>
-      <description>
-        <![CDATA[<h1>大道雅文答案（AI生成）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
-        
-          <h1 id="大道雅文融合读写全部任务一答案">
-<a class="header-anchor" href="#%e5%a4%a7%e9%81%93%e9%9b%85%e6%96%87%e8%9e%8d%e5%90%88%e8%af%bb%e5%86%99%e5%85%a8%e9%83%a8%e4%bb%bb%e5%8a%a1%e4%b8%80%e7%ad%94%e6%a1%88"></a>
-大道雅文融合读写——全部任务一答案
-</h1><h2 id="总第44期任务一老旧小区改造">
-<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac44%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e8%80%81%e6%97%a7%e5%b0%8f%e5%8c%ba%e6%94%b9%e9%80%a0"></a>
-总第44期·任务一：老旧小区改造
-</h2><p>近年来，全国多地推进老旧小区改造工程，这一民生实践与中华文明&quot;民为邦本&quot;&ldquo;富民调均&quot;&ldquo;天人合一&quot;&ldquo;和合共生&quot;等传统理念深度契合，彰显了中国式现代化的文化底蕴。</p>
-        
-        <hr><p>本文2026-07-22首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-22</p>]]>
-      </description>
-      
-        <category>记录</category>
+        <category>敦行志</category>
       
     </item>
     
