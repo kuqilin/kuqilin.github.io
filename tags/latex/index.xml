@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LaTeX on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/tags/latex/</link>
+    <link>https://www.kuqilin.top/tags/latex/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sun, 06 Sep 2026 00:00:00 +0800</lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/tags/latex/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://www.kuqilin.top/tags/latex/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,16 +23,16 @@
 
     <item>
       <title>高中生排版指北</title>
-      <link>https://kuqilin.github.io/post/high-school-typography-guide/</link>
+      <link>https://www.kuqilin.top/post/high-school-typography-guide/</link>
       <pubDate>Sun, 06 Sep 2026 00:00:00 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/high-school-typography-guide/</guid>
+      <guid>https://www.kuqilin.top/post/high-school-typography-guide/</guid>
       <description>
         <![CDATA[<h1>高中生排版指北</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           写完发现，这大概是我除了作业和论文之外写过最正经的东西了。但其实也没多正经。
         
-        <hr><p>本文2026-09-06首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-09-06</p>]]>
+        <hr><p>本文2026-09-06首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-09-06</p>]]>
       </description>
       
         <category>教程</category>
@@ -43,16 +43,16 @@
 
     <item>
       <title>Markdown &amp; LaTeX 全量测试文档</title>
-      <link>https://kuqilin.github.io/post/fulltest/</link>
+      <link>https://www.kuqilin.top/post/fulltest/</link>
       <pubDate>Sun, 25 Jan 2026 14:45:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/fulltest/</guid>
+      <guid>https://www.kuqilin.top/post/fulltest/</guid>
       <description>
         <![CDATA[<h1>Markdown & LaTeX 全量测试文档</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           Markdown 和 LaTeX 的全量测试文档，试试支不支持这些语法。
         
-        <hr><p>本文2026-01-25首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-14</p>]]>
+        <hr><p>本文2026-01-25首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-14</p>]]>
       </description>
       
     </item>

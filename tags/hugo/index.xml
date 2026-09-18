@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/tags/hugo/</link>
+    <link>https://www.kuqilin.top/tags/hugo/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sun, 16 Aug 2026 11:43:32 +0800</lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://www.kuqilin.top/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,16 +23,16 @@
 
     <item>
       <title>望文生义 · 成语辨析小测</title>
-      <link>https://kuqilin.github.io/post/wang-wen-sheng-yi-1/</link>
+      <link>https://www.kuqilin.top/post/wang-wen-sheng-yi-1/</link>
       <pubDate>Sun, 16 Aug 2026 11:22:15 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/wang-wen-sheng-yi-1/</guid>
+      <guid>https://www.kuqilin.top/post/wang-wen-sheng-yi-1/</guid>
       <description>
         <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
         
-        <hr><p>本文2026-08-16首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
+        <hr><p>本文2026-08-16首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
       </description>
       
         <category>记录</category>
@@ -43,16 +43,16 @@
 
     <item>
       <title>望文生义 · 成语用法辨析</title>
-      <link>https://kuqilin.github.io/post/wang-wen-sheng-yi-2/</link>
+      <link>https://www.kuqilin.top/post/wang-wen-sheng-yi-2/</link>
       <pubDate>Sun, 16 Aug 2026 11:43:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/wang-wen-sheng-yi-2/</guid>
+      <guid>https://www.kuqilin.top/post/wang-wen-sheng-yi-2/</guid>
       <description>
         <![CDATA[<h1>望文生义 · 成语用法辨析</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>释义认得，实战才是真考验。小测随机抽一个成语，给你两句含成语的句子，判断哪句用得<strong>正确</strong>——答完还会给出原意与易错点解析，并标注原书编号。答对/答错即时反馈，换题无刷新。</p>
         
-        <hr><p>本文2026-08-16首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
+        <hr><p>本文2026-08-16首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
       </description>
       
         <category>记录</category>
@@ -63,10 +63,10 @@
 
     <item>
       <title>一些有用的东西</title>
-      <link>https://kuqilin.github.io/post/yi-xie-you-yong-de-dong-xi/</link>
+      <link>https://www.kuqilin.top/post/yi-xie-you-yong-de-dong-xi/</link>
       <pubDate>Sat, 15 Aug 2026 23:50:24 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/yi-xie-you-yong-de-dong-xi/</guid>
+      <guid>https://www.kuqilin.top/post/yi-xie-you-yong-de-dong-xi/</guid>
       <description>
         <![CDATA[<h1>一些有用的东西</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -76,7 +76,7 @@
 <a href="https://kuqilin.github.io/docs/leizhou-guide.html" title="雷州一日游" target="_blank">雷州一日游</a>
 <a href="https://kuqilin.github.io/docs/xuwen-guide.html" title="徐闻一日游" target="_blank">徐闻一日游</a>
         
-        <hr><p>本文2026-08-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-15</p>]]>
+        <hr><p>本文2026-08-15首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-15</p>]]>
       </description>
       
         <category>记录</category>
@@ -87,16 +87,16 @@
 
     <item>
       <title>Reimu 主题下的 i18n</title>
-      <link>https://kuqilin.github.io/post/hugo-reimu-i18n/</link>
+      <link>https://www.kuqilin.top/post/hugo-reimu-i18n/</link>
       <pubDate>Sat, 01 Aug 2026 17:15:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/hugo-reimu-i18n/</guid>
+      <guid>https://www.kuqilin.top/post/hugo-reimu-i18n/</guid>
       <description>
         <![CDATA[<h1>Reimu 主题下的 i18n</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。
         
-        <hr><p>本文2026-08-01首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-01</p>]]>
+        <hr><p>本文2026-08-01首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-01</p>]]>
       </description>
       
         <category>教程</category>
@@ -107,10 +107,10 @@
 
     <item>
       <title>网站看板娘 —— 37 泉眼深处</title>
-      <link>https://kuqilin.github.io/post/kan-ban-niang/</link>
+      <link>https://www.kuqilin.top/post/kan-ban-niang/</link>
       <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/kan-ban-niang/</guid>
+      <guid>https://www.kuqilin.top/post/kan-ban-niang/</guid>
       <description>
         <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -119,7 +119,7 @@
 再次更新
 </h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
         
-        <hr><p>本文2026-07-28首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-29</p>]]>
+        <hr><p>本文2026-07-28首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-29</p>]]>
       </description>
       
         <category>记录</category>
@@ -130,16 +130,16 @@
 
     <item>
       <title>Termux 安装 Hugo</title>
-      <link>https://kuqilin.github.io/post/termux-install-hugo/</link>
+      <link>https://www.kuqilin.top/post/termux-install-hugo/</link>
       <pubDate>Tue, 28 Jul 2026 16:52:05 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/termux-install-hugo/</guid>
+      <guid>https://www.kuqilin.top/post/termux-install-hugo/</guid>
       <description>
         <![CDATA[<h1>Termux 安装 Hugo</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           用 Go 编译 Hugo Extended，解决 Termux arm64 无预编译二进制文件的问题
         
-        <hr><p>本文2026-07-28首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-28</p>]]>
+        <hr><p>本文2026-07-28首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-28</p>]]>
       </description>
       
         <category>教程</category>
@@ -150,16 +150,16 @@
 
     <item>
       <title>Hugo 搭建个人博客</title>
-      <link>https://kuqilin.github.io/post/hugo/</link>
+      <link>https://www.kuqilin.top/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/hugo/</guid>
+      <guid>https://www.kuqilin.top/post/hugo/</guid>
       <description>
         <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           记录了我在 GitHub Pages 搭建 Hugo 的经历
         
-        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-17</p>]]>
+        <hr><p>本文2026-07-11首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-17</p>]]>
       </description>
       
         <category>记录</category>

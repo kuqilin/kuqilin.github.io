@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/zh-tw/categories/ai/</link>
+    <link>https://www.kuqilin.top/zh-tw/categories/ai/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Wed, 15 Jul 2026 21:15:14 +0800</lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/zh-tw/categories/ai/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://www.kuqilin.top/zh-tw/categories/ai/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,16 +23,16 @@
 
     <item>
       <title>复刻 Telegram 的 AI 编辑器</title>
-      <link>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</link>
+      <link>https://www.kuqilin.top/zh-tw/post/telegram-ai-editor-prompt/</link>
       <pubDate>Wed, 15 Jul 2026 21:15:14 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/telegram-ai-editor-prompt/</guid>
+      <guid>https://www.kuqilin.top/zh-tw/post/telegram-ai-editor-prompt/</guid>
       <description>
         <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
         
-        <hr><p>本文2026-07-15首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
+        <hr><p>本文2026-07-15首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
       </description>
       
         <category>AI</category>

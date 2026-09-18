@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/en/categories/</link>
+    <link>https://www.kuqilin.top/en/categories/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
@@ -15,7 +15,7 @@
     <lastBuildDate></lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/en/categories/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://www.kuqilin.top/en/categories/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     

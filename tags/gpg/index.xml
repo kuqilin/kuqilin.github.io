@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>GPG on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/tags/gpg/</link>
+    <link>https://www.kuqilin.top/tags/gpg/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Thu, 16 Jul 2026 11:47:46 +0800</lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/tags/gpg/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://www.kuqilin.top/tags/gpg/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,16 +23,16 @@
 
     <item>
       <title>我的GPG公钥</title>
-      <link>https://kuqilin.github.io/post/my-gpg/</link>
+      <link>https://www.kuqilin.top/post/my-gpg/</link>
       <pubDate>Mon, 15 Jan 2024 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/my-gpg/</guid>
+      <guid>https://www.kuqilin.top/post/my-gpg/</guid>
       <description>
         <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           更新：修改了公钥以及邮箱
         
-        <hr><p>本文2024-01-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-16</p>]]>
+        <hr><p>本文2024-01-15首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-16</p>]]>
       </description>
       
     </item>

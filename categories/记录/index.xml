@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>记录 on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/categories/%E8%AE%B0%E5%BD%95/</link>
+    <link>https://www.kuqilin.top/categories/%E8%AE%B0%E5%BD%95/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sun, 13 Sep 2026 08:00:00 +0800</lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://www.kuqilin.top/categories/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,16 +23,16 @@
 
     <item>
       <title>2026年记</title>
-      <link>https://kuqilin.github.io/post/2026-nian-ji/</link>
+      <link>https://www.kuqilin.top/post/2026-nian-ji/</link>
       <pubDate>Sun, 13 Sep 2026 08:00:00 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/2026-nian-ji/</guid>
+      <guid>https://www.kuqilin.top/post/2026-nian-ji/</guid>
       <description>
         <![CDATA[<h1>2026年记</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           2026年的年记
         
-        <hr><p>本文2026-09-13首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-09-13</p>]]>
+        <hr><p>本文2026-09-13首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-09-13</p>]]>
       </description>
       
         <category>年记</category><category>记录</category>
@@ -43,16 +43,16 @@
 
     <item>
       <title>晚修延时摄影项目介绍</title>
-      <link>https://kuqilin.github.io/post/class-night-lapse/</link>
+      <link>https://www.kuqilin.top/post/class-night-lapse/</link>
       <pubDate>Sun, 23 Aug 2026 10:17:53 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/class-night-lapse/</guid>
+      <guid>https://www.kuqilin.top/post/class-night-lapse/</guid>
       <description>
         <![CDATA[<h1>晚修延时摄影项目介绍</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           一个基于 Python + OpenCV 的班级晚修延时摄影小工具，支持定时拍摄、自动时间戳、双输出日志，可选 WebDAV 上传。
         
-        <hr><p>本文2026-08-23首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-23</p>]]>
+        <hr><p>本文2026-08-23首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-23</p>]]>
       </description>
       
         <category>记录</category>
@@ -63,16 +63,16 @@
 
     <item>
       <title>望文生义 · 成语辨析小测</title>
-      <link>https://kuqilin.github.io/post/wang-wen-sheng-yi-1/</link>
+      <link>https://www.kuqilin.top/post/wang-wen-sheng-yi-1/</link>
       <pubDate>Sun, 16 Aug 2026 11:22:15 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/wang-wen-sheng-yi-1/</guid>
+      <guid>https://www.kuqilin.top/post/wang-wen-sheng-yi-1/</guid>
       <description>
         <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
         
-        <hr><p>本文2026-08-16首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
+        <hr><p>本文2026-08-16首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
       </description>
       
         <category>记录</category>
@@ -83,16 +83,16 @@
 
     <item>
       <title>望文生义 · 成语用法辨析</title>
-      <link>https://kuqilin.github.io/post/wang-wen-sheng-yi-2/</link>
+      <link>https://www.kuqilin.top/post/wang-wen-sheng-yi-2/</link>
       <pubDate>Sun, 16 Aug 2026 11:43:32 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/wang-wen-sheng-yi-2/</guid>
+      <guid>https://www.kuqilin.top/post/wang-wen-sheng-yi-2/</guid>
       <description>
         <![CDATA[<h1>望文生义 · 成语用法辨析</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>释义认得，实战才是真考验。小测随机抽一个成语，给你两句含成语的句子，判断哪句用得<strong>正确</strong>——答完还会给出原意与易错点解析，并标注原书编号。答对/答错即时反馈，换题无刷新。</p>
         
-        <hr><p>本文2026-08-16首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
+        <hr><p>本文2026-08-16首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-16</p>]]>
       </description>
       
         <category>记录</category>
@@ -103,10 +103,10 @@
 
     <item>
       <title>一些有用的东西</title>
-      <link>https://kuqilin.github.io/post/yi-xie-you-yong-de-dong-xi/</link>
+      <link>https://www.kuqilin.top/post/yi-xie-you-yong-de-dong-xi/</link>
       <pubDate>Sat, 15 Aug 2026 23:50:24 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/yi-xie-you-yong-de-dong-xi/</guid>
+      <guid>https://www.kuqilin.top/post/yi-xie-you-yong-de-dong-xi/</guid>
       <description>
         <![CDATA[<h1>一些有用的东西</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -116,7 +116,7 @@
 <a href="https://kuqilin.github.io/docs/leizhou-guide.html" title="雷州一日游" target="_blank">雷州一日游</a>
 <a href="https://kuqilin.github.io/docs/xuwen-guide.html" title="徐闻一日游" target="_blank">徐闻一日游</a>
         
-        <hr><p>本文2026-08-15首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-15</p>]]>
+        <hr><p>本文2026-08-15首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-15</p>]]>
       </description>
       
         <category>记录</category>
@@ -127,16 +127,16 @@
 
     <item>
       <title>37 签名 SVG 图片</title>
-      <link>https://kuqilin.github.io/post/37-signature/</link>
+      <link>https://www.kuqilin.top/post/37-signature/</link>
       <pubDate>Wed, 22 Jul 2026 22:59:49 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/37-signature/</guid>
+      <guid>https://www.kuqilin.top/post/37-signature/</guid>
       <description>
         <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
         
-        <hr><p>本文2026-07-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-08-01</p>]]>
+        <hr><p>本文2026-07-22首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-08-01</p>]]>
       </description>
       
         <category>记录</category>
@@ -147,10 +147,10 @@
 
     <item>
       <title>网站看板娘 —— 37 泉眼深处</title>
-      <link>https://kuqilin.github.io/post/kan-ban-niang/</link>
+      <link>https://www.kuqilin.top/post/kan-ban-niang/</link>
       <pubDate>Tue, 28 Jul 2026 20:41:02 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/kan-ban-niang/</guid>
+      <guid>https://www.kuqilin.top/post/kan-ban-niang/</guid>
       <description>
         <![CDATA[<h1>网站看板娘 —— 37 泉眼深处</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -159,7 +159,7 @@
 再次更新
 </h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
         
-        <hr><p>本文2026-07-28首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-29</p>]]>
+        <hr><p>本文2026-07-28首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-29</p>]]>
       </description>
       
         <category>记录</category>
@@ -170,10 +170,10 @@
 
     <item>
       <title>大道雅文答案（AI生成）</title>
-      <link>https://kuqilin.github.io/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</link>
+      <link>https://www.kuqilin.top/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</link>
       <pubDate>Wed, 22 Jul 2026 17:10:00 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</guid>
+      <guid>https://www.kuqilin.top/post/%E5%A4%A7%E9%81%93%E9%9B%85%E6%96%87%E8%9E%8D%E5%90%88%E8%AF%BB%E5%86%99_%E4%BB%BB%E5%8A%A1%E4%B8%80%E7%AD%94%E6%A1%88/</guid>
       <description>
         <![CDATA[<h1>大道雅文答案（AI生成）</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -185,7 +185,7 @@
 总第44期·任务一：老旧小区改造
 </h2><p>近年来，全国多地推进老旧小区改造工程，这一民生实践与中华文明&quot;民为邦本&quot;&ldquo;富民调均&quot;&ldquo;天人合一&quot;&ldquo;和合共生&quot;等传统理念深度契合，彰显了中国式现代化的文化底蕴。</p>
         
-        <hr><p>本文2026-07-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-22</p>]]>
+        <hr><p>本文2026-07-22首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-22</p>]]>
       </description>
       
         <category>记录</category>
@@ -196,16 +196,16 @@
 
     <item>
       <title>Hugo 搭建个人博客</title>
-      <link>https://kuqilin.github.io/post/hugo/</link>
+      <link>https://www.kuqilin.top/post/hugo/</link>
       <pubDate>Sat, 11 Jul 2026 23:17:12 &#43;0800</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/hugo/</guid>
+      <guid>https://www.kuqilin.top/post/hugo/</guid>
       <description>
         <![CDATA[<h1>Hugo 搭建个人博客</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           记录了我在 GitHub Pages 搭建 Hugo 的经历
         
-        <hr><p>本文2026-07-11首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-17</p>]]>
+        <hr><p>本文2026-07-11首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-17</p>]]>
       </description>
       
         <category>记录</category>
@@ -216,10 +216,10 @@
 
     <item>
       <title>我去过的学校</title>
-      <link>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</link>
+      <link>https://www.kuqilin.top/post/wo-qu-guo-de-xue-xiao/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/post/wo-qu-guo-de-xue-xiao/</guid>
+      <guid>https://www.kuqilin.top/post/wo-qu-guo-de-xue-xiao/</guid>
       <description>
         <![CDATA[<h1>我去过的学校</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
@@ -284,7 +284,7 @@
 </table>
 <details>你不应看到这里</details>
         
-        <hr><p>本文2025-02-22首发于<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最后修改于2026-07-12</p>]]>
+        <hr><p>本文2025-02-22首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-07-12</p>]]>
       </description>
       
         <category>记录</category>

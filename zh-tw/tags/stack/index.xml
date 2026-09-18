@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stack on Kuqilin&#39;s Blog</title>
-    <link>https://kuqilin.github.io/zh-tw/tags/stack/</link>
+    <link>https://www.kuqilin.top/zh-tw/tags/stack/</link>
     <description>Recent content from Kuqilin&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
@@ -15,7 +15,7 @@
     <lastBuildDate>Sat, 13 May 2023 00:00:00 +0000</lastBuildDate>
     
     
-    <atom:link href="https://kuqilin.github.io/zh-tw/tags/stack/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="https://www.kuqilin.top/zh-tw/tags/stack/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
     
@@ -23,16 +23,16 @@
 
     <item>
       <title>栈、队列和双端队列的Python实现</title>
-      <link>https://kuqilin.github.io/zh-tw/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
+      <link>https://www.kuqilin.top/zh-tw/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 &#43;0000</pubDate>
       <author>kuqilin@outlook.com (Kuqilin)</author>
-      <guid>https://kuqilin.github.io/zh-tw/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
+      <guid>https://www.kuqilin.top/zh-tw/post/zhan-dui-lie-hu-shuang-duan-dui-lie-di-python-shi-xian/</guid>
       <description>
         <![CDATA[<h1>栈、队列和双端队列的Python实现</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           栈、队列和双端队列的Python实现
         
-        <hr><p>本文2023-05-13首發於<a href='https://kuqilin.github.io/'>Kuqilin's Blog</a>，最後修改於2023-05-13</p>]]>
+        <hr><p>本文2023-05-13首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2023-05-13</p>]]>
       </description>
       
         <category>Python</category>
