@@ -156,7 +156,7 @@
           <span id="nav-language-btn" class="nav-icon" style="padding: 0 20px 0 0"></span>
           <span id="selected-lang">简体中文</span>
         </div>
-        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li></ul>
+        <ul class="select-items" id="select-items" role="listbox" aria-label="Languages"><li data-value="zh-cn" role="option" class="selected" aria-selected="true" >简体中文</li><li data-value="yue" role="option" aria-selected="false" >粵語</li><li data-value="zh-tw" role="option" aria-selected="false" >繁體中文</li><li data-value="en" role="option" aria-selected="false" >English</li></ul>
       </div>
       <script>
         var selectSelected = document.getElementById("select-selected");
@@ -172,7 +172,7 @@
 
         selectOptions.forEach((item) => {
           item.addEventListener("click", () => {
-            const langMap = {};selectedLang.textContent = item.textContent;
+            const langMap = {};langMap['yue'] = '\/yue\/post\/q-s-speech\/';langMap['zh-tw'] = '\/zh-tw\/post\/q-s-speech\/';langMap['en'] = '\/en\/post\/q-s-speech\/';selectedLang.textContent = item.textContent;
             selectItems.classList.remove("show");
             selectOptions.forEach((option) => {
               option.classList.remove("selected");
