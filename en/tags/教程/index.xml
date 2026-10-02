@@ -19,6 +19,7 @@
     
 
     
+      
     
 
     <item>
@@ -30,15 +31,393 @@
       <description>
         <![CDATA[<h1>高中生排版指北</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          写完发现，这大概是我除了作业和论文之外写过最正经的东西了。但其实也没多正经。
+          <h1 id="高中生排版指北">
+<a class="header-anchor" href="#%e9%ab%98%e4%b8%ad%e7%94%9f%e6%8e%92%e7%89%88%e6%8c%87%e5%8c%97"></a>
+高中生排版指北
+</h1><blockquote>
+<p>写完发现，这大概是我除了作业和论文之外写过最正经的东西了。但其实也没多正经。暂时全文 AI 生成，有些东西不太符合，我会慢慢改。</p>
+</blockquote>
+<hr>
+<h2 id="-1-前言">
+<a class="header-anchor" href="#-1-%e5%89%8d%e8%a8%80"></a>
+-1. 前言
+</h2><p>本文适合高中生阅读，但其他人也可以阅读。</p>
+<h2 id="0-绪论">
+<a class="header-anchor" href="#0-%e7%bb%aa%e8%ae%ba"></a>
+0. 绪论
+</h2><p>先“说文解字”一下，如题，“高中生”说明本文是为高中生排版写的，不是初中生、不是小学生，因此会稍有难度但不会太难。“排版”说明了是教你什么的，“指北”即教程。</p>
+<p>为什么我要写这个呢，因为发现身边的同学们貌似对排版一点概念没有，因此决定至少让他们知道一些基本概念，比如不同字体、数学公式之类的。</p>
+<p>难度方面本文基本介绍一些概念，部分涉及 Word/WPS 的使用和数学公式的输入，以及少量$\TeX$内容。</p>
+<p>其实，排版不是一件那么难的事情，尤其现在的办公软件基本都是所见即所得。当你看着自己完成的一份排版作品，还是很有成就感的。不妨看看我排的那篇<a href="https://kuqilin.eu.org/mathEssay.pdf">数学论文</a>。</p>
+<h2 id="1-文字排版基础">
+<a class="header-anchor" href="#1-%e6%96%87%e5%ad%97%e6%8e%92%e7%89%88%e5%9f%ba%e7%a1%80"></a>
+1. 文字排版基础
+</h2><h3 id="11-字体">
+<a class="header-anchor" href="#11-%e5%ad%97%e4%bd%93"></a>
+1.1 字体
+</h3><p>以前对字体真的无意识，大街小巷手机电脑基本全是黑体，书本基本全是宋体，偶尔的少量楷体，基本不会分辨字体。知道初中开始用 Markdown 写一些内容，我才意识到字体这件事，就跟穿衣服一样——穿睡衣出门也能走，但别人看你的眼神不一样。字体有很多种，但是为了简便，<strong>中文字体，认识这几个就够了：</strong></p>
+<ol>
+<li>
+<p><strong>宋体</strong>：横细竖粗，笔画末端带个小装饰（那叫“衬线”），课本、试卷、正式文档基本都是它。看久了不累，适合正文。Windows 自带“宋体（SimSun）”，还有开源免费的“思源宋体”，公文的“方正小标宋”等等，大差不差。Windows 的 SimSun 就够了。</p>
+</li>
+<li>
+<p><strong>黑体</strong>：粗细均匀，没那些小装饰，很“现代”，适合做标题。微软雅黑就属于黑体，Windows自带，用着挺舒服。还有 Windows 的“黑体（SimHei）”、公文用的方正的“黑体”等。</p>
+</li>
+<li>
+<p><strong>楷体</strong>：像手写，流畅带笔锋，适合引用、注释、写诗。但不太建议写正文，不太舒服（不过貌似试卷会给阅读用楷体）。有 Windows 的“楷体（KaiTi）”、方正的“楷体”等。</p>
+</li>
+<li>
+<p><strong>仿宋</strong>：比宋体细一点，比楷体端正一点，清秀型。公文用它，适合图注和落款。有 Windows 的“仿宋（FangSong）”等。</p>
+</li>
+<li>
+<p><strong>隶书、幼圆</strong>：偶尔做海报还行，正式作业别用。</p>
+</li>
+</ol>
+<blockquote>
+<p>截图 1：同一段文字用宋体、黑体、楷体、仿宋、隶书、幼圆分别显示，红框标出宋体的衬线和黑体的均匀。</p>
+</blockquote>
+<blockquote>
+<p>截图 2：Word 字体下拉菜单，红框圈出那几个常用的。</p>
+</blockquote>
+<p><strong>西文字体，一句话说清楚：</strong></p>
+<p>中英混排的时候英文部分也要选字体，别全丢给 Word 默认。正文用 Times New Roman（正式）或者 Arial（清爽），代码、公式里的字母用 Consolas 或 Courier New（等宽，整齐）。</p>
+<p>西文字体也是类似中文，比如各种衬线字体对应宋体、斜体对应楷书、等线对应黑体、等宽对应仿宋等。</p>
+<p>Word 里可以分开设中文字体和西文字体，在字体对话框里两个下拉框各选各的。不设的话 Word 会用&quot;等线&quot;这个迷之字体，你作业里那些奇怪的&quot;口&quot;字多半是它害的。</p>
+<blockquote>
+<p>截图 3：Word字体设置对话框，红框标出&quot;中文字体&quot;和&quot;西文字体&quot;两个下拉框。</p>
+</blockquote>
+<p><strong>字号和行距，不用记太细：</strong></p>
+<p>正文小四（12pt）或五号（10.5pt），行距 1.2 ~ 1.5 倍。标题比正文大一点就行，别把一级标题搞成海报大小。</p>
+<p>最重要的原则就一条：<strong>全文同级别内容用同一套字体字号颜色</strong>。你要是三个一级标题分别用了宋体黑体楷体，老师会觉得你写文档的时候人格分裂了。</p>
+<blockquote>
+<p>截图 4：段落设置对话框，红框标出首行缩进 2 字符、行距、段间距。</p>
+</blockquote>
+<h3 id="12-中英混排空格是美德">
+<a class="header-anchor" href="#12-%e4%b8%ad%e8%8b%b1%e6%b7%b7%e6%8e%92%e7%a9%ba%e6%a0%bc%e6%98%af%e7%be%8e%e5%be%b7"></a>
+1.2 中英混排：空格是美德
+</h3><p>这个坑很多人不注意，因为加一个空格的操作在 Word/WPS、微信等软件会自动加上半个多空格进行渲染，不用手动进行。但是自己写一些其他文章就要注意了。</p>
+<p><strong>规则只有三条：</strong></p>
+<ul>
+<li>中文和英文之间加空格：<code>今天学习了 Newton 第二定律</code>（对），<code>今天学习了Newton第二定律</code>（错）</li>
+<li>中文和数字之间加空格：<code>一共 30 名学生</code>（对），<code>一共30名学生</code>（错）</li>
+<li>中文和行内公式之间加空格：<code>加速度 a 的单位是 m/s²</code>（对），<code>加速度a的单位是m/s²</code>（错）</li>
+</ul>
+<p><strong>什么时候不用加：</strong> 中文标点后面不加，括号引号靠文字那侧不加，百分比温度连着写（<code>37%</code>、<code>25℃</code>）。</p>
+<p><strong>标点符号：</strong> 中文用全角<code>，。；：“”‘’！？（）</code>，英文用半角<code>, . ; : &quot; ' ! ? ( )</code>。别混用，中文段落里冒出英文逗号特别扎眼。</p>
+<blockquote>
+<p>截图5：一段文字的错误排版（无空格、标点混用）和正确排版并排放，红框标出差异。</p>
+</blockquote>
+<h3 id="13-数字与单位">
+<a class="header-anchor" href="#13-%e6%95%b0%e5%ad%97%e4%b8%8e%e5%8d%95%e4%bd%8d"></a>
+1.3 数字与单位
+</h3><p>数字用半角<code>0 1 2 3</code>，别用全角<code>１２３</code>（那是中文输入法没切的锅）。</p>
+<p>科学计数法：<code>1.6×10⁻¹⁹ C</code>，乘号用<code>×</code>，$\TeX$中可用<code>\times</code>，上标用 Word 的上下标功能。</p>
+<p><strong>数字和单位之间加空格</strong>：<code>5 kg</code>、<code>10 m/s</code>。教材里经常写<code>10N</code>、<code>5kg</code>，那是旧习惯问题。如果老师没强制要求，你就按规范写，全文统一就行。</p>
+<p><strong>值得注意：</strong> 按照国内习惯，貌似不喜欢在数值和单位之间加空格，这点上有争议，一般喜欢紧凑一点可以不加或者用<code>\,</code>，喜欢宽敞用<code>~</code>或者<code>\ </code>（指在$\TeX$中）。这篇文章我就不喜欢加空格，太宽了（</p>
+<p>单位符号用正体（不斜）：</p>
+<ul>
+<li>小写：$\text{m kg s mol cd}$</li>
+<li>大写：$\text{N Pa J W A V Ω Hz}$</li>
+</ul>
+<blockquote>
+<p>截图6：教材上的<code>10N</code>和规范写法<code>10 N</code>放一起对比。</p>
+</blockquote>
+<h3 id="14-标点和其他细节">
+<a class="header-anchor" href="#14-%e6%a0%87%e7%82%b9%e5%92%8c%e5%85%b6%e4%bb%96%e7%bb%86%e8%8a%82"></a>
+1.4 标点和其他细节
+</h3><p>中文破折号是<code>——</code>（占两格），省略号是<code>……</code>（不是六个句号<code>......</code>）。</p>
+<p>段落首行缩进两字符（Word 段落设置里调）。段间距和行距分开设，别用空行代替段间距。</p>
+<p><strong>千万千万别用空格键强行对齐。</strong> 我见过有人为了居中按了十几下空格，换行全乱，惨不忍睹。用 Word 的制表位、表格或者样式功能。</p>
+<hr>
+<h2 id="2-数学排版">
+<a class="header-anchor" href="#2-%e6%95%b0%e5%ad%a6%e6%8e%92%e7%89%88"></a>
+2. 数学排版
+</h2><h3 id="21-几条硬规矩">
+<a class="header-anchor" href="#21-%e5%87%a0%e6%9d%a1%e7%a1%ac%e8%a7%84%e7%9f%a9"></a>
+2.1 几条硬规矩
+</h3><p>这些不是建议，是规则。考试写错格式也会扣分那种。</p>
+<ul>
+<li><strong>变量斜体</strong>：$x$、$y$、$f(x)$、$a_1$。物理里的力$F$、加速度$a$都是变量，斜。</li>
+<li><strong>函数名正体</strong>：$\sin x$、$\log x$、$\ln x$。<code>sin</code>不是变量，是函数，别斜。</li>
+<li><strong>单位正体</strong>：<code>5 kg</code>里的<code>kg</code>正体，不斜。</li>
+<li><strong>向量写法按教材统一</strong>：有的书用$F$，有的加箭头$\vec{F}$，有的加粗$\mathbf{F}$。问一下你老师，全文一致就行。</li>
+<li><strong>上下标分清</strong>：下标是序号（<code>x₁</code>、<code>v₀</code>），上标是幂（<code>x²</code>、<code>10³</code>）。</li>
+<li><strong>行内公式别太高</strong>：太复杂的单独成行居中。重要公式给个编号<code>(1)</code>、<code>(2)</code>，后面引用方便。</li>
+</ul>
+<blockquote>
+<p>截图7：<code>sin x</code>（正体+空格）和<code>sinx</code>的对比。</p>
+</blockquote>
+<h3 id="22-怎么输公式">
+<a class="header-anchor" href="#22-%e6%80%8e%e4%b9%88%e8%be%93%e5%85%ac%e5%bc%8f"></a>
+2.2 怎么输公式
+</h3><p><strong>方法一：Word 自带公式（最常用）</strong></p>
+<p>快捷键<code>Alt + =</code>，按完直接出公式框。里面能插分数、根号、上下标、求和、积分。</p>
+<p>线性输入（打字快）：</p>
+<ul>
+<li>分式：<code>a/b</code>然后按空格 → 变成竖排分数</li>
+<li>上标：<code>x^2</code></li>
+<li>下标：<code>x_1</code></li>
+<li>希腊字母：<code>\alpha</code>、<code>\beta</code>、<code>\pi</code></li>
+<li>根式：<code>\sqrt(x)</code></li>
+</ul>
+<p>还有个&quot;墨迹公式&quot;功能，鼠标手写自动识别，救急用过几次，还行。</p>
+<p>优点：不用装任何软件。缺点：复杂排版不太灵活。</p>
+<blockquote>
+<p>截图8：按<code>Alt+=</code>后出现的公式工具栏。</p>
+</blockquote>
+<blockquote>
+<p>截图9：线性输入<code>a/b</code>按空格变分数的前后对比。</p>
+</blockquote>
+<p><strong>方法二：LaTeX（进阶）</strong></p>
+<p>LaTeX就是个排版系统，数学公式是王牌。你不需要学会写整篇，记住几个命令能救命。</p>
+<p>常用命令：</p>
+<ul>
+<li>分式：<code>\frac{a}{b}</code></li>
+<li>根式：<code>\sqrt{x}</code>、<code>\sqrt[n]{x}</code></li>
+<li>上下标：<code>x^2</code>、<code>x_1</code></li>
+<li>求和：<code>\sum_{i=1}^{n}</code></li>
+<li>积分：<code>\int_a^b f(x)\,dx</code></li>
+<li>矩阵：<code>\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}</code></li>
+</ul>
+<p>推荐 Overleaf，在线编辑器，不用装，左边写代码右边预览。</p>
+<p>适用场景：竞赛论文、研究性学习报告、需要统一排版的文档。</p>
+<blockquote>
+<p>截图10：Overleaf界面，左边代码右边预览。</p>
+</blockquote>
+<p><strong>方法三：Markdown + KaTeX（做笔记用）</strong></p>
+<p>我博客用这个，舒服。适合平时做笔记。</p>
+<p>常用软件：Typora、Obsidian、Notion。</p>
+<p>用法：</p>
+<ul>
+<li>行内公式：<code>$a^2 + b^2 = c^2$</code></li>
+<li>独立公式：<code>$$a^2 + b^2 = c^2$$</code></li>
+</ul>
+<p>KaTeX 渲染快，输出 SVG 放大也不糊。</p>
+<blockquote>
+<p>截图11：Typora或Obsidian里公式显示效果。</p>
+</blockquote>
+<p><strong>方法四：公式识别工具</strong></p>
+<p><strong>Mathpix</strong>：截图公式转 LaTeX 代码，识别课本上的公式用这个，省手打。</p>
+<p><strong>手机小程序</strong>：搜“公式识别”一堆，拍照就能转。</p>
+<blockquote>
+<p>截图12：Mathpix 界面，左边截图右边识别结果。</p>
+</blockquote>
+<h3 id="23-数学字体">
+<a class="header-anchor" href="#23-%e6%95%b0%e5%ad%a6%e5%ad%97%e4%bd%93"></a>
+2.3 数学字体
+</h3><p>Word 默认 Cambria Math，LaTeX 默认Computer Modern，都够用。原则就一条：<strong>全文保持一致</strong>。</p>
+<hr>
+<h2 id="3-实战排一份作业">
+<a class="header-anchor" href="#3-%e5%ae%9e%e6%88%98%e6%8e%92%e4%b8%80%e4%bb%bd%e4%bd%9c%e4%b8%9a"></a>
+3. 实战：排一份作业
+</h2><h3 id="31-动手前花三分钟规划">
+<a class="header-anchor" href="#31-%e5%8a%a8%e6%89%8b%e5%89%8d%e8%8a%b1%e4%b8%89%e5%88%86%e9%92%9f%e8%a7%84%e5%88%92"></a>
+3.1 动手前花三分钟规划
+</h3><p>别急着打字。想清楚标题分几级、哪些公式要编号、图片放哪。三分钟规划省半小时调整。</p>
+<h3 id="32-word-实操">
+<a class="header-anchor" href="#32-word-%e5%ae%9e%e6%93%8d"></a>
+3.2 Word 实操
+</h3><p><strong>第一步：用样式，别手动画</strong></p>
+<p>新建“正文”“标题1”“标题2”“公式”样式，设好字体字号行距，然后应用。以后改格式只改样式定义，全文自动同步。</p>
+<p><strong>第二步：段落设置</strong></p>
+<p>正文样式设首行缩进 2 字符、1.5 倍行距、段后 6pt。</p>
+<p><strong>第三步：公式对齐</strong></p>
+<p>独立公式居中、编号右对齐——我用一行三列无边框表格来实现，中间放公式右边放编号，比用空格稳定一百倍。</p>
+<p><strong>第四步：导出 PDF 前检查</strong></p>
+<p>检查字体是否嵌入、公式是否清晰、版面是否整齐。</p>
+<blockquote>
+<p>截图13：Word 样式窗格。</p>
+</blockquote>
+<blockquote>
+<p>截图14：公式居中+编号右对齐的效果。</p>
+</blockquote>
+<h3 id="33-常见错误">
+<a class="header-anchor" href="#33-%e5%b8%b8%e8%a7%81%e9%94%99%e8%af%af"></a>
+3.3 常见错误
+</h3><table>
+	<thead>
+			<tr>
+					<th>错误</th>
+					<th>正确</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>用F表示力</code></td>
+					<td><code>用 F 表示力</code></td>
+			</tr>
+			<tr>
+					<td><code>5kg</code></td>
+					<td><code>5 kg</code></td>
+			</tr>
+			<tr>
+					<td><code>sinx</code></td>
+					<td><code>sin x</code></td>
+			</tr>
+			<tr>
+					<td>贴模糊公式截图</td>
+					<td>用 Word 公式或 KaTeX 重打</td>
+			</tr>
+			<tr>
+					<td>中文段落用英文逗号</td>
+					<td>中文用全角标点</td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<h2 id="4-工具推荐">
+<a class="header-anchor" href="#4-%e5%b7%a5%e5%85%b7%e6%8e%a8%e8%8d%90"></a>
+4. 工具推荐
+</h2><table>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>用这个</th>
+					<th>理由</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>日常作业</td>
+					<td>Word 自带公式</td>
+					<td>老师能打开</td>
+			</tr>
+			<tr>
+					<td>课堂笔记</td>
+					<td>Typora/Obsidian</td>
+					<td>快，好检索</td>
+			</tr>
+			<tr>
+					<td>竞赛论文</td>
+					<td>Overleaf（LaTeX）</td>
+					<td>规范，公式漂亮</td>
+			</tr>
+			<tr>
+					<td>公众号/博客</td>
+					<td>Markdown + KaTeX</td>
+					<td>适配网页</td>
+			</tr>
+			<tr>
+					<td>扫描公式</td>
+					<td>Mathpix 或小程序</td>
+					<td>省时间</td>
+			</tr>
+	</tbody>
+</table>
+<p>链接：</p>
+<ul>
+<li>Overleaf：https://www.overleaf.com</li>
+<li>Mathpix：https://mathpix.com</li>
+<li>Typora：https://typora.io</li>
+<li>Obsidian：https://obsidian.md</li>
+</ul>
+<hr>
+<h2 id="5-交作业前检查清单">
+<a class="header-anchor" href="#5-%e4%ba%a4%e4%bd%9c%e4%b8%9a%e5%89%8d%e6%a3%80%e6%9f%a5%e6%b8%85%e5%8d%95"></a>
+5. 交作业前检查清单
+</h2><ul>
+<li><input disabled="" type="checkbox"> 中英文、数字之间加空格了吗？</li>
+<li><input disabled="" type="checkbox"> 标点全角/半角分清楚了吗？</li>
+<li><input disabled="" type="checkbox"> 单位正体、留空了吗？</li>
+<li><input disabled="" type="checkbox"> 数学变量斜体了吗？</li>
+<li><input disabled="" type="checkbox"> 函数名、单位正体了吗？</li>
+<li><input disabled="" type="checkbox"> 公式是清晰打出来的不是模糊截图吧？</li>
+<li><input disabled="" type="checkbox"> 全文字体、字号、行距统一吗？</li>
+<li><input disabled="" type="checkbox"> 标题层级清晰吗？</li>
+<li><input disabled="" type="checkbox"> 图表、公式有编号吗？</li>
+<li><input disabled="" type="checkbox"> PDF导出来看过一遍了吗？</li>
+</ul>
+<hr>
+<h2 id="附录常用公式输入速查">
+<a class="header-anchor" href="#%e9%99%84%e5%bd%95%e5%b8%b8%e7%94%a8%e5%85%ac%e5%bc%8f%e8%be%93%e5%85%a5%e9%80%9f%e6%9f%a5"></a>
+附录：常用公式输入速查
+</h2><p><strong>LaTeX 命令</strong></p>
+<table>
+	<thead>
+			<tr>
+					<th>内容</th>
+					<th>命令</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>分式</td>
+					<td><code>\frac{a}{b}</code></td>
+			</tr>
+			<tr>
+					<td>根式</td>
+					<td><code>\sqrt{x}</code>、<code>\sqrt[n]{x}</code></td>
+			</tr>
+			<tr>
+					<td>上标</td>
+					<td><code>x^2</code></td>
+			</tr>
+			<tr>
+					<td>下标</td>
+					<td><code>x_1</code></td>
+			</tr>
+			<tr>
+					<td>求和</td>
+					<td><code>\sum_{i=1}^{n}</code></td>
+			</tr>
+			<tr>
+					<td>积分</td>
+					<td><code>\int_a^b f(x)\,dx</code></td>
+			</tr>
+			<tr>
+					<td>希腊字母</td>
+					<td><code>\alpha</code>、<code>\beta</code>、<code>\pi</code></td>
+			</tr>
+			<tr>
+					<td>矩阵</td>
+					<td><code>\begin{bmatrix} a &amp; b \\ c &amp; d \end{bmatrix}</code></td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Word线性输入</strong></p>
+<table>
+	<thead>
+			<tr>
+					<th>内容</th>
+					<th>打法</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>分式</td>
+					<td><code>a/b</code> 空格</td>
+			</tr>
+			<tr>
+					<td>上标</td>
+					<td><code>x^2</code></td>
+			</tr>
+			<tr>
+					<td>下标</td>
+					<td><code>x_1</code></td>
+			</tr>
+			<tr>
+					<td>根式</td>
+					<td><code>\sqrt(x)</code></td>
+			</tr>
+			<tr>
+					<td>希腊字母</td>
+					<td><code>\alpha</code>、<code>\beta</code>、<code>\pi</code></td>
+			</tr>
+	</tbody>
+</table>
+<hr>
+<p>写这篇的时候我就在想，要是当年有人给我这么一份东西，我也不至于在 Word 里浪费那么多周末。排版不是内容的核心，但它决定了你的内容以什么形象出现在别人面前——老师、评委、或者未来的你自己。</p>
+<p>好了，就这些。如果你有什么排版上的问题，可以去我博客留言（虽然我不一定回）。</p>
+
         
-        <hr><p>Published on 2026-09-06 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-09-06</p>]]>
+        <hr><p>Published on 2026-09-06 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-09-06</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>教程</category>
       
     </item>
     
+      
     
 
     <item>
@@ -50,9 +429,187 @@
       <description>
         <![CDATA[<h1>高中生免费正版 JetBrains 全家桶：学生免费申请全指南</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          高中生申请 JetBrains 学生免费的完整指南：资格条件、三条验证路线（GitHub 学生包 / 官方文件 / ISIC）、申请步骤、续期方法与常见坑。
+          <p>最近把 CLion 卸载了（它已经吃灰很久），但转念一想：JetBrains 家的 IDE 对在校学生其实一直是<strong>正版免费</strong>的，高中生在读也算数。这篇把自己整理出来的申请攻略记下来，方便以后续期和分享。</p>
+<h2 id="学生免费能拿到什么">
+<a class="header-anchor" href="#%e5%ad%a6%e7%94%9f%e5%85%8d%e8%b4%b9%e8%83%bd%e6%8b%bf%e5%88%b0%e4%bb%80%e4%b9%88"></a>
+学生免费能拿到什么
+</h2><p>JetBrains 对学生有两条免费路线，一条要验证学生身份，一条不用：</p>
+<h3 id="1-jetbrains-student-pack需学生验证">
+<a class="header-anchor" href="#1-jetbrains-student-pack%e9%9c%80%e5%ad%a6%e7%94%9f%e9%aa%8c%e8%af%81"></a>
+1. JetBrains Student Pack（需学生验证）
+</h3><ul>
+<li><strong>10 个 IDE 的全功能版</strong>：IntelliJ IDEA Ultimate、PyCharm Professional、CLion、GoLand、PhpStorm、WebStorm、DataGrip、Rider、RubyMine、RustRover——即全家桶。</li>
+<li><strong>JetBrains Academy</strong>：IDE 内置的交互式编程课程（Java、Python、Kotlin 等），跟着做题就能学。</li>
+<li>求学期间<strong>免费</strong>，但需要<strong>每年续期</strong>一次。</li>
+<li>毕业后两年内购买任何产品<strong>六折</strong>。</li>
+<li>注意：只能用于学习/个人非商业用途，公司实习、兼职、接外包不能拿它顶。</li>
+</ul>
+<h3 id="2-单工具免费版无需验证">
+<a class="header-anchor" href="#2-%e5%8d%95%e5%b7%a5%e5%85%b7%e5%85%8d%e8%b4%b9%e7%89%88%e6%97%a0%e9%9c%80%e9%aa%8c%e8%af%81"></a>
+2. 单工具免费版（无需验证）
+</h3><p>只要下载就用，不查身份：</p>
+<ul>
+<li>IntelliJ IDEA Community、PyCharm Community（社区版，功能已够入门）。</li>
+<li>CLion、WebStorm、RustRover、Rider、RubyMine、DataGrip 近年开放了<strong>非商业免费版</strong>（Rider 是 2024 年起免费非商业）。</li>
+</ul>
+<p>如果只学一门语言，这档完全够用；想要全家桶完整版，才需要往下走学生验证。</p>
+<h2 id="谁有资格">
+<a class="header-anchor" href="#%e8%b0%81%e6%9c%89%e8%b5%84%e6%a0%bc"></a>
+谁有资格
+</h2><p>官方要求两条：</p>
+<ol>
+<li><strong>全日制学生</strong>，修读学制一年或以上的课程（高中三年制满足；大学、研究生当然也行）。</li>
+<li>验证方式三选一：<strong>大学邮箱</strong> / <strong>ISIC·ITIC 卡</strong> / <strong>GitHub Student Developer Pack</strong>。</li>
+</ol>
+<p>高中生一般没有大学邮箱，所以实际可行的路线是后两条。另外官方 FAQ 明确说：机构邮箱不被接受<strong>仍然可以申请</strong>（走官方文件人工审批）。</p>
+<h2 id="路线-agithub-student-developer-pack推荐">
+<a class="header-anchor" href="#%e8%b7%af%e7%ba%bf-agithub-student-developer-pack%e6%8e%a8%e8%8d%90"></a>
+路线 A：GitHub Student Developer Pack（推荐）
+</h2><p>这是高中生最稳的路，因为 GitHub 学生包本身就允许 13 岁以上的中学生申请，而且包里有几十个福利，JetBrains 全家桶只是其中之一。</p>
+<h3 id="申请-github-学生包">
+<a class="header-anchor" href="#%e7%94%b3%e8%af%b7-github-%e5%ad%a6%e7%94%9f%e5%8c%85"></a>
+申请 GitHub 学生包
+</h3><ol>
+<li>注册 GitHub 账号，先把 Profile 里的 Name 改成<strong>英文名</strong>（和证件拼音一致，如 San Zhang）。</li>
+<li>打开 <a href="https://education.github.com/pack/join">https://education.github.com/pack/join</a>，点 Student 的 &ldquo;Get benefits&rdquo;，登录后填写申请表。</li>
+<li>填表要点（中文高中生专用避坑）：
+<ul>
+<li>学校名写<strong>英文全称</strong>，不要缩写、不要中文；学校官网境外访问不了的就<strong>不要填</strong>（会直接被拒）。</li>
+<li>学校类型选 <strong>High School</strong>。</li>
+<li>有学校邮箱（edu.cn 等）优先填，通过率最高；没有就跳过。</li>
+<li><strong>申请过程不要挂 VPN</strong>（IP 与学校所在国家不符容易被标记）。</li>
+</ul>
+</li>
+<li>上传证明：学生证、在读证明、成绩单等，<strong>必须英文</strong>（自己翻译的不认，最好学校出具）；照片要清晰、包含学校名/姓名/有效期。没有 edu 邮箱时只能<strong>用摄像头实时拍摄</strong>，不能直接传文件。</li>
+<li>提交后等 3～15 个工作日，结果发邮件。</li>
+<li><strong>被拒了别慌</strong>：常见原因是学校官网境外不可访问、材料不够清晰。去 GitHub Support 开工单申诉，附上更充分的材料（社区经验里 ISIC 学生证 + 工单几乎必过）。</li>
+</ol>
+<h3 id="用-github-包换-jetbrains">
+<a class="header-anchor" href="#%e7%94%a8-github-%e5%8c%85%e6%8d%a2-jetbrains"></a>
+用 GitHub 包换 JetBrains
+</h3><p>GitHub 学生包通过后，在 <a href="https://education.github.com/pack">https://education.github.com/pack</a> 里找到 <strong>JetBrains</strong> 卡片，点进去按提示用 GitHub 账号授权，会跳转到 JetBrains 完成教育授权绑定，之后你的 JetBrains Account 里就会出现全家桶授权。</p>
+<h2 id="路线-bjetbrains-官网官方文件人工审批">
+<a class="header-anchor" href="#%e8%b7%af%e7%ba%bf-bjetbrains-%e5%ae%98%e7%bd%91%e5%ae%98%e6%96%b9%e6%96%87%e4%bb%b6%e4%ba%ba%e5%b7%a5%e5%ae%a1%e6%89%b9"></a>
+路线 B：JetBrains 官网官方文件（人工审批）
+</h2><p>不想折腾 GitHub 的，直接走 JetBrains 官方文件路线：</p>
+<ol>
+<li>先自测资格和申请方式：<a href="https://www.jetbrains.com.cn/lp/edu-program-user-flow/">https://www.jetbrains.com.cn/lp/edu-program-user-flow/</a>（回答&quot;是→否&quot;的组合题，会引导到对应的申请方式）。</li>
+<li>新申请入口：<a href="https://www.jetbrains.com/shop/eform/students">https://www.jetbrains.com/shop/eform/students</a>，申请方式一行选「<strong>官方文件</strong>」。</li>
+<li>上传材料：
+<ul>
+<li>大陆<strong>高校</strong>在校生：必须上传<strong>学信网学籍验证报告 PDF</strong>（先在学信网确认报告已开启且在有效期内，PDF 要带有效验证码）；学生证、在读证明、成绩单可作辅助材料。</li>
+<li><strong>高中生</strong>没有学信网，用学生证 / 学校开具的在读证明（中英对照更稳）。</li>
+</ul>
+</li>
+<li>官方文件是<strong>人工审批</strong>，提交后 1～2 周邮件通知结果（不会立即收到授权邮件）。</li>
+<li>通过后收 &ldquo;JetBrains Educational Pack Confirmation&rdquo; 邮件，点邮件里的链接绑定你的 JetBrains Account 即完成。</li>
+</ol>
+<h2 id="路线-cisic-国际学生证">
+<a class="header-anchor" href="#%e8%b7%af%e7%ba%bf-cisic-%e5%9b%bd%e9%99%85%e5%ad%a6%e7%94%9f%e8%af%81"></a>
+路线 C：ISIC 国际学生证
+</h2><p>ISIC 是付费的国际学生证（约几十到一百元），JetBrains 支持用它验证。单独为 JetBrains 办一张性价比不高，但如果学校本来组织办理，或你已经有了，这是最快的验证方式（系统核实后基本立即通过）。</p>
+<h2 id="拿到授权之后">
+<a class="header-anchor" href="#%e6%8b%bf%e5%88%b0%e6%8e%88%e6%9d%83%e4%b9%8b%e5%90%8e"></a>
+拿到授权之后
+</h2><ol>
+<li>申请通过 → 邮件链接绑定 JetBrains Account（没有就注册一个，建议用申请时填的邮箱，入口 <a href="https://account.jetbrains.com.cn">https://account.jetbrains.com.cn</a>）。</li>
+<li>登录 JetBrains Account 确认授权状态；若授权下方出现蓝色 &ldquo;Please review License Agreement&rdquo;，点它同意授权条款，否则无法使用。</li>
+<li>装 <strong>JetBrains Toolbox</strong>（<a href="https://www.jetbrains.com/toolbox-app/">https://www.jetbrains.com/toolbox-app/</a>），想装哪个 IDE 点哪个，登录 JetBrains Account 联网激活即可。</li>
+</ol>
+<h2 id="续期每年一次">
+<a class="header-anchor" href="#%e7%bb%ad%e6%9c%9f%e6%af%8f%e5%b9%b4%e4%b8%80%e6%ac%a1"></a>
+续期（每年一次）
+</h2><p>授权有效期一年，快到期时：</p>
+<ol>
+<li>登录 <a href="https://account.jetbrains.com.cn">https://account.jetbrains.com.cn</a>，找到对应授权，点 &ldquo;<strong>Renew my Education Pack</strong>&rdquo; 链接开启续期申请表。</li>
+<li>按当年提示重新验证学生身份（仍在读即可继续白嫖）。</li>
+<li>别走错入口：续期<strong>不是</strong>重新填新申请表，新申请入口只给从未成功申请过的人用。</li>
+</ol>
+<h2 id="大陆用户的几个坑">
+<a class="header-anchor" href="#%e5%a4%a7%e9%99%86%e7%94%a8%e6%88%b7%e7%9a%84%e5%87%a0%e4%b8%aa%e5%9d%91"></a>
+大陆用户的几个坑
+</h2><ul>
+<li><strong>JetBrains AI 已于 2024 年 7 月停止中国大陆服务</strong>，IDE 里的 AI 补全/聊天用不了（2025 年起官方也在收缩中国区销售），但学生授权本身不受影响。</li>
+<li>教育授权<strong>不能商用</strong>：实习、兼职、外包都得买商业版，别混用。</li>
+<li>GitHub 审核期间不要挂代理；JetBrains 官方文件审批期间留意垃圾邮件箱。</li>
+<li>每年毕业季前后是审核高峰，最好提前一个月续期，避免断档。</li>
+</ul>
+<h2 id="附其他技术相关的学生免费">
+<a class="header-anchor" href="#%e9%99%84%e5%85%b6%e4%bb%96%e6%8a%80%e6%9c%af%e7%9b%b8%e5%85%b3%e7%9a%84%e5%ad%a6%e7%94%9f%e5%85%8d%e8%b4%b9"></a>
+附：其他技术相关的学生免费
+</h2><p>JetBrains 不是全部，学生身份在科技圈能白嫖的东西非常多：</p>
+<table>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>免费内容</th>
+					<th>备注</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>GitHub Student Developer Pack</td>
+					<td>GitHub Pro + Copilot + 100+ 工具/服务</td>
+					<td>上面路线 A，先拿这个</td>
+			</tr>
+			<tr>
+					<td>Microsoft Azure for Students</td>
+					<td>$100 云服务器额度 + 免费服务</td>
+					<td>无需信用卡验证，高中邮箱可申请</td>
+			</tr>
+			<tr>
+					<td>DigitalOcean</td>
+					<td>$200 云服务器额度</td>
+					<td>走 GitHub 学生包</td>
+			</tr>
+			<tr>
+					<td>Microsoft 365 教育版</td>
+					<td>Word/Excel/PPT 全套</td>
+					<td>学校有教育订阅即可，问学校</td>
+			</tr>
+			<tr>
+					<td>Autodesk 教育版</td>
+					<td>Fusion 360 / Maya / 3ds Max / AutoCAD 全免费</td>
+					<td>建模/工业设计神器</td>
+			</tr>
+			<tr>
+					<td>Notion Education</td>
+					<td>Plus 版免费</td>
+					<td>记笔记/资料库</td>
+			</tr>
+			<tr>
+					<td>Canva Pro</td>
+					<td>免费一年（可续）</td>
+					<td>走 GitHub 学生包</td>
+			</tr>
+			<tr>
+					<td>Figma</td>
+					<td>教育版免费</td>
+					<td>UI 设计</td>
+			</tr>
+			<tr>
+					<td>Unity / Unreal</td>
+					<td>学生计划</td>
+					<td>做游戏</td>
+			</tr>
+			<tr>
+					<td>DataCamp / Educative</td>
+					<td>3～6 个月免费</td>
+					<td>学数据科学/算法，GitHub 包里领</td>
+			</tr>
+			<tr>
+					<td>阿里云 / 腾讯云学生机</td>
+					<td>低至几元/月甚至免费</td>
+					<td>大陆特色，学生认证后购买</td>
+			</tr>
+	</tbody>
+</table>
+<p>个人建议顺序：先把 <strong>GitHub 学生包</strong>拿到（它是很多福利的总开关），再去把 <strong>JetBrains</strong> 绑上，最后按需领云服务器和设计工具。</p>
+<hr>
+<p><em>本文信息整理自 JetBrains 官方学生页（<a href="https://www.jetbrains.com.cn/academy/student-pack/">jetbrains.com.cn/academy/student-pack</a>）、<a href="https://sales.jetbrains.com/hc/zh-cn/articles/207154369">JetBrains 学生和教师授权申请方式 FAQ</a> 及社区申请经验帖，政策如有变化以官方页面为准。</em></p>
+
         
-        <hr><p>Published on 2026-08-30 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-30</p>]]>
+        <hr><p>Published on 2026-08-30 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-30</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>教程</category>

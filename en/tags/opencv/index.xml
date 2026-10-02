@@ -19,6 +19,7 @@
     
 
     
+      
     
 
     <item>
@@ -30,9 +31,131 @@
       <description>
         <![CDATA[<h1>晚修延时摄影项目介绍</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          一个基于 Python + OpenCV 的班级晚修延时摄影小工具，支持定时拍摄、自动时间戳、双输出日志，可选 WebDAV 上传。
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>项目地址：<a href="https://github.com/kuqilin/classNightLapse">github.com/kuqilin/classNightLapse</a></p></p>
+  </blockquote>
+
+<h2 id="背景">
+<a class="header-anchor" href="#%e8%83%8c%e6%99%af"></a>
+背景
+</h2><p>想用班上一体机的摄像头来拍班级晚修的延时摄影，因此写了这个简单的 Python 程序。非常好用哈，在晚修前运行这个程序，没有痕迹，下晚修后就能看到成片了 ^_^</p>
+<p>全程只需要 <code>opencv-python</code> 和 <code>requests</code> 两个依赖，核心就是一个 <code>main.py</code>，简单粗暴。</p>
+
+  <blockquote class="alert-blockquote note">
+    <p class="alert-heading">
+      Note
+    </p>
+    <p><p>附带效果：程序运行期间摄像头会被一直占用，所以老师也没法通过希沃云班远程看我们晚修了（嘘，这算是写这个程序的一大动力）🤫</p></p>
+  </blockquote>
+
+<h2 id="功能特性">
+<a class="header-anchor" href="#%e5%8a%9f%e8%83%bd%e7%89%b9%e6%80%a7"></a>
+功能特性
+</h2><ul>
+<li><strong>定时自动拍摄</strong>：设置开始 / 结束时间（默认 18:55–20:35，正好覆盖一节晚修），到点自动开拍，结束自动保存</li>
+<li><strong>拍摄间隔可调</strong>：默认 1 秒拍一帧，一节晚修 100 分钟 ≈ 6000 帧，最终以 30fps 合成，成片约 3 分多钟</li>
+<li><strong>自动时间戳</strong>：每帧右上角叠加当前时间，背景色根据画面亮度自适应（亮背景黑底白字，暗背景白底黑字）</li>
+<li><strong>双输出日志</strong>：控制台和日志文件同步记录，方便排查&quot;为什么没拍上&quot;</li>
+<li><strong>可选 WebDAV 上传</strong>：拍完自动把成片传到网盘（默认关闭，需要自己改配置）</li>
+</ul>
+<h2 id="项目结构">
+<a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84"></a>
+项目结构
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">classNightLapse/
+</span></span><span class="line"><span class="cl">├── main.py            <span class="c1"># 全部代码，单文件</span>
+</span></span><span class="line"><span class="cl">├── requirements.txt   <span class="c1"># opencv-python、requests</span>
+</span></span><span class="line"><span class="cl">├── LICENSE            <span class="c1"># MIT</span>
+</span></span><span class="line"><span class="cl">└── .gitignore         <span class="c1"># 忽略 outputs/ logs/ 等</span>
+</span></span></code></pre></div><h2 id="核心实现解析">
+<a class="header-anchor" href="#%e6%a0%b8%e5%bf%83%e5%ae%9e%e7%8e%b0%e8%a7%a3%e6%9e%90"></a>
+核心实现解析
+</h2><h3 id="配置区">
+<a class="header-anchor" href="#%e9%85%8d%e7%bd%ae%e5%8c%ba"></a>
+配置区
+</h3><p>所有参数都集中在文件头部，改起来非常直观：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">WEBDAV</span> <span class="o">=</span> <span class="kc">False</span>                 <span class="c1"># 是否启用 WebDAV 上传</span>
+</span></span><span class="line"><span class="cl"><span class="n">START_HOUR</span><span class="p">,</span> <span class="n">START_MINUTE</span> <span class="o">=</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">55</span>
+</span></span><span class="line"><span class="cl"><span class="n">END_HOUR</span><span class="p">,</span> <span class="n">END_MINUTE</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">35</span>
+</span></span><span class="line"><span class="cl"><span class="n">CAMERA_INDEX</span> <span class="o">=</span> <span class="mi">0</span>               <span class="c1"># 摄像头编号</span>
+</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_FILE</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;outputs/</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">_%H-%M-%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">.avi&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">FPS</span> <span class="o">=</span> <span class="mi">30</span>                       <span class="c1"># 最终视频帧率</span>
+</span></span><span class="line"><span class="cl"><span class="n">FRAME_WIDTH</span> <span class="o">=</span> <span class="mi">1920</span>             <span class="c1"># 试了几个，只有这个能拍全班级</span>
+</span></span><span class="line"><span class="cl"><span class="n">FRAME_HEIGHT</span> <span class="o">=</span> <span class="mi">1080</span>            <span class="c1"># 3224 那个不够宽，拍不全</span>
+</span></span><span class="line"><span class="cl"><span class="n">INTERVAL_SECONDS</span> <span class="o">=</span> <span class="mi">1</span>           <span class="c1"># 拍摄间隔，单位秒</span>
+</span></span><span class="line"><span class="cl"><span class="n">SHOW_TIMESTAMP</span> <span class="o">=</span> <span class="kc">True</span>          <span class="c1"># 是否显示时间</span>
+</span></span><span class="line"><span class="cl"><span class="n">LOG_FILE</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;logs/</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">_%H-%M-%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">.log&#34;</span>
+</span></span></code></pre></div><p>这里有个小细节：分辨率是试出来的，只有 <code>1920x1080</code> 能把整个班级拍全。输出文件和日志文件名都带时间戳，每次运行不会互相覆盖。</p>
+<h3 id="主流程-main">
+<a class="header-anchor" href="#%e4%b8%bb%e6%b5%81%e7%a8%8b-main"></a>
+主流程 <code>main()</code>
+</h3><p>整体思路很清晰：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 1. 如果已经过了结束时间，直接退出</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 如果还没到开始时间，睡到开始前 2 秒</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 打开摄像头、设分辨率、读一帧确定尺寸</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 创建 VideoWriter，精确对齐开始时间拍第一帧</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 5. while 循环按绝对时刻拍摄，直到结束时间</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 6. finally 里释放资源，统计帧数，可选上传 WebDAV</span>
+</span></span></code></pre></div><p>值得一说的有两个点：</p>
+<p><strong>提前 2 秒打开摄像头</strong>。摄像头初始化需要时间，如果到点才开始初始化，第一帧会晚于预定时刻。所以程序在开始时间前 2 秒就打开摄像头，等真正到点了直接抓帧，保证第一帧精确落在 18:55:00。</p>
+<p><strong>绝对时刻调度防漂移</strong>。拍摄循环里没有用&quot;睡 1 秒&quot;这种相对间隔，而是维护一个 <code>next_capture</code> 绝对时刻，每拍完一帧就 <code>next_capture += timedelta(seconds=INTERVAL_SECONDS)</code>，再睡到那个时刻：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 下一个预定拍摄时刻（绝对时间，避免累积偏差）</span>
+</span></span><span class="line"><span class="cl"><span class="n">next_capture</span> <span class="o">+=</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="n">INTERVAL_SECONDS</span><span class="p">)</span>
+</span></span></code></pre></div><p>这样即使某次 <code>sleep</code> 或抓帧慢了，也不会把误差累积到后面，长跑一节课也不会越拍越飘。这个细节很关键，延时摄影最怕的就是节奏漂移。</p>
+<h3 id="时间戳-draw_timestamp">
+<a class="header-anchor" href="#%e6%97%b6%e9%97%b4%e6%88%b3-draw_timestamp"></a>
+时间戳 <code>draw_timestamp()</code>
+</h3><p>每帧右上角叠加时间，背景色是<strong>根据画面亮度自适应</strong>的——先取背景框区域的平均亮度，亮背景用黑底白字，暗背景用白底黑字：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mean_brightness</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">gray</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">mean_brightness</span> <span class="o">&gt;</span> <span class="mi">128</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bg_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>          <span class="c1"># 黑色背景</span>
+</span></span><span class="line"><span class="cl">    <span class="n">text_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>  <span class="c1"># 白色文字</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bg_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>    <span class="c1"># 白色背景</span>
+</span></span><span class="line"><span class="cl">    <span class="n">text_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>        <span class="c1"># 黑色文字</span>
+</span></span></code></pre></div><p>再用 <code>cv2.addWeighted</code> 做 0.6 透明度的半透明底，效果比直接白字好看不少，晚修教室灯光忽明忽暗也不会看不清。</p>
+<h3 id="日志-logprint">
+<a class="header-anchor" href="#%e6%97%a5%e5%bf%97-logprint"></a>
+日志 <code>logprint()</code>
+</h3><p>同时写控制台和日志文件，每行都带时间戳。晚上在教室一体机上跑的时候，你不可能一直盯着屏幕看，出问题了翻日志就行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">logprint</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">LOG_FILE</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">end</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="webdav-上传-upload_webdav">
+<a class="header-anchor" href="#webdav-%e4%b8%8a%e4%bc%a0-upload_webdav"></a>
+WebDAV 上传 <code>upload_webdav()</code>
+</h3><p>默认关闭。开启后拍完会把成片用标准 PUT 请求传到 WebDAV 网盘（用的是 <code>HTTPBasicAuth</code> 认证），这样不用回教室就能在手机上看到成片：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">put</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">url</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">auth</span><span class="o">=</span><span class="n">HTTPBasicAuth</span><span class="p">(</span><span class="n">USERNAME</span><span class="p">,</span> <span class="n">PASSWORD</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">timeout</span><span class="o">=</span><span class="mi">120</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">verify</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>  <span class="c1"># 忽略 SSL 证书问题</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p>如果要用 WebDAV，记得自己改配置并重新编译。</p>
+<h3 id="异常兜底">
+<a class="header-anchor" href="#%e5%bc%82%e5%b8%b8%e5%85%9c%e5%ba%95"></a>
+异常兜底
+</h3><p><code>while</code> 循环外面包了 <code>try / except KeyboardInterrupt</code>，即使中途被人 Ctrl+C 打断，也会在 <code>finally</code> 里正常释放摄像头、保存已经拍到的部分，不会丢帧丢文件。</p>
+<h2 id="使用方法">
+<a class="header-anchor" href="#%e4%bd%bf%e7%94%a8%e6%96%b9%e6%b3%95"></a>
+使用方法
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install -r requirements.txt
+</span></span><span class="line"><span class="cl">python main.py
+</span></span></code></pre></div><p>到点自动开拍，结束自动保存成片到 <code>outputs/</code> 下。日志在 <code>logs/</code> 下。</p>
+<p>想部署到班上一体机的话，可以根据 <code>.gitignore</code> 里预留的 <code>build/</code>、<code>dist/</code>、<code>*.spec</code> 用 PyInstaller 打成 exe，直接双击运行，非常省事。</p>
+<h2 id="总结">
+<a class="header-anchor" href="#%e6%80%bb%e7%bb%93"></a>
+总结
+</h2><p>一个单文件就能搞定的延时摄影小工具：定时开拍、自动时间戳、防漂移调度、日志兜底，功能不多但都很实用。代码量不大，感兴趣的可以直接去看源码：<a href="https://github.com/kuqilin/classNightLapse">classNightLapse</a>。</p>
+<p>下次晚修，记得提前 2 分钟运行它，下课后就能收获一份属于全班的三分钟延时大片了 🎬</p>
+
         
-        <hr><p>Published on 2026-08-23 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-23</p>]]>
+        <hr><p>Published on 2026-08-23 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-23</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>

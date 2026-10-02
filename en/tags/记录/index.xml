@@ -19,6 +19,7 @@
     
 
     
+      
     
 
     <item>
@@ -30,15 +31,219 @@
       <description>
         <![CDATA[<h1>2026年记</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          2026年的年记
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>本文中，看到字体颜色为蓝色且带有类似“🔗”图标的为跳转链接，可以点开<br>
+看到一段话右上角（就像幂次一样）带有一个蓝色数字且有类似“🔗”图标的是注解，点它可以跳转到文末看注解。注解最后面类似“↩️🔗”图标的是返回原文<br>
+这是第二版了，第一版在「归档」里面</p></p>
+  </blockquote>
+
+<p>其实挺早就有写年记的想法了，忘记是从谁的 Blog 看到的了，想着既然我不写日记、不写周记，也没有月记，那还是写个年记吧。没想到由于各种各样 <del>不可抗力</del> 的原因，比如「不知道是每年元旦发、还是除夕发，抑或是生日发」这些问题 <del>（其实是超级无敌拖延症犯了）</del> 导致一直没写成。至于为什么突然写了，我也不知道。所以，这是我第一篇「年记」 <del>谁知道会不会是最后一篇呢</del><br>
+既然是每年生日发出来（如你所见） <del>并非如此，当时还在想要不要发出来</del> ，那么整个年记肯定就要从 2025 年 09 月开始呗。<br>
+诶，话说这样还挺好，正好是一学年，所以这个「2026 年记」其实是「2025 学年记」来的。</p>
+<p>这么一想，这年还是做了挺多东西的呢。</p>
+<p>去年生日当天，又去了一次二中，参加广州市的数学与科学联赛（信息学），被人完虐。不过也是吃上二中的饭菜了（喜）。没过几天，又去了趟铁一，打 CSP<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> 的去了。第一轮还好，还算简单，结果第二轮，去到六中参加， <del>相比于市联赛，还是复赛对我好点</del> 那时年少轻狂，结果 T3 忘记取消文件输出的注释，导致这题没输出答案，我的二等奖啊😭<br>
+那天，下着雨…… <del>编不下去了</del><br>
+然后，台风桦加沙🌀来了，把我们的学农挤走了，比较可惜的就是没有 <del>挑粪</del> 野炊。</p>
+<p>这一年里，也是在 Google Play<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> 里把 Minecraft 以极低的价格拿下了，至此，PC 端的 Bedrock+Java 和移动端的 Bedrock 已经全部拿下<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。</p>
+<p>这年，还参加了北师大的数学建模比赛，在拖延症的统治下，成功地把实验 &amp; 写作时间挤压到一个月内。 <del>我失去的一个寒假机会谁给我补啊</del> 在这里，要特别感谢为我论文实验提供大力支持的<a href="https://b23.tv/gp6R1nw"><strong>呆萌der杜小杜</strong></a>，为我们提供实验场地和实验器材。以及我们小组的同学，<code>Kimi Agent</code><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>真香，$\mathrm{\TeX}$<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>轻而易举啊。最后也是成功拿下省一等奖。 <del>怎么我们学校一个进决赛都没有啊😭</del> 关于这篇论文的小故事，也许会再写一篇，但也大概率被我拖到猴年马月。一开始，小组选题其实是绿化对城市热岛效应的影响，毕竟都是地理班的学生，结果发现，这玩意光收集数据就太麻烦了，这还只是从各种网站下载遥测数据的情况去，更别提自己做实验了。后来不知哪根筋抽了，看到人大附中那篇怎么开碳酸饮料能不溢出的论文，就想着做一个碳酸饮料清洁厕所🚽，当时还是太天真了，以至于被豆包骗，斥巨资买了一斤的磷酸三钠($\ce{Na3PO4}$)，结果制造污渍需要的是小苏打和氯化钙混合得到碳酸钠（骗你的，其实还要加热）。后来为了数据，连续三周去了杜小杜的实验室，每周日都去，一去一上午。后来还要 vibe code<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> 一个提取陶瓷片灰度值的程序，总算是把数据什么的搞定。不容易啊！</p>
+<blockquote>
+<p>论文下载<br>
+<a href="https://kuqilin.github.io/uploads/mathEssay.pdf">可乐能清洁厕所吗？ ——碳酸饮料清洁厕所效果的影响因素分析与数学建模</a></p>
+</blockquote>
+<p>这年，玩了好几个解密类游戏，「机械迷城」、「纪念碑谷」、「纪念碑谷 II」、「纪念碑谷 III」全都玩了，只能说挺不错的。<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/a86ebefe80ed5c510dd5f449c46844f7b6e875ba.jpg" 
+     alt="游戏时长截图" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+这年，去了「琶洲实验室」，体验了一些全运会所使用的高科技，比如人工智能手语翻译、非侵入式脑机接口操控轮椅等，挺不错的。<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/501c4d32dfacf0b9f09570389429a646f20613ad.jpg" 
+     alt="琶洲实验室" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+这年，参加了学校艺术节，虽然在幕后基本没干什么，但是<span class="spoiler">编不下去了</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />我们班的节目也是拿下一等奖了呢🤣<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/cbfb6c72fb9495f89cc434f14b5d1661ddba2a4e.jpg" 
+     alt="艺术节奖杯" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+这年，顺手给电脑分了个 128GB 出来装 Cachy OS<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>，没想到给数学论文写作提供了极大的便利 <del>指还得从 Win 里面把字体拷过来、自己写 TeX 配置文件、编译一次 PDF 花我一分钟</del> 不得不说$\mathrm{\LaTeX}$是真香啊，极致优美的排版、 <del>极其臃肿的编译</del> ，以及一眼过去全是反斜杠<code>\</code>的「宏地狱」<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>。</p>
+<p>这年，成功地埋下了 5 年后的时空胶囊，必须吐槽的是学校机房的光驱真是一坨，吞了我两块档案级光盘（我的钱…）和好几块普通光盘，不过也是成功刻录好了。等到 2031 年再搞台光驱读取，但愿我不要忘了密码…</p>
+
+  <blockquote class="alert-blockquote important">
+    <p class="alert-heading">
+      Important
+    </p>
+    <p><p>别问为什么不用 U 盘、移动硬盘，这些太久不通电得话电荷会逸散，导致数据丢失，而光盘是用物理方式记录数据的，能保存挺久</p></p>
+  </blockquote>
+
+<p>今年，收到了来自中国东极的第一缕阳光的祝福，黑龙江省佳木斯市抚远。</p>
+<p>今年，有幸在班上晚修看了「元宵+月食」的直播 <del>那天广州的天气太差了😭</del> 一生只有这一次！<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/b956aa918093bf82d846ff4cb7fec1212849d29b.jpg" 
+     alt="第一缕阳光" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><img src="https://i0.hdslb.com/bfs/openplatform/5f99ba7c74fa626ef3204600284d6c1f08461ea2.jpg" 
+     alt="月食直播" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+其实，9 月份的时候，貌似还有过一场月食，我们宿舍恰好能从阳台看到，那周便带了一个望远镜，半夜时分起来看月食。不过，天公依旧不作美，☁☁☁，时不时地挡一下。这年，一次完整月食都没看过啊。</p>
+<p>这年，又拉了好几个人入坑 PGP<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>。这年又有许许多多的期望与失望，本以为无希望的事却又突然成功、本以为成功的事却无望，就这样起起落落、浮浮沉沉。不久前，想到了一个题目「雅园的最后一个冬天」，想写点什么，却又什么也写不出来。没有什么题材，全部都藏在每一天的学习与生活中。读到这篇年记的同学有能力的可以写一写，顺便发给我看看(嘻嘻)。</p>
+<p>这年，退出了信竞，正因如此，开始读书了。这 5 年来，看似学了很多，真正有用的又有多少呢？真正带来的，是不断的学习的习惯吧。多少是有点不甘的，不过这又有什么用呢，也只是日后一个谈资罢了。不过阅读确实可以开拓视野、增长见识。先是 $\textit{Just}$ $\textit{for}$ $\textit{Fun:}$ $\textit{The}$ $\textit{Story}$ $\textit{of}$ $\textit{an}$ $\textit{Accidental}$ $\textit{Revolutionary}$ 再到《化学之书》、《世界神话二十五讲》、《太空漫游：2010》、《太空漫游：2061》、《美丽新世界》等等的书籍，不能说大大拓展我的视野和知识面 <del>broaden my horizons乱入</del> ，但是除了消遣之外，还是让我了解不少内容。接下来应该还会把《夜色温柔》、《瓦尔登湖》这些书看一看（确信）。</p>
+<p>这年，终于想起来自己还有个 Blog 闲置很久，于是暑假简单用 Hugo<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> 搭了一个，不过这个主题嘛，本身是博丽灵梦<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>的，装主题简单啊，改主题要累死。这张照片、那张照片，这个配置、那个配置，不过还好，deepseek-v4-pro 确实好用，挂上 Kimi Code<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> 之后直接<code>完全自主</code> <del>覆盖掉我 5 个视频文件不嘻嘻</del> 修了好几个主题的问题，顺手加了一个 Shortcode<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> 功能<code>spoiler</code>来实现文本的遮罩效果，<span class="spoiler">就像这样子，显然你前面已经见过了</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />。搭好 Blog 之后把一些古早的<code>.md</code><sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>文件也传了上来，所以……。今年 Deepseek 的 token<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> 消耗大概有 1B(illion) 了，虽然听起来很多，实则并不少。</p>
+<p>今年，高三了，嗯，高三了。也就高三了。没什么宏大的叙事，没什么激情的话语，也没有什么特别的感悟。很普通，和初三没什差别，初三那时也只是在 $24$ 年 $3$ 月份从楼梯间的窗户看到异木棉又开了，才发觉自己初三，在广雅又有什么标志物呢？昭明楼的玉兰花已经开过两次了……那个香气甚至在三楼都能闻到，不知四楼如何。<br>
+<details class="details custom-block">
+  <summary>小问题</summary>
+  <div class="details-content"><p>话说孙悟空拜师学习时桃子熟了几回来着🐒🍑？</p>
+</div>
+</details><br>
+Btw，$2026$年$02$月$16$日，是本世纪第$9178$天😆</p>
+<p>今年健康状况有些许下降，最直观的感受是请了两天病假。</p>
+<p>四月底学校组织去“研学”，也是好好地玩了一趟，也还算可以吧。</p>
+<p>今年，大抵还做了几个小玩意，一个是用 Python 重写了网易云音乐的<code>.ncm</code>格式转<code>.mp3/.flac</code>工具<a href="https://github.com/taurusxin/ncmdump">ncmdump</a>的<a href="https://github.com/kuqilin/ncmdumpPy">ncmdumpPy</a>，能够保留歌曲元数据，即图片、作者信息等；一个是烂尾的切换广雅一体机壁纸的程序<a href="https://github.com/kuqilin/HuaDuXiaoQuDingZhiBiZhiQieHuan">花都校区定制壁纸切换</a>，结果出了一个可用版本之后就烂尾了，现在高二（9）班的畅言依旧装着［当然，高三（9）班也有］。<span class="spoiler">还有一个要在这里跟大家坦白的，就是<a href="https://github.com/kuqilin/classNightLapse">classNightLapse</a>，即晚修延时摄影程序，有时候晚修会提前打开来拍摄第一节晚修的延时摄影🥺，放心，所有视频文件均没有外传，并且已经删除。当初做这个的目的其实是想要看看自己上晚修是一个什么状态，所以还请各位轻喷。毕竟开着这个程序拍延时摄影，会占用摄像头，导致希沃云班无法看到我们的晚修🥰。不过现在，“金盆洗手”了，以后不再录这个延时摄影了，不过高考前的晚修倒是可以考虑一下（嘻嘻</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /><sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup><br>
+欸，看来写的这个遮罩效果还有待加强啊，Emoji 都遮不住😭，有色字体也没遮住😭😭</p>
+<p>这年，听得多的还是$\textit{Secret}\ \textit{Garden}$的<a href="https://music.163.com/#/song?id=4278218">$\textit{Anticipation}$</a>这首歌，不多说，你们自己听。</p>
+<p>今年跟初中部分同学们小聚了两次，吃了一顿饭和一顿烧烤，也还不错。不过今年没回初中看看，<span class="spoiler">挂了那个私人牌子我还哪敢回去啊😭😭😭是谁干的!!!</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+<p>这年初时，貌似还挺常冲固体饮料喝的，想什么阿华田、立顿的奶茶、牛乳茶等，不知为什么高二下又没怎么喝，不过，这学期倒是又补充了挺多的，大抵是因为夏天太热了，冬天的时候，北风经过十班旁边的那一段“狭管”，这时候在那里冲上一杯确实是个享受。</p>
+<p>这年，买了个 16V 1A 的 DC 5.5×2.5 电源适配器，又买了个 USB-B 的线，往虚拟机里装了个 Windows XP 又下了个古老驱动，总算是把那台 09 年的扫描仪给复活了。尽管扫描版上有些发霉，但丝毫不影响，最高 1200 DPI 和 48 位彩色<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>吓死个人，扫一张不下 5 分钟，并且文件大小大概到了 600 MB 的样子。这我可无福消受，只好开 600 DPI 来扫 9 班同学的签名，就算这样，也是到了 1 分钟左右，每张 100 MB 左右了（也许就发过给你呢？）。所有的扫描出来，也才 4 GiB 左右，刻进一个普通 DVD 刚好:)</p>
+<p><img src="https://i0.hdslb.com/bfs/openplatform/b8681f0c51fdeb2963d3ca8f63421e278a9028d7.jpg" 
+     alt="扫描仪" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>噢，本来想着上 XP 截个图放过来的，结果发现没激活的 30 天使用早过了，网络机会也莫名其妙不可用，于是想着试试电话激活，输入了激活码后，打电话<sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>。想起了每年都有人做的“打电话给微软激活 Windows”，结果发现电话激活门户已经迁移到网络上，本来还想试试在手机上输那 14 组 6 位数字是什么感觉，可惜了。<br>
+激活完才发现虚拟机里面的文件早删了，所以这里没截图😁</p>
+<p>这年的课堂，文科没什么好说的。数学可谓是不断付出，结果却一直不尽人意的科目了。上课认真做到了，课后作业认真做了，不过化用一下泰戈尔的诗句：“数学以痛吻我，我报之以歌。”物理算是给我倒一盆冷水，这年的成绩曲线可谓是一个$\forall x_1, x_2 \in \text{今年的考试}\ (x_1 < x_2),$ $\dfrac{f(x_1) - f(x_2)}{x_1 - x_2} < 0$。化学一如既往，无需赘述，不过赋分是真吃大亏了。</p>
+<p>这年，把哔哩哔哩的个性化推荐关了（详情可见<a href="https://kuqilin.github.io/post/20260517/">20260517</a>），本想着离开短视频，结果变成了一直在刷 TG<sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> 频道里的各种 meme<sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup>，感觉也没比刷短视频好多少。不过至少离开了那些引战、“愤怒诱饵”等的东西，终究是向好的。今年也开始看点电影了，看了个《王牌特工：特工学院》，又看了 007 系列的前 3 部。</p>
+<p>今年，也是当上半个“植物人”了，参加读后续写得到的一罐“驱蚊草”被种下。然后又掰了一截高一研学时得到的“碰碰香”回去种。
+至于驱蚊草到底能否驱蚊，有待考证。</p>
+<p><img src="https://i0.hdslb.com/bfs/openplatform/ce0cd28575350de0574b45e7f059773a34379d33.jpg" 
+     alt="驱蚊草" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>要问为什么土这么满，被某人填的。</p>
+<p>八月底的时候，<em>DeepSeek Harness</em>发布，装来玩了一下，这种搭乐高一样的插件模式可操作性非常强，也是给我帮了不少忙（比如那个 315 成语用法辨析小测）。</p>
+<p>这里删掉了两段话，放出来不太合适。放心，查 Git 提交记录也找不到的<code>^_^</code></p>
+<p>游戏方面，这年一如既往，还是打 9 和荒野乱斗。Minecraft 因为时间原因要先放一段时间了。9 应该还会一直玩下去，不过荒野乱斗可能不定时退坑。</p>
+<p>还有什么可写的呢？扔给了 LobeHub 上的一个 agent，让我写对未来的展望或者目标，这里贴一个 meme：</p>
+<p><img src="" 
+     alt="服了，找不到了" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>对了，今年参加了“十佳学生”竞选。本来以为那个体测成绩会绊我一脚，结果却给我过了第一轮的“广雅好少年”。广雅真草台，本来说好要假期就给我们制作海报的，结果拖到八月底，29 号才发了方案……怎么说呢？只好斥巨资开了个<em>Canvas可画</em>的会员，耗时两天做出了这个玩意：</p>
+<details class="details custom-block">
+  <summary>想看就给我乖乖开网页😉</summary>
+  <div class="details-content"><p><img src="https://image.kuqilin.eu.org/2026/10GoodStudents.jpg" 
+     alt="海报" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>你们月底大概就能看到了…… <del>就当是给你们的提前福利了😠</del> <strong>给我投票！</strong> 祝我好运吧💙</p>
+</div>
+</details>
+<p>这篇年记，虽说是生日发出来，其实基本都是从写于 7 月下旬开始写的。所以多少会缺少一点时效性。并且，这篇年记只是一个记录，大家对事不对人，也别过多讨论🤝🏻🙏🏻。<br>
+大致完成这篇年记的草稿时，内心其实是没什么感想的，就是感觉完成了一件事，仅此而已。就这样吧。</p>
+<p>在不知不觉中，上了一个半月的学了，八月适应考开了个头，以后如何？不得而知。想起那句话了，“<em>生存是进步的最大动力，我们为此赞美牺牲者，但畏惧和厌恶死亡并不可耻，真正该警惕的是停止前进。</em>”，前进吧，向前看！</p>
+<p>接下来一年，<em>十校联考</em>、<em>调研考</em>、<em>一模</em>、<em>听说</em>……不同的事情；下一次年记动工，得是<em>高考</em>后了，那时会有什么感悟呢？恭喜我又活过一年🧡</p>
+<p>其实目前还是挺满意自己的：成绩还可以、课外耍耍 AI、写点小东西玩玩，比起只学习没人情味的人还是好很多的（请勿对号入座）。</p>
+<p>贴两张照片结尾
+<img src="https://i0.hdslb.com/bfs/openplatform/ae353d734d8a635b2975f48e2ddf06a87777ea5b.jpg" 
+     alt="" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+<img src="https://i0.hdslb.com/bfs/openplatform/1d2c4c453aa83ece6f6a1d65a64a8a890776e6fa.png" 
+     alt="" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<blockquote>
+<p>时代的潮水不断起落，正如日夜更迭流转，一晦一明，永无止境。尽情向后展望吧，我们有取之不尽的未来。<br>
+Tides of time rise and fall. Days and nights switch and whirl. The infinite loop will never come to an end. Go ahead, look as much as you want. We have an endless supply of the future.</p>
+</blockquote>
+$$
+\Large\text{致}\hspace{1cm}\text{谢}
+$$<p>
+</p>
+$$
+\text{写作的 我}
+$$<p>
+</p>
+$$
+\text{看完的 你}
+$$<p>声明：本文不遵从 CC BY-NC-SA 许可协议，不允许转载。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>信息学竞赛非专业级认证&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>谷歌应用商店&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Minecraft 分不同平台版本，要分开购买&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Kimi 的自动化 AI 助手&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>一个开源的排版软件，不像 Word 那样所见即所得，而是要像写代码一样写，然后编译成为 PDF 文件&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>直译为“氛围编程”，其实是 AI 编程来的。意思就是直接把需求告诉 AI 让它给你写代码，自己只管“感觉(vibe)对不对”&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>一个 Linux 操作系统（和 Windows、macOS 是同类东西，只是免费开源、高度可定制）。Cachy OS 是其中比较适合日常使用的一个版本&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>反斜杠<code>\</code>是$\mathrm{\TeX}$中用于控制格式的命令，如果要排比较多的内容，则会用到很多反斜杠，跟个地狱一样&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>一个加密/解密软件，可以理解为你给别人开着的锁，让别人合上锁来加密，只有你自己有钥匙能打开这把锁看到内容&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>一个网页生成软件，只用编写 Markdown 文章就能搭建博客&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>游戏《东方 Project》里面的一个角色&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Kimi 推出的 AI 编程助手，能直接读取和修改项目代码、帮你改 bug、加功能，类似在编辑器里内置了一个程序员 AI&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Hugo 里的短代码，能够插入一些功能&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>即 Markdown 文件，一种文档格式，能够很轻易地写出有各种格式的文本来，比如加粗、斜体等&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>AI 里面用来处理文本的计量单位，或者称「词元」，可以是一个字也可以是一个词&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>就是那个班主任可以用一体机摄像头看到班级状态的软件&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>懒得解释了，反正质量很高就对了，能扫清楚点阵打印的颜色点，大家可以自行百度&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>没见过的可以看看这个<a href="https://b23.tv/eTBKVel">视频</a>&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>即 Telegram，一个聊天软件&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>即梗图，或者称「网络迷因」&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
         
-        <hr><p>Published on 2026-09-13 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-09-13</p>]]>
+        <hr><p>Published on 2026-09-13 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-09-13</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>年记</category><category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -50,15 +255,138 @@
       <description>
         <![CDATA[<h1>晚修延时摄影项目介绍</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          一个基于 Python + OpenCV 的班级晚修延时摄影小工具，支持定时拍摄、自动时间戳、双输出日志，可选 WebDAV 上传。
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>项目地址：<a href="https://github.com/kuqilin/classNightLapse">github.com/kuqilin/classNightLapse</a></p></p>
+  </blockquote>
+
+<h2 id="背景">
+<a class="header-anchor" href="#%e8%83%8c%e6%99%af"></a>
+背景
+</h2><p>想用班上一体机的摄像头来拍班级晚修的延时摄影，因此写了这个简单的 Python 程序。非常好用哈，在晚修前运行这个程序，没有痕迹，下晚修后就能看到成片了 ^_^</p>
+<p>全程只需要 <code>opencv-python</code> 和 <code>requests</code> 两个依赖，核心就是一个 <code>main.py</code>，简单粗暴。</p>
+
+  <blockquote class="alert-blockquote note">
+    <p class="alert-heading">
+      Note
+    </p>
+    <p><p>附带效果：程序运行期间摄像头会被一直占用，所以老师也没法通过希沃云班远程看我们晚修了（嘘，这算是写这个程序的一大动力）🤫</p></p>
+  </blockquote>
+
+<h2 id="功能特性">
+<a class="header-anchor" href="#%e5%8a%9f%e8%83%bd%e7%89%b9%e6%80%a7"></a>
+功能特性
+</h2><ul>
+<li><strong>定时自动拍摄</strong>：设置开始 / 结束时间（默认 18:55–20:35，正好覆盖一节晚修），到点自动开拍，结束自动保存</li>
+<li><strong>拍摄间隔可调</strong>：默认 1 秒拍一帧，一节晚修 100 分钟 ≈ 6000 帧，最终以 30fps 合成，成片约 3 分多钟</li>
+<li><strong>自动时间戳</strong>：每帧右上角叠加当前时间，背景色根据画面亮度自适应（亮背景黑底白字，暗背景白底黑字）</li>
+<li><strong>双输出日志</strong>：控制台和日志文件同步记录，方便排查&quot;为什么没拍上&quot;</li>
+<li><strong>可选 WebDAV 上传</strong>：拍完自动把成片传到网盘（默认关闭，需要自己改配置）</li>
+</ul>
+<h2 id="项目结构">
+<a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84"></a>
+项目结构
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">classNightLapse/
+</span></span><span class="line"><span class="cl">├── main.py            <span class="c1"># 全部代码，单文件</span>
+</span></span><span class="line"><span class="cl">├── requirements.txt   <span class="c1"># opencv-python、requests</span>
+</span></span><span class="line"><span class="cl">├── LICENSE            <span class="c1"># MIT</span>
+</span></span><span class="line"><span class="cl">└── .gitignore         <span class="c1"># 忽略 outputs/ logs/ 等</span>
+</span></span></code></pre></div><h2 id="核心实现解析">
+<a class="header-anchor" href="#%e6%a0%b8%e5%bf%83%e5%ae%9e%e7%8e%b0%e8%a7%a3%e6%9e%90"></a>
+核心实现解析
+</h2><h3 id="配置区">
+<a class="header-anchor" href="#%e9%85%8d%e7%bd%ae%e5%8c%ba"></a>
+配置区
+</h3><p>所有参数都集中在文件头部，改起来非常直观：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">WEBDAV</span> <span class="o">=</span> <span class="kc">False</span>                 <span class="c1"># 是否启用 WebDAV 上传</span>
+</span></span><span class="line"><span class="cl"><span class="n">START_HOUR</span><span class="p">,</span> <span class="n">START_MINUTE</span> <span class="o">=</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">55</span>
+</span></span><span class="line"><span class="cl"><span class="n">END_HOUR</span><span class="p">,</span> <span class="n">END_MINUTE</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">35</span>
+</span></span><span class="line"><span class="cl"><span class="n">CAMERA_INDEX</span> <span class="o">=</span> <span class="mi">0</span>               <span class="c1"># 摄像头编号</span>
+</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_FILE</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;outputs/</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">_%H-%M-%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">.avi&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">FPS</span> <span class="o">=</span> <span class="mi">30</span>                       <span class="c1"># 最终视频帧率</span>
+</span></span><span class="line"><span class="cl"><span class="n">FRAME_WIDTH</span> <span class="o">=</span> <span class="mi">1920</span>             <span class="c1"># 试了几个，只有这个能拍全班级</span>
+</span></span><span class="line"><span class="cl"><span class="n">FRAME_HEIGHT</span> <span class="o">=</span> <span class="mi">1080</span>            <span class="c1"># 3224 那个不够宽，拍不全</span>
+</span></span><span class="line"><span class="cl"><span class="n">INTERVAL_SECONDS</span> <span class="o">=</span> <span class="mi">1</span>           <span class="c1"># 拍摄间隔，单位秒</span>
+</span></span><span class="line"><span class="cl"><span class="n">SHOW_TIMESTAMP</span> <span class="o">=</span> <span class="kc">True</span>          <span class="c1"># 是否显示时间</span>
+</span></span><span class="line"><span class="cl"><span class="n">LOG_FILE</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;logs/</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">_%H-%M-%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">.log&#34;</span>
+</span></span></code></pre></div><p>这里有个小细节：分辨率是试出来的，只有 <code>1920x1080</code> 能把整个班级拍全。输出文件和日志文件名都带时间戳，每次运行不会互相覆盖。</p>
+<h3 id="主流程-main">
+<a class="header-anchor" href="#%e4%b8%bb%e6%b5%81%e7%a8%8b-main"></a>
+主流程 <code>main()</code>
+</h3><p>整体思路很清晰：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 1. 如果已经过了结束时间，直接退出</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 如果还没到开始时间，睡到开始前 2 秒</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 打开摄像头、设分辨率、读一帧确定尺寸</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 创建 VideoWriter，精确对齐开始时间拍第一帧</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 5. while 循环按绝对时刻拍摄，直到结束时间</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 6. finally 里释放资源，统计帧数，可选上传 WebDAV</span>
+</span></span></code></pre></div><p>值得一说的有两个点：</p>
+<p><strong>提前 2 秒打开摄像头</strong>。摄像头初始化需要时间，如果到点才开始初始化，第一帧会晚于预定时刻。所以程序在开始时间前 2 秒就打开摄像头，等真正到点了直接抓帧，保证第一帧精确落在 18:55:00。</p>
+<p><strong>绝对时刻调度防漂移</strong>。拍摄循环里没有用&quot;睡 1 秒&quot;这种相对间隔，而是维护一个 <code>next_capture</code> 绝对时刻，每拍完一帧就 <code>next_capture += timedelta(seconds=INTERVAL_SECONDS)</code>，再睡到那个时刻：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 下一个预定拍摄时刻（绝对时间，避免累积偏差）</span>
+</span></span><span class="line"><span class="cl"><span class="n">next_capture</span> <span class="o">+=</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="n">INTERVAL_SECONDS</span><span class="p">)</span>
+</span></span></code></pre></div><p>这样即使某次 <code>sleep</code> 或抓帧慢了，也不会把误差累积到后面，长跑一节课也不会越拍越飘。这个细节很关键，延时摄影最怕的就是节奏漂移。</p>
+<h3 id="时间戳-draw_timestamp">
+<a class="header-anchor" href="#%e6%97%b6%e9%97%b4%e6%88%b3-draw_timestamp"></a>
+时间戳 <code>draw_timestamp()</code>
+</h3><p>每帧右上角叠加时间，背景色是<strong>根据画面亮度自适应</strong>的——先取背景框区域的平均亮度，亮背景用黑底白字，暗背景用白底黑字：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mean_brightness</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">gray</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">mean_brightness</span> <span class="o">&gt;</span> <span class="mi">128</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bg_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>          <span class="c1"># 黑色背景</span>
+</span></span><span class="line"><span class="cl">    <span class="n">text_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>  <span class="c1"># 白色文字</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bg_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>    <span class="c1"># 白色背景</span>
+</span></span><span class="line"><span class="cl">    <span class="n">text_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>        <span class="c1"># 黑色文字</span>
+</span></span></code></pre></div><p>再用 <code>cv2.addWeighted</code> 做 0.6 透明度的半透明底，效果比直接白字好看不少，晚修教室灯光忽明忽暗也不会看不清。</p>
+<h3 id="日志-logprint">
+<a class="header-anchor" href="#%e6%97%a5%e5%bf%97-logprint"></a>
+日志 <code>logprint()</code>
+</h3><p>同时写控制台和日志文件，每行都带时间戳。晚上在教室一体机上跑的时候，你不可能一直盯着屏幕看，出问题了翻日志就行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">logprint</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">LOG_FILE</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">end</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="webdav-上传-upload_webdav">
+<a class="header-anchor" href="#webdav-%e4%b8%8a%e4%bc%a0-upload_webdav"></a>
+WebDAV 上传 <code>upload_webdav()</code>
+</h3><p>默认关闭。开启后拍完会把成片用标准 PUT 请求传到 WebDAV 网盘（用的是 <code>HTTPBasicAuth</code> 认证），这样不用回教室就能在手机上看到成片：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">put</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">url</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">auth</span><span class="o">=</span><span class="n">HTTPBasicAuth</span><span class="p">(</span><span class="n">USERNAME</span><span class="p">,</span> <span class="n">PASSWORD</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">timeout</span><span class="o">=</span><span class="mi">120</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">verify</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>  <span class="c1"># 忽略 SSL 证书问题</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p>如果要用 WebDAV，记得自己改配置并重新编译。</p>
+<h3 id="异常兜底">
+<a class="header-anchor" href="#%e5%bc%82%e5%b8%b8%e5%85%9c%e5%ba%95"></a>
+异常兜底
+</h3><p><code>while</code> 循环外面包了 <code>try / except KeyboardInterrupt</code>，即使中途被人 Ctrl+C 打断，也会在 <code>finally</code> 里正常释放摄像头、保存已经拍到的部分，不会丢帧丢文件。</p>
+<h2 id="使用方法">
+<a class="header-anchor" href="#%e4%bd%bf%e7%94%a8%e6%96%b9%e6%b3%95"></a>
+使用方法
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install -r requirements.txt
+</span></span><span class="line"><span class="cl">python main.py
+</span></span></code></pre></div><p>到点自动开拍，结束自动保存成片到 <code>outputs/</code> 下。日志在 <code>logs/</code> 下。</p>
+<p>想部署到班上一体机的话，可以根据 <code>.gitignore</code> 里预留的 <code>build/</code>、<code>dist/</code>、<code>*.spec</code> 用 PyInstaller 打成 exe，直接双击运行，非常省事。</p>
+<h2 id="总结">
+<a class="header-anchor" href="#%e6%80%bb%e7%bb%93"></a>
+总结
+</h2><p>一个单文件就能搞定的延时摄影小工具：定时开拍、自动时间戳、防漂移调度、日志兜底，功能不多但都很实用。代码量不大，感兴趣的可以直接去看源码：<a href="https://github.com/kuqilin/classNightLapse">classNightLapse</a>。</p>
+<p>下次晚修，记得提前 2 分钟运行它，下课后就能收获一份属于全班的三分钟延时大片了 🎬</p>
+
         
-        <hr><p>Published on 2026-08-23 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-23</p>]]>
+        <hr><p>Published on 2026-08-23 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-23</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -70,15 +398,162 @@
       <description>
         <![CDATA[<h1>Reimu 主题下的 i18n</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          一步步教你为 Reimu 主题添加多语言支持，包括目录结构、配置文件和自定义语言处理。
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>建议先通读本文了解基本流程和坑以后在一步一步跟着操作。<br>
+因为作者表达能力欠佳，本文由作者写完之后交由 AI 进行润色。</p></p>
+  </blockquote>
+
+<p>虽然花时间翻译自己的文章并不常见，但既然做了，就记录一下完整流程，方便后来者。</p>
+<h2 id="为什么需要手动配置">
+<a class="header-anchor" href="#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%9c%80%e8%a6%81%e6%89%8b%e5%8a%a8%e9%85%8d%e7%bd%ae"></a>
+为什么需要手动配置？
+</h2><p>Hugo 本身支持多语言（i18n），但主题通常需要你按约定组织文件和配置。Reimu 主题默认只提供单语言结构，要启用多语言，你需要做三件事：</p>
+<ol>
+<li>重构内容文件夹，按语言分目录</li>
+<li>为每篇文章关联翻译（通过 <code>translationKey</code>）</li>
+<li>在配置文件中声明语言，并（如果使用非内置语言）补充主题的本地化文案和翻译文件</li>
+</ol>
+<p>下面按步骤展开。</p>
+<h2 id="第一步调整内容文件夹结构">
+<a class="header-anchor" href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e8%b0%83%e6%95%b4%e5%86%85%e5%ae%b9%e6%96%87%e4%bb%b6%e5%a4%b9%e7%bb%93%e6%9e%84"></a>
+第一步：调整内容文件夹结构
+</h2><p>Reimu 主题默认将文章放在 <code>content/</code> 下（如 <code>content/post/</code>、<code>content/about.md</code> 等）。<br>
+<strong>多语言时，需在 <code>content/</code> 下为每种语言单独建一个子文件夹</strong>，子文件夹名即为语言代码（如 <code>zh-CN</code>、<code>en</code>、<code>yue</code>）。</p>
+<p><strong>操作示例</strong><br>
+假设你原有简体中文内容（<code>zh-CN</code>），现在要增加英文（<code>en</code>）和粤语（<code>yue</code>）：</p>
+<ol>
+<li>在 <code>content/</code> 下新建 <code>zh-CN/</code>、<code>en/</code>、<code>yue/</code> 文件夹。</li>
+<li>将原来 <code>content/</code> 下的所有内容（<code>about.md</code>、<code>post/</code> 等）<strong>整个移动或复制</strong>到 <code>zh-CN/</code> 内（作为默认语言）。</li>
+<li>再将 <code>zh-CN/</code> 下的内容<strong>复制</strong>到 <code>en/</code> 和 <code>yue/</code> 中，之后分别翻译各文件夹内的 <code>.md</code> 文件。</li>
+</ol>
+<p>最终结构类似：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">content/
+</span></span><span class="line"><span class="cl">├── en/
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   ├── archives/
+</span></span><span class="line"><span class="cl">│   ├── friend.md
+</span></span><span class="line"><span class="cl">│   └── post/
+</span></span><span class="line"><span class="cl">├── yue/
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   ├── archives/
+</span></span><span class="line"><span class="cl">│   ├── friend.md
+</span></span><span class="line"><span class="cl">│   └── post/
+</span></span><span class="line"><span class="cl">├── zh-CN/
+</span></span><span class="line"><span class="cl">│   ├── about.md
+</span></span><span class="line"><span class="cl">│   ├── archives/
+</span></span><span class="line"><span class="cl">│   ├── friend.md
+</span></span><span class="line"><span class="cl">│   └── post/
+</span></span><span class="line"><span class="cl">└── zh-TW/          <span class="c1"># 可选，以此类推</span>
+</span></span><span class="line"><span class="cl">    ├── about.md
+</span></span><span class="line"><span class="cl">    ├── archives/
+</span></span><span class="line"><span class="cl">    ├── friend.md
+</span></span><span class="line"><span class="cl">    └── post/
+</span></span></code></pre></div><blockquote>
+<p><strong>注意</strong>：原 <code>content/</code> 根目录下不要再放置任何内容，否则 Hugo 会将其视为无语言归属的内容，可能引发混乱。</p>
+</blockquote>
+<h2 id="第二步关联不同语言版本translationkey">
+<a class="header-anchor" href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5%e5%85%b3%e8%81%94%e4%b8%8d%e5%90%8c%e8%af%ad%e8%a8%80%e7%89%88%e6%9c%actranslationkey"></a>
+第二步：关联不同语言版本（translationKey）
+</h2><p>Hugo 需要通过 <code>translationKey</code> 来识别哪些文件互为翻译。<br>
+<strong>在每个语言的对应文件中，frontmatter 里写上相同的 <code>translationKey</code> 值</strong>。</p>
+<p>例如，在 <code>content/zh-CN/about.md</code>、<code>content/en/about.md</code> 和 <code>content/yue/about.md</code> 中都加入：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">translationKey</span><span class="p">:</span><span class="w"> </span><span class="l">about</span><span class="w">
+</span></span></span></code></pre></div><p>同样，每篇博文（如 <code>post/hello.md</code>）也要在所有语言版本中设置相同的 <code>translationKey</code>（可以设置为文章标题的 slug 或自定义标识）。</p>
+<p><strong>为什么重要</strong>：没有这个字段，语言切换按钮将无法在文章页显示可切换的语言列表。</p>
+<h2 id="第三步在-hugotoml-中声明语言">
+<a class="header-anchor" href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%9c%a8-hugotoml-%e4%b8%ad%e5%a3%b0%e6%98%8e%e8%af%ad%e8%a8%80"></a>
+第三步：在 <code>hugo.toml</code> 中声明语言
+</h2><p>完成文件夹结构后，构建时 Hugo 会找不到语言定义而喜提报错。你需要在 <code>hugo.toml</code>（或 <code>config.toml</code>）中为每一种语言添加配置。</p>
+<p><strong>基础配置示例</strong>（以粤语 <code>yue</code> 为例）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">yue</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">locale</span> <span class="p">=</span> <span class="s2">&#34;yue&#34;</span>                <span class="c"># 语言代码，需与文件夹名一致</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">label</span> <span class="p">=</span> <span class="s2">&#34;粵語&#34;</span>                <span class="c"># 界面显示的语言名称（可自定义）</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">true</span>         <span class="c"># 若语言包含中日韩文字，设为 true</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/yue&#34;</span>    <span class="c"># 指向该语言的内容文件夹</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>                    <span class="c"># 在语言切换列表中的排序，数值越小越靠前</span>
+</span></span></code></pre></div><p><strong>其他语言</strong>（如英文）同理：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="p">[</span><span class="nx">languages</span><span class="p">.</span><span class="nx">en</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">locale</span> <span class="p">=</span> <span class="s2">&#34;en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">label</span> <span class="p">=</span> <span class="s2">&#34;English&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">contentDir</span> <span class="p">=</span> <span class="s2">&#34;content/en&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">weight</span> <span class="p">=</span> <span class="mi">3</span>
+</span></span></code></pre></div><p><strong>设置默认语言</strong>（避免浏览器语言偏好干扰）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">defaultContentLanguage</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>   <span class="c"># 设为你的主语言</span>
+</span></span></code></pre></div><blockquote>
+<p>提示：<code>weight</code> 影响切换菜单中的顺序，建议为常用语言设较小值。</p>
+</blockquote>
+<h2 id="第四步处理主题未内置的自定义语言">
+<a class="header-anchor" href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e5%a4%84%e7%90%86%e4%b8%bb%e9%a2%98%e6%9c%aa%e5%86%85%e7%bd%ae%e7%9a%84%e8%87%aa%e5%ae%9a%e4%b9%89%e8%af%ad%e8%a8%80"></a>
+第四步：处理「主题未内置」的自定义语言
+</h2><p>Reimu 主题自带了一些 UI 文案（如“复制成功”），但只在部分语言（如 <code>en</code>、<code>zh-CN</code>、<code>ja</code> 等）中预置了翻译。<br>
+如果你添加的语言不在主题支持列表中（例如泰文 <code>th</code>、粤语 <code>yue</code> 虽然主题可能未包含），则必须额外补充两处配置，否则构建时主题会因找不到对应语言的文案而报错。</p>
+<h3 id="41-补充-paramsyml-中的文案翻译">
+<a class="header-anchor" href="#41-%e8%a1%a5%e5%85%85-paramsyml-%e4%b8%ad%e7%9a%84%e6%96%87%e6%a1%88%e7%bf%bb%e8%af%91"></a>
+4.1 补充 <code>params.yml</code> 中的文案翻译
+</h3><p>主题的 UI 文案定义在 <code>themes/reimu/config/_default/params.yml</code> 中。<br>
+你需要<strong>将这份文件复制到项目根目录的 <code>config/_default/params.yml</code></strong>（若没有则新建对应文件夹），然后在该文件中为你的语言添加所有字段。</p>
+<p>例如，原文件中有 <code>clipboard.success</code> 字段：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yml" data-lang="yml"><span class="line"><span class="cl"><span class="nt">clipboard</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">success</span><span class="p">:</span><span class="w"> 
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">en</span><span class="p">:</span><span class="w"> </span><span class="l">Copy successfully (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">zh-CN</span><span class="p">:</span><span class="w"> </span><span class="l">复制成功 (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">yue</span><span class="p">:</span><span class="w"> </span><span class="l">複製成功 (*^▽^*)         </span><span class="w"> </span><span class="c"># 新增 yue 的翻译</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">zh-TW</span><span class="p">:</span><span class="w"> </span><span class="l">複製成功 (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ja</span><span class="p">:</span><span class="w"> </span><span class="l">コピー成功 (*^▽^*)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">pt-BR</span><span class="p">:</span><span class="w"> </span><span class="l">Copiado com sucesso (*^▽^*)</span><span class="w">
+</span></span></span></code></pre></div><p>你需要检查所有带 i18n 的字段（如 <code>comment.title</code>、<code>preloader.text</code> 等），逐一为你的语言添加对应值。<br>
+<strong>注意</strong>：语言键（如 <code>yue</code>）必须与你在 <code>hugo.toml</code> 中 <code>[languages.yue]</code> 的 <code>locale</code> 值完全一致。</p>
+<h3 id="42-创建独立的-i18n-翻译文件">
+<a class="header-anchor" href="#42-%e5%88%9b%e5%bb%ba%e7%8b%ac%e7%ab%8b%e7%9a%84-i18n-%e7%bf%bb%e8%af%91%e6%96%87%e4%bb%b6"></a>
+4.2 创建独立的 <code>i18n</code> 翻译文件
+</h3><p>Hugo 本身需要一些基础翻译字符串（如月份名称、日期格式等），这些在主题的 <code>i18n/</code> 文件夹中提供。<br>
+同样，将 <code>themes/reimu/i18n/</code> 下的某个现有文件（如 <code>zh-CN.yml</code>）复制到项目根目录的 <code>i18n/</code> 文件夹中，重命名为你的语言代码（如 <code>yue.yml</code>），然后将里面的字符串逐一翻译成你的语言。</p>
+<p>如果不做这一步，Hugo 构建时会因为缺少翻译数据而报错（类似 <code>missing translations</code>）。</p>
+<h2 id="常见问题">
+<a class="header-anchor" href="#%e5%b8%b8%e8%a7%81%e9%97%ae%e9%a2%98"></a>
+常见问题
+</h2><ul>
+<li>
+<p><strong>切换语言后页面 404？</strong><br>
+检查 <code>contentDir</code> 路径是否正确，且每个语言文件夹内确有对应文件。</p>
+</li>
+<li>
+<p><strong>语言切换按钮不出现？</strong><br>
+确认所有互为翻译的文件都设置了相同的 <code>translationKey</code>，且至少有两个语言版本存在。</p>
+</li>
+<li>
+<p><strong>修改后仍报错？</strong><br>
+运行 <code>hugo --cleanDestinationDir</code> 清除缓存后重新构建，有时旧配置会残留。</p>
+</li>
+<li>
+<p><strong>只改 <code>params.yml</code> 还不够？</strong><br>
+确保同时完成了 <strong>4.1</strong> 和 <strong>4.2</strong> 两步，缺一不可。</p>
+</li>
+</ul>
+<h2 id="总结">
+<a class="header-anchor" href="#%e6%80%bb%e7%bb%93"></a>
+总结
+</h2><p>Reimu 主题的 i18n 配置虽不复杂，但步骤环环相扣。简记要点：</p>
+<ul>
+<li>按语言分目录 → 加 <code>translationKey</code> → 声明语言配置</li>
+<li>若使用非内置语言，额外补充主题 UI 文案（<code>params.yml</code>）和基础翻译（<code>i18n/*.yml</code>）</li>
+</ul>
+<p>按照上述步骤操作，你就能拥有一个完美切换的多语言 Hugo 站点。祝写作愉快！</p>
+
         
-        <hr><p>Published on 2026-08-01 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-01</p>]]>
+        <hr><p>Published on 2026-08-01 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-01</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>教程</category>
       
     </item>
     
+      
     
 
     <item>
@@ -90,15 +565,114 @@
       <description>
         <![CDATA[<h1>37 签名 SVG 图片</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>2026.07.23 21:33:48 UTC+08:00<br>
+Vibe 优化了所有 SVG 使得文件大小压缩了⅓，感谢 Deepseek-v4-pro。</p></p>
+  </blockquote>
+
+<p>忙活许久，终于让 AI 把$37$的签名用 SVG 画出来了。猜猜用的什么？答案出乎意料，是豆包。为什么不用 Deepseek 呢，因为鄙人提示词描述太烂了，Deepseek 为了理解我的要求，会思考特别久，而豆包确实很快，不过……这就是忙活这么久的原因😁<br>
+你问为什么不把 Deepseek 的思考关掉？因为豆包写的 svg 可以直接预览！</p>
+<p>看看成果吧：</p>
+<blockquote>
+<p>这张是 SVG 格式透明背景
+<img src="https://kuqilin.github.io/images/thirtyseven.svg" 
+     alt="thirtyseven-svg" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>这张是 SVG 格式透明背景白色填充
+<img src="https://kuqilin.github.io/images/thirtyseven-fill.svg" 
+     alt="thirtyseven-fill-svg" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+</blockquote>
+<hr>
+<p>我也不知道作者为什么作者要放白色填充的进来，配置文件里也没看到用了，但还是放上吧（</p>
+<p>下面是源码，可以自行更改颜色</p>
+<div class="highlight" name="thirtyseven.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- 核心缩放与居中变换 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;g</span> <span class="na">transform=</span><span class="s">&#34;translate(150, 150) scale(1.645) translate(-150, -150)&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 多边形与线段（描边样式统一，无需填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="na">fill=</span><span class="s">&#34;none&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      <span class="c">&lt;!-- 合并所有主轴与中点连线 --&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆心点（利用 path 和圆头端点模拟圆形） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><hr>
+<div class="highlight" name="thirtyseven-fill.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- 核心缩放与居中变换 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;g</span> <span class="na">transform=</span><span class="s">&#34;translate(150, 150) scale(1.6465) translate(-150, -150)&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 带白色填充的多边形（描边样式统一） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">fill=</span><span class="s">&#34;#ffffff&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有主轴与中点连线（无填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆点（利用零长度路径和圆头端点模拟 r=4.5 的圆） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><hr>
+<p>这里再附一个没那么大的，因为<code>preloader</code>如果用了上面的，会有遮住文字<code>算算数学中…</code>，所以这是没那么大的</p>
+<div class="highlight" name="thirtyseven-preloader.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 多边形与线段（描边样式统一，无需填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="na">fill=</span><span class="s">&#34;none&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      <span class="c">&lt;!-- 合并所有主轴与中点连线 --&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆心点（利用 path 和圆头端点模拟圆形） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><p>好的，就这样了。</p>
+
         
-        <hr><p>Published on 2026-07-22 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-01</p>]]>
+        <hr><p>Published on 2026-07-22 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-08-01</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -114,14 +688,72 @@
 <a class="header-anchor" href="#%e5%86%8d%e6%ac%a1%e6%9b%b4%e6%96%b0"></a>
 再次更新
 </h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
+<h2 id="更新">
+<a class="header-anchor" href="#%e6%9b%b4%e6%96%b0"></a>
+更新
+</h2><p>太好了，经历各种斗智斗勇（bushi）终于把网站看板娘搞好了 —— 一个不会说话的 37。<br>
+为什么说斗智斗勇呢？你去看<a href="/en/post/kan-ban-niang/#37-%e5%ae%8c%e7%be%8e%e7%9a%84%e6%b5%81%e4%bd%93">后文</a>。不容易啊，最终发现有这些小白块大抵是因为大佬解包过程中出了一些小问题，导致模型图片里面有一个白块，当时看模型图片就感觉奇怪，上 9 看了皮肤，发现本来这里什么都没有，于是用 IsoPix Pro 把白块擦掉了，发现终于没有白块了（应该不会有什么问题的）。<br>
+然后也把模型放置位置和大小做了一些调整。可惜的是暂时还不会怎么给她添加例如举牌子、对话框之类的，所以看板娘傻傻的。<br>
+欸，国内裸连 GitHub 还是不太好，把 moc3 文件上传到 jsDelivr 上也没多快，你们最坏情况要 2 分钟才能看到美丽的 37！（最好情况是 3 秒）</p>
+<p>就此事向仓库管理发了 Issue，结果人家已经知道这个问题了:)</p>
+<p><img src="https://image.kuqilin.eu.org/2026/screenshot-2026-07-31-09-58-16.png" 
+     alt="Issue截图" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>那好吧，没删干净。如果你的网络状况良好（指连接 GitHub 速度飞快），那你可以点<a href="https://l2d-viewer.hacxy.cn/viewer?model=https%3A%2F%2Fkuqilin.github.io%2Flive2d%2F37_skin4%2Fv2a2_306604_37_test.model3.json">这里</a>看看，这里能选择 37 的不同表情和动作。</p>
+<p><img src="https://image.kuqilin.eu.org/2026/2026-07-31_10-01-23.png" 
+     alt="37" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<h2 id="37-完美的流体">
+<a class="header-anchor" href="#37-%e5%ae%8c%e7%be%8e%e7%9a%84%e6%b5%81%e4%bd%93"></a>
+37 完美的流体
+</h2>
+  <blockquote class="alert-blockquote caution">
+    <p class="alert-heading">
+      Caution
+    </p>
+    <p><p>哈哈哈哈哈，下面的内容没有时效性了，我搞定了泉眼深处<br>
+下文原标题为《网站看板娘 —— 37 完美的流体》</p></p>
+  </blockquote>
+
+<p>耗费许久，最终 vibe code 了网站的看板娘出来，《重返未来：1999》里面角色 37 的皮肤——完美的流体。<br>
+或许玩过 1999 的人会问：“难道你不觉得快乐的捕鸟人或者泉眼深处更好看吗？”我会回答：“对！我也想用泉眼深处。”<br>
+只不过，这几个有“亿点点”问题：
+<img src="https://i0.hdslb.com/bfs/openplatform/131f5ad538ef5056c41530d790eaaebf0b5b2325.png" 
+     alt="比较表格" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+具体的情况，请看以下图片：
+<img src="https://i0.hdslb.com/bfs/openplatform/8e4046ea74d5264870f733499e1ea4d49b344720.png" 
+     alt="快乐的捕鸟人" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+<img src="https://i0.hdslb.com/bfs/openplatform/b99d55192a2b02da804cdb4ba33b6ef0eec17752.png" 
+     alt="泉眼深处" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+看到那几个白块了吗？37 的洞二皮也有这个问题，vibe 解决不了 <del>我是废物</del> 没办法了，泉眼深处真的很好看啊，部署出来还会有小鸟在飞来飞去，可是这个白块真的没办法解决，不然也不会用这个 <del>洛天依</del> 完美的流体了。</p>
+<p>本来我用的 Reimu 主题是直接能用 Live2d 的，但是没办法，你 9 的模型版本太高了，只得自己 vibe 出来
+<img src="https://i0.hdslb.com/bfs/openplatform/cd7e9794335c7ded95730954615b507dbcdd9290.png" 
+     alt="vsc界面" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+厉不厉害你 Deepseek-V4-Pro 预览版？</p>
+<p>不过还好，这个皮肤也不算难看。并且动作和表情也还是有的。调了一个 5 秒钟自动切换动画和一个点击切换动画。需要注意的是，在显示宽度小于 960px 的情况下这个看板娘是不会显示的，就跟侧边栏一样，她俩是同步的。<br>
+坏了，为了加快国内的访问速度，把这个“可能侵权”的文件上传到了图床，不知道会有什么风险呢？</p>
+<p>还是感觉很可惜，没能让泉眼深处当网站看板娘😭😭😭</p>
+<p>这些模型都是从<a href="https://github.com/myssal/Reverse-1999-CN-Asset/">https://github.com/myssal/Reverse-1999-CN-Asset/</a>下载的大佬解包资源，如有侵权，请<a href="mailto:kuqilin@outlook.com&amp;subject=%e5%88%a0%e9%99%a4%e4%be%b5%e6%9d%83%e6%96%87%e4%bb%b6">联系删除</a>。</p>
+
         
-        <hr><p>Published on 2026-07-28 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-29</p>]]>
+        <hr><p>Published on 2026-07-28 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-29</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -140,14 +772,61 @@
 <a class="header-anchor" href="#%e6%80%bb%e7%ac%ac44%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e8%80%81%e6%97%a7%e5%b0%8f%e5%8c%ba%e6%94%b9%e9%80%a0"></a>
 总第44期·任务一：老旧小区改造
 </h2><p>近年来，全国多地推进老旧小区改造工程，这一民生实践与中华文明&quot;民为邦本&quot;&ldquo;富民调均&quot;&ldquo;天人合一&quot;&ldquo;和合共生&quot;等传统理念深度契合，彰显了中国式现代化的文化底蕴。</p>
+<p>首先，老旧小区改造生动体现了&quot;民为邦本&quot;的执政理念。政府投入专项资金，为老旧小区加装电梯、完善管网、增设养老托育设施，正是将人民需求放在首位、以百姓安居为治国之本的现实写照。正如材料所言，&ldquo;民惟邦本，本固邦宁&rdquo;，改造工程让普通居民切实感受到国家发展的温度。</p>
+<p>其次，&ldquo;富民调均&quot;的伦理追求在改造中得到充分展现。居民通过协商共担部分费用，体现的正是&quot;调均&quot;智慧——既非政府全包、也非居民独担，而是各得其分、公平合理。这种制度设计避免了一刀切的平均主义，实现了社会资源的合理分配，让发展的成果惠及更多人。</p>
+<p>更有意味的是，不少地方在改造中保留历史建筑风貌、延续社区文脉。这与&quot;天人合一&quot;&ldquo;和合共生&quot;的理念一脉相承——改造不是推倒重来，而是在现代化进程中尊重历史、顺应人文肌理，实现新旧和谐共存。老旧小区承载着几代人的记忆与情感，保留历史风貌便是让&quot;旧邦&quot;焕发&quot;新命&rdquo;。</p>
+<p>由此可见，老旧小区改造不仅是物理空间的更新，更是中华文明传统理念在当代城市治理中的创造性转化。它用一砖一瓦书写着中国式现代化以人为本、古今交融的独特品格。</p>
+<hr>
+<h2 id="总第45期任务一社区食堂">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac45%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e7%a4%be%e5%8c%ba%e9%a3%9f%e5%a0%82"></a>
+总第45期·任务一：社区食堂
+</h2><p>近年来，&ldquo;社区食堂&quot;在全国多地悄然兴起，以&quot;政府贴一点、企业让一点、老人出一点&quot;的运营模式，为周边居民提供平价餐食。这一现象与中华文明&quot;富民厚生、义利兼顾&quot;的经济伦理高度契合，体现了传统经济智慧在当代社会治理中的生动实践。</p>
+<p>材料指出，&ldquo;凡治国之道，必先富民&rdquo;，将民生富足作为社会秩序的基础。社区食堂以一份两荤一素的套餐定价10元左右，远低于市场均价，正是&quot;富民厚生&quot;理念的当代落实。它解决的不仅是老年人&quot;吃饭难&quot;的现实困境，更传递出社会对弱势群体的关怀。正如管仲所言&quot;仓廪实而知礼节&rdquo;，只有基本生活得到保障，社会文明才有根基。</p>
+<p>社区食堂的运营模式更体现了&quot;义利兼顾&quot;的经济伦理。&ldquo;政府贴一点&quot;彰显公共责任，&ldquo;企业让一点&quot;体现以义制利的商业伦理，&ldquo;老人出一点&quot;避免养懒汉式的福利依赖。三方共担的模式并非简单的慈善施舍，而是义利协调的制度创新——既保障了企业的可持续运营，又守住了民生底线，实现了社会效益与经济效益的统一。</p>
+<p>材料回顾历代治乱兴衰时指出，&ldquo;坚守伦理则盛世兴，背离伦理则王朝衰&rdquo;。社区食堂的出现，正是政府、企业与居民三方在&quot;富民厚生&quot;伦理指引下共同书写的当代答卷。它提醒我们：经济发展不能只追求GDP增长，更要将民生福祉镌刻在每一碗热饭之中。这种以人民为中心的发展理念，正是中华民族几千年经济伦理在新时代的延续与升华。</p>
+<hr>
+<h2 id="总第46期任务一对中庸的理解">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac46%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%af%b9%e4%b8%ad%e5%ba%b8%e7%9a%84%e7%90%86%e8%a7%a3"></a>
+总第46期·任务一：对&quot;中庸&quot;的理解
+</h2><p>&ldquo;中庸&quot;一词在日常生活中常被误解为&quot;和稀泥&quot;&ldquo;墙头草&quot;&ldquo;没原则&rdquo;，甚至被视为缺乏进取精神的代名词。然而，材料清晰指出：&ldquo;执两用中并非简单的折中主义，而是一种辩证的认识论与方法论&quot;&ldquo;真正的中道并非无原则的调和，而是以&rsquo;守正&rsquo;为前提&rdquo;。这让我对&quot;中庸&quot;有了全新的认识。</p>
+<p>首先，中庸不是没有立场，而是在把握事物全貌之后做出的审慎判断。&ldquo;执其两端，用其中于民&quot;意味着先要了解事物的两个极端，理解各自的合理性与局限，再在此基础上找到恰如其分的平衡点。这恰恰需要更深刻的洞察力和更大的智慧。孔子说&quot;过犹不及&rdquo;，反对的不仅是&quot;不及&rdquo;，同样反对&quot;过度&rdquo;——激进与保守都是偏颇，真正的智慧在于审时度势、因时制宜。</p>
+<p>其次，中庸不等于放弃原则。&ldquo;守中&quot;的前提是&quot;守正&rdquo;——在坚守根本原则的基础上，根据时代变化灵活调整具体策略。正如材料列举的历代治世，无不是在改革发展与维持稳定之间寻求动态平衡。反之，秦朝严刑峻法走向极端、晚明空谈义理脱离实际，都是背离中道的教训。</p>
+<p>在我的学习生活中，我也逐渐体会到中庸的价值。面对繁重的学业压力，既不能过度放松以致荒废，也不能过度紧绷以致崩溃，要在勤学与休整之间找到适合自己的节奏。这是一种需要不断练习的能力，而非机械地取平均值。中庸之道，实际上是教我们做一个有定力、有判断力的清醒之人，而非随波逐流的墙头草。</p>
+<hr>
+<h2 id="总第47期任务一唯一任务科技与人文人工智能的不利影响及应对">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac47%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%94%af%e4%b8%80%e4%bb%bb%e5%8a%a1%e7%a7%91%e6%8a%80%e4%b8%8e%e4%ba%ba%e6%96%87%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e4%b8%8d%e5%88%a9%e5%bd%b1%e5%93%8d%e5%8f%8a%e5%ba%94%e5%af%b9"></a>
+总第47期·任务一（唯一任务）：科技与人文——人工智能的不利影响及应对
+</h2><p>当下，以人工智能为代表的新技术日新月异，在带来巨大便利的同时，也引发了一系列不利影响。正如材料所言，&ldquo;技术一旦脱离人的本质需求，便会导致&rsquo;人的异化&rsquo;&quot;。技术封建主义的兴起、人的主体性削弱、信息茧房加剧等问题，正成为数字时代的严峻挑战。</p>
+<p>人工智能带来的不利影响是多方面的。首先是&quot;人的异化&rdquo;——当算法能够比人更高效地完成写作、绘画、编程等创造性工作时，人可能在不知不觉中丧失独立思考与动手能力。我身边就有同学过度依赖AI写作文，结果一到考场便无从下笔。其次是信息茧房的加深，推荐算法不断投喂我们&quot;想看的内容&rdquo;，视野反而越来越窄。再者，如《技术封建主义》一文所述，少数科技巨头垄断数据与平台，普通用户沦为&quot;数字农奴&rdquo;，失去了对自己数据与劳动成果的控制权。</p>
+<p>面对这些挑战，我认为应从三个层面加以应对。在个人层面，要保持清醒的主体意识，把AI当作工具而不是拐杖，坚持独立思考与亲手实践，绝不能让机器代劳一切创造性劳动。在社会层面，需要建立健全伦理规则与法律法规，正如材料所强调的，&ldquo;技术越强大，越需要强化人的主体地位&rdquo;，通过算法可解释性、数据安全、隐私保护等制度设计，确保技术&quot;服务于人&quot;而非&quot;驾驭于人&rdquo;。在教育层面，应更加重视人文素养的培养，让哲学、历史、文学为人提供意义世界，以思考力、感受力、创造力对抗技术的单一价值。</p>
+<p>归根结底，科技是&quot;发动机&rdquo;，人文是&quot;方向盘&rdquo;。只有在人文精神的指引下，人工智能等新技术才能真正造福人类，而不是把我们带入一种新型的数字依附关系。</p>
+<hr>
+<h2 id="实事求是篇任务一对实事求是的理解">
+<a class="header-anchor" href="#%e5%ae%9e%e4%ba%8b%e6%b1%82%e6%98%af%e7%af%87%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%af%b9%e5%ae%9e%e4%ba%8b%e6%b1%82%e6%98%af%e7%9a%84%e7%90%86%e8%a7%a3"></a>
+实事求是篇·任务一：对&quot;实事求是&quot;的理解
+</h2><p>&ldquo;实事求是&quot;一词在日常生活中常被简单理解为&quot;讲真话&quot;&ldquo;不弄虚作假&rdquo;。读了材料后方知，这一概念的意涵远比日常理解更为深远——它不仅是治学态度，更是中国共产党&quot;认识世界、改造世界的根本要求&rdquo;，是一种科学的思维方法与工作方法。</p>
+<p>材料指出，班固最早用&quot;实事求是&quot;赞誉河间献王刘德&quot;务得事实，每求真是&quot;的严谨治学态度。毛泽东同志则将其提升为马克思主义的科学方法论：&quot;&lsquo;实事&rsquo;就是客观存在着的一切事物，&lsquo;是&rsquo;就是客观事物的内部联系，即规律性，&lsquo;求&rsquo;就是我们去研究。&ldquo;这一阐释让我意识到：实事求是绝非被动地承认事实，而是要主动深入实际、详细占有材料、深入研究，从而把握事物发展的内在规律。</p>
+<p>这种思想方法对我的学习有着深刻启示。以往我做题时，常常满足于记住答案或套用模板，却忽略了&quot;求是&quot;的关键——去追问一道题背后的原理是什么、规律是什么。比如数学公式，如果只背结论而不理解推导过程中的逻辑链条，遇到变式便会束手无策。真正的&quot;实事求是&rdquo;，应当是深入钻研每一个知识点的来龙去脉，从具体题目中抽象出普遍规律，再用规律指导解题实践。</p>
+<p>材料还强调，实事求是要求&quot;讲实情、出实招、办实事、求实效&rdquo;。在我的生活中，这意味着脚踏实地、不好高骛远。与其空想一个完美的学习计划而不执行，不如从每天认真完成一篇阅读、弄懂一道错题做起。正如古人所言&quot;非知之艰，行之惟艰&rdquo;，知道道理不难，难的是落实到行动上。实事求是，最终要落脚在&quot;务实&quot;二字上——知行合一，方为真&quot;实&rdquo;。</p>
+<hr>
+<h2 id="数字文化创造篇任务一唯一任务炫技还是文化底蕴">
+<a class="header-anchor" href="#%e6%95%b0%e5%ad%97%e6%96%87%e5%8c%96%e5%88%9b%e9%80%a0%e7%af%87%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%94%af%e4%b8%80%e4%bb%bb%e5%8a%a1%e7%82%ab%e6%8a%80%e8%bf%98%e6%98%af%e6%96%87%e5%8c%96%e5%ba%95%e8%95%b4"></a>
+数字文化创造篇·任务一（唯一任务）：炫技还是文化底蕴？
+</h2><p>标题：<strong>让文化成为数字创造的灵魂</strong></p>
+<p>数字技术飞速发展的今天，AI复原古迹、三维建模重生老街巷、体素技术复刻祖国山河，每个人都能轻松拿起数字工具成为文化故事的创作者。然而，光明日报评论文章提出了一个发人深省的追问：&ldquo;当炫技变得容易，沉下心研习文化是否变得更有价值？&ldquo;对此，我认为答案不言自明——文化底蕴远比炫技更加珍贵。</p>
+<p>技术是工具，文化是灵魂。没有文化底蕴支撑的数字创造，再炫目的特效也只是空洞的视觉刺激。我看到有同学用AI生成了一幅&quot;古风&quot;画作，画面华丽精美，但仔细一看，建筑风格混淆了唐宋明清、人物服饰时空错乱——这便是只有炫技而无文化根基的结果。相反，B站上一位UP主用三维建模复原了家乡的一条百年老街，画面或许不如商业大作精致，但每一块砖瓦的位置都有历史依据、每一家店铺的招牌都有故事可循，看后令人动容。因为他呈现的不只是图像，更是文化记忆与乡愁。</p>
+<p>文章指出，当代青年的数字文化创造&quot;自带鲜明的家国底色&rdquo;。这份底色正来自对中华文化的深刻理解。技术门槛越低，文化底蕴就越是决定作品高下的关键。当人人都能一键生成精美画面时，真正稀缺的将不再是技术能力，而是对文化的研习深度和独到见解。</p>
+<p>因此，我们年轻人在拥抱数字工具的同时，更应沉下心去读书、去了解传统、去走进博物馆和古街巷。唯有让文化成为数字创造的灵魂，我们的作品才能经得起时间的淘洗，才能真正用鲜活的创造讲好中国故事。</p>
+
         
-        <hr><p>Published on 2026-07-22 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-22</p>]]>
+        <hr><p>Published on 2026-07-22 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-22</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -159,15 +838,321 @@
       <description>
         <![CDATA[<h1>Hugo 搭建个人博客</h1><p>Author: Kuqilin(kuqilin@outlook.com)</p>
         
-          记录了我在 GitHub Pages 搭建 Hugo 的经历
+          
+  <blockquote class="alert-blockquote tip">
+    <p class="alert-heading">
+      Tip
+    </p>
+    <p><p>请务必先通读全文再进行操作，避免一些不必要的错误。</p></p>
+  </blockquote>
+
+<h2 id="安装-hugo">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85-hugo"></a>
+安装 Hugo
+</h2><h3 id="windows">
+<a class="header-anchor" href="#windows"></a>
+Windows
+</h3><p>前往官网下载 Hugo 的<code>exe</code>文件，随便找个位置放，然后把他添加到环境变量中即可。</p>
+<h3 id="linux">
+<a class="header-anchor" href="#linux"></a>
+Linux
+</h3><p>先安装 Hugo 的二进制文件，可以在官网上下载，也可以直接使用软件包管理器，考虑到<code>apt</code>更新极为缓慢，建议 Debian 系去官网下载<code>deb</code>包进行安装。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo apt install hugo    <span class="c1"># Debian 系</span>
+</span></span><span class="line"><span class="cl">yay -S hugo              <span class="c1"># Arch 系</span>
+</span></span></code></pre></div><p>安装完成后，执行<code>hugo version</code>会看到类似如下的提示：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">❯ hugo version  
+</span></span><span class="line"><span class="cl">hugo v0.164.0-ce2470e7012b5ab5fc4e10ebe4027e9f8d9e00dc+extended linux/amd64 <span class="nv">BuildDate</span><span class="o">=</span>2026-07-06T16:39:30Z <span class="nv">VendorInfo</span><span class="o">=</span>gohugoio
+</span></span></code></pre></div><p>即安装完成。</p>
+<h2 id="创建项目">
+<a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e9%a1%b9%e7%9b%ae"></a>
+创建项目
+</h2><p>我们使用<code>hugo new site &lt;项目名称&gt;</code>来创建项目，比如：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">❯ hugo new site myBlog  
+</span></span><span class="line"><span class="cl">Congratulations! Your new Hugo site was created in /home/kuqilin/myBlog.  
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">Just a few more steps...  
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">1. Change the current directory to /home/kuqilin/myBlog.  
+</span></span><span class="line"><span class="cl">2. Create or install a theme:  
+</span></span><span class="line"><span class="cl">  - Create a new theme with the <span class="nb">command</span> <span class="s2">&#34;hugo new theme &lt;THEMENAME&gt;&#34;</span>  
+</span></span><span class="line"><span class="cl">  - Install a theme from https://themes.gohugo.io/  
+</span></span><span class="line"><span class="cl">3. Edit hugo.toml, setting the <span class="s2">&#34;theme&#34;</span> property to the theme name.  
+</span></span><span class="line"><span class="cl">4. Create new content with the <span class="nb">command</span> <span class="s2">&#34;hugo new content &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;&#34;</span>.  
+</span></span><span class="line"><span class="cl">5. Start the embedded web server with the <span class="nb">command</span> <span class="s2">&#34;hugo server --buildDrafts&#34;</span>.  
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">See documentation at https://gohugo.io/.
+</span></span></code></pre></div><p>可以看到成功的提示，接下来<code>cd</code>到项目文件夹<code>myBlog</code>，按照提示进行配置。</p>
+<h2 id="创建或安装主题">
+<a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e6%88%96%e5%ae%89%e8%a3%85%e4%b8%bb%e9%a2%98"></a>
+创建或安装主题
+</h2><p>显然，我们是可以自己创建主题的，但是为了<del>白嫖</del>方便，直接前往 <a href="https://themes.gohugo.io/">Hugo Themes</a> 下载一个称心的即可，这里选择了 <a href="https://themes.gohugo.io/themes/hugo-theme-reimu/">hugo-theme-reimu</a> 这个主题。</p>
+<p>主题安装有几种方式，推荐使用 Git Submodule：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> myBlog
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">git submodule add https://github.com/D-Sketon/hugo-theme-reimu.git themes/hugo-theme-reimu
+</span></span></code></pre></div><p>也可以直接下载主题压缩包，解压到<code>themes</code>文件夹下。</p>
+<p>然后在 <code>hugo.toml</code> 中指定主题：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;hugo-theme-reimu&#34;</span>
+</span></span></code></pre></div><h2 id="配置-hugo-theme-reimu">
+<a class="header-anchor" href="#%e9%85%8d%e7%bd%ae-hugo-theme-reimu"></a>
+配置 hugo-theme-reimu
+</h2><p>主题的配置文件默认在 <code>themes/hugo-theme-reimu/config/_default/</code> 下。我们不应该直接修改主题文件，因为更新主题时会将其覆盖掉，所以应该在项目根目录的 <code>config/_default/</code> 下创建同名文件来覆盖。我们把<code>params.yml</code>（主题参数）复制即可。</p>
+<h3 id="基础站点配置hugotoml">
+<a class="header-anchor" href="#%e5%9f%ba%e7%a1%80%e7%ab%99%e7%82%b9%e9%85%8d%e7%bd%aehugotoml"></a>
+基础站点配置（hugo.toml）
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">baseURL</span> <span class="p">=</span> <span class="s1">&#39;https://&lt;你的用户名&gt;.github.io/&#39;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">theme</span> <span class="p">=</span> <span class="s2">&#34;hugo-theme-reimu&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nx">title</span> <span class="p">=</span> <span class="s2">&#34;xxx&#39;s Blog&#34;</span>       <span class="c"># 站点标题</span>
+</span></span><span class="line"><span class="cl"><span class="nx">locale</span> <span class="p">=</span> <span class="s2">&#34;zh-CN&#34;</span>           <span class="c"># 语言</span>
+</span></span><span class="line"><span class="cl"><span class="nx">languageName</span> <span class="p">=</span> <span class="s2">&#34;简体中文&#34;</span>   <span class="c"># 语言名称</span>
+</span></span><span class="line"><span class="cl"><span class="nx">hasCJKLanguage</span> <span class="p">=</span> <span class="kc">true</span>      <span class="c"># 是否包含 CJK 字符</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">highlight</span><span class="p">]</span>         <span class="c"># 语法高亮（含代码块必须）</span>
+</span></span><span class="line"><span class="cl"><span class="nx">guessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">noClasses</span> <span class="p">=</span> <span class="kc">false</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">renderer</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">unsafe</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">[</span><span class="nx">markup</span><span class="p">.</span><span class="nx">goldmark</span><span class="p">.</span><span class="nx">extensions</span><span class="p">.</span><span class="nx">passthrough</span><span class="p">]</span> <span class="c"># 含数学公式必须</span>
+</span></span><span class="line"><span class="cl"><span class="nx">enable</span> <span class="p">=</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl"><span class="nx">delimiters</span><span class="p">.</span><span class="nx">block</span> <span class="p">=</span> <span class="p">[[</span><span class="s2">&#34;\\[&#34;</span><span class="p">,</span> <span class="s2">&#34;\\]&#34;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&#34;$$&#34;</span><span class="p">,</span> <span class="s2">&#34;$$&#34;</span><span class="p">]]</span>
+</span></span><span class="line"><span class="cl"><span class="nx">delimiters</span><span class="p">.</span><span class="nx">inline</span> <span class="p">=</span> <span class="p">[[</span><span class="s2">&#34;\\(&#34;</span><span class="p">,</span> <span class="s2">&#34;\\)&#34;</span><span class="p">],</span> <span class="p">[</span><span class="s2">&#34;$&#34;</span><span class="p">,</span> <span class="s2">&#34;$&#34;</span><span class="p">]]</span>
+</span></span></code></pre></div><p><code>unsafe = true</code> 允许在 Markdown 中直接使用 HTML，<code>passthrough</code> 用于支持数学公式的 <code>$...$</code> 和 <code>$$...$$</code> 语法。</p>
+<h3 id="主题参数配置paramsyml">
+<a class="header-anchor" href="#%e4%b8%bb%e9%a2%98%e5%8f%82%e6%95%b0%e9%85%8d%e7%bd%aeparamsyml"></a>
+主题参数配置（params.yml）
+</h3><p>在 <code>config/_default/params.yml</code> 中配置主题的各项功能，这里介绍几个关键项：</p>
+<p><strong>导航菜单：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">menu</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">home</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">archives</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;archives&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">about</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;about&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">friend</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">url</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;friend&#34;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>个人信息和头像：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">author</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;你的名字&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;你的邮箱&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">avatar</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;avatar.jpg&#34;</span><span class="w">           </span><span class="c"># 放在 static/avatar/ 下</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">banner</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;images/banner.webp&#34;</span><span class="w">   </span><span class="c"># 放在 static/images/ 下</span><span class="w">
+</span></span></span></code></pre></div><p><strong>社交链接：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">social</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">email</span><span class="p">:</span><span class="w"> </span><span class="l">mailto:&lt;你的邮箱&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">github</span><span class="p">:</span><span class="w"> </span><span class="l">https://github.com/&lt;你的用户名&gt;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">twitter</span><span class="p">:</span><span class="w"> </span><span class="l">https://twitter.com/&lt;你的用户名&gt;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>侧边栏和小组件：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">sidebar</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">position</span><span class="p">:</span><span class="w"> </span><span class="l">left </span><span class="w"> </span><span class="c"># 左右可选</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">widgets</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">category</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">tag</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">tagcloud</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span>- <span class="l">recent_posts</span><span class="w">
+</span></span></span></code></pre></div><p><strong>评论区（以 Waline 为例）：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">comment</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">default</span><span class="p">:</span><span class="w"> </span><span class="l">waline</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">waline</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">serverURL</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;&lt;你的 Waline 服务地址&gt;&#34;</span><span class="w">
+</span></span></span></code></pre></div><p><strong>启用功能：</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">toc</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">                </span><span class="c"># 目录</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">dark_mode</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="l">auto          </span><span class="w"> </span><span class="c"># 自动跟随系统</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">math</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">mathjax</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">enable</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">         </span><span class="c"># 数学公式</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">show_update_time</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">   </span><span class="c"># 显示更新时间</span><span class="w">
+</span></span></span></code></pre></div><p>更多配置项（鼠标特效、Live2D、字体、加载动画等）请参考<a href="https://github.com/D-Sketon/hugo-theme-reimu">主题官方文档</a>。</p>
+<p>配置完成后，运行 <code>hugo server -D</code> 即可在本地预览 <code>http://localhost:1313</code>。</p>
+<h3 id="其他内容">
+<a class="header-anchor" href="#%e5%85%b6%e4%bb%96%e5%86%85%e5%ae%b9"></a>
+其他内容
+</h3><p>其他内容，比如更改鼠标指针、修改字体、文章头图、文章封面、网站主题色、短代码、友链等等，请查看<a href="https://github.com/D-Sketon/hugo-theme-reimu">官方文档</a>，这里不再赘述。<del>嘻嘻</del></p>
+<h2 id="部署到-github-pages">
+<a class="header-anchor" href="#%e9%83%a8%e7%bd%b2%e5%88%b0-github-pages"></a>
+部署到 GitHub Pages
+</h2><p>部署的核心思路是把 Hugo 构建生成的 <code>public/</code> 目录推送到 <code>&lt;用户名&gt;.github.io</code> 仓库。GitHub Pages 会自动将这个仓库的内容作为静态网站发布。</p>
+<p>也就是说，我们需要两个仓库：</p>
+<ul>
+<li><strong>源码仓库</strong>（如 <code>hugo-build</code>）：放 Hugo 项目源文件（Markdown、配置、主题等）</li>
+<li><strong>页面仓库</strong>（<code>&lt;用户名&gt;.github.io</code>）：只放 <code>public/</code> 里的静态文件</li>
+</ul>
+<p>下面分别介绍手动推送和 GitHub Actions 自动推送两种方式。</p>
+<h2 id="方式一手动推送到-githubio">
+<a class="header-anchor" href="#%e6%96%b9%e5%bc%8f%e4%b8%80%e6%89%8b%e5%8a%a8%e6%8e%a8%e9%80%81%e5%88%b0-githubio"></a>
+方式一：手动推送到 github.io
+</h2><p>最直接的方式——在本地执行 <code>hugo</code> 构建，然后把 <code>public/</code> 目录的内容推到页面仓库。</p>
+<h3 id="1-克隆页面仓库">
+<a class="header-anchor" href="#1-%e5%85%8b%e9%9a%86%e9%a1%b5%e9%9d%a2%e4%bb%93%e5%ba%93"></a>
+1. 克隆页面仓库
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/&lt;你的用户名&gt;/&lt;你的用户名&gt;.github.io.git public
+</span></span></code></pre></div><p>如果 <code>public/</code> 目录已存在（Hugo 构建会生成），先删掉再克隆。</p>
+<h3 id="2-构建并推送">
+<a class="header-anchor" href="#2-%e6%9e%84%e5%bb%ba%e5%b9%b6%e6%8e%a8%e9%80%81"></a>
+2. 构建并推送
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 回到源码仓库根目录，先构建</span>
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 进入 public 目录（此时它已经是页面仓库的克隆）</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># 提交并推送</span>
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;update&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></div><p>每次更新博客时，重复上面几步即可。</p>
+<h3 id="3-写个脚本简化操作">
+<a class="header-anchor" href="#3-%e5%86%99%e4%b8%aa%e8%84%9a%e6%9c%ac%e7%ae%80%e5%8c%96%e6%93%8d%e4%bd%9c"></a>
+3. 写个脚本简化操作
+</h3><p>可以把以上步骤写成一个脚本 <code>deploy.sh</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="cp">#!/bin/bash
+</span></span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Building...&#34;</span>
+</span></span><span class="line"><span class="cl">hugo
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Deploying...&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> public
+</span></span><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;update </span><span class="k">$(</span>date <span class="s1">&#39;+%Y-%m-%d %H:%M:%S&#39;</span><span class="k">)</span><span class="s2">&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Done!&#34;</span>
+</span></span></code></pre></div><p>以后只需运行 <code>bash deploy.sh</code> 就完成构建和部署了。</p>
+<p>这种方式的优点是不依赖任何第三方 CI 服务，简单直接；缺点是需要手动执行，并且要保证本地 Hugo 环境正常。</p>
+<h2 id="方式二github-actions-自动部署">
+<a class="header-anchor" href="#%e6%96%b9%e5%bc%8f%e4%ba%8cgithub-actions-%e8%87%aa%e5%8a%a8%e9%83%a8%e7%bd%b2"></a>
+方式二：GitHub Actions 自动部署
+</h2><p>懒人必备——每次把源码推到 GitHub，剩下的构建和部署全交给 Actions 自动完成。</p>
+<h3 id="1-创建-personal-access-token">
+<a class="header-anchor" href="#1-%e5%88%9b%e5%bb%ba-personal-access-token"></a>
+1. 创建 Personal Access Token
+</h3><p>为了让 Actions 能够向页面仓库推送代码，需要一个 Token：</p>
+<ol>
+<li>GitHub → Settings → Developer settings → Personal access tokens → Tokens(classic)</li>
+<li>生成新 Token，勾选 <code>repo</code> 和 <code>workflow</code> 权限</li>
+<li>复制生成的 Token（注意：此 Token <strong>只显示一次</strong>，务必保存好）</li>
+</ol>
+<p>然后在<strong>源码仓库</strong>的 Settings → Secrets and variables → Actions 中新建一个 Secret，名称为 <code>TOKEN</code>，填入刚才复制的 Token。</p>
+<h3 id="2-编写-workflow-文件">
+<a class="header-anchor" href="#2-%e7%bc%96%e5%86%99-workflow-%e6%96%87%e4%bb%b6"></a>
+2. 编写 Workflow 文件
+</h3><p>在源码仓库根目录创建 <code>.github/workflows/hugo.yaml</code>：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">deploy</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">on</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="l">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">deploy</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Checkout</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">fetch-depth</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">submodules</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">       </span><span class="c"># 如果主题用 git submodule 安装，需要这行</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v3</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;latest&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">extended</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy Web</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v4</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PERSONAL_TOKEN</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.TOKEN }}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">EXTERNAL_REPOSITORY</span><span class="p">:</span><span class="w"> </span><span class="l">&lt;你的用户名&gt;/&lt;你的用户名&gt;.github.io</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">main</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">              </span><span class="nt">commit_message</span><span class="p">:</span><span class="w"> </span><span class="l">auto deploy</span><span class="w">
+</span></span></span></code></pre></div><p>各步骤说明：</p>
+<table>
+	<thead>
+			<tr>
+					<th>步骤</th>
+					<th>作用</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><code>actions/checkout@v4</code></td>
+					<td>拉取源码，<code>submodules: true</code> 同时拉取主题子模块</td>
+			</tr>
+			<tr>
+					<td><code>peaceiris/actions-hugo@v3</code></td>
+					<td>安装 Hugo 环境（extended 版支持 SCSS）</td>
+			</tr>
+			<tr>
+					<td><code>hugo</code></td>
+					<td>构建站点，生成 <code>public/</code> 目录</td>
+			</tr>
+			<tr>
+					<td><code>peaceiris/actions-gh-pages@v4</code></td>
+					<td>将 <code>public/</code> 推送到页面仓库</td>
+			</tr>
+	</tbody>
+</table>
+<h3 id="3-推送源码触发部署">
+<a class="header-anchor" href="#3-%e6%8e%a8%e9%80%81%e6%ba%90%e7%a0%81%e8%a7%a6%e5%8f%91%e9%83%a8%e7%bd%b2"></a>
+3. 推送源码触发部署
+</h3><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span><span class="line"><span class="cl">git commit -m <span class="s2">&#34;new post&#34;</span>
+</span></span><span class="line"><span class="cl">git push origin main
+</span></span></code></pre></div><p>每次 <code>push</code> 到 <code>main</code> 分支后，GitHub Actions 就会自动运行。可以在源码仓库的 Actions 标签页查看构建进度，绿色 ✅ 即为部署成功，随后访问 <code>https://&lt;你的用户名&gt;.github.io/</code> 就能看到更新后的博客。</p>
+<h3 id="两种方式对比">
+<a class="header-anchor" href="#%e4%b8%a4%e7%a7%8d%e6%96%b9%e5%bc%8f%e5%af%b9%e6%af%94"></a>
+两种方式对比
+</h3><table>
+	<thead>
+			<tr>
+					<th></th>
+					<th>手动推送</th>
+					<th>GitHub Actions</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>操作</td>
+					<td>本地跑 <code>hugo</code> + 手动 push</td>
+					<td>只需 <code>git push</code> 源码</td>
+			</tr>
+			<tr>
+					<td>依赖</td>
+					<td>本地需安装 Hugo</td>
+					<td>无需本地环境</td>
+			</tr>
+			<tr>
+					<td>适用场景</td>
+					<td>临时更新、不方便配 Actions</td>
+					<td>日常写博客，自动化最省心</td>
+			</tr>
+			<tr>
+					<td>复杂度</td>
+					<td>⭐ 简单</td>
+					<td>⭐⭐ 需配一次 Token 和 yaml</td>
+			</tr>
+	</tbody>
+</table>
+<p>两种方式不冲突，可以同时使用——配好 Actions 后日常自动部署，偶尔需要手动推也完全可以。</p>
+<p>至此，Hugo 博客的搭建、配置和部署就全部完成了 🎉</p>
+
         
-        <hr><p>Published on 2026-07-11 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p>]]>
+        <hr><p>Published on 2026-07-11 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-17</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -239,14 +1224,16 @@
 	</tbody>
 </table>
 <details>你不应看到这里</details>
+
         
-        <hr><p>Published on 2025-02-22 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-12</p>]]>
+        <hr><p>Published on 2025-02-22 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-07-12</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -260,8 +1247,22 @@
         
           <p>难得一个清闲的周末，慢慢地写作业、慢慢地出去走走、慢慢地吃个饭，一点都不急。作业也少，rage bait 也不推了，温度很舒适。很久没过这样的周末了 <del>（可能是没刷短视频的原因吧）</del> 。<br>
 自从把 B 站的个性化推荐关掉之后，推给我的都是高质量视频，刷视频功能也没掉了，比起以前来个</p>
+<blockquote>
+<p>你们报电话号码都是怎么报的？334还是533？</p>
+</blockquote>
+<p>这样的 rage bait 底下一群人吵翻天要好太多了。</p>
+<p>短视频…吃饭旁边桌的两三年级小孩，说个“走过去的是 gay”……<br>
+玩梗有度吧，先形成三观还是先刷短视频？也许正如王羲之“后之视今，亦犹今之视昔“一般，只有以后才知道如今这些杂七杂八的东西是什么样的吧。<br>
+现在的流量至上确实不好，为了流量丢掉了一些东西。</p>
+<p>清闲的周末，也会些许不好，缺少一点对生活的激情，但也够了。</p>
+<p>尽情向后展望吧，我们有取之不尽的未来。</p>
+<p><br /><br /><br /></p>
+<blockquote>
+<p>这人写的什么意识流玩意😥……</p>
+</blockquote>
+
         
-        <hr><p>Published on 2026-05-17 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-05-17</p>]]>
+        <hr><p>Published on 2026-05-17 at <a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>, last modified on 2026-05-17</p><p>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</p>]]>
       </description>
       
         <category>记录</category>

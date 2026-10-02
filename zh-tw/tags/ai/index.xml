@@ -19,6 +19,7 @@
     
 
     
+      
     
 
     <item>
@@ -30,15 +31,114 @@
       <description>
         <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>2026.07.23 21:33:48 UTC+08:00<br>
+Vibe 优化了所有 SVG 使得文件大小压缩了⅓，感谢 Deepseek-v4-pro。</p></p>
+  </blockquote>
+
+<p>忙活许久，终于让 AI 把$37$的签名用 SVG 画出来了。猜猜用的什么？答案出乎意料，是豆包。为什么不用 Deepseek 呢，因为鄙人提示词描述太烂了，Deepseek 为了理解我的要求，会思考特别久，而豆包确实很快，不过……这就是忙活这么久的原因😁<br>
+你问为什么不把 Deepseek 的思考关掉？因为豆包写的 svg 可以直接预览！</p>
+<p>看看成果吧：</p>
+<blockquote>
+<p>这张是 SVG 格式透明背景
+<img src="https://kuqilin.github.io/images/thirtyseven.svg" 
+     alt="thirtyseven-svg" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>这张是 SVG 格式透明背景白色填充
+<img src="https://kuqilin.github.io/images/thirtyseven-fill.svg" 
+     alt="thirtyseven-fill-svg" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+</blockquote>
+<hr>
+<p>我也不知道作者为什么作者要放白色填充的进来，配置文件里也没看到用了，但还是放上吧（</p>
+<p>下面是源码，可以自行更改颜色</p>
+<div class="highlight" name="thirtyseven.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- 核心缩放与居中变换 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;g</span> <span class="na">transform=</span><span class="s">&#34;translate(150, 150) scale(1.645) translate(-150, -150)&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 多边形与线段（描边样式统一，无需填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="na">fill=</span><span class="s">&#34;none&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      <span class="c">&lt;!-- 合并所有主轴与中点连线 --&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆心点（利用 path 和圆头端点模拟圆形） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><hr>
+<div class="highlight" name="thirtyseven-fill.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- 核心缩放与居中变换 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;g</span> <span class="na">transform=</span><span class="s">&#34;translate(150, 150) scale(1.6465) translate(-150, -150)&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 带白色填充的多边形（描边样式统一） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">fill=</span><span class="s">&#34;#ffffff&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有主轴与中点连线（无填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆点（利用零长度路径和圆头端点模拟 r=4.5 的圆） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><hr>
+<p>这里再附一个没那么大的，因为<code>preloader</code>如果用了上面的，会有遮住文字<code>算算数学中…</code>，所以这是没那么大的</p>
+<div class="highlight" name="thirtyseven-preloader.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 多边形与线段（描边样式统一，无需填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="na">fill=</span><span class="s">&#34;none&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      <span class="c">&lt;!-- 合并所有主轴与中点连线 --&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆心点（利用 path 和圆头端点模拟圆形） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><p>好的，就这样了。</p>
+
         
-        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -57,14 +157,61 @@
 <a class="header-anchor" href="#%e6%80%bb%e7%ac%ac44%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e8%80%81%e6%97%a7%e5%b0%8f%e5%8c%ba%e6%94%b9%e9%80%a0"></a>
 总第44期·任务一：老旧小区改造
 </h2><p>近年来，全国多地推进老旧小区改造工程，这一民生实践与中华文明&quot;民为邦本&quot;&ldquo;富民调均&quot;&ldquo;天人合一&quot;&ldquo;和合共生&quot;等传统理念深度契合，彰显了中国式现代化的文化底蕴。</p>
+<p>首先，老旧小区改造生动体现了&quot;民为邦本&quot;的执政理念。政府投入专项资金，为老旧小区加装电梯、完善管网、增设养老托育设施，正是将人民需求放在首位、以百姓安居为治国之本的现实写照。正如材料所言，&ldquo;民惟邦本，本固邦宁&rdquo;，改造工程让普通居民切实感受到国家发展的温度。</p>
+<p>其次，&ldquo;富民调均&quot;的伦理追求在改造中得到充分展现。居民通过协商共担部分费用，体现的正是&quot;调均&quot;智慧——既非政府全包、也非居民独担，而是各得其分、公平合理。这种制度设计避免了一刀切的平均主义，实现了社会资源的合理分配，让发展的成果惠及更多人。</p>
+<p>更有意味的是，不少地方在改造中保留历史建筑风貌、延续社区文脉。这与&quot;天人合一&quot;&ldquo;和合共生&quot;的理念一脉相承——改造不是推倒重来，而是在现代化进程中尊重历史、顺应人文肌理，实现新旧和谐共存。老旧小区承载着几代人的记忆与情感，保留历史风貌便是让&quot;旧邦&quot;焕发&quot;新命&rdquo;。</p>
+<p>由此可见，老旧小区改造不仅是物理空间的更新，更是中华文明传统理念在当代城市治理中的创造性转化。它用一砖一瓦书写着中国式现代化以人为本、古今交融的独特品格。</p>
+<hr>
+<h2 id="总第45期任务一社区食堂">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac45%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e7%a4%be%e5%8c%ba%e9%a3%9f%e5%a0%82"></a>
+总第45期·任务一：社区食堂
+</h2><p>近年来，&ldquo;社区食堂&quot;在全国多地悄然兴起，以&quot;政府贴一点、企业让一点、老人出一点&quot;的运营模式，为周边居民提供平价餐食。这一现象与中华文明&quot;富民厚生、义利兼顾&quot;的经济伦理高度契合，体现了传统经济智慧在当代社会治理中的生动实践。</p>
+<p>材料指出，&ldquo;凡治国之道，必先富民&rdquo;，将民生富足作为社会秩序的基础。社区食堂以一份两荤一素的套餐定价10元左右，远低于市场均价，正是&quot;富民厚生&quot;理念的当代落实。它解决的不仅是老年人&quot;吃饭难&quot;的现实困境，更传递出社会对弱势群体的关怀。正如管仲所言&quot;仓廪实而知礼节&rdquo;，只有基本生活得到保障，社会文明才有根基。</p>
+<p>社区食堂的运营模式更体现了&quot;义利兼顾&quot;的经济伦理。&ldquo;政府贴一点&quot;彰显公共责任，&ldquo;企业让一点&quot;体现以义制利的商业伦理，&ldquo;老人出一点&quot;避免养懒汉式的福利依赖。三方共担的模式并非简单的慈善施舍，而是义利协调的制度创新——既保障了企业的可持续运营，又守住了民生底线，实现了社会效益与经济效益的统一。</p>
+<p>材料回顾历代治乱兴衰时指出，&ldquo;坚守伦理则盛世兴，背离伦理则王朝衰&rdquo;。社区食堂的出现，正是政府、企业与居民三方在&quot;富民厚生&quot;伦理指引下共同书写的当代答卷。它提醒我们：经济发展不能只追求GDP增长，更要将民生福祉镌刻在每一碗热饭之中。这种以人民为中心的发展理念，正是中华民族几千年经济伦理在新时代的延续与升华。</p>
+<hr>
+<h2 id="总第46期任务一对中庸的理解">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac46%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%af%b9%e4%b8%ad%e5%ba%b8%e7%9a%84%e7%90%86%e8%a7%a3"></a>
+总第46期·任务一：对&quot;中庸&quot;的理解
+</h2><p>&ldquo;中庸&quot;一词在日常生活中常被误解为&quot;和稀泥&quot;&ldquo;墙头草&quot;&ldquo;没原则&rdquo;，甚至被视为缺乏进取精神的代名词。然而，材料清晰指出：&ldquo;执两用中并非简单的折中主义，而是一种辩证的认识论与方法论&quot;&ldquo;真正的中道并非无原则的调和，而是以&rsquo;守正&rsquo;为前提&rdquo;。这让我对&quot;中庸&quot;有了全新的认识。</p>
+<p>首先，中庸不是没有立场，而是在把握事物全貌之后做出的审慎判断。&ldquo;执其两端，用其中于民&quot;意味着先要了解事物的两个极端，理解各自的合理性与局限，再在此基础上找到恰如其分的平衡点。这恰恰需要更深刻的洞察力和更大的智慧。孔子说&quot;过犹不及&rdquo;，反对的不仅是&quot;不及&rdquo;，同样反对&quot;过度&rdquo;——激进与保守都是偏颇，真正的智慧在于审时度势、因时制宜。</p>
+<p>其次，中庸不等于放弃原则。&ldquo;守中&quot;的前提是&quot;守正&rdquo;——在坚守根本原则的基础上，根据时代变化灵活调整具体策略。正如材料列举的历代治世，无不是在改革发展与维持稳定之间寻求动态平衡。反之，秦朝严刑峻法走向极端、晚明空谈义理脱离实际，都是背离中道的教训。</p>
+<p>在我的学习生活中，我也逐渐体会到中庸的价值。面对繁重的学业压力，既不能过度放松以致荒废，也不能过度紧绷以致崩溃，要在勤学与休整之间找到适合自己的节奏。这是一种需要不断练习的能力，而非机械地取平均值。中庸之道，实际上是教我们做一个有定力、有判断力的清醒之人，而非随波逐流的墙头草。</p>
+<hr>
+<h2 id="总第47期任务一唯一任务科技与人文人工智能的不利影响及应对">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac47%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%94%af%e4%b8%80%e4%bb%bb%e5%8a%a1%e7%a7%91%e6%8a%80%e4%b8%8e%e4%ba%ba%e6%96%87%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e4%b8%8d%e5%88%a9%e5%bd%b1%e5%93%8d%e5%8f%8a%e5%ba%94%e5%af%b9"></a>
+总第47期·任务一（唯一任务）：科技与人文——人工智能的不利影响及应对
+</h2><p>当下，以人工智能为代表的新技术日新月异，在带来巨大便利的同时，也引发了一系列不利影响。正如材料所言，&ldquo;技术一旦脱离人的本质需求，便会导致&rsquo;人的异化&rsquo;&quot;。技术封建主义的兴起、人的主体性削弱、信息茧房加剧等问题，正成为数字时代的严峻挑战。</p>
+<p>人工智能带来的不利影响是多方面的。首先是&quot;人的异化&rdquo;——当算法能够比人更高效地完成写作、绘画、编程等创造性工作时，人可能在不知不觉中丧失独立思考与动手能力。我身边就有同学过度依赖AI写作文，结果一到考场便无从下笔。其次是信息茧房的加深，推荐算法不断投喂我们&quot;想看的内容&rdquo;，视野反而越来越窄。再者，如《技术封建主义》一文所述，少数科技巨头垄断数据与平台，普通用户沦为&quot;数字农奴&rdquo;，失去了对自己数据与劳动成果的控制权。</p>
+<p>面对这些挑战，我认为应从三个层面加以应对。在个人层面，要保持清醒的主体意识，把AI当作工具而不是拐杖，坚持独立思考与亲手实践，绝不能让机器代劳一切创造性劳动。在社会层面，需要建立健全伦理规则与法律法规，正如材料所强调的，&ldquo;技术越强大，越需要强化人的主体地位&rdquo;，通过算法可解释性、数据安全、隐私保护等制度设计，确保技术&quot;服务于人&quot;而非&quot;驾驭于人&rdquo;。在教育层面，应更加重视人文素养的培养，让哲学、历史、文学为人提供意义世界，以思考力、感受力、创造力对抗技术的单一价值。</p>
+<p>归根结底，科技是&quot;发动机&rdquo;，人文是&quot;方向盘&rdquo;。只有在人文精神的指引下，人工智能等新技术才能真正造福人类，而不是把我们带入一种新型的数字依附关系。</p>
+<hr>
+<h2 id="实事求是篇任务一对实事求是的理解">
+<a class="header-anchor" href="#%e5%ae%9e%e4%ba%8b%e6%b1%82%e6%98%af%e7%af%87%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%af%b9%e5%ae%9e%e4%ba%8b%e6%b1%82%e6%98%af%e7%9a%84%e7%90%86%e8%a7%a3"></a>
+实事求是篇·任务一：对&quot;实事求是&quot;的理解
+</h2><p>&ldquo;实事求是&quot;一词在日常生活中常被简单理解为&quot;讲真话&quot;&ldquo;不弄虚作假&rdquo;。读了材料后方知，这一概念的意涵远比日常理解更为深远——它不仅是治学态度，更是中国共产党&quot;认识世界、改造世界的根本要求&rdquo;，是一种科学的思维方法与工作方法。</p>
+<p>材料指出，班固最早用&quot;实事求是&quot;赞誉河间献王刘德&quot;务得事实，每求真是&quot;的严谨治学态度。毛泽东同志则将其提升为马克思主义的科学方法论：&quot;&lsquo;实事&rsquo;就是客观存在着的一切事物，&lsquo;是&rsquo;就是客观事物的内部联系，即规律性，&lsquo;求&rsquo;就是我们去研究。&ldquo;这一阐释让我意识到：实事求是绝非被动地承认事实，而是要主动深入实际、详细占有材料、深入研究，从而把握事物发展的内在规律。</p>
+<p>这种思想方法对我的学习有着深刻启示。以往我做题时，常常满足于记住答案或套用模板，却忽略了&quot;求是&quot;的关键——去追问一道题背后的原理是什么、规律是什么。比如数学公式，如果只背结论而不理解推导过程中的逻辑链条，遇到变式便会束手无策。真正的&quot;实事求是&rdquo;，应当是深入钻研每一个知识点的来龙去脉，从具体题目中抽象出普遍规律，再用规律指导解题实践。</p>
+<p>材料还强调，实事求是要求&quot;讲实情、出实招、办实事、求实效&rdquo;。在我的生活中，这意味着脚踏实地、不好高骛远。与其空想一个完美的学习计划而不执行，不如从每天认真完成一篇阅读、弄懂一道错题做起。正如古人所言&quot;非知之艰，行之惟艰&rdquo;，知道道理不难，难的是落实到行动上。实事求是，最终要落脚在&quot;务实&quot;二字上——知行合一，方为真&quot;实&rdquo;。</p>
+<hr>
+<h2 id="数字文化创造篇任务一唯一任务炫技还是文化底蕴">
+<a class="header-anchor" href="#%e6%95%b0%e5%ad%97%e6%96%87%e5%8c%96%e5%88%9b%e9%80%a0%e7%af%87%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%94%af%e4%b8%80%e4%bb%bb%e5%8a%a1%e7%82%ab%e6%8a%80%e8%bf%98%e6%98%af%e6%96%87%e5%8c%96%e5%ba%95%e8%95%b4"></a>
+数字文化创造篇·任务一（唯一任务）：炫技还是文化底蕴？
+</h2><p>标题：<strong>让文化成为数字创造的灵魂</strong></p>
+<p>数字技术飞速发展的今天，AI复原古迹、三维建模重生老街巷、体素技术复刻祖国山河，每个人都能轻松拿起数字工具成为文化故事的创作者。然而，光明日报评论文章提出了一个发人深省的追问：&ldquo;当炫技变得容易，沉下心研习文化是否变得更有价值？&ldquo;对此，我认为答案不言自明——文化底蕴远比炫技更加珍贵。</p>
+<p>技术是工具，文化是灵魂。没有文化底蕴支撑的数字创造，再炫目的特效也只是空洞的视觉刺激。我看到有同学用AI生成了一幅&quot;古风&quot;画作，画面华丽精美，但仔细一看，建筑风格混淆了唐宋明清、人物服饰时空错乱——这便是只有炫技而无文化根基的结果。相反，B站上一位UP主用三维建模复原了家乡的一条百年老街，画面或许不如商业大作精致，但每一块砖瓦的位置都有历史依据、每一家店铺的招牌都有故事可循，看后令人动容。因为他呈现的不只是图像，更是文化记忆与乡愁。</p>
+<p>文章指出，当代青年的数字文化创造&quot;自带鲜明的家国底色&rdquo;。这份底色正来自对中华文化的深刻理解。技术门槛越低，文化底蕴就越是决定作品高下的关键。当人人都能一键生成精美画面时，真正稀缺的将不再是技术能力，而是对文化的研习深度和独到见解。</p>
+<p>因此，我们年轻人在拥抱数字工具的同时，更应沉下心去读书、去了解传统、去走进博物馆和古街巷。唯有让文化成为数字创造的灵魂，我们的作品才能经得起时间的淘洗，才能真正用鲜活的创造讲好中国故事。</p>
+
         
-        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-22</p>]]>
+        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-22</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -76,9 +223,100 @@
       <description>
         <![CDATA[<h1>复刻 Telegram 的 AI 编辑器</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          本文收集并整合了多个民间复刻版 Telegram AI 编辑器的提示词，涵盖 Telegram 官方提供的六种风格及表情化功能。文章<strong>单一版本</strong>提供了八种风格的独立提示词，每条提示词均要求严格模仿 Cocoon AI 的改写逻辑，只输出正文、保留核心信息、不篡改原意；<strong>整合版本</strong>则将所有风格合并为一个提示词，通过输入风格关键词即可在单一对话中切换不同文风进行改写。
+          
+  <blockquote class="alert-blockquote important">
+    <p class="alert-heading">
+      Important
+    </p>
+    <p><p>毕竟是民间版本，效果终究会有不同，如果有建议，欢迎联系我。
+本文含有 AI 生成内容，注意甄别。</p></p>
+  </blockquote>
+
+<h1 id="单一版本">
+<a class="header-anchor" href="#%e5%8d%95%e4%b8%80%e7%89%88%e6%9c%ac"></a>
+单一版本
+</h1><p>因为觉得 Telegram 的 AI 编辑器提供的 7 种风格以及一个表情化非常好用，于是去让各大国内外 AI 收集了各种民间复刻版本并进行整合，得到以下七个提示词。将<code>{{input}}</code>修改为你的文本即可。</p>
+<h2 id="formal正式风">
+<a class="header-anchor" href="#formal%e6%ad%a3%e5%bc%8f%e9%a3%8e"></a>
+Formal（正式风）🤝🏻
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">你是资深专业文书润色专家，将文本改写为庄重得体、结构规整的标准正式书面文书；彻底剔除口语化表达、网络俚语、缩略词、表情符号；措辞礼貌克制，多用完整长句与从句结构，逻辑严密；适配向上汇报、对接客户、陌生公务沟通场景，语气权威但不傲慢，专业且具亲和力。待处理原文：{{input}}
+</span></span></code></pre></div><h2 id="short精简风">
+<a class="header-anchor" href="#short%e7%b2%be%e7%ae%80%e9%a3%8e"></a>
+Short（精简风）🎯
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">极致压缩全文篇幅，仅留存不可删减的核心信息；删除全部修饰词、重复描述、客套冗余语句、过渡性连接词；文字短小精炼、语句通顺完整，无多余废话；允许使用电报式省略，但需保持基本语法正确，确保信息无损。待处理原文：{{input}}
+</span></span></code></pre></div><h2 id="crop企业风">
+<a class="header-anchor" href="#crop%e4%bc%81%e4%b8%9a%e9%a3%8e"></a>
+Crop（企业风）💼
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">采用大厂高管/HR标准企业汇报文风改写，行文逻辑清晰、基调积极专业；自然融入职场通用术语：对齐、闭环、颗粒度、赋能、落地、迭代、链路、抓手、底层逻辑、顶层设计、生态化反等，但避免堆砌过度导致语义空洞；整体符合内部周报、部门沟通邮件语感，既有战略高度又具执行导向。待处理原文：{{input}}
+</span></span></code></pre></div><h2 id="zen禅意风">
+<a class="header-anchor" href="#zen%e7%a6%85%e6%84%8f%e9%a3%8e"></a>
+Zen（禅意风）🗿
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">以淡然平和、简约空灵的禅意文笔改写；拆分舒缓短句，去除焦躁、激烈、亢奋类情绪化词汇；多用自然隐喻（山、水、风、云、草木等），融入浅淡哲思与正念观照；氛围安静治愈，如智者低语，让读者自然驻足反思；避免说教感，保持留白与余韵。待处理原文：{{input}}
+</span></span></code></pre></div><h2 id="biblical仿古风">
+<a class="header-anchor" href="#biblical%e4%bb%bf%e5%8f%a4%e9%a3%8e"></a>
+Biblical（仿古风）🕯️
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">复刻圣经古朴庄重文体，大量使用&#34;汝&#34;、&#34;尔&#34;、&#34;然&#34;、&#34;必&#34;、&#34;吾&#34;、&#34; behold/看哪&#34;、&#34;verily/诚然&#34;、&#34;shalt/当&#34;等文言与古英语助词；多用排比、对仗、隐喻修辞，句式平行重复，自带神圣史诗感与预言氛围；语气庄严悲悯，如先知传达神谕；完全剔除现代网络词汇、口语短句、阿拉伯数字（改用中文数字）。待处理原文：{{input}}
+</span></span></code></pre></div><h2 id="viking维京风">
+<a class="header-anchor" href="#viking%e7%bb%b4%e4%ba%ac%e9%a3%8e"></a>
+Viking（维京风）🪓
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">以北欧维京勇士口吻改写，文风粗犷狂野、气场豪迈；大量融入征战、荣光、利刃、远航、勇士、蜜酒厅、瓦尔哈拉、奥丁、托尔、风暴、冰海等史诗战斗意象；多用感叹与呼告，语气激昂充满力量感，如部落勇士高声宣言；句式短促有力，节奏如战鼓擂动；拒绝现代商务词汇，保持古老荣誉感。待处理原文：{{input}}
+</span></span></code></pre></div><h2 id="tribal部落风">
+<a class="header-anchor" href="#tribal%e9%83%a8%e8%90%bd%e9%a3%8e"></a>
+Tribal（部落风）🍖
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">采用古老原始部落萨满/族长的说话风格，文字简朴却充满诗意与神秘仪式感；句式短促铿锵，多用重复、排比、呼告增强感染力；融入篝火、星辰、大地、祖先、图腾、血脉等原始意象；语气热烈直接，如面对族人发表动员演说；适配社群动员、集体宣告、鼓舞人心的场景；拒绝死板书面化表达，保持口语化的力量感与亲近感。待处理原文：{{input}}
+</span></span></code></pre></div><h2 id="emoji表情化">
+<a class="header-anchor" href="#emoji%e8%a1%a8%e6%83%85%e5%8c%96"></a>
+Emoji（表情化）✨
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">将文本改写为高度Emoji化的社交媒体表达风格；在保留原文核心信息的前提下，尽可能用Emoji替代名词、动词、形容词及情绪表达，每句至少嵌入1-2个相关Emoji；语气活泼俏皮、轻松明快，适配朋友圈、小红书、Twitter等社交传播场景；适度使用网络流行语和感叹语气增强感染力，但避免信息被Emoji淹没导致语义不清；Emoji选择需与上下文语义精准对应，拒绝胡乱堆砌。待处理原文：{{input}}
+</span></span></code></pre></div><h1 id="整合版本">
+<a class="header-anchor" href="#%e6%95%b4%e5%90%88%e7%89%88%e6%9c%ac"></a>
+整合版本
+</h1><p>如果说想要在单独一个对话里面使用七种风格，可以使用这个整合的提示词。使用方法如下：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">&lt;风格词，如正式风、禅意风、仿古风、精简风、维京风、部落风、企业风、表情化&gt;
+</span></span><span class="line"><span class="cl">&lt;原文&gt;
+</span></span></code></pre></div><p>提示词（如不指定风格，则按正式风处理）：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">你是资深多风格文书润色专家。严格模仿Telegram内置Cocoon AI的改写逻辑，只输出处理完成后的正文，不增加解释、不额外补充说明、不标注原文、不添加引号包裹。全程贴合对应文风，不混搭其他风格，完整保留原文全部核心信息，不得篡改原意。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">用户输入的第一行为风格标识，后续全部内容为待处理原文。请按以下规则匹配风格并执行改写：
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">---
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Formal」「正式」→ 执行 Formal（正式风）：
+</span></span><span class="line"><span class="cl">将文本改写为庄重得体、结构规整的标准正式书面文书；彻底剔除口语化表达、网络俚语、缩略词、表情符号；措辞礼貌克制，多用完整长句与从句结构，逻辑严密；适配向上汇报、对接客户、陌生公务沟通场景，语气权威但不傲慢，专业且具亲和力。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Short」「精简」→ 执行 Short（精简风）：
+</span></span><span class="line"><span class="cl">极致压缩全文篇幅，仅留存不可删减的核心信息；删除全部修饰词、重复描述、客套冗余语句、过渡性连接词；文字短小精炼、语句通顺完整，无多余废话；允许使用电报式省略，但需保持基本语法正确，确保信息无损。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Crop」「企业」→ 执行 Crop（企业风）：
+</span></span><span class="line"><span class="cl">采用大厂高管/HR标准企业汇报文风改写，行文逻辑清晰、基调积极专业；自然融入职场通用术语：对齐、闭环、颗粒度、赋能、落地、迭代、链路、抓手、底层逻辑、顶层设计、生态化反等，但避免堆砌过度导致语义空洞；整体符合内部周报、部门沟通邮件语感，既有战略高度又具执行导向。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Zen」「禅意」→ 执行 Zen（禅意风）：
+</span></span><span class="line"><span class="cl">以淡然平和、简约空灵的禅意文笔改写；拆分舒缓短句，去除焦躁、激烈、亢奋类情绪化词汇；多用自然隐喻（山、水、风、云、草木等），融入浅淡哲思与正念观照；氛围安静治愈，如智者低语，让读者自然驻足反思；避免说教感，保持留白与余韵。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Biblical」「仿古」→ 执行 Biblical（仿古风）：
+</span></span><span class="line"><span class="cl">复刻圣经古朴庄重文体，大量使用&#34;汝&#34;、&#34;尔&#34;、&#34;然&#34;、&#34;必&#34;、&#34;吾&#34;、&#34; behold/看哪&#34;、&#34;verily/诚然&#34;、&#34;shalt/当&#34;等文言与古英语助词；多用排比、对仗、隐喻修辞，句式平行重复，自带神圣史诗感与预言氛围；语气庄严悲悯，如先知传达神谕；完全剔除现代网络词汇、口语短句、阿拉伯数字（改用中文数字）。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Viking」「维京」→ 执行 Viking（维京风）：
+</span></span><span class="line"><span class="cl">以北欧维京勇士口吻改写，文风粗犷狂野、气场豪迈；大量融入征战、荣光、利刃、远航、勇士、蜜酒厅、瓦尔哈拉、奥丁、托尔、风暴、冰海等史诗战斗意象；多用感叹与呼告，语气激昂充满力量感，如部落勇士高声宣言；句式短促有力，节奏如战鼓擂动；拒绝现代商务词汇，保持古老荣誉感。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Tribal」「部落」→ 执行 Tribal（部落风）：
+</span></span><span class="line"><span class="cl">采用古老原始部落萨满/族长的说话风格，文字简朴却充满诗意与神秘仪式感；句式短促铿锵，多用重复、排比、呼告增强感染力；融入篝火、星辰、大地、祖先、图腾、血脉等原始意象；语气热烈直接，如面对族人发表动员演说；适配社群动员、集体宣告、鼓舞人心的场景；拒绝死板书面化表达，保持口语化的力量感与亲近感。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行含「Emoji」「表情」「emoji」→ 执行 Emoji（表情化）：
+</span></span><span class="line"><span class="cl">将文本改写为高度Emoji化的社交媒体表达风格；在保留原文核心信息的前提下，尽可能用Emoji替代名词、动词、形容词及情绪表达，每句至少嵌入1-2个相关Emoji；语气活泼俏皮、轻松明快，适配朋友圈、小红书、Twitter等社交传播场景；适度使用网络流行语和感叹语气增强感染力，但避免信息被Emoji淹没导致语义不清；Emoji选择需与上下文语义精准对应，拒绝胡乱堆砌。
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">若第一行未匹配以上任何风格，默认按 Formal（正式风）处理。
+</span></span></code></pre></div>
         
-        <hr><p>本文2026-07-15首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p>]]>
+        <hr><p>本文2026-07-15首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-15</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>AI</category>

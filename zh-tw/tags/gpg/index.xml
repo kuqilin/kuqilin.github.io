@@ -19,6 +19,7 @@
     
 
     
+      
     
 
     <item>
@@ -30,9 +31,27 @@
       <description>
         <![CDATA[<h1>我的GPG公钥</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          更新：修改了公钥以及邮箱
+          <h1 id="我的-gpg-公钥">
+<a class="header-anchor" href="#%e6%88%91%e7%9a%84-gpg-%e5%85%ac%e9%92%a5"></a>
+我的 GPG 公钥
+</h1><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">-----BEGIN PGP PUBLIC KEY BLOCK-----
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">mDMEaletXxYJKwYBBAHaRw8BAQdAUvE5DkiWwJuNZNQd4+Wa201Y6ols1bMM7rgH
+</span></span><span class="line"><span class="cl">ayxqfoO0HUt1cWlsaW4gPGt1cWlsaW5Ab3V0bG9vay5jb20+iK8EExYKAFcWIQRl
+</span></span><span class="line"><span class="cl">GZNCBHc8zQDJb7wKYuHLKxRcQgUCaletXxsUgAAAAAAEAA5tYW51MiwyLjUrMS4x
+</span></span><span class="line"><span class="cl">MSwzLDICGwMFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQCmLhyysUXEKz
+</span></span><span class="line"><span class="cl">/gD+NjY0U1L7U2m0i+Wesqpe4grNYEfGl1Kq8Ql2wNN0X6gA/iFJkJAgE8RSiwmU
+</span></span><span class="line"><span class="cl">WrwfIsspXnsNPYJUrTGjSKbpy0gOuDgEaletXxIKKwYBBAGXVQEFAQEHQKAeMaJK
+</span></span><span class="line"><span class="cl">/ZOaB6O8N6eIDq0aJV7D+RwxMqy+Uy1MouoBAwEIB4iUBBgWCgA8FiEEZRmTQgR3
+</span></span><span class="line"><span class="cl">PM0AyW+8CmLhyysUXEIFAmpXrV8bFIAAAAAABAAObWFudTIsMi41KzEuMTEsMywy
+</span></span><span class="line"><span class="cl">AhsMAAoJEApi4csrFFxCHJkBAJYhx/AhFeQ5od7/JOIvKNt3p0CsYxyfZeoOR1pv
+</span></span><span class="line"><span class="cl">68LdAQD+cFYTsQd8kihgtGHyOXOnxYZolMc4avG40kLEvBYFBA==
+</span></span><span class="line"><span class="cl">=WrWJ
+</span></span><span class="line"><span class="cl">-----END PGP PUBLIC KEY BLOCK-----
+</span></span></code></pre></div><p>欢迎大家给我发消息，<a href="mailto:kuqilin@outlook.com">kuqilin@outlook.com</a></p>
+
         
-        <hr><p>本文2024-01-15首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-16</p>]]>
+        <hr><p>本文2024-01-15首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-16</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
     </item>

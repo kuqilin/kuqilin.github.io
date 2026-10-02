@@ -19,6 +19,7 @@
     
 
     
+      
     
 
     <item>
@@ -30,15 +31,116 @@
       <description>
         <![CDATA[<h1>有效学习：如何利用碎片时间</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          一篇关于有效学习的演讲稿整理稿：讨论碎片时间的理论上限、实际利用效率，以及如何通过身体、答疑、练习和计划、态度、执行来提升学习效果。
+          <h2 id="开场">
+<a class="header-anchor" href="#%e5%bc%80%e5%9c%ba"></a>
+开场
+</h2><p>好，我们现在开始。我昨天晚上做了一个非常深刻、非常真实的梦。梦到我要给大家展示这个内容，当时整个班都乱套了，当然，不是我们这个班，完全不认识的。然后我当时也不知道在讲什么。完了之后发现回到了真实的世界。</p>
+<p>今天来给大家分享和探讨这个<strong>有效学习</strong>，希望这个东西能给大家带来一些帮助。</p>
+<p>在不断的对这个东西认识深刻的过程中，我对它的理解不断深入，我也受到了很多启发。</p>
+<h2 id="碎片时间理论上的-2h25m">
+<a class="header-anchor" href="#%e7%a2%8e%e7%89%87%e6%97%b6%e9%97%b4%e7%90%86%e8%ae%ba%e4%b8%8a%e7%9a%84-2h25m"></a>
+碎片时间：理论上的 2h25m
+</h2><p>首先我们来看<strong>碎片时间</strong>。碎片时间就是字面意义上的碎片的时间。然后呢就像我们之前的年级大会，我们各位同学都看到一些非常厉害的学霸，在早上起来的时候就会把非常细碎的时间都用上，而且他们已经做好了计划。</p>
+<p>但是我们不需要这样做的这么离谱，而且确实，他这个是常年积累下来的习惯，我们难以触及他们这些高度。</p>
+<p>我们先从最开始的开始。我们可能需要先理清一下我们一天的一个行程，这个大概是按照我的习惯来的，然后是以一个比较积极的心态去利用时间的可利用的最少的时间。也就是说有很大的提升空间，因为这个是最少的。</p>
+$$
+25 + 5 + 5 + 15 + 30 + 5 + 10 + 5 + 5 + 15 + 25 = \text{2h25m}
+$$<p>跟大家讲啊，从早上六点半起床，或六点四十起床，如果你动作很快、比较积极，在七点前到班，你可以在早读前获得二十到二十五分钟的碎片时间。接下来两个课间，你可以有五分钟的碎片时间。然后大课间自由活动的时候，你下去自由活动五分钟，那么你回班可以获得二十分钟的时间。然后这个三十分钟是你中午回班这个星光计划的时间。下午的话这个五分钟是你提前到班可以去收拾东西或者梳理接下来的计划之类的。然后这个十分钟是眼保健操加上课间。这个五分钟是剩下两个课间。这个十五分钟是你晚修提前十五分钟到班上。然后晚上如果你提前回宿舍的自习室，最少也能获得二十分钟。</p>
+<p>也就是说我们现在已经大概获得了两个半小时的碎片时间了，而且这个时间已经是算少的，减去了挺多时间。如果你的通勤，甚至上洗手间你都能利用上，这其实是大于三个小时的。是不是非常神奇？</p>
+<p>碎片时间就是要大家把小的时间积累成大的时间，把它变得非常 massive，这样就会似乎拥有了三个小时的时间。然后这个时间好像就可以拿来做主三科的一套卷子，并深刻地进行理解；或者两套四选二的卷子，并进行充分的订正。</p>
+<p>但是这样肯定就不是我们要探讨的东西了。因为碎片时间这个东西，我们肯定要把握它的最大的特征，就是<strong>碎片</strong>。我们肯定是不能这样子去利用它的，即我们无法这样利用，因为它太碎片了。当你以为你从你的时间表里头空出了这么大一片时间的时候，你就会发现你每天根本无法正常地利用。</p>
+<p>第一个，它的时间是碎片的；第二个，每天你不可能拥有这么多个五分钟，最显著的就是平时上下课老师会拖堂，个人原因比如你上完一节课已经力竭了，你已经认真地听课了，你需要休息一下。这些是最基础的时间，它都有可能把你的时间进行压缩。所以呢我们现在把这个东西全部忘掉（笑）。这个东西是<em>理论上的</em>，我们需要回到最开始我们理解的有效学习。</p>
+<blockquote>
+<p>理论不等于日常。</p>
+</blockquote>
+<h2 id="有效学习时间--效率">
+<a class="header-anchor" href="#%e6%9c%89%e6%95%88%e5%ad%a6%e4%b9%a0%e6%97%b6%e9%97%b4--%e6%95%88%e7%8e%87"></a>
+有效学习：时间 × 效率
+</h2><p>有效学习这里针对碎片时间，不过其实针对其他内容也是一样的。就是说你这个乘积啊：</p>
+$$
+\text{有效学习（碎片时间）} = \text{已利用时间} \times \text{利用效率，}
+$$<p>可以理解为我们地理曾经学习的这个粮食总产量，等于我们的粮食总面积以及这个单产相乘。不过这是我瞎编的，我来一个个解释一下。</p>
+<p>已利用时间是什么？就是我刚刚讲的这些东西，它是不可避免的会被压缩，正如我刚刚阐述的那些原因一样。所以我们同时也要在利用效率上去下功夫。</p>
+<p>利用效率是什么呢？就想象你这个时间是你某个技能的一个空位，你需要往里头填充一些其他的东西，才能让这个东西变得有意义起来。</p>
+<p>我给这三个内容总结了这三个东西，就是“<strong>身体</strong>”“<strong>答疑</strong>”还有“<strong>练习</strong>”。</p>
+$$
+\begin{array}{|c|c|c|c|c|}
+\hline
+    & \textbf{<5} & \textbf{5~15} & \textbf{15~30} & \textbf{>30} \\ \hline
+    身体 & \checkmark & - & - & - \\ \hline
+    答疑 & \checkmark {\small 小} & \checkmark {\small 一串} & \checkmark & \checkmark \\ \hline
+    练习 & - & 化/地 & 相应时间 & 相应时间 \\ \hline
+\end{array}
+$$<h3 id="身体">
+<a class="header-anchor" href="#%e8%ba%ab%e4%bd%93"></a>
+身体
+</h3><p>“身体”就是你每天必要的一些目的，你需要去装水、上洗手间之类的，以及你需要休息。这个东西你在五分钟内都是可以完成的，它也是必要不可缺少的，特别在课间，这个就不再啰嗦。对于大于的这些时间我就不再多说，可能是体育运动之类的。
+对于身体还有一个要将的是，每天上午大家都会非常困倦，这个时候你就可以选择在课间什么都不用管，盖上衣服好好充分地睡上一觉，可以保证上课的高效集中注意力。</p>
+<p>这里另外讲一个内容啊，大家早上困倦其实是非常正常的。研究显示，进入青春期后，人的睡眠相位通常会往后移，大致在 1—2 小时左右。比如成年人习惯晚上十点钟睡觉、早上六点钟起床；青少年相当于整体往后推约两个小时，所以早上六点钟起床，对他们来说类似成年人在早上四五点被叫醒。这个现象很常见，也很难单靠意志力改变。至于早上困倦怎么解决，第一个手段就是课间使劲睡；如果你实在很困，需要上课睡眠，那不在我们今天讨论范围内。如果未来有机会，我也会和大家分享一下。</p>
+<h3 id="答疑">
+<a class="header-anchor" href="#%e7%ad%94%e7%96%91"></a>
+答疑
+</h3><p>我们接着回来看一下这个“<strong>答疑</strong>”，就是解答一些你积累的疑惑。对于小的问题，上课就可以解决，这是用小于五分钟的时间完成的。然后五到十五分钟，就像邝老师之前说的，你可能准备了一堆问题，这个时候你就可以去问，这是属于“一串问题”的。这两个呢，是大家可以利用上的。十五到三十分钟还有大于三十分钟，这是你的某个知识点没有掌握，你需要找老师系统地把它攻克掉，或者作文需要找老师修改之类的。这是对于“答疑”的碎片时间。</p>
+<blockquote>
+<p>你可能准备了一堆问题，这个时候你就可以去问。</p>
+</blockquote>
+<h3 id="练习">
+<a class="header-anchor" href="#%e7%bb%83%e4%b9%a0"></a>
+练习
+</h3><p>接下来是“<strong>练习</strong>”。“练习”呢我们遵从一个原则，就是在相应的、正确的时间内做正确的事情。什么意思呢？就是这个小于五分钟，不推荐，因为比较短。你可能也就是做一道或者两到选择题的样子，这个时间你最好就是答疑。五到十五分钟，我个人建议做这个四选二的科目，因为这段时间比较短，正好四选二不是最重要的科目，所以你的选择题就可以花在这个五到十五分钟内。如果你的一个课间可以做三道选择题的话，你一天的课间就可以算三个，就可以九或十道题，一周就可以做很多，非常有效。除此之外还可以去复盘一些基本的内容，比如你对四选二一些总结之类的。十五到三十分钟的话你就可以做一个专项的练习，比如说两三篇英语阅读、列一个作文提纲，甚至一两篇文言文阅读、文学性/议论性文本阅读等等。重点就是要找<em>相应的时间</em>。大于三十分钟都快到整块的时间了，那就根据自己的情况来选择。</p>
+<p>有些人就说了：“我一天也不可能利用这么多啊？我一天又要做化学又要做地理，那咋办呢？”其实你只要保住一个方面就行了，你可以把你的战线拉到一周。比如说周一到周五，你可以这个做化学，这个做地理等等，利用好你的碎片时间即可。</p>
+$$
+\begin{array}{|l|l|l|l|l|}
+\hline
+    一 & 二 & 三 & 四 & 五 \\ \hline
+    化 & 地 & 化 & 地 & 化 \\ \hline
+\end{array}
+$$<p>以上就是这个利用效率方面的讨论。我们接下来到最后一个也是最重要的，<strong>有效学习</strong>。</p>
+<h2 id="有效学习的三个本质">
+<a class="header-anchor" href="#%e6%9c%89%e6%95%88%e5%ad%a6%e4%b9%a0%e7%9a%84%e4%b8%89%e4%b8%aa%e6%9c%ac%e8%b4%a8"></a>
+有效学习的三个本质
+</h2><p>我们不要关心碎片时间本身，重要的是背后学习的本质。它包括三个方面。</p>
+$$
+\left.
+\begin{aligned}
+\text{（一）做好计划（目标）} \\
+\text{（二）认真积极的态度} \\
+\text{（三）执行}
+\end{aligned}
+\right\} \text{有效学习}
+$$<p>第一个就是我刚刚所说的，做好计划。你要先把你一天的时间表给拉出来，定好每天要干的东西是什么。当你有一个目标的时候，它就会非常地有效果。因为你每天的计划绝对是赶不上变化的，所以你有一个目标之后无论发生什么改变，你都可以去趋向你的目标。可能今天我迟到了、可能今天我抢不了饭堂，但只要我有计划好的计划，那我就拿出来做，全心地投入而不用想自己做得对不对。</p>
+<p>下一个，就是保持一个积极的、认真的态度。这对于利用时间是最重要的，我们不用一味地想着要利用多少时间、炸出多少时间，要想的是：</p>
+<blockquote>
+<p>时间本来就是一个好伙伴。</p>
+</blockquote>
+<p>如果你有一个认真积极的、向着有效学习的态度，你的时间自然而然地会被利用起来。</p>
+<p>第三个是<strong>执行</strong>。因为你最后干了这么多写出来安慰自己非常高兴，但你不付诸实践是不行的。你可以先从最简单的——课间的化学地理——开始，至于后面的大堆碎片时间，由你自己开发。</p>
+$$
+\text{方案}
+\begin{cases}
+\text{1. 梳理个人时间}\\
+\text{2. 明确利用时间}\\
+\text{3. 明确补足内容}
+\end{cases}
+$$<h2 id="行动方案">
+<a class="header-anchor" href="#%e8%a1%8c%e5%8a%a8%e6%96%b9%e6%a1%88"></a>
+行动方案
+</h2><p>以下就是最后的 plan，可以给大家去想一想。梳理个人时间就是把你个人的时间列出来。跟前面不一样的是我是按照我自己的时间来的，你们可能有自己的一些耍起，或者每个人安排的不一样，所以要自己去安排。第二就是明确利用时间，明确你可以利用的，不要有你有一大堆时间却什么要干不了这种事情。然后是明确你要补足的内容。就是我前面所说的，安放你的学习内容到碎片时间要有你的目标。</p>
+<p>现在你就可以拿出一张纸来写一写，或者心里想一想。只要你做出来了，每天去执行它变成一种习惯，那不管碎片时间你用得多不多——即使只用了一个小时——<strong>你也是个很不错的人了！</strong></p>
+<h2 id="结语">
+<a class="header-anchor" href="#%e7%bb%93%e8%af%ad"></a>
+结语
+</h2><p>大概就是这么多，谢谢大家！</p>
+
         
-        <hr><p>本文2026-09-26首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-09-26</p>]]>
+        <hr><p>本文2026-09-26首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-09-26</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>演讲稿</category><category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -50,15 +152,219 @@
       <description>
         <![CDATA[<h1>2026年记</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          2026年的年记
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>本文中，看到字体颜色为蓝色且带有类似“🔗”图标的为跳转链接，可以点开<br>
+看到一段话右上角（就像幂次一样）带有一个蓝色数字且有类似“🔗”图标的是注解，点它可以跳转到文末看注解。注解最后面类似“↩️🔗”图标的是返回原文<br>
+这是第二版了，第一版在「归档」里面</p></p>
+  </blockquote>
+
+<p>其实挺早就有写年记的想法了，忘记是从谁的 Blog 看到的了，想着既然我不写日记、不写周记，也没有月记，那还是写个年记吧。没想到由于各种各样 <del>不可抗力</del> 的原因，比如「不知道是每年元旦发、还是除夕发，抑或是生日发」这些问题 <del>（其实是超级无敌拖延症犯了）</del> 导致一直没写成。至于为什么突然写了，我也不知道。所以，这是我第一篇「年记」 <del>谁知道会不会是最后一篇呢</del><br>
+既然是每年生日发出来（如你所见） <del>并非如此，当时还在想要不要发出来</del> ，那么整个年记肯定就要从 2025 年 09 月开始呗。<br>
+诶，话说这样还挺好，正好是一学年，所以这个「2026 年记」其实是「2025 学年记」来的。</p>
+<p>这么一想，这年还是做了挺多东西的呢。</p>
+<p>去年生日当天，又去了一次二中，参加广州市的数学与科学联赛（信息学），被人完虐。不过也是吃上二中的饭菜了（喜）。没过几天，又去了趟铁一，打 CSP<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> 的去了。第一轮还好，还算简单，结果第二轮，去到六中参加， <del>相比于市联赛，还是复赛对我好点</del> 那时年少轻狂，结果 T3 忘记取消文件输出的注释，导致这题没输出答案，我的二等奖啊😭<br>
+那天，下着雨…… <del>编不下去了</del><br>
+然后，台风桦加沙🌀来了，把我们的学农挤走了，比较可惜的就是没有 <del>挑粪</del> 野炊。</p>
+<p>这一年里，也是在 Google Play<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> 里把 Minecraft 以极低的价格拿下了，至此，PC 端的 Bedrock+Java 和移动端的 Bedrock 已经全部拿下<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。</p>
+<p>这年，还参加了北师大的数学建模比赛，在拖延症的统治下，成功地把实验 &amp; 写作时间挤压到一个月内。 <del>我失去的一个寒假机会谁给我补啊</del> 在这里，要特别感谢为我论文实验提供大力支持的<a href="https://b23.tv/gp6R1nw"><strong>呆萌der杜小杜</strong></a>，为我们提供实验场地和实验器材。以及我们小组的同学，<code>Kimi Agent</code><sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>真香，$\mathrm{\TeX}$<sup id="fnref:5"><a href="#fn:5" class="footnote-ref" role="doc-noteref">5</a></sup>轻而易举啊。最后也是成功拿下省一等奖。 <del>怎么我们学校一个进决赛都没有啊😭</del> 关于这篇论文的小故事，也许会再写一篇，但也大概率被我拖到猴年马月。一开始，小组选题其实是绿化对城市热岛效应的影响，毕竟都是地理班的学生，结果发现，这玩意光收集数据就太麻烦了，这还只是从各种网站下载遥测数据的情况去，更别提自己做实验了。后来不知哪根筋抽了，看到人大附中那篇怎么开碳酸饮料能不溢出的论文，就想着做一个碳酸饮料清洁厕所🚽，当时还是太天真了，以至于被豆包骗，斥巨资买了一斤的磷酸三钠($\ce{Na3PO4}$)，结果制造污渍需要的是小苏打和氯化钙混合得到碳酸钠（骗你的，其实还要加热）。后来为了数据，连续三周去了杜小杜的实验室，每周日都去，一去一上午。后来还要 vibe code<sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> 一个提取陶瓷片灰度值的程序，总算是把数据什么的搞定。不容易啊！</p>
+<blockquote>
+<p>论文下载<br>
+<a href="https://kuqilin.github.io/uploads/mathEssay.pdf">可乐能清洁厕所吗？ ——碳酸饮料清洁厕所效果的影响因素分析与数学建模</a></p>
+</blockquote>
+<p>这年，玩了好几个解密类游戏，「机械迷城」、「纪念碑谷」、「纪念碑谷 II」、「纪念碑谷 III」全都玩了，只能说挺不错的。<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/a86ebefe80ed5c510dd5f449c46844f7b6e875ba.jpg" 
+     alt="游戏时长截图" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+这年，去了「琶洲实验室」，体验了一些全运会所使用的高科技，比如人工智能手语翻译、非侵入式脑机接口操控轮椅等，挺不错的。<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/501c4d32dfacf0b9f09570389429a646f20613ad.jpg" 
+     alt="琶洲实验室" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+这年，参加了学校艺术节，虽然在幕后基本没干什么，但是<span class="spoiler">编不下去了</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />我们班的节目也是拿下一等奖了呢🤣<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/cbfb6c72fb9495f89cc434f14b5d1661ddba2a4e.jpg" 
+     alt="艺术节奖杯" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+这年，顺手给电脑分了个 128GB 出来装 Cachy OS<sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>，没想到给数学论文写作提供了极大的便利 <del>指还得从 Win 里面把字体拷过来、自己写 TeX 配置文件、编译一次 PDF 花我一分钟</del> 不得不说$\mathrm{\LaTeX}$是真香啊，极致优美的排版、 <del>极其臃肿的编译</del> ，以及一眼过去全是反斜杠<code>\</code>的「宏地狱」<sup id="fnref:8"><a href="#fn:8" class="footnote-ref" role="doc-noteref">8</a></sup>。</p>
+<p>这年，成功地埋下了 5 年后的时空胶囊，必须吐槽的是学校机房的光驱真是一坨，吞了我两块档案级光盘（我的钱…）和好几块普通光盘，不过也是成功刻录好了。等到 2031 年再搞台光驱读取，但愿我不要忘了密码…</p>
+
+  <blockquote class="alert-blockquote important">
+    <p class="alert-heading">
+      Important
+    </p>
+    <p><p>别问为什么不用 U 盘、移动硬盘，这些太久不通电得话电荷会逸散，导致数据丢失，而光盘是用物理方式记录数据的，能保存挺久</p></p>
+  </blockquote>
+
+<p>今年，收到了来自中国东极的第一缕阳光的祝福，黑龙江省佳木斯市抚远。</p>
+<p>今年，有幸在班上晚修看了「元宵+月食」的直播 <del>那天广州的天气太差了😭</del> 一生只有这一次！<br>
+<img src="https://i0.hdslb.com/bfs/openplatform/b956aa918093bf82d846ff4cb7fec1212849d29b.jpg" 
+     alt="第一缕阳光" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><img src="https://i0.hdslb.com/bfs/openplatform/5f99ba7c74fa626ef3204600284d6c1f08461ea2.jpg" 
+     alt="月食直播" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /><br>
+其实，9 月份的时候，貌似还有过一场月食，我们宿舍恰好能从阳台看到，那周便带了一个望远镜，半夜时分起来看月食。不过，天公依旧不作美，☁☁☁，时不时地挡一下。这年，一次完整月食都没看过啊。</p>
+<p>这年，又拉了好几个人入坑 PGP<sup id="fnref:9"><a href="#fn:9" class="footnote-ref" role="doc-noteref">9</a></sup>。这年又有许许多多的期望与失望，本以为无希望的事却又突然成功、本以为成功的事却无望，就这样起起落落、浮浮沉沉。不久前，想到了一个题目「雅园的最后一个冬天」，想写点什么，却又什么也写不出来。没有什么题材，全部都藏在每一天的学习与生活中。读到这篇年记的同学有能力的可以写一写，顺便发给我看看(嘻嘻)。</p>
+<p>这年，退出了信竞，正因如此，开始读书了。这 5 年来，看似学了很多，真正有用的又有多少呢？真正带来的，是不断的学习的习惯吧。多少是有点不甘的，不过这又有什么用呢，也只是日后一个谈资罢了。不过阅读确实可以开拓视野、增长见识。先是 $\textit{Just}$ $\textit{for}$ $\textit{Fun:}$ $\textit{The}$ $\textit{Story}$ $\textit{of}$ $\textit{an}$ $\textit{Accidental}$ $\textit{Revolutionary}$ 再到《化学之书》、《世界神话二十五讲》、《太空漫游：2010》、《太空漫游：2061》、《美丽新世界》等等的书籍，不能说大大拓展我的视野和知识面 <del>broaden my horizons乱入</del> ，但是除了消遣之外，还是让我了解不少内容。接下来应该还会把《夜色温柔》、《瓦尔登湖》这些书看一看（确信）。</p>
+<p>这年，终于想起来自己还有个 Blog 闲置很久，于是暑假简单用 Hugo<sup id="fnref:10"><a href="#fn:10" class="footnote-ref" role="doc-noteref">10</a></sup> 搭了一个，不过这个主题嘛，本身是博丽灵梦<sup id="fnref:11"><a href="#fn:11" class="footnote-ref" role="doc-noteref">11</a></sup>的，装主题简单啊，改主题要累死。这张照片、那张照片，这个配置、那个配置，不过还好，deepseek-v4-pro 确实好用，挂上 Kimi Code<sup id="fnref:12"><a href="#fn:12" class="footnote-ref" role="doc-noteref">12</a></sup> 之后直接<code>完全自主</code> <del>覆盖掉我 5 个视频文件不嘻嘻</del> 修了好几个主题的问题，顺手加了一个 Shortcode<sup id="fnref:13"><a href="#fn:13" class="footnote-ref" role="doc-noteref">13</a></sup> 功能<code>spoiler</code>来实现文本的遮罩效果，<span class="spoiler">就像这样子，显然你前面已经见过了</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" />。搭好 Blog 之后把一些古早的<code>.md</code><sup id="fnref:14"><a href="#fn:14" class="footnote-ref" role="doc-noteref">14</a></sup>文件也传了上来，所以……。今年 Deepseek 的 token<sup id="fnref:15"><a href="#fn:15" class="footnote-ref" role="doc-noteref">15</a></sup> 消耗大概有 1B(illion) 了，虽然听起来很多，实则并不少。</p>
+<p>今年，高三了，嗯，高三了。也就高三了。没什么宏大的叙事，没什么激情的话语，也没有什么特别的感悟。很普通，和初三没什差别，初三那时也只是在 $24$ 年 $3$ 月份从楼梯间的窗户看到异木棉又开了，才发觉自己初三，在广雅又有什么标志物呢？昭明楼的玉兰花已经开过两次了……那个香气甚至在三楼都能闻到，不知四楼如何。<br>
+<details class="details custom-block">
+  <summary>小问题</summary>
+  <div class="details-content"><p>话说孙悟空拜师学习时桃子熟了几回来着🐒🍑？</p>
+</div>
+</details><br>
+Btw，$2026$年$02$月$16$日，是本世纪第$9178$天😆</p>
+<p>今年健康状况有些许下降，最直观的感受是请了两天病假。</p>
+<p>四月底学校组织去“研学”，也是好好地玩了一趟，也还算可以吧。</p>
+<p>今年，大抵还做了几个小玩意，一个是用 Python 重写了网易云音乐的<code>.ncm</code>格式转<code>.mp3/.flac</code>工具<a href="https://github.com/taurusxin/ncmdump">ncmdump</a>的<a href="https://github.com/kuqilin/ncmdumpPy">ncmdumpPy</a>，能够保留歌曲元数据，即图片、作者信息等；一个是烂尾的切换广雅一体机壁纸的程序<a href="https://github.com/kuqilin/HuaDuXiaoQuDingZhiBiZhiQieHuan">花都校区定制壁纸切换</a>，结果出了一个可用版本之后就烂尾了，现在高二（9）班的畅言依旧装着［当然，高三（9）班也有］。<span class="spoiler">还有一个要在这里跟大家坦白的，就是<a href="https://github.com/kuqilin/classNightLapse">classNightLapse</a>，即晚修延时摄影程序，有时候晚修会提前打开来拍摄第一节晚修的延时摄影🥺，放心，所有视频文件均没有外传，并且已经删除。当初做这个的目的其实是想要看看自己上晚修是一个什么状态，所以还请各位轻喷。毕竟开着这个程序拍延时摄影，会占用摄像头，导致希沃云班无法看到我们的晚修🥰。不过现在，“金盆洗手”了，以后不再录这个延时摄影了，不过高考前的晚修倒是可以考虑一下（嘻嘻</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /><sup id="fnref:16"><a href="#fn:16" class="footnote-ref" role="doc-noteref">16</a></sup><br>
+欸，看来写的这个遮罩效果还有待加强啊，Emoji 都遮不住😭，有色字体也没遮住😭😭</p>
+<p>这年，听得多的还是$\textit{Secret}\ \textit{Garden}$的<a href="https://music.163.com/#/song?id=4278218">$\textit{Anticipation}$</a>这首歌，不多说，你们自己听。</p>
+<p>今年跟初中部分同学们小聚了两次，吃了一顿饭和一顿烧烤，也还不错。不过今年没回初中看看，<span class="spoiler">挂了那个私人牌子我还哪敢回去啊😭😭😭是谁干的!!!</span><link rel="preload" as="style" href="/css/spoiler.min.2114e8f1feca8cfcd2c014ff74616d2253d3e314768484e18755f03c496fbb05.css" onload="this.onload=null;this.rel='stylesheet'" /></p>
+<p>这年初时，貌似还挺常冲固体饮料喝的，想什么阿华田、立顿的奶茶、牛乳茶等，不知为什么高二下又没怎么喝，不过，这学期倒是又补充了挺多的，大抵是因为夏天太热了，冬天的时候，北风经过十班旁边的那一段“狭管”，这时候在那里冲上一杯确实是个享受。</p>
+<p>这年，买了个 16V 1A 的 DC 5.5×2.5 电源适配器，又买了个 USB-B 的线，往虚拟机里装了个 Windows XP 又下了个古老驱动，总算是把那台 09 年的扫描仪给复活了。尽管扫描版上有些发霉，但丝毫不影响，最高 1200 DPI 和 48 位彩色<sup id="fnref:17"><a href="#fn:17" class="footnote-ref" role="doc-noteref">17</a></sup>吓死个人，扫一张不下 5 分钟，并且文件大小大概到了 600 MB 的样子。这我可无福消受，只好开 600 DPI 来扫 9 班同学的签名，就算这样，也是到了 1 分钟左右，每张 100 MB 左右了（也许就发过给你呢？）。所有的扫描出来，也才 4 GiB 左右，刻进一个普通 DVD 刚好:)</p>
+<p><img src="https://i0.hdslb.com/bfs/openplatform/b8681f0c51fdeb2963d3ca8f63421e278a9028d7.jpg" 
+     alt="扫描仪" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>噢，本来想着上 XP 截个图放过来的，结果发现没激活的 30 天使用早过了，网络机会也莫名其妙不可用，于是想着试试电话激活，输入了激活码后，打电话<sup id="fnref:18"><a href="#fn:18" class="footnote-ref" role="doc-noteref">18</a></sup>。想起了每年都有人做的“打电话给微软激活 Windows”，结果发现电话激活门户已经迁移到网络上，本来还想试试在手机上输那 14 组 6 位数字是什么感觉，可惜了。<br>
+激活完才发现虚拟机里面的文件早删了，所以这里没截图😁</p>
+<p>这年的课堂，文科没什么好说的。数学可谓是不断付出，结果却一直不尽人意的科目了。上课认真做到了，课后作业认真做了，不过化用一下泰戈尔的诗句：“数学以痛吻我，我报之以歌。”物理算是给我倒一盆冷水，这年的成绩曲线可谓是一个$\forall x_1, x_2 \in \text{今年的考试}\ (x_1 < x_2),$ $\dfrac{f(x_1) - f(x_2)}{x_1 - x_2} < 0$。化学一如既往，无需赘述，不过赋分是真吃大亏了。</p>
+<p>这年，把哔哩哔哩的个性化推荐关了（详情可见<a href="https://kuqilin.github.io/post/20260517/">20260517</a>），本想着离开短视频，结果变成了一直在刷 TG<sup id="fnref:19"><a href="#fn:19" class="footnote-ref" role="doc-noteref">19</a></sup> 频道里的各种 meme<sup id="fnref:20"><a href="#fn:20" class="footnote-ref" role="doc-noteref">20</a></sup>，感觉也没比刷短视频好多少。不过至少离开了那些引战、“愤怒诱饵”等的东西，终究是向好的。今年也开始看点电影了，看了个《王牌特工：特工学院》，又看了 007 系列的前 3 部。</p>
+<p>今年，也是当上半个“植物人”了，参加读后续写得到的一罐“驱蚊草”被种下。然后又掰了一截高一研学时得到的“碰碰香”回去种。
+至于驱蚊草到底能否驱蚊，有待考证。</p>
+<p><img src="https://i0.hdslb.com/bfs/openplatform/ce0cd28575350de0574b45e7f059773a34379d33.jpg" 
+     alt="驱蚊草" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>要问为什么土这么满，被某人填的。</p>
+<p>八月底的时候，<em>DeepSeek Harness</em>发布，装来玩了一下，这种搭乐高一样的插件模式可操作性非常强，也是给我帮了不少忙（比如那个 315 成语用法辨析小测）。</p>
+<p>这里删掉了两段话，放出来不太合适。放心，查 Git 提交记录也找不到的<code>^_^</code></p>
+<p>游戏方面，这年一如既往，还是打 9 和荒野乱斗。Minecraft 因为时间原因要先放一段时间了。9 应该还会一直玩下去，不过荒野乱斗可能不定时退坑。</p>
+<p>还有什么可写的呢？扔给了 LobeHub 上的一个 agent，让我写对未来的展望或者目标，这里贴一个 meme：</p>
+<p><img src="" 
+     alt="服了，找不到了" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>对了，今年参加了“十佳学生”竞选。本来以为那个体测成绩会绊我一脚，结果却给我过了第一轮的“广雅好少年”。广雅真草台，本来说好要假期就给我们制作海报的，结果拖到八月底，29 号才发了方案……怎么说呢？只好斥巨资开了个<em>Canvas可画</em>的会员，耗时两天做出了这个玩意：</p>
+<details class="details custom-block">
+  <summary>想看就给我乖乖开网页😉</summary>
+  <div class="details-content"><p><img src="https://image.kuqilin.eu.org/2026/10GoodStudents.jpg" 
+     alt="海报" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>你们月底大概就能看到了…… <del>就当是给你们的提前福利了😠</del> <strong>给我投票！</strong> 祝我好运吧💙</p>
+</div>
+</details>
+<p>这篇年记，虽说是生日发出来，其实基本都是从写于 7 月下旬开始写的。所以多少会缺少一点时效性。并且，这篇年记只是一个记录，大家对事不对人，也别过多讨论🤝🏻🙏🏻。<br>
+大致完成这篇年记的草稿时，内心其实是没什么感想的，就是感觉完成了一件事，仅此而已。就这样吧。</p>
+<p>在不知不觉中，上了一个半月的学了，八月适应考开了个头，以后如何？不得而知。想起那句话了，“<em>生存是进步的最大动力，我们为此赞美牺牲者，但畏惧和厌恶死亡并不可耻，真正该警惕的是停止前进。</em>”，前进吧，向前看！</p>
+<p>接下来一年，<em>十校联考</em>、<em>调研考</em>、<em>一模</em>、<em>听说</em>……不同的事情；下一次年记动工，得是<em>高考</em>后了，那时会有什么感悟呢？恭喜我又活过一年🧡</p>
+<p>其实目前还是挺满意自己的：成绩还可以、课外耍耍 AI、写点小东西玩玩，比起只学习没人情味的人还是好很多的（请勿对号入座）。</p>
+<p>贴两张照片结尾
+<img src="https://i0.hdslb.com/bfs/openplatform/ae353d734d8a635b2975f48e2ddf06a87777ea5b.jpg" 
+     alt="" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+<img src="https://i0.hdslb.com/bfs/openplatform/1d2c4c453aa83ece6f6a1d65a64a8a890776e6fa.png" 
+     alt="" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<blockquote>
+<p>时代的潮水不断起落，正如日夜更迭流转，一晦一明，永无止境。尽情向后展望吧，我们有取之不尽的未来。<br>
+Tides of time rise and fall. Days and nights switch and whirl. The infinite loop will never come to an end. Go ahead, look as much as you want. We have an endless supply of the future.</p>
+</blockquote>
+$$
+\Large\text{致}\hspace{1cm}\text{谢}
+$$<p>
+</p>
+$$
+\text{写作的 我}
+$$<p>
+</p>
+$$
+\text{看完的 你}
+$$<p>声明：本文不遵从 CC BY-NC-SA 许可协议，不允许转载。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>信息学竞赛非专业级认证&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>谷歌应用商店&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>Minecraft 分不同平台版本，要分开购买&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p>Kimi 的自动化 AI 助手&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:5">
+<p>一个开源的排版软件，不像 Word 那样所见即所得，而是要像写代码一样写，然后编译成为 PDF 文件&#160;<a href="#fnref:5" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:6">
+<p>直译为“氛围编程”，其实是 AI 编程来的。意思就是直接把需求告诉 AI 让它给你写代码，自己只管“感觉(vibe)对不对”&#160;<a href="#fnref:6" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:7">
+<p>一个 Linux 操作系统（和 Windows、macOS 是同类东西，只是免费开源、高度可定制）。Cachy OS 是其中比较适合日常使用的一个版本&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:8">
+<p>反斜杠<code>\</code>是$\mathrm{\TeX}$中用于控制格式的命令，如果要排比较多的内容，则会用到很多反斜杠，跟个地狱一样&#160;<a href="#fnref:8" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:9">
+<p>一个加密/解密软件，可以理解为你给别人开着的锁，让别人合上锁来加密，只有你自己有钥匙能打开这把锁看到内容&#160;<a href="#fnref:9" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:10">
+<p>一个网页生成软件，只用编写 Markdown 文章就能搭建博客&#160;<a href="#fnref:10" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:11">
+<p>游戏《东方 Project》里面的一个角色&#160;<a href="#fnref:11" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:12">
+<p>Kimi 推出的 AI 编程助手，能直接读取和修改项目代码、帮你改 bug、加功能，类似在编辑器里内置了一个程序员 AI&#160;<a href="#fnref:12" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:13">
+<p>Hugo 里的短代码，能够插入一些功能&#160;<a href="#fnref:13" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:14">
+<p>即 Markdown 文件，一种文档格式，能够很轻易地写出有各种格式的文本来，比如加粗、斜体等&#160;<a href="#fnref:14" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:15">
+<p>AI 里面用来处理文本的计量单位，或者称「词元」，可以是一个字也可以是一个词&#160;<a href="#fnref:15" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:16">
+<p>就是那个班主任可以用一体机摄像头看到班级状态的软件&#160;<a href="#fnref:16" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:17">
+<p>懒得解释了，反正质量很高就对了，能扫清楚点阵打印的颜色点，大家可以自行百度&#160;<a href="#fnref:17" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:18">
+<p>没见过的可以看看这个<a href="https://b23.tv/eTBKVel">视频</a>&#160;<a href="#fnref:18" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:19">
+<p>即 Telegram，一个聊天软件&#160;<a href="#fnref:19" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:20">
+<p>即梗图，或者称「网络迷因」&#160;<a href="#fnref:20" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
         
-        <hr><p>本文2026-09-13首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-09-13</p>]]>
+        <hr><p>本文2026-09-13首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-09-13</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>年记</category><category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -70,15 +376,138 @@
       <description>
         <![CDATA[<h1>晚修延时摄影项目介绍</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          一个基于 Python + OpenCV 的班级晚修延时摄影小工具，支持定时拍摄、自动时间戳、双输出日志，可选 WebDAV 上传。
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>项目地址：<a href="https://github.com/kuqilin/classNightLapse">github.com/kuqilin/classNightLapse</a></p></p>
+  </blockquote>
+
+<h2 id="背景">
+<a class="header-anchor" href="#%e8%83%8c%e6%99%af"></a>
+背景
+</h2><p>想用班上一体机的摄像头来拍班级晚修的延时摄影，因此写了这个简单的 Python 程序。非常好用哈，在晚修前运行这个程序，没有痕迹，下晚修后就能看到成片了 ^_^</p>
+<p>全程只需要 <code>opencv-python</code> 和 <code>requests</code> 两个依赖，核心就是一个 <code>main.py</code>，简单粗暴。</p>
+
+  <blockquote class="alert-blockquote note">
+    <p class="alert-heading">
+      Note
+    </p>
+    <p><p>附带效果：程序运行期间摄像头会被一直占用，所以老师也没法通过希沃云班远程看我们晚修了（嘘，这算是写这个程序的一大动力）🤫</p></p>
+  </blockquote>
+
+<h2 id="功能特性">
+<a class="header-anchor" href="#%e5%8a%9f%e8%83%bd%e7%89%b9%e6%80%a7"></a>
+功能特性
+</h2><ul>
+<li><strong>定时自动拍摄</strong>：设置开始 / 结束时间（默认 18:55–20:35，正好覆盖一节晚修），到点自动开拍，结束自动保存</li>
+<li><strong>拍摄间隔可调</strong>：默认 1 秒拍一帧，一节晚修 100 分钟 ≈ 6000 帧，最终以 30fps 合成，成片约 3 分多钟</li>
+<li><strong>自动时间戳</strong>：每帧右上角叠加当前时间，背景色根据画面亮度自适应（亮背景黑底白字，暗背景白底黑字）</li>
+<li><strong>双输出日志</strong>：控制台和日志文件同步记录，方便排查&quot;为什么没拍上&quot;</li>
+<li><strong>可选 WebDAV 上传</strong>：拍完自动把成片传到网盘（默认关闭，需要自己改配置）</li>
+</ul>
+<h2 id="项目结构">
+<a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e7%bb%93%e6%9e%84"></a>
+项目结构
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">classNightLapse/
+</span></span><span class="line"><span class="cl">├── main.py            <span class="c1"># 全部代码，单文件</span>
+</span></span><span class="line"><span class="cl">├── requirements.txt   <span class="c1"># opencv-python、requests</span>
+</span></span><span class="line"><span class="cl">├── LICENSE            <span class="c1"># MIT</span>
+</span></span><span class="line"><span class="cl">└── .gitignore         <span class="c1"># 忽略 outputs/ logs/ 等</span>
+</span></span></code></pre></div><h2 id="核心实现解析">
+<a class="header-anchor" href="#%e6%a0%b8%e5%bf%83%e5%ae%9e%e7%8e%b0%e8%a7%a3%e6%9e%90"></a>
+核心实现解析
+</h2><h3 id="配置区">
+<a class="header-anchor" href="#%e9%85%8d%e7%bd%ae%e5%8c%ba"></a>
+配置区
+</h3><p>所有参数都集中在文件头部，改起来非常直观：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">WEBDAV</span> <span class="o">=</span> <span class="kc">False</span>                 <span class="c1"># 是否启用 WebDAV 上传</span>
+</span></span><span class="line"><span class="cl"><span class="n">START_HOUR</span><span class="p">,</span> <span class="n">START_MINUTE</span> <span class="o">=</span> <span class="mi">18</span><span class="p">,</span> <span class="mi">55</span>
+</span></span><span class="line"><span class="cl"><span class="n">END_HOUR</span><span class="p">,</span> <span class="n">END_MINUTE</span> <span class="o">=</span> <span class="mi">20</span><span class="p">,</span> <span class="mi">35</span>
+</span></span><span class="line"><span class="cl"><span class="n">CAMERA_INDEX</span> <span class="o">=</span> <span class="mi">0</span>               <span class="c1"># 摄像头编号</span>
+</span></span><span class="line"><span class="cl"><span class="n">OUTPUT_FILE</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;outputs/</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">_%H-%M-%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">.avi&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="n">FPS</span> <span class="o">=</span> <span class="mi">30</span>                       <span class="c1"># 最终视频帧率</span>
+</span></span><span class="line"><span class="cl"><span class="n">FRAME_WIDTH</span> <span class="o">=</span> <span class="mi">1920</span>             <span class="c1"># 试了几个，只有这个能拍全班级</span>
+</span></span><span class="line"><span class="cl"><span class="n">FRAME_HEIGHT</span> <span class="o">=</span> <span class="mi">1080</span>            <span class="c1"># 3224 那个不够宽，拍不全</span>
+</span></span><span class="line"><span class="cl"><span class="n">INTERVAL_SECONDS</span> <span class="o">=</span> <span class="mi">1</span>           <span class="c1"># 拍摄间隔，单位秒</span>
+</span></span><span class="line"><span class="cl"><span class="n">SHOW_TIMESTAMP</span> <span class="o">=</span> <span class="kc">True</span>          <span class="c1"># 是否显示时间</span>
+</span></span><span class="line"><span class="cl"><span class="n">LOG_FILE</span> <span class="o">=</span> <span class="sa">f</span><span class="s2">&#34;logs/</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">_%H-%M-%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">.log&#34;</span>
+</span></span></code></pre></div><p>这里有个小细节：分辨率是试出来的，只有 <code>1920x1080</code> 能把整个班级拍全。输出文件和日志文件名都带时间戳，每次运行不会互相覆盖。</p>
+<h3 id="主流程-main">
+<a class="header-anchor" href="#%e4%b8%bb%e6%b5%81%e7%a8%8b-main"></a>
+主流程 <code>main()</code>
+</h3><p>整体思路很清晰：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 1. 如果已经过了结束时间，直接退出</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 2. 如果还没到开始时间，睡到开始前 2 秒</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 3. 打开摄像头、设分辨率、读一帧确定尺寸</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 4. 创建 VideoWriter，精确对齐开始时间拍第一帧</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 5. while 循环按绝对时刻拍摄，直到结束时间</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 6. finally 里释放资源，统计帧数，可选上传 WebDAV</span>
+</span></span></code></pre></div><p>值得一说的有两个点：</p>
+<p><strong>提前 2 秒打开摄像头</strong>。摄像头初始化需要时间，如果到点才开始初始化，第一帧会晚于预定时刻。所以程序在开始时间前 2 秒就打开摄像头，等真正到点了直接抓帧，保证第一帧精确落在 18:55:00。</p>
+<p><strong>绝对时刻调度防漂移</strong>。拍摄循环里没有用&quot;睡 1 秒&quot;这种相对间隔，而是维护一个 <code>next_capture</code> 绝对时刻，每拍完一帧就 <code>next_capture += timedelta(seconds=INTERVAL_SECONDS)</code>，再睡到那个时刻：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 下一个预定拍摄时刻（绝对时间，避免累积偏差）</span>
+</span></span><span class="line"><span class="cl"><span class="n">next_capture</span> <span class="o">+=</span> <span class="n">timedelta</span><span class="p">(</span><span class="n">seconds</span><span class="o">=</span><span class="n">INTERVAL_SECONDS</span><span class="p">)</span>
+</span></span></code></pre></div><p>这样即使某次 <code>sleep</code> 或抓帧慢了，也不会把误差累积到后面，长跑一节课也不会越拍越飘。这个细节很关键，延时摄影最怕的就是节奏漂移。</p>
+<h3 id="时间戳-draw_timestamp">
+<a class="header-anchor" href="#%e6%97%b6%e9%97%b4%e6%88%b3-draw_timestamp"></a>
+时间戳 <code>draw_timestamp()</code>
+</h3><p>每帧右上角叠加时间，背景色是<strong>根据画面亮度自适应</strong>的——先取背景框区域的平均亮度，亮背景用黑底白字，暗背景用白底黑字：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">mean_brightness</span> <span class="o">=</span> <span class="n">cv2</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">gray</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">mean_brightness</span> <span class="o">&gt;</span> <span class="mi">128</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bg_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>          <span class="c1"># 黑色背景</span>
+</span></span><span class="line"><span class="cl">    <span class="n">text_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>  <span class="c1"># 白色文字</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">bg_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">,</span> <span class="mi">255</span><span class="p">)</span>    <span class="c1"># 白色背景</span>
+</span></span><span class="line"><span class="cl">    <span class="n">text_color</span> <span class="o">=</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>        <span class="c1"># 黑色文字</span>
+</span></span></code></pre></div><p>再用 <code>cv2.addWeighted</code> 做 0.6 透明度的半透明底，效果比直接白字好看不少，晚修教室灯光忽明忽暗也不会看不清。</p>
+<h3 id="日志-logprint">
+<a class="header-anchor" href="#%e6%97%a5%e5%bf%97-logprint"></a>
+日志 <code>logprint()</code>
+</h3><p>同时写控制台和日志文件，每行都带时间戳。晚上在教室一体机上跑的时候，你不可能一直盯着屏幕看，出问题了翻日志就行：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">logprint</span><span class="p">(</span><span class="n">message</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="n">end</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">LOG_FILE</span><span class="p">,</span> <span class="s1">&#39;a&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="sa">f</span><span class="s2">&#34;[</span><span class="si">{</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()</span><span class="o">.</span><span class="n">strftime</span><span class="p">(</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span><span class="si">}</span><span class="s2">] </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2"> </span><span class="si">{</span><span class="n">end</span><span class="si">}</span><span class="s2">&#34;</span><span class="p">)</span>
+</span></span></code></pre></div><h3 id="webdav-上传-upload_webdav">
+<a class="header-anchor" href="#webdav-%e4%b8%8a%e4%bc%a0-upload_webdav"></a>
+WebDAV 上传 <code>upload_webdav()</code>
+</h3><p>默认关闭。开启后拍完会把成片用标准 PUT 请求传到 WebDAV 网盘（用的是 <code>HTTPBasicAuth</code> 认证），这样不用回教室就能在手机上看到成片：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">resp</span> <span class="o">=</span> <span class="n">requests</span><span class="o">.</span><span class="n">put</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">url</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">auth</span><span class="o">=</span><span class="n">HTTPBasicAuth</span><span class="p">(</span><span class="n">USERNAME</span><span class="p">,</span> <span class="n">PASSWORD</span><span class="p">),</span>
+</span></span><span class="line"><span class="cl">    <span class="n">timeout</span><span class="o">=</span><span class="mi">120</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">verify</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>  <span class="c1"># 忽略 SSL 证书问题</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span></code></pre></div><p>如果要用 WebDAV，记得自己改配置并重新编译。</p>
+<h3 id="异常兜底">
+<a class="header-anchor" href="#%e5%bc%82%e5%b8%b8%e5%85%9c%e5%ba%95"></a>
+异常兜底
+</h3><p><code>while</code> 循环外面包了 <code>try / except KeyboardInterrupt</code>，即使中途被人 Ctrl+C 打断，也会在 <code>finally</code> 里正常释放摄像头、保存已经拍到的部分，不会丢帧丢文件。</p>
+<h2 id="使用方法">
+<a class="header-anchor" href="#%e4%bd%bf%e7%94%a8%e6%96%b9%e6%b3%95"></a>
+使用方法
+</h2><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">pip install -r requirements.txt
+</span></span><span class="line"><span class="cl">python main.py
+</span></span></code></pre></div><p>到点自动开拍，结束自动保存成片到 <code>outputs/</code> 下。日志在 <code>logs/</code> 下。</p>
+<p>想部署到班上一体机的话，可以根据 <code>.gitignore</code> 里预留的 <code>build/</code>、<code>dist/</code>、<code>*.spec</code> 用 PyInstaller 打成 exe，直接双击运行，非常省事。</p>
+<h2 id="总结">
+<a class="header-anchor" href="#%e6%80%bb%e7%bb%93"></a>
+总结
+</h2><p>一个单文件就能搞定的延时摄影小工具：定时开拍、自动时间戳、防漂移调度、日志兜底，功能不多但都很实用。代码量不大，感兴趣的可以直接去看源码：<a href="https://github.com/kuqilin/classNightLapse">classNightLapse</a>。</p>
+<p>下次晚修，记得提前 2 分钟运行它，下课后就能收获一份属于全班的三分钟延时大片了 🎬</p>
+
         
-        <hr><p>本文2026-08-23首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-23</p>]]>
+        <hr><p>本文2026-08-23首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-23</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -91,14 +520,181 @@
         <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
+<p>独立小测页面可以随时打开：</p>
+<a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz.html" title="望文生义 · 成语辨析小测" target="_blank">望文生义 · 成语辨析小测</a>
+<h2 id="内嵌版直接在文章里玩">
+<a class="header-anchor" href="#%e5%86%85%e5%b5%8c%e7%89%88%e7%9b%b4%e6%8e%a5%e5%9c%a8%e6%96%87%e7%ab%a0%e9%87%8c%e7%8e%a9"></a>
+内嵌版：直接在文章里玩
+</h2><p>以下小测直接嵌在正文里，和博客共用视觉与深浅色模式，手机上也能自适应宽度正常玩。</p>
+<style>
+.wq-quiz { max-width: 560px; margin: 24px auto; text-align: center; padding: 28px 24px 24px; border: 1px solid #99c2cc; border-radius: 14px; background: #fff; box-shadow: 0 10px 24px rgba(25,118,140,.10); font-family: inherit; color: #24292e; }
+.wq-quiz .wq-badge { font-size: 13px; letter-spacing: 2px; color: #408d9f; margin-bottom: 14px; }
+.wq-quiz .wq-idiom { font-size: 44px; font-weight: 700; color: #24292e; margin-bottom: 4px; line-height: 1.3; }
+.wq-quiz .wq-question { font-size: 15px; color: #7d7d7d; margin-bottom: 22px; }
+.wq-quiz .wq-options { display: flex; flex-direction: column; gap: 12px; }
+.wq-quiz button.wq-opt { display: block; width: 100%; font-family: inherit; font-size: 16px; line-height: 1.7; text-align: left; padding: 12px 16px; border: 2px solid #99c2cc; border-radius: 10px; background: #fff; color: #24292e; cursor: pointer; transition: transform .08s, border-color .15s, background .15s; box-shadow: none; }
+.wq-quiz button.wq-opt:hover { border-color: #408d9f; background: #eaf2f5; transform: translateY(-1px); }
+.wq-quiz button.wq-opt:disabled { cursor: default; transform: none; }
+.wq-quiz button.wq-opt.wq-correct { border-color: #22863a; background: #f0fff4; color: #22863a; }
+.wq-quiz button.wq-opt.wq-wrong { border-color: #d73a49; background: #ffeef0; color: #d73a49; }
+.wq-quiz button.wq-opt.wq-dim { opacity: .55; }
+.wq-quiz .wq-feedback { margin-top: 18px; font-size: 15px; min-height: 24px; color: #7d7d7d; }
+.wq-quiz .wq-feedback.wq-ok { color: #22863a; }
+.wq-quiz .wq-feedback.wq-bad { color: #d73a49; }
+.wq-quiz button.wq-next { margin-top: 16px; font-family: inherit; font-size: 16px; padding: 10px 32px; border: none; border-radius: 10px; background: #19768c; color: #fff; cursor: pointer; box-shadow: 0 4px 12px rgba(25,118,140,.35); }
+.wq-quiz button.wq-next:hover { background: #00677f; }
+.wq-quiz button.wq-next[hidden] { display: none; }
+.wq-quiz .wq-count { margin-top: 18px; font-size: 12px; color: #73abb9; }
+@keyframes wqFadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.wq-quiz button.wq-opt { animation: wqFadeUp .22s ease; }
+.wq-quiz .wq-idiom.wq-flash { animation: wqFadeUp .3s ease; }
+@keyframes wqPop { 0% { transform: scale(.5); opacity: 0; } 60% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }
+.wq-quiz .wq-feedback.wq-ok, .wq-quiz .wq-feedback.wq-bad { animation: wqPop .3s ease; }
+/* 深色模式：跟随主题 html[data-theme="dark"] */
+html[data-theme="dark"] .wq-quiz { background: #272b30; border-color: #3e7f92; color: #c9d1d9; box-shadow: 0 10px 24px rgba(0,0,0,.35); }
+html[data-theme="dark"] .wq-quiz .wq-badge { color: #6db7c7; }
+html[data-theme="dark"] .wq-quiz .wq-idiom { color: #e6edf3; }
+html[data-theme="dark"] .wq-quiz .wq-question { color: #8b949e; }
+html[data-theme="dark"] .wq-quiz button.wq-opt { border-color: #3e7f92; background: #272b30; color: #c9d1d9; }
+html[data-theme="dark"] .wq-quiz button.wq-opt:hover { border-color: #6db7c7; background: rgba(64,141,159,.18); }
+html[data-theme="dark"] .wq-quiz button.wq-opt.wq-correct { border-color: #7ee787; background: rgba(46,160,67,.18); color: #7ee787; }
+html[data-theme="dark"] .wq-quiz button.wq-opt.wq-wrong { border-color: #ff7b72; background: rgba(248,81,73,.16); color: #ff7b72; }
+html[data-theme="dark"] .wq-quiz .wq-feedback { color: #8b949e; }
+html[data-theme="dark"] .wq-quiz .wq-feedback.wq-ok { color: #7ee787; }
+html[data-theme="dark"] .wq-quiz .wq-feedback.wq-bad { color: #ff7b72; }
+html[data-theme="dark"] .wq-quiz button.wq-next { background: #2b93ab; box-shadow: 0 4px 12px rgba(0,0,0,.35); }
+html[data-theme="dark"] .wq-quiz button.wq-next:hover { background: #19768c; }
+html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
+</style>
+<div class="wq-quiz">
+<div class="wq-badge">🧐 望文生义 · 成语释义二选一</div>
+<div class="wq-idiom" id="wq-idiom"></div>
+<div class="wq-question">下列选项中，哪一个是这个成语的正确释义？</div>
+<div class="wq-options" id="wq-options"></div>
+<div class="wq-feedback" id="wq-feedback"></div>
+<button class="wq-next" id="wq-next" hidden>下一题 ➡️</button>
+<div class="wq-count" id="wq-count"></div>
+</div>
+<script>
+(function () {
+  if (!document.getElementById("wq-idiom")) return;
+  const idiomEl = document.getElementById("wq-idiom");
+  const box = document.getElementById("wq-options");
+  const feedback = document.getElementById("wq-feedback");
+  const next = document.getElementById("wq-next");
+  const countEl = document.getElementById("wq-count");
+
+  function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // 连续两次不抽同一题
+  let last = null;
+  function pick(DATA) {
+    let e;
+    do {
+      e = DATA[Math.floor(Math.random() * DATA.length)];
+    } while (e === last && DATA.length > 1);
+    last = e;
+    return e;
+  }
+
+  const goodEmojis = ["👍", "🎉", "🌟", "💯", "🏆", "👏"];
+  const badEmojis = ["😅", "🤔", "💡", "🙈"];
+  function rand(a) { return a[Math.floor(Math.random() * a.length)]; }
+
+  fetch("/wang-wen-sheng-yi/wang-wen-sheng-yi.json", { cache: "no-store" })
+    .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(data => {
+      const usable = data.filter(
+        e => e["成语"] && e["原意"] && e["易错点"] && e["原意"] !== e["易错点"]
+      );
+      if (!usable.length) {
+        idiomEl.textContent = "📭 题库为空";
+        countEl.textContent = "JSON 里没有可出的题（每条需含 成语/原意/易错点，且原意不等于易错点）。";
+        return;
+      }
+      countEl.textContent = "📚 题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
+
+      function renderQuestion() {
+        const entry = pick(usable);
+        idiomEl.textContent = entry["成语"];
+        idiomEl.classList.remove("wq-flash");
+        void idiomEl.offsetWidth;
+        idiomEl.classList.add("wq-flash");
+
+        box.innerHTML = "";
+        feedback.className = "wq-feedback";
+        feedback.textContent = "";
+        next.hidden = true;
+
+        const options = shuffle([
+          { text: entry["原意"], correct: true },
+          { text: entry["易错点"], correct: false },
+        ]);
+
+        let answered = false;
+        for (const opt of options) {
+          const btn = document.createElement("button");
+          btn.className = "wq-opt";
+          btn.textContent = opt.text;
+          btn.dataset.correct = opt.correct ? "true" : "false";
+          btn.addEventListener("click", () => {
+            if (answered) return;
+            answered = true;
+            for (const b of box.children) b.disabled = true;
+            for (const b of box.children) {
+              if (b.dataset.correct === "true") b.classList.add("wq-correct");
+            }
+            if (opt.correct) {
+              feedback.className = "wq-feedback wq-ok";
+              feedback.textContent = rand(goodEmojis) + " 回答正确！";
+            } else {
+              btn.classList.add("wq-wrong");
+              for (const b of box.children) {
+                if (b !== btn && b.dataset.correct !== "true") b.classList.add("wq-dim");
+              }
+              feedback.className = "wq-feedback wq-bad";
+              feedback.textContent = rand(badEmojis) + " 回答错误，选错了释义。";
+            }
+            next.hidden = false;
+          });
+          box.appendChild(btn);
+        }
+      }
+
+      next.addEventListener("click", renderQuestion);
+      renderQuestion();
+    })
+    .catch(err => {
+      idiomEl.textContent = "❌ 题库加载失败";
+      countEl.textContent = "错误：" + err.message;
+    });
+})();
+</script>
+<p>内嵌版直接复用独立页面同款逻辑（随机抽题、防连抽、即时判题、前端换题），数据从站点根目录的 <code>/wang-wen-sheng-yi/wang-wen-sheng-yi.json</code> 实时加载，改题库后无需清缓存。</p>
+<h2 id="内嵌网页版独立页面嵌入">
+<a class="header-anchor" href="#%e5%86%85%e5%b5%8c%e7%bd%91%e9%a1%b5%e7%89%88%e7%8b%ac%e7%ab%8b%e9%a1%b5%e9%9d%a2%e5%b5%8c%e5%85%a5"></a>
+内嵌网页版：独立页面嵌入
+</h2><p>把独立的 <code>quiz.html</code> 页面以 iframe 形式嵌进来，外观是「页面套页面」，自带整页背景色与居中卡片，左上角有「首页」按钮、右上角有「关于」按钮：</p>
+<iframe src="/wang-wen-sheng-yi/quiz.html" loading="lazy" title="望文生义成语小测" style="width:100%;height:600px;border:1px solid #99c2cc;border-radius:12px;background:#fff;"></iframe>
+<blockquote>
+<p><strong>注意：这个版本不适合手机等小屏幕。</strong> 独立页面按桌面卡片设计（卡片固定 560px 宽、iframe 固定 600px 高，还有固定在角落的按钮），在小屏上会被挤压甚至溢出，体验很差。手机访问请用上面的<strong>内嵌版</strong>（自适应宽度），或直接打开外链的独立小测页面。</p>
+</blockquote>
+
         
-        <hr><p>本文2026-08-16首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p>]]>
+        <hr><p>本文2026-08-16首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -111,14 +707,187 @@
         <![CDATA[<h1>望文生义 · 成语辨析小测</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>成语最怕「望文生义」。小测随机抽一个成语，从「原意」与常见的「易错点」中二选一——小心，错误选项往往就是你第一反应想选的那个。题库共 315 条，答对/答错即时反馈，换题无刷新。</p>
+<p>独立小测页面可以随时打开：</p>
+<a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz.html" title="望文生义 · 成语辨析小测" target="_blank">望文生义 · 成语辨析小测</a>
+<h2 id="内嵌版直接在文章里玩">
+<a class="header-anchor" href="#%e5%86%85%e5%b5%8c%e7%89%88%e7%9b%b4%e6%8e%a5%e5%9c%a8%e6%96%87%e7%ab%a0%e9%87%8c%e7%8e%a9"></a>
+内嵌版：直接在文章里玩
+</h2><p>以下小测直接嵌在正文里，和博客共用视觉与深浅色模式，手机上也能自适应宽度正常玩。</p>
+<style>
+.wq-quiz { max-width: 560px; margin: 24px auto; text-align: center; padding: 28px 24px 24px; border: 1px solid #99c2cc; border-radius: 14px; background: #fff; box-shadow: 0 10px 24px rgba(25,118,140,.10); font-family: inherit; color: #24292e; }
+.wq-quiz .wq-badge { font-size: 13px; letter-spacing: 2px; color: #408d9f; margin-bottom: 14px; }
+.wq-quiz .wq-idiom { font-size: 44px; font-weight: 700; color: #24292e; margin-bottom: 4px; line-height: 1.3; }
+.wq-quiz .wq-question { font-size: 15px; color: #7d7d7d; margin-bottom: 22px; }
+.wq-quiz .wq-options { display: flex; flex-direction: column; gap: 12px; }
+.wq-quiz button.wq-opt { display: block; width: 100%; font-family: inherit; font-size: 16px; line-height: 1.7; text-align: left; padding: 12px 16px; border: 2px solid #99c2cc; border-radius: 10px; background: #fff; color: #24292e; cursor: pointer; transition: transform .08s, border-color .15s, background .15s; box-shadow: none; }
+.wq-quiz button.wq-opt:hover { border-color: #408d9f; background: #eaf2f5; transform: translateY(-1px); }
+.wq-quiz button.wq-opt:disabled { cursor: default; transform: none; }
+.wq-quiz button.wq-opt.wq-correct { border-color: #22863a; background: #f0fff4; color: #22863a; }
+.wq-quiz button.wq-opt.wq-wrong { border-color: #d73a49; background: #ffeef0; color: #d73a49; }
+.wq-quiz button.wq-opt.wq-dim { opacity: .55; }
+.wq-quiz .wq-feedback { margin-top: 18px; font-size: 15px; min-height: 24px; color: #7d7d7d; }
+.wq-quiz .wq-feedback.wq-ok { color: #22863a; }
+.wq-quiz .wq-feedback.wq-bad { color: #d73a49; }
+.wq-quiz button.wq-next { margin-top: 16px; font-family: inherit; font-size: 16px; padding: 10px 32px; border: none; border-radius: 10px; background: #19768c; color: #fff; cursor: pointer; box-shadow: 0 4px 12px rgba(25,118,140,.35); }
+.wq-quiz button.wq-next:hover { background: #00677f; }
+.wq-quiz button.wq-next[hidden] { display: none; }
+.wq-quiz .wq-count { margin-top: 18px; font-size: 12px; color: #73abb9; }
+@keyframes wqFadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.wq-quiz button.wq-opt { animation: wqFadeUp .22s ease; }
+.wq-quiz .wq-idiom.wq-flash { animation: wqFadeUp .3s ease; }
+@keyframes wqPop { 0% { transform: scale(.5); opacity: 0; } 60% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }
+.wq-quiz .wq-feedback.wq-ok, .wq-quiz .wq-feedback.wq-bad { animation: wqPop .3s ease; }
+/* 深色模式：跟随主题 html[data-theme="dark"] */
+html[data-theme="dark"] .wq-quiz { background: #272b30; border-color: #3e7f92; color: #c9d1d9; box-shadow: 0 10px 24px rgba(0,0,0,.35); }
+html[data-theme="dark"] .wq-quiz .wq-badge { color: #6db7c7; }
+html[data-theme="dark"] .wq-quiz .wq-idiom { color: #e6edf3; }
+html[data-theme="dark"] .wq-quiz .wq-question { color: #8b949e; }
+html[data-theme="dark"] .wq-quiz button.wq-opt { border-color: #3e7f92; background: #272b30; color: #c9d1d9; }
+html[data-theme="dark"] .wq-quiz button.wq-opt:hover { border-color: #6db7c7; background: rgba(64,141,159,.18); }
+html[data-theme="dark"] .wq-quiz button.wq-opt.wq-correct { border-color: #7ee787; background: rgba(46,160,67,.18); color: #7ee787; }
+html[data-theme="dark"] .wq-quiz button.wq-opt.wq-wrong { border-color: #ff7b72; background: rgba(248,81,73,.16); color: #ff7b72; }
+html[data-theme="dark"] .wq-quiz .wq-feedback { color: #8b949e; }
+html[data-theme="dark"] .wq-quiz .wq-feedback.wq-ok { color: #7ee787; }
+html[data-theme="dark"] .wq-quiz .wq-feedback.wq-bad { color: #ff7b72; }
+html[data-theme="dark"] .wq-quiz button.wq-next { background: #2b93ab; box-shadow: 0 4px 12px rgba(0,0,0,.35); }
+html[data-theme="dark"] .wq-quiz button.wq-next:hover { background: #19768c; }
+html[data-theme="dark"] .wq-quiz .wq-count { color: #6db7c7; }
+</style>
+<div class="wq-quiz">
+<div class="wq-badge">🧐 望文生义 · 成语释义二选一</div>
+<div class="wq-idiom" id="wq-idiom"></div>
+<div class="wq-question">下列选项中，哪一个是这个成语的正确释义？</div>
+<div class="wq-options" id="wq-options"></div>
+<div class="wq-feedback" id="wq-feedback"></div>
+<button class="wq-next" id="wq-next" hidden>下一题 ➡️</button>
+<div class="wq-count" id="wq-count"></div>
+</div>
+<script>
+(function () {
+  if (!document.getElementById("wq-idiom")) return;
+  const idiomEl = document.getElementById("wq-idiom");
+  const box = document.getElementById("wq-options");
+  const feedback = document.getElementById("wq-feedback");
+  const next = document.getElementById("wq-next");
+  const countEl = document.getElementById("wq-count");
+
+  function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // 连续两次不抽同一题
+  let last = null;
+  function pick(DATA) {
+    let e;
+    do {
+      e = DATA[Math.floor(Math.random() * DATA.length)];
+    } while (e === last && DATA.length > 1);
+    last = e;
+    return e;
+  }
+
+  const goodEmojis = ["👍", "🎉", "🌟", "💯", "🏆", "👏"];
+  const badEmojis = ["😅", "🤔", "💡", "🙈"];
+  function rand(a) { return a[Math.floor(Math.random() * a.length)]; }
+
+  fetch("/wang-wen-sheng-yi/wang-wen-sheng-yi.json", { cache: "no-store" })
+    .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+    .then(data => {
+      const usable = data.filter(
+        e => e["成语"] && e["原意"] && e["易错点"] && e["原意"] !== e["易错点"]
+      );
+      if (!usable.length) {
+        idiomEl.textContent = "📭 题库为空";
+        countEl.textContent = "JSON 里没有可出的题（每条需含 成语/原意/易错点，且原意不等于易错点）。";
+        return;
+      }
+      countEl.textContent = "📚 题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
+
+      function renderQuestion() {
+        const entry = pick(usable);
+        idiomEl.textContent = entry["成语"];
+        idiomEl.classList.remove("wq-flash");
+        void idiomEl.offsetWidth;
+        idiomEl.classList.add("wq-flash");
+
+        box.innerHTML = "";
+        feedback.className = "wq-feedback";
+        feedback.textContent = "";
+        next.hidden = true;
+
+        const options = shuffle([
+          { text: entry["原意"], correct: true },
+          { text: entry["易错点"], correct: false },
+        ]);
+
+        let answered = false;
+        for (const opt of options) {
+          const btn = document.createElement("button");
+          btn.className = "wq-opt";
+          btn.textContent = opt.text;
+          btn.dataset.correct = opt.correct ? "true" : "false";
+          btn.addEventListener("click", () => {
+            if (answered) return;
+            answered = true;
+            for (const b of box.children) b.disabled = true;
+            for (const b of box.children) {
+              if (b.dataset.correct === "true") b.classList.add("wq-correct");
+            }
+            if (opt.correct) {
+              feedback.className = "wq-feedback wq-ok";
+              feedback.innerHTML = rand(goodEmojis) + " 回答正确！<br>🔎参见原书编号 " + entry["编号"];
+            } else {
+              btn.classList.add("wq-wrong");
+              for (const b of box.children) {
+                if (b !== btn && b.dataset.correct !== "true") b.classList.add("wq-dim");
+              }
+              feedback.className = "wq-feedback wq-bad";
+              feedback.innerHTML = rand(badEmojis) + " 回答错误，选错了释义。<br>🔎参见原书编号 " + entry["编号"];
+            }
+            next.hidden = false;
+          });
+          box.appendChild(btn);
+        }
+      }
+
+      next.addEventListener("click", renderQuestion);
+      renderQuestion();
+    })
+    .catch(err => {
+      idiomEl.textContent = "❌ 题库加载失败";
+      countEl.textContent = "错误：" + err.message;
+    });
+})();
+</script>
+<p>内嵌版直接复用独立页面同款逻辑（随机抽题、防连抽、即时判题、前端换题），数据从站点根目录的 <code>/wang-wen-sheng-yi/wang-wen-sheng-yi.json</code> 实时加载，改题库后无需清缓存。</p>
+<h2 id="内嵌网页版独立页面嵌入">
+<a class="header-anchor" href="#%e5%86%85%e5%b5%8c%e7%bd%91%e9%a1%b5%e7%89%88%e7%8b%ac%e7%ab%8b%e9%a1%b5%e9%9d%a2%e5%b5%8c%e5%85%a5"></a>
+内嵌网页版：独立页面嵌入
+</h2>
+  <blockquote class="alert-blockquote important">
+    <p class="alert-heading">
+      Important
+    </p>
+    <p><p><strong>这个版本不适合手机等小屏幕。</strong> 独立页面按桌面卡片设计（卡片固定 560px 宽、iframe 固定 600px 高，还有固定在角落的按钮），在小屏上会被挤压甚至溢出，体验很差。手机访问请用上面的<strong>内嵌版</strong>（自适应宽度），或直接打开外链的独立小测页面。</p></p>
+  </blockquote>
+
+<p>把独立的页面以 iframe 形式嵌进来，外观是「页面套页面」，自带整页背景色与居中卡片，左上角有「首页」按钮、右上角有「关于」按钮。</p>
+<p><strong>释义二选一：</strong></p>
+<iframe src="/wang-wen-sheng-yi/quiz.html" loading="lazy" title="望文生义成语小测" style="width:100%;height:600px;border:1px solid #99c2cc;border-radius:12px;background:#fff;"></iframe>
+
         
-        <hr><p>本文2026-08-16首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p>]]>
+        <hr><p>本文2026-08-16首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -131,14 +900,219 @@
         <![CDATA[<h1>望文生义 · 成语用法辨析</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
           <p>释义认得，实战才是真考验。小测随机抽一个成语，给你两句含成语的句子，判断哪句用得<strong>正确</strong>——答完还会给出原意与易错点解析，并标注原书编号。答对/答错即时反馈，换题无刷新。</p>
+<p>独立小测页面可以随时打开：</p>
+<a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz1.html" title="成语用法辨析 · 二选一" target="_blank">成语用法辨析 · 二选一</a>
+<h2 id="内嵌版直接在文章里玩">
+<a class="header-anchor" href="#%e5%86%85%e5%b5%8c%e7%89%88%e7%9b%b4%e6%8e%a5%e5%9c%a8%e6%96%87%e7%ab%a0%e9%87%8c%e7%8e%a9"></a>
+内嵌版：直接在文章里玩
+</h2><p>以下小测直接嵌在正文里，和博客共用视觉与深浅色模式，手机上也能自适应宽度正常玩。</p>
+<style>
+@keyframes wqFadeUp { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+@keyframes wqPop { 0% { transform: scale(.5); opacity: 0; } 60% { transform: scale(1.2); } 100% { transform: scale(1); opacity: 1; } }
+.wq2-quiz { max-width: 560px; margin: 24px auto; text-align: center; padding: 28px 24px 24px; border: 1px solid #99c2cc; border-radius: 14px; background: #fff; box-shadow: 0 10px 24px rgba(25,118,140,.10); font-family: inherit; color: #24292e; }
+.wq2-quiz .wq2-badge { font-size: 13px; letter-spacing: 2px; color: #408d9f; margin-bottom: 14px; }
+.wq2-quiz .wq2-idiom { font-size: 44px; font-weight: 700; color: #24292e; margin-bottom: 4px; line-height: 1.3; }
+.wq2-quiz .wq2-question { font-size: 15px; color: #7d7d7d; margin-bottom: 22px; }
+.wq2-quiz .wq2-options { display: flex; flex-direction: column; gap: 12px; }
+.wq2-quiz button.wq2-opt { display: block; width: 100%; font-family: inherit; font-size: 15px; line-height: 1.8; text-align: left; padding: 12px 16px; border: 2px solid #99c2cc; border-radius: 10px; background: #fff; color: #24292e; cursor: pointer; transition: transform .08s, border-color .15s, background .15s; box-shadow: none; }
+.wq2-quiz button.wq2-opt:hover { border-color: #408d9f; background: #eaf2f5; transform: translateY(-1px); }
+.wq2-quiz button.wq2-opt:disabled { cursor: default; transform: none; }
+.wq2-quiz button.wq2-opt.wq2-correct { border-color: #22863a; background: #f0fff4; color: #22863a; }
+.wq2-quiz button.wq2-opt.wq2-wrong { border-color: #d73a49; background: #ffeef0; color: #d73a49; }
+.wq2-quiz button.wq2-opt.wq2-dim { opacity: .55; }
+.wq2-quiz .wq2-feedback { margin-top: 18px; font-size: 15px; min-height: 24px; line-height: 1.8; color: #7d7d7d; }
+.wq2-quiz .wq2-feedback.wq2-ok { color: #22863a; }
+.wq2-quiz .wq2-feedback.wq2-bad { color: #d73a49; }
+.wq2-quiz button.wq2-next { margin-top: 16px; font-family: inherit; font-size: 16px; padding: 10px 32px; border: none; border-radius: 10px; background: #19768c; color: #fff; cursor: pointer; box-shadow: 0 4px 12px rgba(25,118,140,.35); }
+.wq2-quiz button.wq2-next:hover { background: #00677f; }
+.wq2-quiz button.wq2-next[hidden] { display: none; }
+.wq2-quiz .wq2-count { margin-top: 18px; font-size: 12px; color: #73abb9; }
+.wq2-quiz .wq2-idiom.wq2-flash { animation: wqFadeUp .3s ease; }
+.wq2-quiz button.wq2-opt { animation: wqFadeUp .22s ease; }
+.wq2-quiz .wq2-feedback.wq2-ok, .wq2-quiz .wq2-feedback.wq2-bad { animation: wqPop .3s ease; }
+/* 深色模式：跟随主题 html[data-theme="dark"] */
+html[data-theme="dark"] .wq2-quiz { background: #272b30; border-color: #3e7f92; color: #c9d1d9; box-shadow: 0 10px 24px rgba(0,0,0,.35); }
+html[data-theme="dark"] .wq2-quiz .wq2-badge { color: #6db7c7; }
+html[data-theme="dark"] .wq2-quiz .wq2-idiom { color: #e6edf3; }
+html[data-theme="dark"] .wq2-quiz .wq2-question { color: #8b949e; }
+html[data-theme="dark"] .wq2-quiz button.wq2-opt { border-color: #3e7f92; background: #272b30; color: #c9d1d9; }
+html[data-theme="dark"] .wq2-quiz button.wq2-opt:hover { border-color: #6db7c7; background: rgba(64,141,159,.18); }
+html[data-theme="dark"] .wq2-quiz button.wq2-opt.wq2-correct { border-color: #7ee787; background: rgba(46,160,67,.18); color: #7ee787; }
+html[data-theme="dark"] .wq2-quiz button.wq2-opt.wq2-wrong { border-color: #ff7b72; background: rgba(248,81,73,.16); color: #ff7b72; }
+html[data-theme="dark"] .wq2-quiz .wq2-feedback { color: #8b949e; }
+html[data-theme="dark"] .wq2-quiz .wq2-feedback.wq2-ok { color: #7ee787; }
+html[data-theme="dark"] .wq2-quiz .wq2-feedback.wq2-bad { color: #ff7b72; }
+html[data-theme="dark"] .wq2-quiz button.wq2-next { background: #2b93ab; box-shadow: 0 4px 12px rgba(0,0,0,.35); }
+html[data-theme="dark"] .wq2-quiz button.wq2-next:hover { background: #19768c; }
+html[data-theme="dark"] .wq2-quiz .wq2-count { color: #6db7c7; }
+</style>
+<div class="wq2-quiz">
+<div class="wq2-badge">📝 成语用法辨析 · 二选一</div>
+<div class="wq2-idiom" id="wq2-idiom"></div>
+<div class="wq2-question">下面哪个句子中，这个成语使用得<strong>正确</strong>？</div>
+<div class="wq2-options" id="wq2-options"></div>
+<div class="wq2-feedback" id="wq2-feedback"></div>
+<button class="wq2-next" id="wq2-next" hidden>下一题 ➡️</button>
+<div class="wq2-count" id="wq2-count"></div>
+</div>
+<script>
+(async function () {
+  if (!document.getElementById("wq2-idiom")) return;
+  const idiomEl = document.getElementById("wq2-idiom");
+  const box = document.getElementById("wq2-options");
+  const feedback = document.getElementById("wq2-feedback");
+  const next = document.getElementById("wq2-next");
+  const countEl = document.getElementById("wq2-count");
+
+  function shuffle(a) {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // 连续两次不抽同一题
+  let last = null;
+  function pick(DATA) {
+    let e;
+    do {
+      e = DATA[Math.floor(Math.random() * DATA.length)];
+    } while (e === last && DATA.length > 1);
+    last = e;
+    return e;
+  }
+
+  const goodEmojis = ["👍", "🎉", "🌟", "💯", "🏆", "👏"];
+  const badEmojis = ["😅", "🤔", "💡", "🙈"];
+  function rand(a) { return a[Math.floor(Math.random() * a.length)]; }
+
+  // 1. 解析数据（原意/易错点），加载失败不影响出题
+  let legacyMap = {};
+  try {
+    const respLegacy = await fetch("/wang-wen-sheng-yi/wang-wen-sheng-yi.json", { cache: "no-store" });
+    if (respLegacy.ok) {
+      const legacyData = await respLegacy.json();
+      legacyData.forEach(item => {
+        if (item["成语"]) {
+          legacyMap[item["成语"]] = {
+            原意: item["原意"] || "",
+            易错点: item["易错点"] || ""
+          };
+        }
+      });
+    }
+  } catch (e) {
+    // 忽略：没有解析也能出题
+  }
+
+  // 2. 题目数据
+  let data;
+  try {
+    const resp = await fetch("/wang-wen-sheng-yi/wang-wen-sheng-yi-quiz.json", { cache: "no-store" });
+    if (!resp.ok) throw new Error("HTTP " + resp.status);
+    data = await resp.json();
+  } catch (err) {
+    idiomEl.textContent = "❌ 题库加载失败";
+    countEl.textContent = "错误：" + err.message;
+    return;
+  }
+
+  const usable = data.filter(
+    e => e["编号"] && e["成语"] && e["正确"] && e["错误"] && e["正确"] !== e["错误"]
+  );
+  if (!usable.length) {
+    idiomEl.textContent = "📭 题库为空";
+    countEl.textContent = "JSON 里没有可出的题（每条需含 编号/成语/正确/错误，且正确不等于错误）。";
+    return;
+  }
+  countEl.textContent = "📚 题库共 " + data.length + " 条，可出题 " + usable.length + " 条";
+
+  function renderQuestion() {
+    const entry = pick(usable);
+    idiomEl.textContent = entry["成语"];
+    idiomEl.classList.remove("wq2-flash");
+    void idiomEl.offsetWidth;
+    idiomEl.classList.add("wq2-flash");
+
+    box.innerHTML = "";
+    feedback.className = "wq2-feedback";
+    feedback.textContent = "";
+    next.hidden = true;
+
+    const options = shuffle([
+      { text: entry["正确"], correct: true },
+      { text: entry["错误"], correct: false },
+    ]);
+
+    const legacy = legacyMap[entry["成语"]] || {};
+    const 原意 = legacy["原意"] || "";
+    const 易错点 = legacy["易错点"] || "";
+    const 编号 = entry["编号"] || "";
+
+    let answered = false;
+    for (const opt of options) {
+      const btn = document.createElement("button");
+      btn.className = "wq2-opt";
+      btn.innerHTML = opt.text;
+      btn.dataset.correct = opt.correct ? "true" : "false";
+      btn.addEventListener("click", () => {
+        if (answered) return;
+        answered = true;
+        for (const b of box.children) b.disabled = true;
+        for (const b of box.children) {
+          if (b.dataset.correct === "true") b.classList.add("wq2-correct");
+        }
+        let analysis = "";
+        if (原意 || 易错点) {
+          analysis = "<br>📝 解析：" + (原意 || "（无原意）") + "<br>⚠️ 易错点：" + (易错点 || "（无易错点）");
+        }
+        analysis += "<br>🔎 参见原书编号 " + 编号;
+        if (opt.correct) {
+          feedback.className = "wq2-feedback wq2-ok";
+          feedback.innerHTML = rand(goodEmojis) + " 回答正确！" + analysis;
+        } else {
+          btn.classList.add("wq2-wrong");
+          for (const b of box.children) {
+            if (b !== btn && b.dataset.correct !== "true") b.classList.add("wq2-dim");
+          }
+          feedback.className = "wq2-feedback wq2-bad";
+          feedback.innerHTML = rand(badEmojis) + " 回答错误，选错了用法。" + analysis;
+        }
+        next.hidden = false;
+      });
+      box.appendChild(btn);
+    }
+  }
+
+  next.addEventListener("click", renderQuestion);
+  renderQuestion();
+})();
+</script>
+<p>本小测与《望文生义 · 成语辨析小测》共用解析数据（原意/易错点），答对答错都会给出解析与原书编号，支持深浅色模式。</p>
+<h2 id="内嵌网页版独立页面嵌入">
+<a class="header-anchor" href="#%e5%86%85%e5%b5%8c%e7%bd%91%e9%a1%b5%e7%89%88%e7%8b%ac%e7%ab%8b%e9%a1%b5%e9%9d%a2%e5%b5%8c%e5%85%a5"></a>
+内嵌网页版：独立页面嵌入
+</h2>
+  <blockquote class="alert-blockquote important">
+    <p class="alert-heading">
+      Important
+    </p>
+    <p><p><strong>这个版本不适合手机等小屏幕。</strong> 独立页面按桌面卡片设计（卡片固定 560px 宽、iframe 固定 600px 高，还有固定在角落的按钮），在小屏上会被挤压甚至溢出，体验很差。手机访问请用上面的<strong>内嵌版</strong>（自适应宽度），或直接打开外链的独立小测页面。</p></p>
+  </blockquote>
+
+<p>把独立的 <code>quiz1.html</code> 页面以 iframe 形式嵌进来，外观是「页面套页面」，自带整页背景色与居中卡片，左上角有「首页」按钮、右上角有「关于」按钮：</p>
+<iframe src="/wang-wen-sheng-yi/quiz1.html" loading="lazy" title="成语用法辨析小测" style="width:100%;height:600px;border:1px solid #99c2cc;border-radius:12px;background:#fff;"></iframe>
+
         
-        <hr><p>本文2026-08-16首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p>]]>
+        <hr><p>本文2026-08-16首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-16</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -155,14 +1129,16 @@
 <a href="https://kuqilin.github.io/wang-wen-sheng-yi/quiz1.html" title="315 望文生义成语用法辨析" target="_blank">315 望文生义成语用法辨析</a>
 <a href="https://kuqilin.github.io/docs/leizhou-guide.html" title="雷州一日游" target="_blank">雷州一日游</a>
 <a href="https://kuqilin.github.io/docs/xuwen-guide.html" title="徐闻一日游" target="_blank">徐闻一日游</a>
+
         
-        <hr><p>本文2026-08-15首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-15</p>]]>
+        <hr><p>本文2026-08-15首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-15</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -174,15 +1150,114 @@
       <description>
         <![CDATA[<h1>37 签名 SVG 图片</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
         
-          AI 总结：用 AI 制作了 37 的 SVG 签名图，并分享了多版本成品和完整源码。
+          
+  <blockquote class="alert-blockquote tips">
+    <p class="alert-heading">
+      Tips
+    </p>
+    <p><p>2026.07.23 21:33:48 UTC+08:00<br>
+Vibe 优化了所有 SVG 使得文件大小压缩了⅓，感谢 Deepseek-v4-pro。</p></p>
+  </blockquote>
+
+<p>忙活许久，终于让 AI 把$37$的签名用 SVG 画出来了。猜猜用的什么？答案出乎意料，是豆包。为什么不用 Deepseek 呢，因为鄙人提示词描述太烂了，Deepseek 为了理解我的要求，会思考特别久，而豆包确实很快，不过……这就是忙活这么久的原因😁<br>
+你问为什么不把 Deepseek 的思考关掉？因为豆包写的 svg 可以直接预览！</p>
+<p>看看成果吧：</p>
+<blockquote>
+<p>这张是 SVG 格式透明背景
+<img src="https://kuqilin.github.io/images/thirtyseven.svg" 
+     alt="thirtyseven-svg" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+</blockquote>
+<hr>
+<blockquote>
+<p>这张是 SVG 格式透明背景白色填充
+<img src="https://kuqilin.github.io/images/thirtyseven-fill.svg" 
+     alt="thirtyseven-fill-svg" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+</blockquote>
+<hr>
+<p>我也不知道作者为什么作者要放白色填充的进来，配置文件里也没看到用了，但还是放上吧（</p>
+<p>下面是源码，可以自行更改颜色</p>
+<div class="highlight" name="thirtyseven.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- 核心缩放与居中变换 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;g</span> <span class="na">transform=</span><span class="s">&#34;translate(150, 150) scale(1.645) translate(-150, -150)&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 多边形与线段（描边样式统一，无需填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="na">fill=</span><span class="s">&#34;none&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      <span class="c">&lt;!-- 合并所有主轴与中点连线 --&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆心点（利用 path 和圆头端点模拟圆形） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><hr>
+<div class="highlight" name="thirtyseven-fill.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="c">&lt;!-- 核心缩放与居中变换 --&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;g</span> <span class="na">transform=</span><span class="s">&#34;translate(150, 150) scale(1.6465) translate(-150, -150)&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 带白色填充的多边形（描边样式统一） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">fill=</span><span class="s">&#34;#ffffff&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有主轴与中点连线（无填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆点（利用零长度路径和圆头端点模拟 r=4.5 的圆） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl">  <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><hr>
+<p>这里再附一个没那么大的，因为<code>preloader</code>如果用了上面的，会有遮住文字<code>算算数学中…</code>，所以这是没那么大的</p>
+<div class="highlight" name="thirtyseven-preloader.svg"><pre tabindex="0" class="chroma"><code class="language-svg" data-lang="svg"><span class="line"><span class="cl"><span class="nt">&lt;svg</span> <span class="na">xmlns=</span><span class="s">&#34;http://www.w3.org/2000/svg&#34;</span> <span class="na">viewBox=</span><span class="s">&#34;0 0 300 300&#34;</span> <span class="na">width=</span><span class="s">&#34;300&#34;</span> <span class="na">height=</span><span class="s">&#34;300&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 多边形与线段（描边样式统一，无需填充） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;g</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;3&#34;</span> <span class="na">fill=</span><span class="s">&#34;none&#34;</span><span class="nt">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,193.35 137.5,171.64 112.5,171.64 125,150 112.5,128.36 137.5,128.36 150,106.65 162.5,128.36 187.5,128.36 175,150 187.5,171.64 162.5,171.64&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;polygon</span> <span class="na">points=</span><span class="s">&#34;150,236.60 125,193.35 75,193.35 100,150 75,106.65 125,106.65 150,63.40 175,106.65 225,106.65 200,150 225,193.35 175,193.35&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">      
+</span></span><span class="line"><span class="cl">      <span class="c">&lt;!-- 合并所有主轴与中点连线 --&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M100,150 L200,150 M125,193.35 L175,106.65 M125,106.65 L175,193.35 M100,193.35 L87.5,171.64 M87.5,128.36 L100,106.65 M137.5,85.03 L162.5,85.03 M200,106.65 L212.5,128.36 M212.5,171.64 L200,193.35 M162.5,214.97 L137.5,214.97&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;/g&gt;</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="c">&lt;!-- 合并所有圆心点（利用 path 和圆头端点模拟圆形） --&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&lt;path</span> <span class="na">d=</span><span class="s">&#34;M150,150 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,193.35 h0 M137.5,171.64 h0 M112.5,171.64 h0 M125,150 h0 M112.5,128.36 h0 M137.5,128.36 h0 M150,106.65 h0 M162.5,128.36 h0 M187.5,128.36 h0 M175,150 h0 M187.5,171.64 h0 M162.5,171.64 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M150,236.60 h0 M125,193.35 h0 M75,193.35 h0 M100,150 h0 M75,106.65 h0 M125,106.65 h0 M150,63.40 h0 M175,106.65 h0 M225,106.65 h0 M200,150 h0 M225,193.35 h0 M175,193.35 h0 
+</span></span></span><span class="line"><span class="cl"><span class="s">             M137.5,214.97 h0 M100,193.35 h0 M87.5,171.64 h0 M87.5,128.36 h0 M100,106.65 h0 M137.5,85.03 h0 M162.5,85.03 h0 M200,106.65 h0 M212.5,128.36 h0 M212.5,171.64 h0 M200,193.35 h0 M162.5,214.97 h0&#34;</span> 
+</span></span><span class="line"><span class="cl">          <span class="na">fill=</span><span class="s">&#34;none&#34;</span> <span class="na">stroke=</span><span class="s">&#34;#1a768c&#34;</span> <span class="na">stroke-width=</span><span class="s">&#34;9&#34;</span> <span class="na">stroke-linecap=</span><span class="s">&#34;round&#34;</span> <span class="nt">/&gt;</span>
+</span></span><span class="line"><span class="cl">          
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/svg&gt;</span>
+</span></span></code></pre></div><p>好的，就这样了。</p>
+
         
-        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p>]]>
+        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-08-01</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -198,14 +1273,72 @@
 <a class="header-anchor" href="#%e5%86%8d%e6%ac%a1%e6%9b%b4%e6%96%b0"></a>
 再次更新
 </h2><p>再次更新，用上了 Cloudflare 的 R2 储存桶，绑了<code>kuqilin.eu.org</code>域名，可以 <del>尽情</del> 适度食用了。速度比 jsDelivr 快多了！20 秒之内 99% 的用户都能加载出来了。都去给我欣赏「泉眼深处」😠😠😠</p>
+<h2 id="更新">
+<a class="header-anchor" href="#%e6%9b%b4%e6%96%b0"></a>
+更新
+</h2><p>太好了，经历各种斗智斗勇（bushi）终于把网站看板娘搞好了 —— 一个不会说话的 37。<br>
+为什么说斗智斗勇呢？你去看<a href="/zh-tw/post/kan-ban-niang/#37-%e5%ae%8c%e7%be%8e%e7%9a%84%e6%b5%81%e4%bd%93">后文</a>。不容易啊，最终发现有这些小白块大抵是因为大佬解包过程中出了一些小问题，导致模型图片里面有一个白块，当时看模型图片就感觉奇怪，上 9 看了皮肤，发现本来这里什么都没有，于是用 IsoPix Pro 把白块擦掉了，发现终于没有白块了（应该不会有什么问题的）。<br>
+然后也把模型放置位置和大小做了一些调整。可惜的是暂时还不会怎么给她添加例如举牌子、对话框之类的，所以看板娘傻傻的。<br>
+欸，国内裸连 GitHub 还是不太好，把 moc3 文件上传到 jsDelivr 上也没多快，你们最坏情况要 2 分钟才能看到美丽的 37！（最好情况是 3 秒）</p>
+<p>就此事向仓库管理发了 Issue，结果人家已经知道这个问题了:)</p>
+<p><img src="https://image.kuqilin.eu.org/2026/screenshot-2026-07-31-09-58-16.png" 
+     alt="Issue截图" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<p>那好吧，没删干净。如果你的网络状况良好（指连接 GitHub 速度飞快），那你可以点<a href="https://l2d-viewer.hacxy.cn/viewer?model=https%3A%2F%2Fkuqilin.github.io%2Flive2d%2F37_skin4%2Fv2a2_306604_37_test.model3.json">这里</a>看看，这里能选择 37 的不同表情和动作。</p>
+<p><img src="https://image.kuqilin.eu.org/2026/2026-07-31_10-01-23.png" 
+     alt="37" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" /></p>
+<h2 id="37-完美的流体">
+<a class="header-anchor" href="#37-%e5%ae%8c%e7%be%8e%e7%9a%84%e6%b5%81%e4%bd%93"></a>
+37 完美的流体
+</h2>
+  <blockquote class="alert-blockquote caution">
+    <p class="alert-heading">
+      Caution
+    </p>
+    <p><p>哈哈哈哈哈，下面的内容没有时效性了，我搞定了泉眼深处<br>
+下文原标题为《网站看板娘 —— 37 完美的流体》</p></p>
+  </blockquote>
+
+<p>耗费许久，最终 vibe code 了网站的看板娘出来，《重返未来：1999》里面角色 37 的皮肤——完美的流体。<br>
+或许玩过 1999 的人会问：“难道你不觉得快乐的捕鸟人或者泉眼深处更好看吗？”我会回答：“对！我也想用泉眼深处。”<br>
+只不过，这几个有“亿点点”问题：
+<img src="https://i0.hdslb.com/bfs/openplatform/131f5ad538ef5056c41530d790eaaebf0b5b2325.png" 
+     alt="比较表格" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+具体的情况，请看以下图片：
+<img src="https://i0.hdslb.com/bfs/openplatform/8e4046ea74d5264870f733499e1ea4d49b344720.png" 
+     alt="快乐的捕鸟人" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+<img src="https://i0.hdslb.com/bfs/openplatform/b99d55192a2b02da804cdb4ba33b6ef0eec17752.png" 
+     alt="泉眼深处" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+看到那几个白块了吗？37 的洞二皮也有这个问题，vibe 解决不了 <del>我是废物</del> 没办法了，泉眼深处真的很好看啊，部署出来还会有小鸟在飞来飞去，可是这个白块真的没办法解决，不然也不会用这个 <del>洛天依</del> 完美的流体了。</p>
+<p>本来我用的 Reimu 主题是直接能用 Live2d 的，但是没办法，你 9 的模型版本太高了，只得自己 vibe 出来
+<img src="https://i0.hdslb.com/bfs/openplatform/cd7e9794335c7ded95730954615b507dbcdd9290.png" 
+     alt="vsc界面" 
+     referrerpolicy="no-referrer" 
+     loading="lazy" />
+厉不厉害你 Deepseek-V4-Pro 预览版？</p>
+<p>不过还好，这个皮肤也不算难看。并且动作和表情也还是有的。调了一个 5 秒钟自动切换动画和一个点击切换动画。需要注意的是，在显示宽度小于 960px 的情况下这个看板娘是不会显示的，就跟侧边栏一样，她俩是同步的。<br>
+坏了，为了加快国内的访问速度，把这个“可能侵权”的文件上传到了图床，不知道会有什么风险呢？</p>
+<p>还是感觉很可惜，没能让泉眼深处当网站看板娘😭😭😭</p>
+<p>这些模型都是从<a href="https://github.com/myssal/Reverse-1999-CN-Asset/">https://github.com/myssal/Reverse-1999-CN-Asset/</a>下载的大佬解包资源，如有侵权，请<a href="mailto:kuqilin@outlook.com&amp;subject=%e5%88%a0%e9%99%a4%e4%be%b5%e6%9d%83%e6%96%87%e4%bb%b6">联系删除</a>。</p>
+
         
-        <hr><p>本文2026-07-28首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p>]]>
+        <hr><p>本文2026-07-28首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-29</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
       
     </item>
     
+      
     
 
     <item>
@@ -224,8 +1357,54 @@
 <a class="header-anchor" href="#%e6%80%bb%e7%ac%ac44%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e8%80%81%e6%97%a7%e5%b0%8f%e5%8c%ba%e6%94%b9%e9%80%a0"></a>
 总第44期·任务一：老旧小区改造
 </h2><p>近年来，全国多地推进老旧小区改造工程，这一民生实践与中华文明&quot;民为邦本&quot;&ldquo;富民调均&quot;&ldquo;天人合一&quot;&ldquo;和合共生&quot;等传统理念深度契合，彰显了中国式现代化的文化底蕴。</p>
+<p>首先，老旧小区改造生动体现了&quot;民为邦本&quot;的执政理念。政府投入专项资金，为老旧小区加装电梯、完善管网、增设养老托育设施，正是将人民需求放在首位、以百姓安居为治国之本的现实写照。正如材料所言，&ldquo;民惟邦本，本固邦宁&rdquo;，改造工程让普通居民切实感受到国家发展的温度。</p>
+<p>其次，&ldquo;富民调均&quot;的伦理追求在改造中得到充分展现。居民通过协商共担部分费用，体现的正是&quot;调均&quot;智慧——既非政府全包、也非居民独担，而是各得其分、公平合理。这种制度设计避免了一刀切的平均主义，实现了社会资源的合理分配，让发展的成果惠及更多人。</p>
+<p>更有意味的是，不少地方在改造中保留历史建筑风貌、延续社区文脉。这与&quot;天人合一&quot;&ldquo;和合共生&quot;的理念一脉相承——改造不是推倒重来，而是在现代化进程中尊重历史、顺应人文肌理，实现新旧和谐共存。老旧小区承载着几代人的记忆与情感，保留历史风貌便是让&quot;旧邦&quot;焕发&quot;新命&rdquo;。</p>
+<p>由此可见，老旧小区改造不仅是物理空间的更新，更是中华文明传统理念在当代城市治理中的创造性转化。它用一砖一瓦书写着中国式现代化以人为本、古今交融的独特品格。</p>
+<hr>
+<h2 id="总第45期任务一社区食堂">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac45%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e7%a4%be%e5%8c%ba%e9%a3%9f%e5%a0%82"></a>
+总第45期·任务一：社区食堂
+</h2><p>近年来，&ldquo;社区食堂&quot;在全国多地悄然兴起，以&quot;政府贴一点、企业让一点、老人出一点&quot;的运营模式，为周边居民提供平价餐食。这一现象与中华文明&quot;富民厚生、义利兼顾&quot;的经济伦理高度契合，体现了传统经济智慧在当代社会治理中的生动实践。</p>
+<p>材料指出，&ldquo;凡治国之道，必先富民&rdquo;，将民生富足作为社会秩序的基础。社区食堂以一份两荤一素的套餐定价10元左右，远低于市场均价，正是&quot;富民厚生&quot;理念的当代落实。它解决的不仅是老年人&quot;吃饭难&quot;的现实困境，更传递出社会对弱势群体的关怀。正如管仲所言&quot;仓廪实而知礼节&rdquo;，只有基本生活得到保障，社会文明才有根基。</p>
+<p>社区食堂的运营模式更体现了&quot;义利兼顾&quot;的经济伦理。&ldquo;政府贴一点&quot;彰显公共责任，&ldquo;企业让一点&quot;体现以义制利的商业伦理，&ldquo;老人出一点&quot;避免养懒汉式的福利依赖。三方共担的模式并非简单的慈善施舍，而是义利协调的制度创新——既保障了企业的可持续运营，又守住了民生底线，实现了社会效益与经济效益的统一。</p>
+<p>材料回顾历代治乱兴衰时指出，&ldquo;坚守伦理则盛世兴，背离伦理则王朝衰&rdquo;。社区食堂的出现，正是政府、企业与居民三方在&quot;富民厚生&quot;伦理指引下共同书写的当代答卷。它提醒我们：经济发展不能只追求GDP增长，更要将民生福祉镌刻在每一碗热饭之中。这种以人民为中心的发展理念，正是中华民族几千年经济伦理在新时代的延续与升华。</p>
+<hr>
+<h2 id="总第46期任务一对中庸的理解">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac46%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%af%b9%e4%b8%ad%e5%ba%b8%e7%9a%84%e7%90%86%e8%a7%a3"></a>
+总第46期·任务一：对&quot;中庸&quot;的理解
+</h2><p>&ldquo;中庸&quot;一词在日常生活中常被误解为&quot;和稀泥&quot;&ldquo;墙头草&quot;&ldquo;没原则&rdquo;，甚至被视为缺乏进取精神的代名词。然而，材料清晰指出：&ldquo;执两用中并非简单的折中主义，而是一种辩证的认识论与方法论&quot;&ldquo;真正的中道并非无原则的调和，而是以&rsquo;守正&rsquo;为前提&rdquo;。这让我对&quot;中庸&quot;有了全新的认识。</p>
+<p>首先，中庸不是没有立场，而是在把握事物全貌之后做出的审慎判断。&ldquo;执其两端，用其中于民&quot;意味着先要了解事物的两个极端，理解各自的合理性与局限，再在此基础上找到恰如其分的平衡点。这恰恰需要更深刻的洞察力和更大的智慧。孔子说&quot;过犹不及&rdquo;，反对的不仅是&quot;不及&rdquo;，同样反对&quot;过度&rdquo;——激进与保守都是偏颇，真正的智慧在于审时度势、因时制宜。</p>
+<p>其次，中庸不等于放弃原则。&ldquo;守中&quot;的前提是&quot;守正&rdquo;——在坚守根本原则的基础上，根据时代变化灵活调整具体策略。正如材料列举的历代治世，无不是在改革发展与维持稳定之间寻求动态平衡。反之，秦朝严刑峻法走向极端、晚明空谈义理脱离实际，都是背离中道的教训。</p>
+<p>在我的学习生活中，我也逐渐体会到中庸的价值。面对繁重的学业压力，既不能过度放松以致荒废，也不能过度紧绷以致崩溃，要在勤学与休整之间找到适合自己的节奏。这是一种需要不断练习的能力，而非机械地取平均值。中庸之道，实际上是教我们做一个有定力、有判断力的清醒之人，而非随波逐流的墙头草。</p>
+<hr>
+<h2 id="总第47期任务一唯一任务科技与人文人工智能的不利影响及应对">
+<a class="header-anchor" href="#%e6%80%bb%e7%ac%ac47%e6%9c%9f%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%94%af%e4%b8%80%e4%bb%bb%e5%8a%a1%e7%a7%91%e6%8a%80%e4%b8%8e%e4%ba%ba%e6%96%87%e4%ba%ba%e5%b7%a5%e6%99%ba%e8%83%bd%e7%9a%84%e4%b8%8d%e5%88%a9%e5%bd%b1%e5%93%8d%e5%8f%8a%e5%ba%94%e5%af%b9"></a>
+总第47期·任务一（唯一任务）：科技与人文——人工智能的不利影响及应对
+</h2><p>当下，以人工智能为代表的新技术日新月异，在带来巨大便利的同时，也引发了一系列不利影响。正如材料所言，&ldquo;技术一旦脱离人的本质需求，便会导致&rsquo;人的异化&rsquo;&quot;。技术封建主义的兴起、人的主体性削弱、信息茧房加剧等问题，正成为数字时代的严峻挑战。</p>
+<p>人工智能带来的不利影响是多方面的。首先是&quot;人的异化&rdquo;——当算法能够比人更高效地完成写作、绘画、编程等创造性工作时，人可能在不知不觉中丧失独立思考与动手能力。我身边就有同学过度依赖AI写作文，结果一到考场便无从下笔。其次是信息茧房的加深，推荐算法不断投喂我们&quot;想看的内容&rdquo;，视野反而越来越窄。再者，如《技术封建主义》一文所述，少数科技巨头垄断数据与平台，普通用户沦为&quot;数字农奴&rdquo;，失去了对自己数据与劳动成果的控制权。</p>
+<p>面对这些挑战，我认为应从三个层面加以应对。在个人层面，要保持清醒的主体意识，把AI当作工具而不是拐杖，坚持独立思考与亲手实践，绝不能让机器代劳一切创造性劳动。在社会层面，需要建立健全伦理规则与法律法规，正如材料所强调的，&ldquo;技术越强大，越需要强化人的主体地位&rdquo;，通过算法可解释性、数据安全、隐私保护等制度设计，确保技术&quot;服务于人&quot;而非&quot;驾驭于人&rdquo;。在教育层面，应更加重视人文素养的培养，让哲学、历史、文学为人提供意义世界，以思考力、感受力、创造力对抗技术的单一价值。</p>
+<p>归根结底，科技是&quot;发动机&rdquo;，人文是&quot;方向盘&rdquo;。只有在人文精神的指引下，人工智能等新技术才能真正造福人类，而不是把我们带入一种新型的数字依附关系。</p>
+<hr>
+<h2 id="实事求是篇任务一对实事求是的理解">
+<a class="header-anchor" href="#%e5%ae%9e%e4%ba%8b%e6%b1%82%e6%98%af%e7%af%87%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%af%b9%e5%ae%9e%e4%ba%8b%e6%b1%82%e6%98%af%e7%9a%84%e7%90%86%e8%a7%a3"></a>
+实事求是篇·任务一：对&quot;实事求是&quot;的理解
+</h2><p>&ldquo;实事求是&quot;一词在日常生活中常被简单理解为&quot;讲真话&quot;&ldquo;不弄虚作假&rdquo;。读了材料后方知，这一概念的意涵远比日常理解更为深远——它不仅是治学态度，更是中国共产党&quot;认识世界、改造世界的根本要求&rdquo;，是一种科学的思维方法与工作方法。</p>
+<p>材料指出，班固最早用&quot;实事求是&quot;赞誉河间献王刘德&quot;务得事实，每求真是&quot;的严谨治学态度。毛泽东同志则将其提升为马克思主义的科学方法论：&quot;&lsquo;实事&rsquo;就是客观存在着的一切事物，&lsquo;是&rsquo;就是客观事物的内部联系，即规律性，&lsquo;求&rsquo;就是我们去研究。&ldquo;这一阐释让我意识到：实事求是绝非被动地承认事实，而是要主动深入实际、详细占有材料、深入研究，从而把握事物发展的内在规律。</p>
+<p>这种思想方法对我的学习有着深刻启示。以往我做题时，常常满足于记住答案或套用模板，却忽略了&quot;求是&quot;的关键——去追问一道题背后的原理是什么、规律是什么。比如数学公式，如果只背结论而不理解推导过程中的逻辑链条，遇到变式便会束手无策。真正的&quot;实事求是&rdquo;，应当是深入钻研每一个知识点的来龙去脉，从具体题目中抽象出普遍规律，再用规律指导解题实践。</p>
+<p>材料还强调，实事求是要求&quot;讲实情、出实招、办实事、求实效&rdquo;。在我的生活中，这意味着脚踏实地、不好高骛远。与其空想一个完美的学习计划而不执行，不如从每天认真完成一篇阅读、弄懂一道错题做起。正如古人所言&quot;非知之艰，行之惟艰&rdquo;，知道道理不难，难的是落实到行动上。实事求是，最终要落脚在&quot;务实&quot;二字上——知行合一，方为真&quot;实&rdquo;。</p>
+<hr>
+<h2 id="数字文化创造篇任务一唯一任务炫技还是文化底蕴">
+<a class="header-anchor" href="#%e6%95%b0%e5%ad%97%e6%96%87%e5%8c%96%e5%88%9b%e9%80%a0%e7%af%87%e4%bb%bb%e5%8a%a1%e4%b8%80%e5%94%af%e4%b8%80%e4%bb%bb%e5%8a%a1%e7%82%ab%e6%8a%80%e8%bf%98%e6%98%af%e6%96%87%e5%8c%96%e5%ba%95%e8%95%b4"></a>
+数字文化创造篇·任务一（唯一任务）：炫技还是文化底蕴？
+</h2><p>标题：<strong>让文化成为数字创造的灵魂</strong></p>
+<p>数字技术飞速发展的今天，AI复原古迹、三维建模重生老街巷、体素技术复刻祖国山河，每个人都能轻松拿起数字工具成为文化故事的创作者。然而，光明日报评论文章提出了一个发人深省的追问：&ldquo;当炫技变得容易，沉下心研习文化是否变得更有价值？&ldquo;对此，我认为答案不言自明——文化底蕴远比炫技更加珍贵。</p>
+<p>技术是工具，文化是灵魂。没有文化底蕴支撑的数字创造，再炫目的特效也只是空洞的视觉刺激。我看到有同学用AI生成了一幅&quot;古风&quot;画作，画面华丽精美，但仔细一看，建筑风格混淆了唐宋明清、人物服饰时空错乱——这便是只有炫技而无文化根基的结果。相反，B站上一位UP主用三维建模复原了家乡的一条百年老街，画面或许不如商业大作精致，但每一块砖瓦的位置都有历史依据、每一家店铺的招牌都有故事可循，看后令人动容。因为他呈现的不只是图像，更是文化记忆与乡愁。</p>
+<p>文章指出，当代青年的数字文化创造&quot;自带鲜明的家国底色&rdquo;。这份底色正来自对中华文化的深刻理解。技术门槛越低，文化底蕴就越是决定作品高下的关键。当人人都能一键生成精美画面时，真正稀缺的将不再是技术能力，而是对文化的研习深度和独到见解。</p>
+<p>因此，我们年轻人在拥抱数字工具的同时，更应沉下心去读书、去了解传统、去走进博物馆和古街巷。唯有让文化成为数字创造的灵魂，我们的作品才能经得起时间的淘洗，才能真正用鲜活的创造讲好中国故事。</p>
+
         
-        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-22</p>]]>
+        <hr><p>本文2026-07-22首發於<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最後修改於2026-07-22</p><p>本部落格所有文章除特別聲明外，均採用 BY-NC-SA 授權協議。轉載請註明出處！</p>]]>
       </description>
       
         <category>记录</category>
