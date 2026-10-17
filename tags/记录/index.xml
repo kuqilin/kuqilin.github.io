@@ -12,12 +12,50 @@
     
     <copyright>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</copyright>
     
-    <lastBuildDate>Sun, 13 Sep 2026 08:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 16:41:30 +0800</lastBuildDate>
     
     
     <atom:link href="https://www.kuqilin.top/tags/%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+      
+    
+
+    <item>
+      <title>香橙派4Pro避坑指南</title>
+      <link>https://www.kuqilin.top/post/opi4pro-bi-keng-zhi-nan/</link>
+      <pubDate>Sat, 17 Oct 2026 16:41:30 &#43;0800</pubDate>
+      <author>kuqilin@outlook.com (Kuqilin)</author>
+      <guid>https://www.kuqilin.top/post/opi4pro-bi-keng-zhi-nan/</guid>
+      <description>
+        <![CDATA[<h1>香橙派4Pro避坑指南</h1><p>作者：Kuqilin（kuqilin@outlook.com）</p>
+        
+          <p>最近入手了一块香橙派 4 Pro 的板子，可惜这块板实在太小众了，网上鲜有教程，因此把自己所踩过的坑放出来，供大家参考。</p>
+<h2 id="系统镜像选择">
+<a class="header-anchor" href="#%e7%b3%bb%e7%bb%9f%e9%95%9c%e5%83%8f%e9%80%89%e6%8b%a9"></a>
+系统镜像选择
+</h2><p>官方的镜像有很多，有 Ubuntu、Debian、Android 等，想来很少人会选 Android，在此便不予谈论。</p>
+<p>在选择镜像之前，请先了解你所需要的功能。正所谓 “鱼和熊掌不可兼得”，香橙派 4 Pro 的 NPU 和 Tun 也不可兼得。<br>
+官方打包的镜像，无论是桌面版本还是服务器版本，无论是 Ubuntu 还是 Debian，都没有把 Tun 编译进去。而社区维护的 Armbian 虽然有编译 Tun 模块，但是因为香橙派 4 Pro 的 NPU 驱动是闭源的，所以 Armbian 并不能用上 NPU。</p>
+<p>总而言之，如果你需要使用<strong>代理软件</strong>，如 Mihomo 等，则需选择社区版 Armbian；如果你需要使用 NPU，则选择官方镜像。</p>
+<h2 id="sftp-软件">
+<a class="header-anchor" href="#sftp-%e8%bd%af%e4%bb%b6"></a>
+SFTP 软件
+</h2><p>相信大家都会把 ssh 的密码登录关掉，换成公钥登录。然而，部分安卓的 SFTP 软件用的库十分老旧，导致现在大部分<code>ssh-keygen</code>生成的<code>rsa</code>和<code>ed25519</code>密钥无法使用，比如<code>Material Files</code>和<code>ServerBox</code>两位。</p>
+<p>为了在这两个软件上连上你的 Pi，并且足够安全，你需要再生成一个<code>ecdsa</code>的密钥，使用：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ssh-keygen -t ecdsa -b <span class="m">256</span>
+</span></span></code></pre></div><p>将生成的公钥放在 Pi 上，将私钥给<code>ServerBox</code>和<code>Material Files</code>即可正常使用。</p>
+<hr>
+<p>本文将持续更新</p>
+
+        
+        <hr><p>本文2026-10-17首发于<a href='https://www.kuqilin.top/'>Kuqilin's Blog</a>，最后修改于2026-10-17</p><p>本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！</p>]]>
+      </description>
+      
+        <category>记录</category>
+      
+    </item>
     
       
     

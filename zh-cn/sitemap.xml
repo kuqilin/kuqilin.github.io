@@ -26,7 +26,7 @@
                 />
   </url><url>
     <loc>https://www.kuqilin.top/categories/</loc>
-    <lastmod>2026-09-26T14:12:45+08:00</lastmod>
+    <lastmod>2026-10-17T16:41:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -49,7 +49,7 @@
                 />
   </url><url>
     <loc>https://www.kuqilin.top/</loc>
-    <lastmod>2026-09-26T14:12:45+08:00</lastmod>
+    <lastmod>2026-10-17T16:41:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -72,7 +72,7 @@
                 />
   </url><url>
     <loc>https://www.kuqilin.top/tags/</loc>
-    <lastmod>2026-09-26T14:12:45+08:00</lastmod>
+    <lastmod>2026-10-17T16:41:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -95,7 +95,7 @@
                 />
   </url><url>
     <loc>https://www.kuqilin.top/categories/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2026-09-26T14:12:45+08:00</lastmod>
+    <lastmod>2026-10-17T16:41:30+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
@@ -116,6 +116,35 @@
                 hreflang="en"
                 href="https://www.kuqilin.top/en/categories/%E8%AE%B0%E5%BD%95/"
                 />
+  </url><url>
+    <loc>https://www.kuqilin.top/tags/%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2026-10-17T16:41:30+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-CN"
+                href="https://www.kuqilin.top/tags/%E8%AE%B0%E5%BD%95/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="yue"
+                href="https://www.kuqilin.top/yue/tags/%E8%AE%B0%E5%BD%95/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-TW"
+                href="https://www.kuqilin.top/zh-tw/tags/%E8%AE%B0%E5%BD%95/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://www.kuqilin.top/en/tags/%E8%AE%B0%E5%BD%95/"
+                />
+  </url><url>
+    <loc>https://www.kuqilin.top/tags/%E9%A6%99%E6%A9%99%E6%B4%BE/</loc>
+    <lastmod>2026-10-17T16:41:30+08:00</lastmod>
+  </url><url>
+    <loc>https://www.kuqilin.top/post/opi4pro-bi-keng-zhi-nan/</loc>
+    <lastmod>2026-10-17T16:41:30+08:00</lastmod>
   </url><url>
     <loc>https://www.kuqilin.top/tags/%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2026-09-26T14:12:45+08:00</lastmod>
@@ -253,29 +282,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://www.kuqilin.top/en/post/2026-nian-ji/"
-                />
-  </url><url>
-    <loc>https://www.kuqilin.top/tags/%E8%AE%B0%E5%BD%95/</loc>
-    <lastmod>2026-09-13T08:00:00+08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-CN"
-                href="https://www.kuqilin.top/tags/%E8%AE%B0%E5%BD%95/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="yue"
-                href="https://www.kuqilin.top/yue/tags/%E8%AE%B0%E5%BD%95/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-TW"
-                href="https://www.kuqilin.top/zh-tw/tags/%E8%AE%B0%E5%BD%95/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.kuqilin.top/en/tags/%E8%AE%B0%E5%BD%95/"
                 />
   </url><url>
     <loc>https://www.kuqilin.top/categories/%E5%B9%B4%E8%AE%B0/</loc>
