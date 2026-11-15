@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>文言实词 · 词义辨析小测</title>
+<link rel="stylesheet" href="https://fontsapi.zeoseven.com/292/main/result.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+  :root{
+    --ink:#24292e; --teal:#408d9f; --teal-d:#19768c; --teal-dd:#00677f;
+    --line:#99c2cc; --soft:#eaf2f5; --muted:#73abb9;
+    --good:#22863a; --good-bg:#f0fff4; --bad:#d73a49; --bad-bg:#ffeef0;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{
+    font-family:"LXGW WenKai","Noto Serif SC","Source Han Serif CN","Songti SC",SimSun,serif;
+    background:linear-gradient(160deg,#f2f7f9 0%,#eaf2f5 100%);
+    min-height:100vh; display:flex; align-items:center; justify-content:center;
+    padding:76px 20px 40px; color:var(--ink);
+  }
+  .home-btn,.about-btn{
+    position:fixed; top:16px; z-index:100; display:inline-flex; align-items:center; gap:6px;
+    font-family:inherit; font-size:14px; color:var(--teal);
+    background:rgba(255,255,255,.85); border:1px solid var(--line); border-radius:999px;
+    padding:8px 16px; text-decoration:none; box-shadow:0 4px 12px rgba(25,118,140,.15);
+    transition:background .15s, transform .15s;
+  }
+  .home-btn{left:16px;} .about-btn{right:16px; cursor:pointer;}
+  .home-btn:hover,.about-btn:hover{background:var(--soft); transform:translateY(-1px);}
+
+  .card{
+    background:#fff; border:1px solid var(--line); border-radius:16px;
+    box-shadow:0 12px 32px rgba(25,118,140,.12);
+    width:min(760px,100%); padding:34px 32px 28px;
+  }
+  .badge{font-size:14px; letter-spacing:2px; color:var(--teal); text-align:center; margin-bottom:6px;}
+  .sub{font-size:13px; color:var(--muted); text-align:center; margin-bottom:22px;}
+  h1.title{font-size:26px; text-align:center; margin-bottom:8px; letter-spacing:1px;}
+
+  /* ---------- 选书 ---------- */
+  .book-grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(206px,1fr)); gap:12px; margin-top:6px;}
+  .book{
+    font-family:inherit; text-align:left; padding:14px 16px; border:2px solid var(--line);
+    border-radius:12px; background:#fff; color:var(--ink); cursor:pointer;
+    transition:transform .1s, border-color .15s, background .15s;
+  }
+  .book:hover{border-color:var(--teal); background:var(--soft); transform:translateY(-2px);}
+  .book .name{font-size:16px; font-weight:700; line-height:1.4;}
+  .book .meta{font-size:12px; color:var(--muted); margin-top:5px;}
+  .book.mix{border-style:dashed;}
+  .book.mix .name{color:var(--teal-d);}
+
+  /* ---------- 答题 ---------- */
+  .qhead{display:flex; justify-content:space-between; align-items:center; font-size:13px; color:var(--muted); margin-bottom:14px; gap:10px;}
+  .backlink{font-family:inherit; font-size:13px; color:var(--teal); background:none; border:none; cursor:pointer; padding:2px 0;}
+  .backlink:hover{color:var(--teal-dd); text-decoration:underline;}
+  .word{font-size:56px; font-weight:700; text-align:center; letter-spacing:4px; line-height:1.2;}
+  .chips{display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin:12px 0 18px;}
+  .chip{font-size:13px; padding:2px 12px; border:1px solid var(--line); border-radius:999px; color:var(--teal); background:#f7fbfc;}
+  .sentence{
+    background:#f6fafb; border-left:3px solid var(--line); border-radius:8px;
+    padding:14px 18px; font-size:17px; line-height:1.95; text-align:left; color:#333;
+  }
+  .sentence .src{display:block; font-size:12px; color:var(--muted); margin-top:8px; letter-spacing:.5px;}
+  .mark{color:var(--teal-d); font-weight:700; border-bottom:2px solid var(--line); padding:0 1px;}
+  .ask{font-size:13px; color:#7d7d7d; margin:18px 0 12px; text-align:center; letter-spacing:.5px;}
+
+  .options{display:flex; flex-direction:column; gap:12px;}
+  .opt{
+    display:flex; gap:10px; align-items:flex-start; font-family:inherit; font-size:16px;
+    line-height:1.75; text-align:left; padding:13px 16px; border:2px solid var(--line);
+    border-radius:10px; background:#fff; color:var(--ink); cursor:pointer;
+    transition:transform .08s, border-color .15s, background .15s;
+    animation:fadeUp .22s ease;
+  }
+  .opt .idx{
+    flex:none; width:22px; height:22px; margin-top:3px; border-radius:50%;
+    border:1px solid var(--line); color:var(--teal); font-size:12px;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .opt:hover{border-color:var(--teal); background:var(--soft); transform:translateY(-1px);}
+  .opt:disabled{cursor:default; transform:none;}
+  .opt.correct{border-color:var(--good); background:var(--good-bg); color:var(--good);}
+  .opt.correct .idx{border-color:var(--good); color:var(--good);}
+  .opt.wrong{border-color:var(--bad); background:var(--bad-bg); color:var(--bad);}
+  .opt.wrong .idx{border-color:var(--bad); color:var(--bad);}
+  .opt.dim{opacity:.5;}
+
+  .feedback{margin-top:16px; font-size:15px; min-height:24px; line-height:1.8; color:#7d7d7d; text-align:left;}
+  .feedback.ok{color:var(--good);} .feedback.bad{color:var(--bad);}
+  .feedback .note{
+    display:block; margin-top:8px; padding:10px 14px; border-radius:8px;
+    background:#f7fbfc; border:1px solid #dcecf0; color:#4a5b60; font-size:14px;
+  }
+  .feedback .note b{color:var(--teal-d);}
+  .next{
+    display:block; margin:18px auto 0; font-family:inherit; font-size:17px; padding:11px 34px;
+    border:none; border-radius:10px; background:var(--teal-d); color:#fff; cursor:pointer;
+    box-shadow:0 4px 12px rgba(25,118,140,.35); transition:background .15s;
+  }
+  .next:hover{background:var(--teal-dd);}
+  .count{margin-top:22px; font-size:12px; color:var(--muted); text-align:center; line-height:1.9;}
+
+  .stat{display:flex; justify-content:space-between; align-items:center; gap:12px; font-size:13px; color:var(--muted); margin-bottom:16px;}
+  .bar{flex:1; height:4px; background:var(--soft); border-radius:999px; overflow:hidden;}
+  .bar i{display:block; height:100%; width:0; background:var(--teal); transition:width .35s;}
+
+  @keyframes fadeUp{from{opacity:0; transform:translateY(6px);} to{opacity:1; transform:none;}}
+  @keyframes pop{0%{transform:scale(.5);opacity:0;}60%{transform:scale(1.2);}100%{transform:scale(1);opacity:1;}}
+  .word.flash{animation:fadeUp .3s ease;}
+  .feedback.ok,.feedback.bad{animation:pop .3s ease;}
+
+  .loading{text-align:center; padding:36px 0; color:var(--muted); font-size:15px; line-height:2;}
+  .hidden{display:none !important;}
+
+  /* ---------- 弹窗 ---------- */
+  .modal-mask{position:fixed; inset:0; z-index:200; display:none; align-items:center; justify-content:center; padding:24px; background:rgba(0,0,0,.45);}
+  .modal-mask.show{display:flex;}
+  .modal{width:min(460px,100%); max-height:80vh; overflow:auto; background:#fff; border:1px solid var(--line); border-radius:14px; box-shadow:0 16px 48px rgba(25,118,140,.25); padding:22px 24px; text-align:left;}
+  .modal-head{display:flex; align-items:center; justify-content:space-between; font-size:17px; font-weight:700; margin-bottom:12px;}
+  .modal-close{font-family:inherit; font-size:20px; line-height:1; width:30px; height:30px; border:none; border-radius:8px; background:transparent; color:var(--muted); cursor:pointer;}
+  .modal-close:hover{background:var(--soft); color:var(--teal);}
+  .modal-body{font-size:15px; line-height:1.85; color:#444;}
+  .modal-body ul{margin:8px 0 12px; padding-left:20px;}
+  .modal-body a{color:var(--teal-d);}
+
+  @media (max-width:560px){
+    .card{padding:26px 18px 22px;}
+    .word{font-size:44px;}
+    .sentence{font-size:16px;}
+    .book-grid{grid-template-columns:1fr 1fr;}
+    .book{padding:12px;}
+    .book .name{font-size:14px;}
+  }
+</style>
+</head>
+<body>
+  <a class="home-btn" href="/" title="返回首页"><i class="fa-solid fa-house"></i>首页</a>
+  <button class="about-btn" id="aboutBtn" title="关于这个小测"><i class="fa-solid fa-circle-info"></i>关于</button>
+
+  <!-- 加载 -->
+  <div class="card" id="screen-loading">
+    <div class="badge">📖 文言实词 · 词义辨析</div>
+    <div class="loading" id="loadingText">正在加载词库…</div>
+  </div>
+
+  <!-- 选书 -->
+  <div class="card hidden" id="screen-start">
+    <div class="badge">📖 文言实词 · 词义辨析</div>
+    <h1 class="title">选一本词书，开始辨析</h1>
+    <p class="sub" id="startSub">每道题给出同一个字在句中的用法，从它的多个义项里选出正确的那一个</p>
+    <div class="book-grid" id="bookGrid"></div>
+    <div class="count" id="startCount"></div>
+  </div>
+
+  <!-- 答题 -->
+  <div class="card hidden" id="screen-quiz">
+    <div class="qhead">
+      <button class="backlink" id="backBtn">← 换一本词书</button>
+      <span id="bookLabel"></span>
+    </div>
+    <div class="stat">
+      <span id="statText">已答 0 · 正确率 —</span>
+      <div class="bar"><i id="barFill"></i></div>
+    </div>
+
+    <div class="word" id="wordEl"></div>
+    <div class="chips" id="chipsEl"></div>
+    <div class="sentence hidden" id="sentenceEl"></div>
+    <p class="ask" id="askEl">下列哪一项是它在句中的意思？</p>
+
+    <div class="options" id="optionsEl"></div>
+    <div class="feedback" id="feedbackEl"></div>
+    <button class="next hidden" id="nextBtn">下一题 ➡️</button>
+    <div class="count" id="quizCount"></div>
+  </div>
+
+  <!-- 关于 -->
+  <div class="modal-mask" id="aboutModal">
+    <div class="modal">
+      <div class="modal-head">
+        <span>📖 关于这个词义小测</span>
+        <button class="modal-close" id="modalClose" title="关闭">×</button>
+      </div>
+      <div class="modal-body">
+        <p>《文言实词 · 词义辨析》：从词库里抽一条词义，把<strong>同一个字的其他义项</strong>作为干扰项混在一起，让你根据例句挑出正确释义——考研的是「这个字在这句话里到底什么意思」。</p>
+        <ul>
+          <li>📚 词库共 <b id="aboutRows">…</b> 条词条，<b id="aboutBooks">…</b> 本词书</li>
+          <li>🎯 干扰项全部取自<strong>同一个字</strong>的其他义项，不是随便凑的</li>
+          <li>💡 答完即时反馈：出处、作者、朝代、例句翻译</li>
+          <li>⌨️ 键盘 1–4 选答案，回车下一题</li>
+          <li>📕 两本「全文背诵」词书只有原文、没有释义，无法出题，已排除</li>
+        </ul>
+        <p>数据来自文言文学习词库；页面配色与交互参考 <a href="/wang-wen-sheng-yi/quiz.html" target="_blank" rel="noopener">望文生义小测</a>。出自 <a href="/" target="_blank" rel="noopener">Kuqilin 的小站</a>。</p>
+      </div>
+    </div>
+  </div>
+
+<script>
+// ==== DATA LAYER START ====
+// 数据由 scripts/gen-wen-yan-shi-ci.py 从 CSV 预生成：
+//   { meta:{total,usable,books}, fields:[...], rows:[[书,码,字,拼音,词性,释义,例句,翻译,出处,作者,朝代], ...] }
+const FIELDS = ['book','code','word','pinyin','pos','meaning','sentence','trans','source','author','dynasty'];
+
+function normalize(rows){
+  return (rows || []).map(r => {
+    const o = {};
+    for (let i = 0; i < FIELDS.length; i++) o[FIELDS[i]] = (r[i] == null ? '' : String(r[i])).trim();
+    return o;
+  });
+}
+
+function shuffle(a, rng){
+  rng = rng || Math.random;
+  for (let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// 建索引：字词 -> 全部义项（跨词书），词书 -> 可用题目
+function buildIndex(objs){
+  const meanings = new Map();
+  for (const r of objs){
+    const w = (r.word || '').trim();
+    const m = (r.meaning || '').trim();
+    if (!w || !m) continue;
+    if (!meanings.has(w)) meanings.set(w, new Set());
+    meanings.get(w).add(m);
+  }
+  const books = new Map();
+  let usable = 0;
+  for (const r of objs){
+    const w = (r.word || '').trim();
+    const m = (r.meaning || '').trim();
+    const s = (r.sentence || '').trim();
+    const b = (r.book || '').trim();
+    if (!b || !w || !m || !s) continue;
+    const pool = meanings.get(w);
+    if (!pool || pool.size < 2) continue;   // 只有一个义项，出不了干扰项
+    let e = books.get(b);
+    if (!e){ e = { name: b, questions: [], codes: new Set() }; books.set(b, e); }
+    if (r.code) e.codes.add(r.code);
+    e.questions.push({
+      word: w, meaning: m, sentence: s,
+      pinyin: r.pinyin || '',
+      pos: r.pos || '',
+      translation: r.trans || '',
+      source: r.source || '',
+      author: r.author || '',
+      dynasty: r.dynasty || '',
+      book: b
+    });
+    usable++;
+  }
+  return { meanings, books, usable };
+}
+
+// 生成一道题：正确释义 + 同字其他义项（最多 3 个）
+function makeQuestion(q, meanings, rng){
+  const pool = Array.from(meanings.get(q.word) || []).filter(x => x !== q.meaning);
+  shuffle(pool, rng);
+  const options = shuffle([q.meaning, ...pool.slice(0, 3)], rng);
+  return { q, options, answerIndex: options.indexOf(q.meaning) };
+}
+// ==== DATA LAYER END ====
+
+// ==== UI ====
+const el = id => document.getElementById(id);
+const GOOD = ["👍","🎉","🌟","💯","🏆","👏"];
+const BAD  = ["😅","🤔","💡","🙈"];
+const rand = a => a[Math.floor(Math.random() * a.length)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+let INDEX = null, ROWS = [], META = { total: 0, usable: 0 };
+let state = { book: null, answered: 0, correct: 0, last: null, answeredThis: false };
+
+function highlight(text, word){
+  const safe = esc(text);
+  if (!word || word.length > 6) return safe;
+  const w = esc(word);
+  return safe.split(w).join('<span class="mark">' + w + '</span>');
+}
+
+function show(id){
+  for (const s of ['screen-loading','screen-start','screen-quiz']) el(s).classList.add('hidden');
+  el(id).classList.remove('hidden');
+}
+
+function renderStart(){
+  const grid = el('bookGrid');
+  grid.innerHTML = '';
+  const books = Array.from(INDEX.books.values()).sort((a,b) => b.questions.length - a.questions.length);
+
+  // 混合模式
+  const mix = document.createElement('button');
+  mix.className = 'book mix';
+  mix.innerHTML = '<div class="name">🎲 全部混合</div><div class="meta">' +
+    books.reduce((n,b) => n + b.questions.length, 0) + ' 道 · 来自全部词书</div>';
+  mix.addEventListener('click', () => startQuiz('__all__'));
+  grid.appendChild(mix);
+
+  for (const b of books){
+    const btn = document.createElement('button');
+    btn.className = 'book';
+    btn.innerHTML = '<div class="name">' + esc(b.name) + '</div>' +
+      '<div class="meta">' + b.questions.length + ' 道 · ' + Array.from(b.codes).join(' ') + '</div>';
+    btn.addEventListener('click', () => startQuiz(b.name));
+    grid.appendChild(btn);
+  }
+
+  el('startCount').innerHTML = '📚 词库共 ' + (META.total || ROWS.length) + ' 条词条 · ' + books.length +
+    ' 本词书 · 可出题 ' + INDEX.usable + ' 道<br><span style="opacity:.75">干扰项均取自同一个字的其他义项</span>';
+  el('aboutRows').textContent = META.total || ROWS.length;
+  el('aboutBooks').textContent = books.length;
+  show('screen-start');
+}
+
+function poolFor(book){
+  if (book === '__all__'){
+    const all = [];
+    for (const b of INDEX.books.values()) all.push(...b.questions);
+    return all;
+  }
+  return INDEX.books.get(book).questions;
+}
+
+function startQuiz(book){
+  state = { book, answered: 0, correct: 0, last: null, answeredThis: false };
+  state.pool = poolFor(book).slice();
+  shuffle(state.pool);
+  state.pos = 0;
+  el('bookLabel').textContent = book === '__all__' ? '全部混合' : book;
+  el('quizCount').innerHTML = '📚 本题库 ' + state.pool.length + ' 道';
+  show('screen-quiz');
+  renderQuestion();
+}
+
+function renderQuestion(){
+  if (state.pos >= state.pool.length){ shuffle(state.pool); state.pos = 0; }  // 刷完一轮重新洗牌
+  const q = state.pool[state.pos++];
+  const { options, answerIndex } = makeQuestion(q, INDEX.meanings);
+
+  state.q = q; state.options = options; state.answerIndex = answerIndex; state.answeredThis = false;
+
+  const wordEl = el('wordEl');
+  wordEl.textContent = q.word;
+  wordEl.classList.remove('flash'); void wordEl.offsetWidth; wordEl.classList.add('flash');
+
+  const chips = [];
+  if (q.pinyin) chips.push('<span class="chip">' + esc(q.pinyin) + '</span>');
+  if (q.pos) chips.push('<span class="chip">' + esc(q.pos) + '</span>');
+  el('chipsEl').innerHTML = chips.join('');
+
+  const sen = el('sentenceEl');
+  if (q.sentence){
+    sen.classList.remove('hidden');
+    const src = [q.source, q.author, q.dynasty].filter(Boolean).join(' · ');
+    sen.innerHTML = '<span class="mark-wrap">' + highlight(q.sentence, q.word) + '</span>' +
+      (src ? '<span class="src">—— ' + esc(src) + '</span>' : '');
+  } else {
+    sen.classList.add('hidden');
+  }
+
+  const box = el('optionsEl');
+  box.innerHTML = '';
+  options.forEach((text, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'opt';
+    btn.innerHTML = '<span class="idx">' + (i + 1) + '</span><span>' + esc(text) + '</span>';
+    btn.addEventListener('click', () => answer(i));
+    box.appendChild(btn);
+  });
+
+  el('feedbackEl').className = 'feedback';
+  el('feedbackEl').innerHTML = '';
+  el('nextBtn').classList.add('hidden');
+  updateStat();
+}
+
+function updateStat(){
+  const total = state.answered;
+  const rate = total ? Math.round(state.correct / total * 100) : null;
+  el('statText').textContent = '已答 ' + total + ' 题 · 正确率 ' + (rate === null ? '—' : rate + '%');
+  el('barFill').style.width = (rate === null ? 0 : rate) + '%';
+}
+
+function answer(i){
+  if (state.answeredThis) return;
+  state.answeredThis = true;
+  const q = state.q, opts = state.options;
+  const ok = i === state.answerIndex;
+  state.answered++;
+  if (ok) state.correct++;
+
+  const btns = el('optionsEl').children;
+  for (const b of btns) b.disabled = true;
+  btns[state.answerIndex].classList.add('correct');
+  if (!ok){
+    btns[i].classList.add('wrong');
+    for (let k = 0; k < btns.length; k++){
+      if (k !== i && k !== state.answerIndex) btns[k].classList.add('dim');
+    }
+  }
+
+  const fb = el('feedbackEl');
+  fb.className = 'feedback ' + (ok ? 'ok' : 'bad');
+  const src = [q.source, q.author, q.dynasty].filter(Boolean).join(' · ');
+  let note = [];
+  if (src) note.push('出处：<b>' + esc(src) + '</b>');
+  note.push('释义：<b>' + esc(q.meaning) + '</b>');
+  if (q.translation) note.push('翻译：' + esc(q.translation));
+  fb.innerHTML = (ok ? rand(GOOD) + ' 答对了，就是这个意思。' : rand(BAD) + ' 不对，正确释义已标绿。') +
+    '<span class="note">' + note.join('<br>') + '</span>';
+
+  el('nextBtn').classList.remove('hidden');
+  updateStat();
+}
+
+function nextQuestion(){
+  el('nextBtn').classList.add('hidden');
+  renderQuestion();
+}
+
+el('nextBtn').addEventListener('click', nextQuestion);
+el('backBtn').addEventListener('click', () => { show('screen-start'); });
+
+document.addEventListener('keydown', e => {
+  if (el('screen-quiz').classList.contains('hidden')) return;
+  if (e.key >= '1' && e.key <= '4'){
+    const i = parseInt(e.key, 10) - 1;
+    if (i < state.options.length) answer(i);
+  } else if ((e.key === 'Enter' || e.key === ' ') && !el('nextBtn').classList.contains('hidden')){
+    e.preventDefault(); nextQuestion();
+  }
+});
+
+// 关于弹窗
+(function () {
+  const aboutBtn = el('aboutBtn'), modal = el('aboutModal'), modalClose = el('modalClose');
+  aboutBtn.addEventListener('click', () => modal.classList.add('show'));
+  modalClose.addEventListener('click', () => modal.classList.remove('show'));
+  modal.addEventListener('click', e => { if (e.target === modal) modal.classList.remove('show'); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') modal.classList.remove('show'); });
+})();
+
+(async function init(){
+  try {
+    const resp = await fetch('wen-yan-shi-ci.json', { cache: 'no-store' });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    META = data.meta || {};
+    ROWS = normalize(data.rows);
+    INDEX = buildIndex(ROWS);
+    if (!INDEX.books.size) throw new Error('没有可用题目');
+    renderStart();
+  } catch (err){
+    el('loadingText').innerHTML = '❌ 词库加载失败：' + esc(err.message) +
+      '<br><span style="font-size:13px">请确认 <code>wen-yan-shi-ci.json</code> 与本页面同目录，并通过 HTTP 访问（直接双击打开会被浏览器拦截）。</span>';
+  }
+})();
+</script>
+</body>
+</html>
